@@ -1,6 +1,6 @@
 # OxFunc-Evidence
 
-**Private** archive of the OxFunc smart-fuzzer oracle evidence that the [DnaCalc/OxFunc](https://github.com/DnaCalc/OxFunc) repository does not track: `OxFunc/smart-fuzzer/cache` (Excel ground-truth captures per function and Excel build) and `OxFunc/smart-fuzzer/runs` (campaign runs with their logs, notes and minimized cases). Created 2026-10-14 as the raw half of bead `infra-m0.6` of the DNA Calc re-implementation plan. Kept separate from `OxFunc-History`, which archives session transcripts.
+**Private** archive of the OxFunc smart-fuzzer oracle evidence that the [DnaCalc/OxFunc](https://github.com/DnaCalc/OxFunc) repository does not track (`smart-fuzzer/.gitignore` there excludes both directories' contents; only their two `README.md` files are tracked): `OxFunc/smart-fuzzer/cache` (Excel ground-truth captures per function and Excel build) and `OxFunc/smart-fuzzer/runs` (campaign runs with their logs, notes and minimized cases). Created 2026-10-14 as the raw half of bead `infra-m0.6` of the DNA Calc re-implementation plan. Kept separate from `OxFunc-History`, which archives session transcripts.
 
 ## Layout
 
@@ -18,7 +18,7 @@ git commit -m "Refresh evidence archive"
 git push
 ```
 
-The source tree defaults to `../OxFunc/smart-fuzzer`. Archive a campaign run once it has finished rather than re-committing a growing one. Blobs whose source file disappeared are reported, not deleted.
+The source tree defaults to `../OxFunc/smart-fuzzer`. Archive a campaign run once it has finished rather than re-committing a growing one. Blobs whose source file disappeared are reported, not deleted. Any new commit here moves away from the commit DnaCalc pins: DnaCalc's `infra_m0_6__restore_roundtrip` fails until `migration/evidence/oxfunc-smart-fuzzer.json` names the new commit. After a refresh, that record's manifest hashes, counts and labels need updating too.
 
 ## Verify and restore
 
@@ -26,9 +26,19 @@ The source tree defaults to `../OxFunc/smart-fuzzer`. Archive a campaign run onc
 python archive-evidence.py verify --sample 100
 python archive-evidence.py verify --all
 python archive-evidence.py restore <target directory>
+python archive-evidence.py restore <target directory> --sample 100 --seed 7
 ```
 
-Verification decompresses blobs and compares size and SHA-256 with the manifest.
+Verification decompresses blobs and compares size and SHA-256 with the manifest; restore does the same while writing each file under the target directory at its manifest path, so the relative layout of `cache/` and `runs/` is kept under one root. A sample is drawn from the sorted manifest paths with the given seed, or with a drawn seed that the script prints. Restore refuses a target that exists and is not an empty directory.
+
+From a DnaCalc checkout, the same script runs as a repository command:
+
+```text
+cargo xtask evidence verify [--all | --sample N] [--seed S]
+cargo xtask evidence restore <dir> [--sample N] [--seed S]
+```
+
+They find this checkout at `<legacy root>/OxFunc-Evidence`, where the legacy root is the DnaCalc checkout's parent directory or `DNACALC_LEGACY_ROOT`, run `archive-evidence.py` with `python` on Windows or `python3` on Linux, and exit with its exit code.
 
 ## Contents at creation (2026-10-14)
 
@@ -36,4 +46,4 @@ Verification decompresses blobs and compares size and SHA-256 with the manifest.
 
 ## Provenance
 
-The blobs are the files as found on the owner's machine on 2026-10-14. Acquisition metadata (Excel build, CPU, settings) is whatever each capture recorded itself; the plan's `infra-m0.6` adds content addressing and a second backup on another medium, and legacy data without an Excel fingerprint remains investigation evidence rather than certification for a newly selected Exact target.
+The blobs are the files as found on the owner's machine on 2026-10-14. Acquisition metadata (Excel build, CPU, settings) is whatever each capture recorded itself. This GitHub repository is the one backup copy: by the owner's ruling of 2026-10-18 a copy on GitHub is enough, and the captures can be recreated from Excel. DnaCalc's `migration/evidence/oxfunc-smart-fuzzer.json` pins the commit of this repository that DnaCalc relies on and gives each cache subfolder, run folder and top-level file one acquisition label: a known Excel build with the place it was read from, or unknown. Legacy data without an Excel fingerprint remains investigation evidence and cannot certify a newly selected Exact target.

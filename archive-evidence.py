@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Archive OxFunc's untracked oracle evidence into this repository as deterministic gzip blobs.
+"""Archive OxFunc's git-ignored oracle evidence into this repository as deterministic gzip blobs.
 
 Mirrors ``<source>/cache`` and ``<source>/runs`` (default source: ``../OxFunc/smart-fuzzer``)
 into ``cache/`` and ``runs/`` here, one ``<path>.gz`` per file, with a ``manifest.tsv`` of raw and
@@ -12,6 +12,11 @@ into ``excluded.tsv`` but never copied.
     python archive-evidence.py verify --sample 50 # decompress a random manifest sample and compare hashes
     python archive-evidence.py verify --all       # decompress everything and compare hashes
     python archive-evidence.py restore <dir>      # decompress every blob into <dir>, verifying hashes
+    python archive-evidence.py restore <dir> --sample 100 --seed 7  # restore a random manifest sample
+
+A sample is drawn from the sorted manifest paths with ``random.Random(seed)``; without ``--seed`` a
+seed is drawn and printed, so every sample can be drawn again. ``restore`` refuses a target
+directory that already holds anything, so it never mixes with or overwrites other files.
 """
 from __future__ import annotations
 
@@ -166,6 +171,15 @@ def cmd_archive(args: argparse.Namespace) -> int:
     return 0
 
 
+def draw_sample(keys: list[str], size: int, seed: int | None) -> list[str]:
+    """A random sample of the sorted manifest paths, printing the seed that draws it again."""
+    if seed is None:
+        seed = random.SystemRandom().randrange(1 << 32)
+    print(f'sample seed: {seed}')
+    rng = random.Random(seed)
+    return sorted(rng.sample(sorted(keys), min(size, len(keys))))
+
+
 def cmd_verify(args: argparse.Namespace) -> int:
     dest = args.dest.resolve()
     manifest = read_manifest(dest / 'manifest.tsv')
@@ -174,8 +188,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
         return 2
     keys = sorted(manifest)
     if not args.all:
-        rng = random.Random(args.seed)
-        keys = rng.sample(keys, min(args.sample, len(keys)))
+        keys = draw_sample(keys, args.sample, args.seed)
     bad = 0
     for rel in keys:
         raw_size, raw_sha, gz_size, gz_sha = manifest[rel]
@@ -196,13 +209,31 @@ def cmd_restore(args: argparse.Namespace) -> int:
     dest = args.dest.resolve()
     target = args.target.resolve()
     manifest = read_manifest(dest / 'manifest.tsv')
+    if not manifest:
+        print('empty or missing manifest', file=sys.stderr)
+        return 2
+    if args.seed is not None and args.sample is None:
+        print('--seed needs --sample', file=sys.stderr)
+        return 2
+    if target.exists() and (not target.is_dir() or any(target.iterdir())):
+        print(f'refusing to restore into {target}: it exists and is not an empty directory', file=sys.stderr)
+        return 2
+    keys = sorted(manifest)
+    if args.sample is not None:
+        keys = draw_sample(keys, args.sample, args.seed)
     bad = 0
-    for rel, (raw_size, raw_sha, _, _) in sorted(manifest.items()):
-        size, sha = decompress_hash(dest / (rel + '.gz'), target / rel)
+    for rel in keys:
+        raw_size, raw_sha, _, _ = manifest[rel]
+        blob = dest / (rel + '.gz')
+        if not blob.is_file():
+            print(f'MISSING {rel}')
+            bad += 1
+            continue
+        size, sha = decompress_hash(blob, target / rel)
         if size != raw_size or sha != raw_sha:
             print(f'MISMATCH {rel}')
             bad += 1
-    print(f'restored {len(manifest)} files into {target}; failures: {bad}')
+    print(f'restored {len(keys)} of {len(manifest)} files into {target}; failures: {bad}')
     return 1 if bad else 0
 
 
@@ -222,6 +253,8 @@ def main() -> int:
     v.set_defaults(func=cmd_verify)
     r = sub.add_parser('restore')
     r.add_argument('target', type=Path)
+    r.add_argument('--sample', type=int, default=None)
+    r.add_argument('--seed', type=int, default=None)
     r.set_defaults(func=cmd_restore)
     args = ap.parse_args()
     return args.func(args)
