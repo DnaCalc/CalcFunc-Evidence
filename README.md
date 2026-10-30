@@ -19,6 +19,58 @@ under `runs/w111-*-20260929/candidate/` were removed from the tree and from `man
 sources still exist in the git-ignored `OxFunc/smart-fuzzer/runs`, so a later `archive` run would
 add them again: delete them there, or remove them again after archiving.
 
+## The W109 banks (DnaCalc dc-ymjf.1, 2026-10-30)
+
+`work/w109/<path>.gz` holds `OxFunc/smart-fuzzer/work/w109`: the discovery, held-out and
+discriminator banks of OxFunc's W109 algorithm identification campaigns, which existed only on the
+owner's disk. It is a second set with its own manifest and the same blob layout:
+
+- `w109-manifest.tsv`: path, raw bytes, raw SHA-256, gzip bytes, gzip SHA-256 per stored file.
+- `w109-excluded.tsv`: every file of the source tree that is not stored, with its size, SHA-256 and
+  reason (cargo build output is one row per build folder, without a hash).
+- `w109-held.tsv`: the files left out after a content review, read by `archive --hold`.
+
+Only Excel answers (`answers-*.json`, WitnessSet JSON with `capture_provenance` where the capture
+recorded one), generated inputs (`batch-*`, `pool-*`, `meta-*`), search state (scores, eliminated,
+leaders, survivors, checkpoints, predictions) and our own notes are stored. Left out: code of any
+kind (it may port or embed third-party code), archives of third-party sources, binary intermediates
+(numpy, pickle, the 225 MB op-tree bank), logs, files whose name marks third-party material
+(Microsoft CRT outputs, Boost, Cephes, TOMS/CDFLIB, Numerical Recipes, AMD libm, Open64, AS
+algorithms, a published coefficient paper), and five files a content review found to transcribe
+published algorithms or quote third-party source. The selection rules are in
+`archive-evidence.py` (`w109_reason`). At creation: 1,363 files stored, 2,086,703,406 raw bytes,
+214,119,868 gzip bytes; 1,214 rows excluded (12 cargo build folders of about 8.2 GB).
+
+A blob larger than 90 MB is stored as numbered parts `<path>.gz.part000`, `part001`, ... whose
+concatenation is the gzip stream the manifest hashes (none at creation; the largest W109 blob is
+79 MB).
+
+```text
+python archive-evidence.py --set w109 archive --hold w109-held.tsv
+python archive-evidence.py --set w109 verify --sample 100
+python archive-evidence.py --set w109 restore <target directory>
+```
+
+OxFunc's captures came from one Excel host, GOVERT-OMEN; every CPU recorded anywhere in its
+evidence is "AMD Ryzen 7 4800H with Radeon Graphics" (Windows, 64-bit Excel). A bank whose
+`capture_provenance` names a build was read on that build; a bank without the block has no
+recorded build, and DnaCalc's witness judge labels it unknown rather than guessing one.
+
+## The function-lane records (DnaCalc dc-ymjf.1, 2026-10-30)
+
+`function-lane/` holds OxFunc's per-function bit-exact records as plain files, copied from OxFunc
+`05196c39` (`docs/function-lane/`) and from the parent of `b2f4873e`:
+
+- `ledgers/`: `EXCEL_PARITY_LEDGER.csv` (527 functions, 2026-09-29), `DISCREPANCY_RULED_OUT_LEDGER.csv`,
+  `DISCREPANCY_CALCULATION_MAP.csv` and `W109_WALL_CLUES_LEDGER.md`.
+- `notes/w109/`: 73 of OxFunc's 75 `W109_*.md` identification notes. Held back because they
+  transcribe published code or coefficient tables: `W109_GAMMALN_PUBLISHED_COEFFICIENTS.md` (netlib
+  SPECFUN coefficient tables) and `W109_ERF_GAUSS_NORMSDIST_THEORY_HANDOFF_20260821.md` (the TOMS
+  654 branch as pseudo-code and the NSWC `gam1` coefficients).
+- `notes/checkpoints-b2f4873e/`: the 8 racer checkpoint and partial reports that OxFunc
+  `b2f4873e` (dc-96l.4) deleted, read with `git show b2f4873e^:<path>`. Each was checked: they
+  name the public sources their candidates came from but hold no third-party code.
+
 ## Refresh
 
 ```text
@@ -35,6 +87,7 @@ The source tree defaults to `../OxFunc/smart-fuzzer`. Archive a campaign run onc
 ```text
 python archive-evidence.py verify --sample 100
 python archive-evidence.py verify --all
+python archive-evidence.py --set w109 verify --all
 python archive-evidence.py restore <target directory>
 python archive-evidence.py restore <target directory> --sample 100 --seed 7
 ```

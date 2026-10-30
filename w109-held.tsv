@@ -1,0 +1,6 @@
+path	reason
+work/w109/G3-02-gamma/optree_corpus.json	content review: transcribes published lgamma algorithms (fdlibm verbatim, Cody, Cephes, TOMS, R nmath, Numerical Recipes) with their coefficients
+work/w109/G3-02-gamma/optree_synthesis.txt	content review: transcribes the fdlibm lgamma algorithm and other published shapes as pseudo-code with their constants
+work/w109/G3-02-gamma/agentL_landing_spec.md	content review: holds the Cody and Hillstrom 1967 coefficient table
+work/w109/G3-02-gamma/agentS_results.md	content review: holds a P/Q coefficient table in the Cody form whose origin is not stated
+work/w109/G6-solvers/WORKFLOW_RESULTS.md	content review: quotes LibreOffice, OpenOffice and Gnumeric source verbatim
