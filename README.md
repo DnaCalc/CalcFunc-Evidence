@@ -9,6 +9,16 @@
 - `excluded.tsv`: third-party binaries hashed but not stored: the Intel MKL wheel and its extracted DLLs under `runs/w108a-reference-hunt/mkl_dl/`, which are re-downloadable.
 - `archive-evidence.py`: archive, verify and restore.
 
+## Removed for licence reasons (DnaCalc dc-96l.4, 2026-10-30)
+
+Reference code is not kept here: the glibc 2.29 sources and the probe built from them under
+`runs/w108a-reference-hunt/` (`g229_*.c/.h`, `e_exp_data_229.c`, `glibc229_probe.c`, `.exe`,
+`.obj`; the probe's numeric output `glibc229_out.txt` stays) and the candidate copies of
+OxFunc's `excel_numeric/x87.rs`, `mod.rs`, `discrete_dist_family.rs` and `normal_log_family.rs`
+under `runs/w111-*-20260929/candidate/` were removed from the tree and from `manifest.tsv`. Their
+sources still exist in the git-ignored `OxFunc/smart-fuzzer/runs`, so a later `archive` run would
+add them again: delete them there, or remove them again after archiving.
+
 ## Refresh
 
 ```text
@@ -42,7 +52,7 @@ They find this checkout at `<legacy root>/OxFunc-Evidence`, where the legacy roo
 
 ## Contents at creation (2026-10-14)
 
-28,360 files, 2.70 GB raw, 261 MB of gzip blobs; 32 excluded third-party files totalling 746 MB. A 100-file random sample decompressed to the manifest hashes with no failures.
+28,339 files (28,360 before the dc-96l.4 removals), 2.70 GB raw, 261 MB of gzip blobs; 32 excluded third-party files totalling 746 MB. A 100-file random sample decompressed to the manifest hashes with no failures.
 
 ## Provenance
 
