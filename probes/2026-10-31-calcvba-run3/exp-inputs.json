@@ -1,0 +1,12 @@
+{
+  "function": "EXP",
+  "selection": "All 1 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+  "witnesses": [
+    {
+      "id": "hardware-0",
+      "args": [
+        "0xc00aff210cf81b26"
+      ]
+    }
+  ]
+}

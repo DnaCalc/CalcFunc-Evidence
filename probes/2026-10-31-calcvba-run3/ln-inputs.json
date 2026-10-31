@@ -1,0 +1,84 @@
+{
+  "function": "LN",
+  "selection": "All 13 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+  "witnesses": [
+    {
+      "id": "hardware-1",
+      "args": [
+        "0x11f544676cf1bf2f"
+      ]
+    },
+    {
+      "id": "hardware-2",
+      "args": [
+        "0x1eb393c13e56f40a"
+      ]
+    },
+    {
+      "id": "hardware-3",
+      "args": [
+        "0x2d20badbb5556728"
+      ]
+    },
+    {
+      "id": "hardware-4",
+      "args": [
+        "0x2d3693905c941f14"
+      ]
+    },
+    {
+      "id": "hardware-5",
+      "args": [
+        "0x2e68258fb8991289"
+      ]
+    },
+    {
+      "id": "hardware-6",
+      "args": [
+        "0x420be30a078fed72"
+      ]
+    },
+    {
+      "id": "hardware-7",
+      "args": [
+        "0x4574658f6970c8b6"
+      ]
+    },
+    {
+      "id": "hardware-8",
+      "args": [
+        "0x461d6906690fdadb"
+      ]
+    },
+    {
+      "id": "hardware-9",
+      "args": [
+        "0x4d7d2f67e7585ef8"
+      ]
+    },
+    {
+      "id": "hardware-10",
+      "args": [
+        "0x4fb4742155e8cc52"
+      ]
+    },
+    {
+      "id": "hardware-11",
+      "args": [
+        "0x501baf60a3904e63"
+      ]
+    },
+    {
+      "id": "hardware-12",
+      "args": [
+        "0x559d2eada7837182"
+      ]
+    },
+    {
+      "id": "hardware-13",
+      "args": [
+        "0x6fffb3b90594a629"
+      ]
+    }
+  ]
+}

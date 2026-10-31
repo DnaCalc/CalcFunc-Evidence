@@ -1,0 +1,127 @@
+{
+  "matched_amd_hardware": 15,
+  "differed_from_intel_hardware": 15,
+  "intel_excel_measured": false,
+  "rows": [
+    {
+      "function": "LN",
+      "input_bits": "11f544676cf1bf2f",
+      "excel_bits": "c07fddf2ad7e124d",
+      "amd_x87_bits": "c07fddf2ad7e124d",
+      "intel_x87_bits": "c07fddf2ad7e124c",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "1eb393c13e56f40a",
+      "excel_bits": "c07708d724444078",
+      "amd_x87_bits": "c07708d724444078",
+      "intel_x87_bits": "c07708d724444077",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "2d20badbb5556728",
+      "excel_bits": "c06a12f75473f581",
+      "amd_x87_bits": "c06a12f75473f581",
+      "intel_x87_bits": "c06a12f75473f580",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "2d3693905c941f14",
+      "excel_bits": "c069f331dcfe7f08",
+      "amd_x87_bits": "c069f331dcfe7f08",
+      "intel_x87_bits": "c069f331dcfe7f07",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "2e68258fb8991289",
+      "excel_bits": "c0684b9c09fc3ba6",
+      "amd_x87_bits": "c0684b9c09fc3ba6",
+      "intel_x87_bits": "c0684b9c09fc3ba5",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "420be30a078fed72",
+      "excel_bits": "40376deebfb7f46e",
+      "amd_x87_bits": "40376deebfb7f46e",
+      "intel_x87_bits": "40376deebfb7f46d",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "4574658f6970c8b6",
+      "excel_bits": "404e9eafb5cc42c6",
+      "amd_x87_bits": "404e9eafb5cc42c6",
+      "intel_x87_bits": "404e9eafb5cc42c5",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "461d6906690fdadb",
+      "excel_bits": "40512261215c415e",
+      "amd_x87_bits": "40512261215c415e",
+      "intel_x87_bits": "40512261215c415d",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "4d7d2f67e7585ef8",
+      "excel_bits": "4062ca44831b0c3a",
+      "amd_x87_bits": "4062ca44831b0c3a",
+      "intel_x87_bits": "4062ca44831b0c39",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "4fb4742155e8cc52",
+      "excel_bits": "4065dd65ac726cee",
+      "amd_x87_bits": "4065dd65ac726cee",
+      "intel_x87_bits": "4065dd65ac726ced",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "501baf60a3904e63",
+      "excel_bits": "40666c2b3ad75615",
+      "amd_x87_bits": "40666c2b3ad75615",
+      "intel_x87_bits": "40666c2b3ad75614",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "559d2eada7837182",
+      "excel_bits": "406e0dc1bc5d2a56",
+      "amd_x87_bits": "406e0dc1bc5d2a56",
+      "intel_x87_bits": "406e0dc1bc5d2a55",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "LN",
+      "input_bits": "6fffb3b90594a629",
+      "excel_bits": "4080a82aa75e37f7",
+      "amd_x87_bits": "4080a82aa75e37f7",
+      "intel_x87_bits": "4080a82aa75e37f6",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "EXP",
+      "input_bits": "c00aff210cf81b26",
+      "excel_bits": "3fa186f1e0bf9266",
+      "amd_x87_bits": "3fa186f1e0bf9266",
+      "intel_x87_bits": "3fa186f1e0bf9265",
+      "excel_follows_amd": true
+    },
+    {
+      "function": "COS",
+      "input_bits": "4062a6de023b2c9c",
+      "excel_bits": "bf86a175abef3a94",
+      "amd_x87_bits": "bf86a175abef3a94",
+      "intel_x87_bits": "bf86a175abef3a93",
+      "excel_follows_amd": true
+    }
+  ]
+}

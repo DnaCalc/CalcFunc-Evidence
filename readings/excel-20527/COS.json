@@ -1,0 +1,44 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "captured_utc": "2026-10-31T07:13:51Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "1e636dde677b26d53367a31731b2a0fe0b2aad32",
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-cfml\\target/witness/frozen\\COS-20261031T071342Z.json",
+      "frozen_sha256": "133b31de529f449dec10771b99b02736496f3d28d56c7e993f7c06f575b1d760",
+      "inputs_path": "C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run3\\cos-inputs.json",
+      "inputs_sha256": "e004e3cee5af996866a5677c235a95b3cf50c0979579a57c41cfbc0763e7bbcd",
+      "novelty": null,
+      "selection": "All 1 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+      "retained_frozen_file": "probes/2026-10-31-calcvba-run3/cos-frozen.json",
+      "retained_inputs_file": "probes/2026-10-31-calcvba-run3/cos-inputs.json"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run3\\cos-inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+    "schema_version": "dnacalc-witness-reading/1",
+    "hardware_predictions_file": "probes/2026-10-31-calcvba-run3/hardware-frozen.json",
+    "hardware_predictions_sha256": "d1d40bc0cd14c183a7cb234152c5422c272c309797ad398db48cd49be2cbda3c"
+  },
+  "function": "COS",
+  "witnesses": [
+    {
+      "args": [
+        "0x4062a6de023b2c9c"
+      ],
+      "calc_func_prediction": "0xbf86a175abef3a94",
+      "expected_bits": "0xbf86a175abef3a94",
+      "id": "hardware-14"
+    }
+  ]
+}

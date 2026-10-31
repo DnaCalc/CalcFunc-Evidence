@@ -1,0 +1,140 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "captured_utc": "2026-10-31T07:13:22Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "1e636dde677b26d53367a31731b2a0fe0b2aad32",
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-cfml\\target/witness/frozen\\LN-20261031T071309Z.json",
+      "frozen_sha256": "badbe6296f4991bcced8a3e87e311e19cd37d7a8fa6573e83a2cd5068abccaed",
+      "inputs_path": "C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run3\\ln-inputs.json",
+      "inputs_sha256": "2e93b6ce616896ea42d5bae50c837a5ca4fe3d12b3a5ae0b21f8a89e5212186a",
+      "novelty": null,
+      "selection": "All 13 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+      "retained_frozen_file": "probes/2026-10-31-calcvba-run3/ln-frozen.json",
+      "retained_inputs_file": "probes/2026-10-31-calcvba-run3/ln-inputs.json"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run3\\ln-inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+    "schema_version": "dnacalc-witness-reading/1",
+    "hardware_predictions_file": "probes/2026-10-31-calcvba-run3/hardware-frozen.json",
+    "hardware_predictions_sha256": "d1d40bc0cd14c183a7cb234152c5422c272c309797ad398db48cd49be2cbda3c"
+  },
+  "function": "LN",
+  "witnesses": [
+    {
+      "args": [
+        "0x11f544676cf1bf2f"
+      ],
+      "calc_func_prediction": "0xc07fddf2ad7e124d",
+      "expected_bits": "0xc07fddf2ad7e124d",
+      "id": "hardware-1"
+    },
+    {
+      "args": [
+        "0x1eb393c13e56f40a"
+      ],
+      "calc_func_prediction": "0xc07708d724444078",
+      "expected_bits": "0xc07708d724444078",
+      "id": "hardware-2"
+    },
+    {
+      "args": [
+        "0x2d20badbb5556728"
+      ],
+      "calc_func_prediction": "0xc06a12f75473f581",
+      "expected_bits": "0xc06a12f75473f581",
+      "id": "hardware-3"
+    },
+    {
+      "args": [
+        "0x2d3693905c941f14"
+      ],
+      "calc_func_prediction": "0xc069f331dcfe7f08",
+      "expected_bits": "0xc069f331dcfe7f08",
+      "id": "hardware-4"
+    },
+    {
+      "args": [
+        "0x2e68258fb8991289"
+      ],
+      "calc_func_prediction": "0xc0684b9c09fc3ba6",
+      "expected_bits": "0xc0684b9c09fc3ba6",
+      "id": "hardware-5"
+    },
+    {
+      "args": [
+        "0x420be30a078fed72"
+      ],
+      "calc_func_prediction": "0x40376deebfb7f46e",
+      "expected_bits": "0x40376deebfb7f46e",
+      "id": "hardware-6"
+    },
+    {
+      "args": [
+        "0x4574658f6970c8b6"
+      ],
+      "calc_func_prediction": "0x404e9eafb5cc42c6",
+      "expected_bits": "0x404e9eafb5cc42c6",
+      "id": "hardware-7"
+    },
+    {
+      "args": [
+        "0x461d6906690fdadb"
+      ],
+      "calc_func_prediction": "0x40512261215c415e",
+      "expected_bits": "0x40512261215c415e",
+      "id": "hardware-8"
+    },
+    {
+      "args": [
+        "0x4d7d2f67e7585ef8"
+      ],
+      "calc_func_prediction": "0x4062ca44831b0c3a",
+      "expected_bits": "0x4062ca44831b0c3a",
+      "id": "hardware-9"
+    },
+    {
+      "args": [
+        "0x4fb4742155e8cc52"
+      ],
+      "calc_func_prediction": "0x4065dd65ac726cee",
+      "expected_bits": "0x4065dd65ac726cee",
+      "id": "hardware-10"
+    },
+    {
+      "args": [
+        "0x501baf60a3904e63"
+      ],
+      "calc_func_prediction": "0x40666c2b3ad75615",
+      "expected_bits": "0x40666c2b3ad75615",
+      "id": "hardware-11"
+    },
+    {
+      "args": [
+        "0x559d2eada7837182"
+      ],
+      "calc_func_prediction": "0x406e0dc1bc5d2a56",
+      "expected_bits": "0x406e0dc1bc5d2a56",
+      "id": "hardware-12"
+    },
+    {
+      "args": [
+        "0x6fffb3b90594a629"
+      ],
+      "calc_func_prediction": "0x4080a82aa75e37f7",
+      "expected_bits": "0x4080a82aa75e37f7",
+      "id": "hardware-13"
+    }
+  ]
+}

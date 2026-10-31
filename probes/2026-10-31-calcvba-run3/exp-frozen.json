@@ -1,0 +1,34 @@
+{
+  "calc_func_commit": "1e636dde677b26d53367a31731b2a0fe0b2aad32",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-10-31T07:13:34Z",
+  "function": "EXP",
+  "input_document": {
+    "function": "EXP",
+    "selection": "All 1 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+    "witnesses": [
+      {
+        "args": [
+          "0xc00aff210cf81b26"
+        ],
+        "id": "hardware-0"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run3\\exp-inputs.json",
+  "inputs_sha256": "42f3ce79e112b5a0a53de9385557d474e45ee733441ff6b888c536d9ed4e84f3",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0xc00aff210cf81b26"
+      ],
+      "calc_func_prediction": "0x3fa186f1e0bf9266",
+      "id": "hardware-0",
+      "result_index": null
+    }
+  ]
+}

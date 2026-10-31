@@ -1,0 +1,12 @@
+{
+  "function": "COS",
+  "selection": "All 1 vendor-dependent hardware x87 rows from x87_cpu.rs; fixed before fresh readings.",
+  "witnesses": [
+    {
+      "id": "hardware-14",
+      "args": [
+        "0x4062a6de023b2c9c"
+      ]
+    }
+  ]
+}
