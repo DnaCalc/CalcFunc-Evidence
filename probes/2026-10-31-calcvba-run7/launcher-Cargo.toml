@@ -1,0 +1,11 @@
+[package]
+name = "calcvba7-blind-reader"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+calc-oracle-excel = { path = "C:/Work/DnaCalc/DnaCalc-cfml/platform/calc-oracle-excel" }
+calc-verdict = { path = "C:/Work/DnaCalc/DnaCalc-cfml/tools/calc-verdict" }
+serde_json = "=1.0.154"
+
+[workspace]

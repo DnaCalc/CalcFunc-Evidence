@@ -1,0 +1,309 @@
+{
+  "function": "POISSON.DIST",
+  "witnesses": [
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000000",
+        false
+      ],
+      "id": "r7-poisson-final-k1-00-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-00-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000000",
+        false
+      ],
+      "id": "r7-poisson-final-k1-01-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-01-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8d",
+        false
+      ],
+      "id": "r7-poisson-final-k1-02-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8d",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-02-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        false
+      ],
+      "id": "r7-poisson-final-k1-03-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-03-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4086800000000000",
+        false
+      ],
+      "id": "r7-poisson-final-k1-04-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4086800000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-04-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e770cd787f0eda6",
+        false
+      ],
+      "id": "r7-poisson-final-k1-05-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e770cd787f0eda6",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-05-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0f30009428a942d2",
+        false
+      ],
+      "id": "r7-poisson-final-k1-06-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0f30009428a942d2",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-06-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fb99999999999aa",
+        false
+      ],
+      "id": "r7-poisson-final-k1-07-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fb99999999999aa",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-07-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4013fffffffffff0",
+        false
+      ],
+      "id": "r7-poisson-final-k1-08-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4013fffffffffff0",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-08-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000002",
+        false
+      ],
+      "id": "r7-poisson-final-k1-09-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000002",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-09-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x40831c49433d9e9f",
+        false
+      ],
+      "id": "r7-poisson-final-k1-10-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x40831c49433d9e9f",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-10-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4023fffffffffff0",
+        false
+      ],
+      "id": "r7-poisson-final-k1-11-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4023fffffffffff0",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-11-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x1c2d92f7a125a8f9",
+        false
+      ],
+      "id": "r7-poisson-final-k1-12-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x1c2d92f7a125a8f9",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-12-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fdfffffffffffff",
+        false
+      ],
+      "id": "r7-poisson-final-k1-13-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fdfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-13-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e6faee35dc2ed75",
+        false
+      ],
+      "id": "r7-poisson-final-k1-14-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e6faee35dc2ed75",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-14-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0ec44c2ee397046b",
+        false
+      ],
+      "id": "r7-poisson-final-k1-15-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x0ec44c2ee397046b",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-15-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d8d2233095485c7",
+        false
+      ],
+      "id": "r7-poisson-final-k1-16-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d8d2233095485c7",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-16-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000010",
+        false
+      ],
+      "id": "r7-poisson-final-k1-17-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000010",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-17-number"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8f",
+        false
+      ],
+      "id": "r7-poisson-final-k1-18-bool"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8f",
+        "0x0000000000000000"
+      ],
+      "id": "r7-poisson-final-k1-18-number"
+    }
+  ]
+}

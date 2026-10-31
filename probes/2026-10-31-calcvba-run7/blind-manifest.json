@@ -1,0 +1,17 @@
+{
+  "schema": "calcvba7-blind-manifest/1",
+  "captured_utc": "2026-10-31T18:45:38.3617321Z",
+  "reader_commit": "c62ffca1e48b61989e7b481f9243a44fb6576b50",
+  "sha256": {
+    "requests.json": "2f2d5b8ed435e20035bf4a0cc8455e7ffffa8bc00a1ee567b6330d9ee42c901d",
+    "packet-README.txt": "935ff9d26ea8b4aaccaba8ae0e5a73f75ad15002d72230fc82b612d76c424c58",
+    "launcher.rs": "a5890f4e81f31807fd51bcaa1a897824d13d6abace1d058e713ac1a17baf431a",
+    "launcher-Cargo.toml": "9070d37a37015c985f00d029037a0a9383a1380988bf7e6998b68a9483e47bf4",
+    "Cargo.lock": "1c96fdaf77511bdb6b03bddc0f2d9197ed06ecf3628da78182347d1410c1b20d",
+    "poisson-dist/request.json": "e302f0aa4242eafb26ba3c061c6aadca760b4fbd2bced8eb7604f3a0029a7e69",
+    "poisson-dist/result.json": "5f4a1b477522215d23465e179cf3d8bb120cdd7b491c7c2b32106e983a111591",
+    "poisson-dist/witness-worker.ps1": "f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+    "poisson-dist/capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25",
+    "isolation.txt": "b241d97d443f6b33da82c41213d25dc3376bcbb0a2c36d21397fd204b74da922"
+  }
+}

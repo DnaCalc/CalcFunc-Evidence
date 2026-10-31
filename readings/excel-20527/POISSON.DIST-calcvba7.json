@@ -1,0 +1,370 @@
+{
+  "function": "POISSON.DIST",
+  "capture_provenance": {
+    "schema_version": "dnacalc-witness-reading/1",
+    "captured_utc": "2026-10-31T18:45:38.3617321Z",
+    "reader": "DnaCalc c62ffca1e48b61989e7b481f9243a44fb6576b50 calc-oracle-excel::read_witnesses; existing run_isolated supervisor",
+    "inputs": "probes/2026-10-31-calcvba-run7/requests.json",
+    "inputs_sha256": "2f2d5b8ed435e20035bf4a0cc8455e7ffffa8bc00a1ee567b6330d9ee42c901d",
+    "raw_result": "probes/2026-10-31-calcvba-run7/poisson-dist/result.json",
+    "raw_result_sha256": "5f4a1b477522215d23465e179cf3d8bb120cdd7b491c7c2b32106e983a111591",
+    "blind": true,
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "environment": {
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_bitness": "64-bit",
+      "platform": "Windows",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_input_plumbing": "cell_value2_bulk"
+    }
+  },
+  "witnesses": [
+    {
+      "id": "r7-poisson-final-k1-00-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000000",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "r7-poisson-final-k1-00-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "r7-poisson-final-k1-01-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000000",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "r7-poisson-final-k1-01-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "r7-poisson-final-k1-02-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8d",
+        false
+      ],
+      "expected_bits": "0x3eb0c6f6873c5eb5"
+    },
+    {
+      "id": "r7-poisson-final-k1-02-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8d",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f6873c5eb5"
+    },
+    {
+      "id": "r7-poisson-final-k1-03-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        false
+      ],
+      "expected_bits": "0x3fd78b56362cef38"
+    },
+    {
+      "id": "r7-poisson-final-k1-03-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fd78b56362cef38"
+    },
+    {
+      "id": "r7-poisson-final-k1-04-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4086800000000000",
+        false
+      ],
+      "expected_bits": "0x0000000000000000"
+    },
+    {
+      "id": "r7-poisson-final-k1-04-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4086800000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x0000000000000000"
+    },
+    {
+      "id": "r7-poisson-final-k1-05-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e770cd787f0eda6",
+        false
+      ],
+      "expected_bits": "0x3e770cd766bbf7c6"
+    },
+    {
+      "id": "r7-poisson-final-k1-05-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e770cd787f0eda6",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e770cd766bbf7c6"
+    },
+    {
+      "id": "r7-poisson-final-k1-06-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0f30009428a942d2",
+        false
+      ],
+      "expected_bits": "0x0f30009428a94232"
+    },
+    {
+      "id": "r7-poisson-final-k1-06-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0f30009428a942d2",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x0f30009428a94232"
+    },
+    {
+      "id": "r7-poisson-final-k1-07-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fb99999999999aa",
+        false
+      ],
+      "expected_bits": "0x3fb729f147ddbc3d"
+    },
+    {
+      "id": "r7-poisson-final-k1-07-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fb99999999999aa",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fb729f147ddbc3d"
+    },
+    {
+      "id": "r7-poisson-final-k1-08-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4013fffffffffff0",
+        false
+      ],
+      "expected_bits": "0x3fa13fc7ec085462"
+    },
+    {
+      "id": "r7-poisson-final-k1-08-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4013fffffffffff0",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fa13fc7ec085462"
+    },
+    {
+      "id": "r7-poisson-final-k1-09-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000002",
+        false
+      ],
+      "expected_bits": "0x3fd152aaa3bf81c9"
+    },
+    {
+      "id": "r7-poisson-final-k1-09-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000002",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fd152aaa3bf81c9"
+    },
+    {
+      "id": "r7-poisson-final-k1-10-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40831c49433d9e9f",
+        false
+      ],
+      "expected_bits": "0x095fed17b45409cd"
+    },
+    {
+      "id": "r7-poisson-final-k1-10-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40831c49433d9e9f",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x095fed17b45409cd"
+    },
+    {
+      "id": "r7-poisson-final-k1-11-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4023fffffffffff0",
+        false
+      ],
+      "expected_bits": "0x3f3dc0d822bd9c97"
+    },
+    {
+      "id": "r7-poisson-final-k1-11-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4023fffffffffff0",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3f3dc0d822bd9c97"
+    },
+    {
+      "id": "r7-poisson-final-k1-12-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x1c2d92f7a125a8f9",
+        false
+      ],
+      "expected_bits": "0x1c2d92f7a125a9b3"
+    },
+    {
+      "id": "r7-poisson-final-k1-12-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x1c2d92f7a125a8f9",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x1c2d92f7a125a9b3"
+    },
+    {
+      "id": "r7-poisson-final-k1-13-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fdfffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3fd368b2fc6f960a"
+    },
+    {
+      "id": "r7-poisson-final-k1-13-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3fdfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fd368b2fc6f960a"
+    },
+    {
+      "id": "r7-poisson-final-k1-14-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e6faee35dc2ed75",
+        false
+      ],
+      "expected_bits": "0x3e6faee33e645927"
+    },
+    {
+      "id": "r7-poisson-final-k1-14-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e6faee35dc2ed75",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e6faee33e645927"
+    },
+    {
+      "id": "r7-poisson-final-k1-15-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0ec44c2ee397046b",
+        false
+      ],
+      "expected_bits": "0x0ec44c2ee3970495"
+    },
+    {
+      "id": "r7-poisson-final-k1-15-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0ec44c2ee397046b",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x0ec44c2ee3970495"
+    },
+    {
+      "id": "r7-poisson-final-k1-16-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d8d2233095485c7",
+        false
+      ],
+      "expected_bits": "0x3d8d223309541bad"
+    },
+    {
+      "id": "r7-poisson-final-k1-16-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d8d2233095485c7",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3d8d223309541bad"
+    },
+    {
+      "id": "r7-poisson-final-k1-17-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000010",
+        false
+      ],
+      "expected_bits": "0x3754bd78485113de"
+    },
+    {
+      "id": "r7-poisson-final-k1-17-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000010",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3754bd78485113de"
+    },
+    {
+      "id": "r7-poisson-final-k1-18-bool",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8f",
+        false
+      ],
+      "expected_bits": "0x3eb0c6f6873c5eb5"
+    },
+    {
+      "id": "r7-poisson-final-k1-18-number",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3eb0c6f7a0b5ed8f",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f6873c5eb5"
+    }
+  ],
+  "unread": []
+}

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "r7-poisson-final-k1-00-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-00-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-01-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-01-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-02-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-02-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-03-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-03-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-04-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-04-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-05-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-05-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-06-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-06-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-07-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-07-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-08-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-08-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-09-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-09-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-10-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-10-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-11-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-11-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-12-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-12-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-13-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-13-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-14-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-14-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-15-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-15-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-16-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-16-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-17-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-17-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-18-bool",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Boolean / VT_BOOL"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  },
+  {
+    "id": "r7-poisson-final-k1-18-number",
+    "argument_types": [
+      "System.Double / VT_R8",
+      "System.Double / VT_R8",
+      "System.Double / VT_R8"
+    ],
+    "readback_type_and_bits_kept": true,
+    "result_kind": "number / binary64"
+  }
+]
