@@ -1,0 +1,2362 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "captured_utc": "2026-10-31T03:49:51Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "379d51f9f753d5d9874520bbffc838f1cbca19aa",
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-cfml\\target/witness/frozen\\GAMMA-20261031T034943Z.json",
+      "frozen_sha256": "e157d534b59dd7ae633a24cc1c3e0c92929d642f257ac9103eda5b35913e074d",
+      "inputs_path": "target/blind-check/gamma-inputs.json",
+      "inputs_sha256": "be9dc7d445f984cd1dbb835021bfb74194df6ffbf420ce6f97b21e12b319a6e7",
+      "novelty": null,
+      "selection": "All 97 identities changed by df1215e versus its parent, replayed through the same CalcFunc call and verdict helpers on Windows; plus 194 adjacent binary64 inputs absent from the loaded GAMMA banks. Chosen before fresh Excel readings. No coefficient search.",
+      "retained_frozen_file": "probes/2026-10-31-calcvba-run2/gamma-frozen.json",
+      "retained_inputs_file": "probes/2026-10-31-calcvba-run2/gamma-inputs.json"
+    },
+    "inputs": "target/blind-check/gamma-inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "GAMMA",
+  "witnesses": [
+    {
+      "args": [
+        "0x3f63781feba98e35"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "expected_bits": "0x407a431056e92bf2",
+      "id": "changed-0000"
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c8"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c48",
+      "expected_bits": "0x3ff13e9a10bd5c42",
+      "id": "changed-0001"
+    },
+    {
+      "args": [
+        "0x400336c092761c9f"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c9",
+      "expected_bits": "0x3ff3e5b1d5c080cd",
+      "id": "changed-0002"
+    },
+    {
+      "args": [
+        "0x400590fe1f150189"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d46",
+      "expected_bits": "0x3ff8a1e7f6b34d46",
+      "id": "changed-0003"
+    },
+    {
+      "args": [
+        "0x40106835d4ba7864"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f2f3",
+      "expected_bits": "0x401b4ffbbe21f2f0",
+      "id": "changed-0004"
+    },
+    {
+      "args": [
+        "0x4012bab10deca83c"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47526",
+      "expected_bits": "0x402e16dd42a4752e",
+      "id": "changed-0005"
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a55"
+      ],
+      "calc_func_prediction": "0x406bda66d5e37749",
+      "expected_bits": "0x406bda66d5e37726",
+      "id": "changed-0006"
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de8"
+      ],
+      "calc_func_prediction": "0x4079a062db804d41",
+      "expected_bits": "0x4079a062db804d34",
+      "id": "changed-0007"
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e59"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f13",
+      "expected_bits": "0x40a7a40a68e20f0f",
+      "id": "changed-0008"
+    },
+    {
+      "args": [
+        "0x4023650d2204f20d"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf6c",
+      "expected_bits": "0x410684a9edfcbf52",
+      "id": "changed-0009"
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a4"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50cddd",
+      "expected_bits": "0x41dc4e9c1b50cdec",
+      "id": "changed-0010"
+    },
+    {
+      "args": [
+        "0x402f957930cf3df3"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f5a",
+      "expected_bits": "0x42658bfb9f4a6f38",
+      "id": "changed-0011"
+    },
+    {
+      "args": [
+        "0x403530351a9be0c7"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e31c4",
+      "expected_bits": "0x43cdd74f368e3261",
+      "id": "changed-0012"
+    },
+    {
+      "args": [
+        "0x4035e14363b34588"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d35ea",
+      "expected_bits": "0x43feab5eab0d3628",
+      "id": "changed-0013"
+    },
+    {
+      "args": [
+        "0x40360212187cc25c"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad9260be",
+      "expected_bits": "0x4406b6c5ad9260e3",
+      "id": "changed-0014"
+    },
+    {
+      "args": [
+        "0x4036128be0c29da0"
+      ],
+      "calc_func_prediction": "0x440bad04696078ff",
+      "expected_bits": "0x440bad0469607974",
+      "id": "changed-0015"
+    },
+    {
+      "args": [
+        "0x4036392d65ef81dd"
+      ],
+      "calc_func_prediction": "0x44160237d1283df0",
+      "expected_bits": "0x44160237d1283e37",
+      "id": "changed-0016"
+    },
+    {
+      "args": [
+        "0x40365a7fecec7256"
+      ],
+      "calc_func_prediction": "0x44206f42b11da073",
+      "expected_bits": "0x44206f42b11da0a8",
+      "id": "changed-0017"
+    },
+    {
+      "args": [
+        "0x403670d2af0aa492"
+      ],
+      "calc_func_prediction": "0x4425829db57d724f",
+      "expected_bits": "0x4425829db57d7258",
+      "id": "changed-0018"
+    },
+    {
+      "args": [
+        "0x4036813abaec194e"
+      ],
+      "calc_func_prediction": "0x442a388447281ed3",
+      "expected_bits": "0x442a388447281efe",
+      "id": "changed-0019"
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e99"
+      ],
+      "calc_func_prediction": "0x442e2c10be39cdb2",
+      "expected_bits": "0x442e2c10be39cd9b",
+      "id": "changed-0020"
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc02"
+      ],
+      "calc_func_prediction": "0x44412556680ce9cc",
+      "expected_bits": "0x44412556680ce9db",
+      "id": "changed-0021"
+    },
+    {
+      "args": [
+        "0x4036d756f49a3069"
+      ],
+      "calc_func_prediction": "0x44429724bf7b2100",
+      "expected_bits": "0x44429724bf7b2146",
+      "id": "changed-0022"
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23d"
+      ],
+      "calc_func_prediction": "0x4450013043cde9e7",
+      "expected_bits": "0x4450013043cde9d9",
+      "id": "changed-0023"
+    },
+    {
+      "args": [
+        "0x4037154ad4644f09"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac9bb",
+      "expected_bits": "0x4453bd24c59ac9dd",
+      "id": "changed-0024"
+    },
+    {
+      "args": [
+        "0x403720ce9b53b829"
+      ],
+      "calc_func_prediction": "0x4456b600cb52254f",
+      "expected_bits": "0x4456b600cb52259e",
+      "id": "changed-0025"
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3cd"
+      ],
+      "calc_func_prediction": "0x445c0c479a901ce2",
+      "expected_bits": "0x445c0c479a901cfc",
+      "id": "changed-0026"
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd49"
+      ],
+      "calc_func_prediction": "0x446139fb48a988d6",
+      "expected_bits": "0x446139fb48a988d1",
+      "id": "changed-0027"
+    },
+    {
+      "args": [
+        "0x4037608a5aefb461"
+      ],
+      "calc_func_prediction": "0x4468b875e2490283",
+      "expected_bits": "0x4468b875e24902c8",
+      "id": "changed-0028"
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f86"
+      ],
+      "calc_func_prediction": "0x44869c2a3665abda",
+      "expected_bits": "0x44869c2a3665ac1c",
+      "id": "changed-0029"
+    },
+    {
+      "args": [
+        "0x40383bfe79d1058f"
+      ],
+      "calc_func_prediction": "0x44a6f8b774555840",
+      "expected_bits": "0x44a6f8b7745558ad",
+      "id": "changed-0030"
+    },
+    {
+      "args": [
+        "0x4038454ee9be1298"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809fa3",
+      "expected_bits": "0x44a9c719b5809f8b",
+      "id": "changed-0031"
+    },
+    {
+      "args": [
+        "0x4038543213bc024d"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9e49",
+      "expected_bits": "0x44aefedd3c8e9e5d",
+      "id": "changed-0032"
+    },
+    {
+      "args": [
+        "0x40385a42c00698e1"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f3bd",
+      "expected_bits": "0x44b0b505e5e9f3bd",
+      "id": "changed-0033"
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b2"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe115",
+      "expected_bits": "0x44c2c0e1daffe151",
+      "id": "changed-0034"
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40cd"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e7ad",
+      "expected_bits": "0x44db6a31fa65e7b4",
+      "id": "changed-0035"
+    },
+    {
+      "args": [
+        "0x4039321c885cd220"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4d9c",
+      "expected_bits": "0x44eebddb590e4e0d",
+      "id": "changed-0036"
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a4"
+      ],
+      "calc_func_prediction": "0x452729606239cb4b",
+      "expected_bits": "0x452729606239cb4f",
+      "id": "changed-0037"
+    },
+    {
+      "args": [
+        "0x403a096318900be2"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed197cc",
+      "expected_bits": "0x452ce5d2aed19812",
+      "id": "changed-0038"
+    },
+    {
+      "args": [
+        "0x403a099db243202e"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bedd8",
+      "expected_bits": "0x452cfb49a68bedef",
+      "id": "changed-0039"
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9483"
+      ],
+      "calc_func_prediction": "0x4530143a6074f209",
+      "expected_bits": "0x4530143a6074f24a",
+      "id": "changed-0040"
+    },
+    {
+      "args": [
+        "0x403a18549201292e"
+      ],
+      "calc_func_prediction": "0x45317557b4d15e71",
+      "expected_bits": "0x45317557b4d15ecf",
+      "id": "changed-0041"
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753c0"
+      ],
+      "calc_func_prediction": "0x45365cada2f32ed1",
+      "expected_bits": "0x45365cada2f32f4f",
+      "id": "changed-0042"
+    },
+    {
+      "args": [
+        "0x403a6d65946eae7a"
+      ],
+      "calc_func_prediction": "0x4549b1add044a89f",
+      "expected_bits": "0x4549b1add044a92e",
+      "id": "changed-0043"
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b3"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc105",
+      "expected_bits": "0x455725dacb5fc162",
+      "id": "changed-0044"
+    },
+    {
+      "args": [
+        "0x403aa0147d80b450"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fcf9",
+      "expected_bits": "0x45587e14e5c9fd2d",
+      "id": "changed-0045"
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8c0"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9bde",
+      "expected_bits": "0x4568ddfec78c9c49",
+      "id": "changed-0046"
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e5"
+      ],
+      "calc_func_prediction": "0x456d82552c79ec8b",
+      "expected_bits": "0x456d82552c79ecf1",
+      "id": "changed-0047"
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d1"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7f06",
+      "expected_bits": "0x4584ca8f06ac7f70",
+      "id": "changed-0048"
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748d"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbb72",
+      "expected_bits": "0x458d78e09f8dbbd4",
+      "id": "changed-0049"
+    },
+    {
+      "args": [
+        "0x403b79fe76352532"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e368e",
+      "expected_bits": "0x4598f41ffa3e36da",
+      "id": "changed-0050"
+    },
+    {
+      "args": [
+        "0x403baa1546983f7c"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0da03",
+      "expected_bits": "0x45a72f41a8c0da5f",
+      "id": "changed-0051"
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce4"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d13ff",
+      "expected_bits": "0x45b08ef5991d144d",
+      "id": "changed-0052"
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebe"
+      ],
+      "calc_func_prediction": "0x45c647aa34790164",
+      "expected_bits": "0x45c647aa347901a5",
+      "id": "changed-0053"
+    },
+    {
+      "args": [
+        "0x403c354cc3194cce"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a96a0a",
+      "expected_bits": "0x45d18d0f72a96a35",
+      "id": "changed-0054"
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b04"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d791",
+      "expected_bits": "0x45d71621a0e7d81f",
+      "id": "changed-0055"
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad9a"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c634",
+      "expected_bits": "0x45e020ef4568c643",
+      "id": "changed-0056"
+    },
+    {
+      "args": [
+        "0x403cd8c91e944697"
+      ],
+      "calc_func_prediction": "0x46026faca4edd443",
+      "expected_bits": "0x46026faca4edd468",
+      "id": "changed-0057"
+    },
+    {
+      "args": [
+        "0x403db39a5cca6491"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf863",
+      "expected_bits": "0x46445a99ce1cf8d3",
+      "id": "changed-0058"
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e4"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b893",
+      "expected_bits": "0x4667c19c16a1b93d",
+      "id": "changed-0059"
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb33"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57db98",
+      "expected_bits": "0x46689f8e2c57dbfe",
+      "id": "changed-0060"
+    },
+    {
+      "args": [
+        "0x403e313162d036f8"
+      ],
+      "calc_func_prediction": "0x466abf642056cf85",
+      "expected_bits": "0x466abf642056d012",
+      "id": "changed-0061"
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902cab"
+      ],
+      "calc_func_prediction": "0x466f9878761ee63e",
+      "expected_bits": "0x466f9878761ee735",
+      "id": "changed-0062"
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c5"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a5f6",
+      "expected_bits": "0x4688c6049f67a681",
+      "id": "changed-0063"
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b3"
+      ],
+      "calc_func_prediction": "0x46910723a01b7280",
+      "expected_bits": "0x46910723a01b72e2",
+      "id": "changed-0064"
+    },
+    {
+      "args": [
+        "0x403f150a79c3666c"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d596",
+      "expected_bits": "0x46b152502ff4d5c4",
+      "id": "changed-0065"
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9015"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "expected_bits": "0x46be18a8c72ab4ce",
+      "id": "changed-0066"
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efb"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2c7e",
+      "expected_bits": "0x471b21ac995a2cd6",
+      "id": "changed-0067"
+    },
+    {
+      "args": [
+        "0x404041813773a44e"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb4f2",
+      "expected_bits": "0x472296e5a92fb591",
+      "id": "changed-0068"
+    },
+    {
+      "args": [
+        "0x40406289488cf37c"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4e83",
+      "expected_bits": "0x4736c24177ef4ec4",
+      "id": "changed-0069"
+    },
+    {
+      "args": [
+        "0x4040835359058158"
+      ],
+      "calc_func_prediction": "0x474bbccdbd727485",
+      "expected_bits": "0x474bbccdbd7274b1",
+      "id": "changed-0070"
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8b"
+      ],
+      "calc_func_prediction": "0x4777ba902c831815",
+      "expected_bits": "0x4777ba902c831868",
+      "id": "changed-0071"
+    },
+    {
+      "args": [
+        "0x4041a496a551c283"
+      ],
+      "calc_func_prediction": "0x48031f032be4df0b",
+      "expected_bits": "0x48031f032be4df27",
+      "id": "changed-0072"
+    },
+    {
+      "args": [
+        "0x4041ad63b09a064a"
+      ],
+      "calc_func_prediction": "0x4808686080718abc",
+      "expected_bits": "0x4808686080718b07",
+      "id": "changed-0073"
+    },
+    {
+      "args": [
+        "0x4042065902dbaf37"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcf30",
+      "expected_bits": "0x48421fc667cbcf97",
+      "id": "changed-0074"
+    },
+    {
+      "args": [
+        "0x40421058ed7b607b"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5382",
+      "expected_bits": "0x4847f53ea57e5455",
+      "id": "changed-0075"
+    },
+    {
+      "args": [
+        "0x404257e781f96920"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf6669a",
+      "expected_bits": "0x48762b9c4cf66664",
+      "id": "changed-0076"
+    },
+    {
+      "args": [
+        "0x4042d2186f431476"
+      ],
+      "calc_func_prediction": "0x48c592405163c3e5",
+      "expected_bits": "0x48c592405163c432",
+      "id": "changed-0077"
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd982"
+      ],
+      "calc_func_prediction": "0x48e36642c52a560a",
+      "expected_bits": "0x48e36642c52a562c",
+      "id": "changed-0078"
+    },
+    {
+      "args": [
+        "0x4043041a80e6484a"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc301219",
+      "expected_bits": "0x48e62f0bcc30129f",
+      "id": "changed-0079"
+    },
+    {
+      "args": [
+        "0x40436d789c22f13b"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97bc56",
+      "expected_bits": "0x492ba8c90e97bd1a",
+      "id": "changed-0080"
+    },
+    {
+      "args": [
+        "0x404394597891f27c"
+      ],
+      "calc_func_prediction": "0x4944f5879453510d",
+      "expected_bits": "0x4944f5879453515d",
+      "id": "changed-0081"
+    },
+    {
+      "args": [
+        "0x4043993b096596e0"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0bb3",
+      "expected_bits": "0x49481810cb4a0c72",
+      "id": "changed-0082"
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf8"
+      ],
+      "calc_func_prediction": "0x49551355a434fcb1",
+      "expected_bits": "0x49551355a434fd57",
+      "id": "changed-0083"
+    },
+    {
+      "args": [
+        "0x4043bee60de1d3ff"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9dd1",
+      "expected_bits": "0x4961aee8ad0e9e0d",
+      "id": "changed-0084"
+    },
+    {
+      "args": [
+        "0x4043c5600768e09a"
+      ],
+      "calc_func_prediction": "0x496548fba13e4cd8",
+      "expected_bits": "0x496548fba13e4ca6",
+      "id": "changed-0085"
+    },
+    {
+      "args": [
+        "0x404419d258a832cf"
+      ],
+      "calc_func_prediction": "0x499e04dafed720cc",
+      "expected_bits": "0x499e04dafed721c3",
+      "id": "changed-0086"
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd8a"
+      ],
+      "calc_func_prediction": "0x4a03290acdea293c",
+      "expected_bits": "0x4a03290acdea298c",
+      "id": "changed-0087"
+    },
+    {
+      "args": [
+        "0x4044b67733b6566a"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d5a2",
+      "expected_bits": "0x4a059f4a40c8d64e",
+      "id": "changed-0088"
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae42"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457bab",
+      "expected_bits": "0x4a5aaaa005457c01",
+      "id": "changed-0089"
+    },
+    {
+      "args": [
+        "0x404537a18a3b7913"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259e964",
+      "expected_bits": "0x4a5cf5a0a259e9ca",
+      "id": "changed-0090"
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b1"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d214",
+      "expected_bits": "0x4a6ce57ac254d258",
+      "id": "changed-0091"
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd49"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9fa1a",
+      "expected_bits": "0x4a9063dbe3a9fa8e",
+      "id": "changed-0092"
+    },
+    {
+      "args": [
+        "0x404604249338eff1"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4c40",
+      "expected_bits": "0x4ae6ce68d9df4c7a",
+      "id": "changed-0093"
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7d"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b959d",
+      "expected_bits": "0x5a4c17a9d00b9910",
+      "id": "changed-0094"
+    },
+    {
+      "args": [
+        "0x4055b9d368280d12"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d538",
+      "expected_bits": "0x5af6bb246d36d5bd",
+      "id": "changed-0095"
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e7"
+      ],
+      "calc_func_prediction": "0x5c7702f454606c86",
+      "expected_bits": "0x5c7702f454607115",
+      "id": "changed-0096"
+    },
+    {
+      "args": [
+        "0x3f63781feba98e34"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "expected_bits": "0x407a431056e92bf3",
+      "id": "neighbour-0000-down"
+    },
+    {
+      "args": [
+        "0x3f63781feba98e36"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "expected_bits": "0x407a431056e92bf0",
+      "id": "neighbour-0000-up"
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c7"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c49",
+      "expected_bits": "0x3ff13e9a10bd5c42",
+      "id": "neighbour-0001-down"
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c9"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c48",
+      "expected_bits": "0x3ff13e9a10bd5c41",
+      "id": "neighbour-0001-up"
+    },
+    {
+      "args": [
+        "0x400336c092761c9e"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c4",
+      "expected_bits": "0x3ff3e5b1d5c080cb",
+      "id": "neighbour-0002-down"
+    },
+    {
+      "args": [
+        "0x400336c092761ca0"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c9",
+      "expected_bits": "0x3ff3e5b1d5c080ce",
+      "id": "neighbour-0002-up"
+    },
+    {
+      "args": [
+        "0x400590fe1f150188"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d43",
+      "expected_bits": "0x3ff8a1e7f6b34d43",
+      "id": "neighbour-0003-down"
+    },
+    {
+      "args": [
+        "0x400590fe1f15018a"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d49",
+      "expected_bits": "0x3ff8a1e7f6b34d47",
+      "id": "neighbour-0003-up"
+    },
+    {
+      "args": [
+        "0x40106835d4ba7863"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f2ec",
+      "expected_bits": "0x401b4ffbbe21f2e9",
+      "id": "neighbour-0004-down"
+    },
+    {
+      "args": [
+        "0x40106835d4ba7865"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f304",
+      "expected_bits": "0x401b4ffbbe21f2f9",
+      "id": "neighbour-0004-up"
+    },
+    {
+      "args": [
+        "0x4012bab10deca83b"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47510",
+      "expected_bits": "0x402e16dd42a47523",
+      "id": "neighbour-0005-down"
+    },
+    {
+      "args": [
+        "0x4012bab10deca83d"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47541",
+      "expected_bits": "0x402e16dd42a47539",
+      "id": "neighbour-0005-up"
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a54"
+      ],
+      "calc_func_prediction": "0x406bda66d5e37734",
+      "expected_bits": "0x406bda66d5e37718",
+      "id": "neighbour-0006-down"
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a56"
+      ],
+      "calc_func_prediction": "0x406bda66d5e3772d",
+      "expected_bits": "0x406bda66d5e37730",
+      "id": "neighbour-0006-up"
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de7"
+      ],
+      "calc_func_prediction": "0x4079a062db804d21",
+      "expected_bits": "0x4079a062db804d2b",
+      "id": "neighbour-0007-down"
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de9"
+      ],
+      "calc_func_prediction": "0x4079a062db804d67",
+      "expected_bits": "0x4079a062db804d3f",
+      "id": "neighbour-0007-up"
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e58"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f13",
+      "expected_bits": "0x40a7a40a68e20f03",
+      "id": "neighbour-0008-down"
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e5a"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f4e",
+      "expected_bits": "0x40a7a40a68e20f18",
+      "id": "neighbour-0008-up"
+    },
+    {
+      "args": [
+        "0x4023650d2204f20c"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf56",
+      "expected_bits": "0x410684a9edfcbf36",
+      "id": "neighbour-0009-down"
+    },
+    {
+      "args": [
+        "0x4023650d2204f20e"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf83",
+      "expected_bits": "0x410684a9edfcbf69",
+      "id": "neighbour-0009-up"
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a3"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50cddd",
+      "expected_bits": "0x41dc4e9c1b50cdbf",
+      "id": "neighbour-0010-down"
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a5"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50ce32",
+      "expected_bits": "0x41dc4e9c1b50ce0d",
+      "id": "neighbour-0010-up"
+    },
+    {
+      "args": [
+        "0x402f957930cf3df2"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f1a",
+      "expected_bits": "0x42658bfb9f4a6f1e",
+      "id": "neighbour-0011-down"
+    },
+    {
+      "args": [
+        "0x402f957930cf3df4"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f5a",
+      "expected_bits": "0x42658bfb9f4a6f52",
+      "id": "neighbour-0011-up"
+    },
+    {
+      "args": [
+        "0x403530351a9be0c6"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e31c4",
+      "expected_bits": "0x43cdd74f368e31f9",
+      "id": "neighbour-0012-down"
+    },
+    {
+      "args": [
+        "0x403530351a9be0c8"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e3277",
+      "expected_bits": "0x43cdd74f368e32ba",
+      "id": "neighbour-0012-up"
+    },
+    {
+      "args": [
+        "0x4035e14363b34587"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d356f",
+      "expected_bits": "0x43feab5eab0d35c1",
+      "id": "neighbour-0013-down"
+    },
+    {
+      "args": [
+        "0x4035e14363b34589"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d36a2",
+      "expected_bits": "0x43feab5eab0d3686",
+      "id": "neighbour-0013-up"
+    },
+    {
+      "args": [
+        "0x40360212187cc25b"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad926063",
+      "expected_bits": "0x4406b6c5ad92609e",
+      "id": "neighbour-0014-down"
+    },
+    {
+      "args": [
+        "0x40360212187cc25d"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad926146",
+      "expected_bits": "0x4406b6c5ad92612e",
+      "id": "neighbour-0014-up"
+    },
+    {
+      "args": [
+        "0x4036128be0c29d9f"
+      ],
+      "calc_func_prediction": "0x440bad0469607890",
+      "expected_bits": "0x440bad0469607922",
+      "id": "neighbour-0015-down"
+    },
+    {
+      "args": [
+        "0x4036128be0c29da1"
+      ],
+      "calc_func_prediction": "0x440bad0469607a13",
+      "expected_bits": "0x440bad04696079ca",
+      "id": "neighbour-0015-up"
+    },
+    {
+      "args": [
+        "0x4036392d65ef81dc"
+      ],
+      "calc_func_prediction": "0x44160237d1283dc4",
+      "expected_bits": "0x44160237d1283df1",
+      "id": "neighbour-0016-down"
+    },
+    {
+      "args": [
+        "0x4036392d65ef81de"
+      ],
+      "calc_func_prediction": "0x44160237d1283e48",
+      "expected_bits": "0x44160237d1283e7a",
+      "id": "neighbour-0016-up"
+    },
+    {
+      "args": [
+        "0x40365a7fecec7255"
+      ],
+      "calc_func_prediction": "0x44206f42b11da073",
+      "expected_bits": "0x44206f42b11da073",
+      "id": "neighbour-0017-down"
+    },
+    {
+      "args": [
+        "0x40365a7fecec7257"
+      ],
+      "calc_func_prediction": "0x44206f42b11da094",
+      "expected_bits": "0x44206f42b11da0d6",
+      "id": "neighbour-0017-up"
+    },
+    {
+      "args": [
+        "0x403670d2af0aa491"
+      ],
+      "calc_func_prediction": "0x4425829db57d71f9",
+      "expected_bits": "0x4425829db57d7217",
+      "id": "neighbour-0018-down"
+    },
+    {
+      "args": [
+        "0x403670d2af0aa493"
+      ],
+      "calc_func_prediction": "0x4425829db57d724f",
+      "expected_bits": "0x4425829db57d729b",
+      "id": "neighbour-0018-up"
+    },
+    {
+      "args": [
+        "0x4036813abaec194d"
+      ],
+      "calc_func_prediction": "0x442a388447281e9f",
+      "expected_bits": "0x442a388447281eab",
+      "id": "neighbour-0019-down"
+    },
+    {
+      "args": [
+        "0x4036813abaec194f"
+      ],
+      "calc_func_prediction": "0x442a388447281f07",
+      "expected_bits": "0x442a388447281f54",
+      "id": "neighbour-0019-up"
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e98"
+      ],
+      "calc_func_prediction": "0x442e2c10be39ccc1",
+      "expected_bits": "0x442e2c10be39cd3f",
+      "id": "neighbour-0020-down"
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e9a"
+      ],
+      "calc_func_prediction": "0x442e2c10be39cd76",
+      "expected_bits": "0x442e2c10be39cdf8",
+      "id": "neighbour-0020-up"
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc01"
+      ],
+      "calc_func_prediction": "0x44412556680ce9cc",
+      "expected_bits": "0x44412556680ce9a2",
+      "id": "neighbour-0021-down"
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc03"
+      ],
+      "calc_func_prediction": "0x44412556680ce9aa",
+      "expected_bits": "0x44412556680cea0c",
+      "id": "neighbour-0021-up"
+    },
+    {
+      "args": [
+        "0x4036d756f49a3068"
+      ],
+      "calc_func_prediction": "0x44429724bf7b20b6",
+      "expected_bits": "0x44429724bf7b210f",
+      "id": "neighbour-0022-down"
+    },
+    {
+      "args": [
+        "0x4036d756f49a306a"
+      ],
+      "calc_func_prediction": "0x44429724bf7b2170",
+      "expected_bits": "0x44429724bf7b2186",
+      "id": "neighbour-0022-up"
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23c"
+      ],
+      "calc_func_prediction": "0x4450013043cde967",
+      "expected_bits": "0x4450013043cde9a1",
+      "id": "neighbour-0023-down"
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23e"
+      ],
+      "calc_func_prediction": "0x4450013043cdea27",
+      "expected_bits": "0x4450013043cdea06",
+      "id": "neighbour-0023-up"
+    },
+    {
+      "args": [
+        "0x4037154ad4644f08"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac96c",
+      "expected_bits": "0x4453bd24c59ac9a5",
+      "id": "neighbour-0024-down"
+    },
+    {
+      "args": [
+        "0x4037154ad4644f0a"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac9e2",
+      "expected_bits": "0x4453bd24c59aca22",
+      "id": "neighbour-0024-up"
+    },
+    {
+      "args": [
+        "0x403720ce9b53b828"
+      ],
+      "calc_func_prediction": "0x4456b600cb522522",
+      "expected_bits": "0x4456b600cb522558",
+      "id": "neighbour-0025-down"
+    },
+    {
+      "args": [
+        "0x403720ce9b53b82a"
+      ],
+      "calc_func_prediction": "0x4456b600cb5225d7",
+      "expected_bits": "0x4456b600cb5225ea",
+      "id": "neighbour-0025-up"
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3cc"
+      ],
+      "calc_func_prediction": "0x445c0c479a901c02",
+      "expected_bits": "0x445c0c479a901c9a",
+      "id": "neighbour-0026-down"
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3ce"
+      ],
+      "calc_func_prediction": "0x445c0c479a901d1b",
+      "expected_bits": "0x445c0c479a901d4c",
+      "id": "neighbour-0026-up"
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd48"
+      ],
+      "calc_func_prediction": "0x446139fb48a988b4",
+      "expected_bits": "0x446139fb48a988a2",
+      "id": "neighbour-0027-down"
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd4a"
+      ],
+      "calc_func_prediction": "0x446139fb48a988d6",
+      "expected_bits": "0x446139fb48a9890a",
+      "id": "neighbour-0027-up"
+    },
+    {
+      "args": [
+        "0x4037608a5aefb460"
+      ],
+      "calc_func_prediction": "0x4468b875e2490220",
+      "expected_bits": "0x4468b875e249026f",
+      "id": "neighbour-0028-down"
+    },
+    {
+      "args": [
+        "0x4037608a5aefb462"
+      ],
+      "calc_func_prediction": "0x4468b875e24902e6",
+      "expected_bits": "0x4468b875e249030a",
+      "id": "neighbour-0028-up"
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f85"
+      ],
+      "calc_func_prediction": "0x44869c2a3665abad",
+      "expected_bits": "0x44869c2a3665abd9",
+      "id": "neighbour-0029-down"
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f87"
+      ],
+      "calc_func_prediction": "0x44869c2a3665ac07",
+      "expected_bits": "0x44869c2a3665ac5e",
+      "id": "neighbour-0029-up"
+    },
+    {
+      "args": [
+        "0x40383bfe79d1058e"
+      ],
+      "calc_func_prediction": "0x44a6f8b774555812",
+      "expected_bits": "0x44a6f8b774555858",
+      "id": "neighbour-0030-down"
+    },
+    {
+      "args": [
+        "0x40383bfe79d10590"
+      ],
+      "calc_func_prediction": "0x44a6f8b77455589c",
+      "expected_bits": "0x44a6f8b7745558e7",
+      "id": "neighbour-0030-up"
+    },
+    {
+      "args": [
+        "0x4038454ee9be1297"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809ed5",
+      "expected_bits": "0x44a9c719b5809f47",
+      "id": "neighbour-0031-down"
+    },
+    {
+      "args": [
+        "0x4038454ee9be1299"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809fa3",
+      "expected_bits": "0x44a9c719b5809fe7",
+      "id": "neighbour-0031-up"
+    },
+    {
+      "args": [
+        "0x4038543213bc024c"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9dcd",
+      "expected_bits": "0x44aefedd3c8e9e07",
+      "id": "neighbour-0032-down"
+    },
+    {
+      "args": [
+        "0x4038543213bc024e"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9e0b",
+      "expected_bits": "0x44aefedd3c8e9ecc",
+      "id": "neighbour-0032-up"
+    },
+    {
+      "args": [
+        "0x40385a42c00698e0"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f338",
+      "expected_bits": "0x44b0b505e5e9f381",
+      "id": "neighbour-0033-down"
+    },
+    {
+      "args": [
+        "0x40385a42c00698e2"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f3df",
+      "expected_bits": "0x44b0b505e5e9f3eb",
+      "id": "neighbour-0033-up"
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b1"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe0ef",
+      "expected_bits": "0x44c2c0e1daffe11b",
+      "id": "neighbour-0034-down"
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b3"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe13a",
+      "expected_bits": "0x44c2c0e1daffe196",
+      "id": "neighbour-0034-up"
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40cc"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e73f",
+      "expected_bits": "0x44db6a31fa65e756",
+      "id": "neighbour-0035-down"
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40ce"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e7e4",
+      "expected_bits": "0x44db6a31fa65e810",
+      "id": "neighbour-0035-up"
+    },
+    {
+      "args": [
+        "0x4039321c885cd21f"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4d21",
+      "expected_bits": "0x44eebddb590e4daf",
+      "id": "neighbour-0036-down"
+    },
+    {
+      "args": [
+        "0x4039321c885cd221"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4e17",
+      "expected_bits": "0x44eebddb590e4e76",
+      "id": "neighbour-0036-up"
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a3"
+      ],
+      "calc_func_prediction": "0x452729606239caee",
+      "expected_bits": "0x452729606239caf9",
+      "id": "neighbour-0037-down"
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a5"
+      ],
+      "calc_func_prediction": "0x452729606239cb4b",
+      "expected_bits": "0x452729606239cb90",
+      "id": "neighbour-0037-up"
+    },
+    {
+      "args": [
+        "0x403a096318900be1"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed197cc",
+      "expected_bits": "0x452ce5d2aed197b3",
+      "id": "neighbour-0038-down"
+    },
+    {
+      "args": [
+        "0x403a096318900be3"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed19806",
+      "expected_bits": "0x452ce5d2aed19878",
+      "id": "neighbour-0038-up"
+    },
+    {
+      "args": [
+        "0x403a099db243202d"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bed2a",
+      "expected_bits": "0x452cfb49a68bed8e",
+      "id": "neighbour-0039-down"
+    },
+    {
+      "args": [
+        "0x403a099db243202f"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bee12",
+      "expected_bits": "0x452cfb49a68bee48",
+      "id": "neighbour-0039-up"
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9482"
+      ],
+      "calc_func_prediction": "0x4530143a6074f1e9",
+      "expected_bits": "0x4530143a6074f214",
+      "id": "neighbour-0040-down"
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9484"
+      ],
+      "calc_func_prediction": "0x4530143a6074f24a",
+      "expected_bits": "0x4530143a6074f27b",
+      "id": "neighbour-0040-up"
+    },
+    {
+      "args": [
+        "0x403a18549201292d"
+      ],
+      "calc_func_prediction": "0x45317557b4d15e93",
+      "expected_bits": "0x45317557b4d15e93",
+      "id": "neighbour-0041-down"
+    },
+    {
+      "args": [
+        "0x403a18549201292f"
+      ],
+      "calc_func_prediction": "0x45317557b4d15efc",
+      "expected_bits": "0x45317557b4d15f02",
+      "id": "neighbour-0041-up"
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753bf"
+      ],
+      "calc_func_prediction": "0x45365cada2f32ea5",
+      "expected_bits": "0x45365cada2f32f0e",
+      "id": "neighbour-0042-down"
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753c1"
+      ],
+      "calc_func_prediction": "0x45365cada2f32f2b",
+      "expected_bits": "0x45365cada2f32f9e",
+      "id": "neighbour-0042-up"
+    },
+    {
+      "args": [
+        "0x403a6d65946eae79"
+      ],
+      "calc_func_prediction": "0x4549b1add044a8d2",
+      "expected_bits": "0x4549b1add044a8d5",
+      "id": "neighbour-0043-down"
+    },
+    {
+      "args": [
+        "0x403a6d65946eae7b"
+      ],
+      "calc_func_prediction": "0x4549b1add044a939",
+      "expected_bits": "0x4549b1add044a984",
+      "id": "neighbour-0043-up"
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b2"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc105",
+      "expected_bits": "0x455725dacb5fc10e",
+      "id": "neighbour-0044-down"
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b4"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc161",
+      "expected_bits": "0x455725dacb5fc1b2",
+      "id": "neighbour-0044-up"
+    },
+    {
+      "args": [
+        "0x403aa0147d80b44f"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fc97",
+      "expected_bits": "0x45587e14e5c9fce4",
+      "id": "neighbour-0045-down"
+    },
+    {
+      "args": [
+        "0x403aa0147d80b451"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fd5b",
+      "expected_bits": "0x45587e14e5c9fd78",
+      "id": "neighbour-0045-up"
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8bf"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9b7b",
+      "expected_bits": "0x4568ddfec78c9bf9",
+      "id": "neighbour-0046-down"
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8c1"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9c42",
+      "expected_bits": "0x4568ddfec78c9c93",
+      "id": "neighbour-0046-up"
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e4"
+      ],
+      "calc_func_prediction": "0x456d82552c79ec15",
+      "expected_bits": "0x456d82552c79ec8e",
+      "id": "neighbour-0047-down"
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e6"
+      ],
+      "calc_func_prediction": "0x456d82552c79ed3c",
+      "expected_bits": "0x456d82552c79ed4b",
+      "id": "neighbour-0047-up"
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d0"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7edc",
+      "expected_bits": "0x4584ca8f06ac7f26",
+      "id": "neighbour-0048-down"
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d2"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7f83",
+      "expected_bits": "0x4584ca8f06ac7fba",
+      "id": "neighbour-0048-up"
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748c"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbafc",
+      "expected_bits": "0x458d78e09f8dbb6c",
+      "id": "neighbour-0049-down"
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748e"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbbac",
+      "expected_bits": "0x458d78e09f8dbc3e",
+      "id": "neighbour-0049-up"
+    },
+    {
+      "args": [
+        "0x403b79fe76352531"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e365c",
+      "expected_bits": "0x4598f41ffa3e3683",
+      "id": "neighbour-0050-down"
+    },
+    {
+      "args": [
+        "0x403b79fe76352533"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e36f2",
+      "expected_bits": "0x4598f41ffa3e3734",
+      "id": "neighbour-0050-up"
+    },
+    {
+      "args": [
+        "0x403baa1546983f7b"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0d9a6",
+      "expected_bits": "0x45a72f41a8c0da19",
+      "id": "neighbour-0051-down"
+    },
+    {
+      "args": [
+        "0x403baa1546983f7d"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0da8e",
+      "expected_bits": "0x45a72f41a8c0daa8",
+      "id": "neighbour-0051-up"
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce3"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d13de",
+      "expected_bits": "0x45b08ef5991d141a",
+      "id": "neighbour-0052-down"
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce5"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d1462",
+      "expected_bits": "0x45b08ef5991d1486",
+      "id": "neighbour-0052-up"
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebd"
+      ],
+      "calc_func_prediction": "0x45c647aa3479010b",
+      "expected_bits": "0x45c647aa3479015a",
+      "id": "neighbour-0053-down"
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebf"
+      ],
+      "calc_func_prediction": "0x45c647aa347901bd",
+      "expected_bits": "0x45c647aa347901f1",
+      "id": "neighbour-0053-up"
+    },
+    {
+      "args": [
+        "0x403c354cc3194ccd"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a969c4",
+      "expected_bits": "0x45d18d0f72a969fb",
+      "id": "neighbour-0054-down"
+    },
+    {
+      "args": [
+        "0x403c354cc3194ccf"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a96a51",
+      "expected_bits": "0x45d18d0f72a96a6c",
+      "id": "neighbour-0054-up"
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b03"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d791",
+      "expected_bits": "0x45d71621a0e7d7d8",
+      "id": "neighbour-0055-down"
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b05"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d849",
+      "expected_bits": "0x45d71621a0e7d86a",
+      "id": "neighbour-0055-up"
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad99"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c5f3",
+      "expected_bits": "0x45e020ef4568c60a",
+      "id": "neighbour-0056-down"
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad9b"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c674",
+      "expected_bits": "0x45e020ef4568c67d",
+      "id": "neighbour-0056-up"
+    },
+    {
+      "args": [
+        "0x403cd8c91e944696"
+      ],
+      "calc_func_prediction": "0x46026faca4edd3f9",
+      "expected_bits": "0x46026faca4edd42a",
+      "id": "neighbour-0057-down"
+    },
+    {
+      "args": [
+        "0x403cd8c91e944698"
+      ],
+      "calc_func_prediction": "0x46026faca4edd443",
+      "expected_bits": "0x46026faca4edd4a5",
+      "id": "neighbour-0057-up"
+    },
+    {
+      "args": [
+        "0x403db39a5cca6490"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf812",
+      "expected_bits": "0x46445a99ce1cf88b",
+      "id": "neighbour-0058-down"
+    },
+    {
+      "args": [
+        "0x403db39a5cca6492"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf906",
+      "expected_bits": "0x46445a99ce1cf91a",
+      "id": "neighbour-0058-up"
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e3"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b893",
+      "expected_bits": "0x4667c19c16a1b8ea",
+      "id": "neighbour-0059-down"
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e5"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b8f2",
+      "expected_bits": "0x4667c19c16a1b98e",
+      "id": "neighbour-0059-up"
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb32"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57db98",
+      "expected_bits": "0x46689f8e2c57dbaf",
+      "id": "neighbour-0060-down"
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb34"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57dbfa",
+      "expected_bits": "0x46689f8e2c57dc53",
+      "id": "neighbour-0060-up"
+    },
+    {
+      "args": [
+        "0x403e313162d036f7"
+      ],
+      "calc_func_prediction": "0x466abf642056cf85",
+      "expected_bits": "0x466abf642056cfb3",
+      "id": "neighbour-0061-down"
+    },
+    {
+      "args": [
+        "0x403e313162d036f9"
+      ],
+      "calc_func_prediction": "0x466abf642056d05b",
+      "expected_bits": "0x466abf642056d069",
+      "id": "neighbour-0061-up"
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902caa"
+      ],
+      "calc_func_prediction": "0x466f9878761ee63e",
+      "expected_bits": "0x466f9878761ee6c3",
+      "id": "neighbour-0062-down"
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902cac"
+      ],
+      "calc_func_prediction": "0x466f9878761ee6bc",
+      "expected_bits": "0x466f9878761ee79f",
+      "id": "neighbour-0062-up"
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c4"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a593",
+      "expected_bits": "0x4688c6049f67a62a",
+      "id": "neighbour-0063-down"
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c6"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a659",
+      "expected_bits": "0x4688c6049f67a6ca",
+      "id": "neighbour-0063-up"
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b2"
+      ],
+      "calc_func_prediction": "0x46910723a01b72c4",
+      "expected_bits": "0x46910723a01b72ab",
+      "id": "neighbour-0064-down"
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b4"
+      ],
+      "calc_func_prediction": "0x46910723a01b7308",
+      "expected_bits": "0x46910723a01b731c",
+      "id": "neighbour-0064-up"
+    },
+    {
+      "args": [
+        "0x403f150a79c3666b"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d596",
+      "expected_bits": "0x46b152502ff4d587",
+      "id": "neighbour-0065-down"
+    },
+    {
+      "args": [
+        "0x403f150a79c3666d"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d5db",
+      "expected_bits": "0x46b152502ff4d5fe",
+      "id": "neighbour-0065-up"
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9014"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "expected_bits": "0x46be18a8c72ab471",
+      "id": "neighbour-0066-down"
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9016"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "expected_bits": "0x46be18a8c72ab53a",
+      "id": "neighbour-0066-up"
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efa"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2c12",
+      "expected_bits": "0x471b21ac995a2c1b",
+      "id": "neighbour-0067-down"
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efc"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2ceb",
+      "expected_bits": "0x471b21ac995a2d8f",
+      "id": "neighbour-0067-up"
+    },
+    {
+      "args": [
+        "0x404041813773a44d"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb4a8",
+      "expected_bits": "0x472296e5a92fb50f",
+      "id": "neighbour-0068-down"
+    },
+    {
+      "args": [
+        "0x404041813773a44f"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb587",
+      "expected_bits": "0x472296e5a92fb60f",
+      "id": "neighbour-0068-up"
+    },
+    {
+      "args": [
+        "0x40406289488cf37b"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4e28",
+      "expected_bits": "0x4736c24177ef4e25",
+      "id": "neighbour-0069-down"
+    },
+    {
+      "args": [
+        "0x40406289488cf37d"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4f39",
+      "expected_bits": "0x4736c24177ef4f57",
+      "id": "neighbour-0069-up"
+    },
+    {
+      "args": [
+        "0x4040835359058157"
+      ],
+      "calc_func_prediction": "0x474bbccdbd7273a8",
+      "expected_bits": "0x474bbccdbd7273e6",
+      "id": "neighbour-0070-down"
+    },
+    {
+      "args": [
+        "0x4040835359058159"
+      ],
+      "calc_func_prediction": "0x474bbccdbd727563",
+      "expected_bits": "0x474bbccdbd72756e",
+      "id": "neighbour-0070-up"
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8a"
+      ],
+      "calc_func_prediction": "0x4777ba902c8316f8",
+      "expected_bits": "0x4777ba902c8317a5",
+      "id": "neighbour-0071-down"
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8c"
+      ],
+      "calc_func_prediction": "0x4777ba902c831874",
+      "expected_bits": "0x4777ba902c831903",
+      "id": "neighbour-0071-up"
+    },
+    {
+      "args": [
+        "0x4041a496a551c282"
+      ],
+      "calc_func_prediction": "0x48031f032be4de72",
+      "expected_bits": "0x48031f032be4dea2",
+      "id": "neighbour-0072-down"
+    },
+    {
+      "args": [
+        "0x4041a496a551c284"
+      ],
+      "calc_func_prediction": "0x48031f032be4dff1",
+      "expected_bits": "0x48031f032be4dfa8",
+      "id": "neighbour-0072-up"
+    },
+    {
+      "args": [
+        "0x4041ad63b09a0649"
+      ],
+      "calc_func_prediction": "0x4808686080718a5a",
+      "expected_bits": "0x4808686080718a4e",
+      "id": "neighbour-0073-down"
+    },
+    {
+      "args": [
+        "0x4041ad63b09a064b"
+      ],
+      "calc_func_prediction": "0x4808686080718b1d",
+      "expected_bits": "0x4808686080718bb1",
+      "id": "neighbour-0073-up"
+    },
+    {
+      "args": [
+        "0x4042065902dbaf36"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcee7",
+      "expected_bits": "0x48421fc667cbcf0f",
+      "id": "neighbour-0074-down"
+    },
+    {
+      "args": [
+        "0x4042065902dbaf38"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcfc1",
+      "expected_bits": "0x48421fc667cbd01a",
+      "id": "neighbour-0074-up"
+    },
+    {
+      "args": [
+        "0x40421058ed7b607a"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5323",
+      "expected_bits": "0x4847f53ea57e53a2",
+      "id": "neighbour-0075-down"
+    },
+    {
+      "args": [
+        "0x40421058ed7b607c"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5502",
+      "expected_bits": "0x4847f53ea57e54f9",
+      "id": "neighbour-0075-up"
+    },
+    {
+      "args": [
+        "0x404257e781f9691f"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf66538",
+      "expected_bits": "0x48762b9c4cf665d1",
+      "id": "neighbour-0076-down"
+    },
+    {
+      "args": [
+        "0x404257e781f96921"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf6674c",
+      "expected_bits": "0x48762b9c4cf666ff",
+      "id": "neighbour-0076-up"
+    },
+    {
+      "args": [
+        "0x4042d2186f431475"
+      ],
+      "calc_func_prediction": "0x48c592405163c38f",
+      "expected_bits": "0x48c592405163c38f",
+      "id": "neighbour-0077-down"
+    },
+    {
+      "args": [
+        "0x4042d2186f431477"
+      ],
+      "calc_func_prediction": "0x48c592405163c4e8",
+      "expected_bits": "0x48c592405163c4c6",
+      "id": "neighbour-0077-up"
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd981"
+      ],
+      "calc_func_prediction": "0x48e36642c52a55bc",
+      "expected_bits": "0x48e36642c52a55a2",
+      "id": "neighbour-0078-down"
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd983"
+      ],
+      "calc_func_prediction": "0x48e36642c52a56a5",
+      "expected_bits": "0x48e36642c52a56b8",
+      "id": "neighbour-0078-up"
+    },
+    {
+      "args": [
+        "0x4043041a80e64849"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc3011c0",
+      "expected_bits": "0x48e62f0bcc3011f2",
+      "id": "neighbour-0079-down"
+    },
+    {
+      "args": [
+        "0x4043041a80e6484b"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc301272",
+      "expected_bits": "0x48e62f0bcc30133e",
+      "id": "neighbour-0079-up"
+    },
+    {
+      "args": [
+        "0x40436d789c22f13a"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97bbe8",
+      "expected_bits": "0x492ba8c90e97bc41",
+      "id": "neighbour-0080-down"
+    },
+    {
+      "args": [
+        "0x40436d789c22f13c"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97be11",
+      "expected_bits": "0x492ba8c90e97bdd1",
+      "id": "neighbour-0080-up"
+    },
+    {
+      "args": [
+        "0x404394597891f27b"
+      ],
+      "calc_func_prediction": "0x4944f58794535065",
+      "expected_bits": "0x4944f587945350b2",
+      "id": "neighbour-0081-down"
+    },
+    {
+      "args": [
+        "0x404394597891f27d"
+      ],
+      "calc_func_prediction": "0x4944f58794535208",
+      "expected_bits": "0x4944f587945351ee",
+      "id": "neighbour-0081-up"
+    },
+    {
+      "args": [
+        "0x4043993b096596df"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0b52",
+      "expected_bits": "0x49481810cb4a0bc6",
+      "id": "neighbour-0082-down"
+    },
+    {
+      "args": [
+        "0x4043993b096596e1"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0d34",
+      "expected_bits": "0x49481810cb4a0d25",
+      "id": "neighbour-0082-up"
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf7"
+      ],
+      "calc_func_prediction": "0x49551355a434fcb1",
+      "expected_bits": "0x49551355a434fcb2",
+      "id": "neighbour-0083-down"
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf9"
+      ],
+      "calc_func_prediction": "0x49551355a434fe02",
+      "expected_bits": "0x49551355a434fde8",
+      "id": "neighbour-0083-up"
+    },
+    {
+      "args": [
+        "0x4043bee60de1d3fe"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9dd1",
+      "expected_bits": "0x4961aee8ad0e9d96",
+      "id": "neighbour-0084-down"
+    },
+    {
+      "args": [
+        "0x4043bee60de1d400"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9ea5",
+      "expected_bits": "0x4961aee8ad0e9e9a",
+      "id": "neighbour-0084-up"
+    },
+    {
+      "args": [
+        "0x4043c5600768e099"
+      ],
+      "calc_func_prediction": "0x496548fba13e4bd8",
+      "expected_bits": "0x496548fba13e4c04",
+      "id": "neighbour-0085-down"
+    },
+    {
+      "args": [
+        "0x4043c5600768e09b"
+      ],
+      "calc_func_prediction": "0x496548fba13e4c83",
+      "expected_bits": "0x496548fba13e4d3d",
+      "id": "neighbour-0085-up"
+    },
+    {
+      "args": [
+        "0x404419d258a832ce"
+      ],
+      "calc_func_prediction": "0x499e04dafed72053",
+      "expected_bits": "0x499e04dafed720ce",
+      "id": "neighbour-0086-down"
+    },
+    {
+      "args": [
+        "0x404419d258a832d0"
+      ],
+      "calc_func_prediction": "0x499e04dafed722ac",
+      "expected_bits": "0x499e04dafed72290",
+      "id": "neighbour-0086-up"
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd89"
+      ],
+      "calc_func_prediction": "0x4a03290acdea28ef",
+      "expected_bits": "0x4a03290acdea28fa",
+      "id": "neighbour-0087-down"
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd8b"
+      ],
+      "calc_func_prediction": "0x4a03290acdea2988",
+      "expected_bits": "0x4a03290acdea2a13",
+      "id": "neighbour-0087-up"
+    },
+    {
+      "args": [
+        "0x4044b67733b65669"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d54b",
+      "expected_bits": "0x4a059f4a40c8d5b9",
+      "id": "neighbour-0088-down"
+    },
+    {
+      "args": [
+        "0x4044b67733b6566b"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d6a5",
+      "expected_bits": "0x4a059f4a40c8d6f6",
+      "id": "neighbour-0088-up"
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae41"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457b41",
+      "expected_bits": "0x4a5aaaa005457b3a",
+      "id": "neighbour-0089-down"
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae43"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457c16",
+      "expected_bits": "0x4a5aaaa005457cc5",
+      "id": "neighbour-0089-up"
+    },
+    {
+      "args": [
+        "0x404537a18a3b7912"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259e8f1",
+      "expected_bits": "0x4a5cf5a0a259e8ff",
+      "id": "neighbour-0090-down"
+    },
+    {
+      "args": [
+        "0x404537a18a3b7914"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259ea4c",
+      "expected_bits": "0x4a5cf5a0a259eaae",
+      "id": "neighbour-0090-up"
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b0"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d12d",
+      "expected_bits": "0x4a6ce57ac254d175",
+      "id": "neighbour-0091-down"
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b2"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d288",
+      "expected_bits": "0x4a6ce57ac254d335",
+      "id": "neighbour-0091-up"
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd48"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9f9d8",
+      "expected_bits": "0x4a9063dbe3a9fa10",
+      "id": "neighbour-0092-down"
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd4a"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9fade",
+      "expected_bits": "0x4a9063dbe3a9fb03",
+      "id": "neighbour-0092-up"
+    },
+    {
+      "args": [
+        "0x404604249338eff0"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4be5",
+      "expected_bits": "0x4ae6ce68d9df4bc9",
+      "id": "neighbour-0093-down"
+    },
+    {
+      "args": [
+        "0x404604249338eff2"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4c9b",
+      "expected_bits": "0x4ae6ce68d9df4d21",
+      "id": "neighbour-0093-up"
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7c"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b959d",
+      "expected_bits": "0x5a4c17a9d00b96f5",
+      "id": "neighbour-0094-down"
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7e"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b975e",
+      "expected_bits": "0x5a4c17a9d00b9ace",
+      "id": "neighbour-0094-up"
+    },
+    {
+      "args": [
+        "0x4055b9d368280d11"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d0f5",
+      "expected_bits": "0x5af6bb246d36d419",
+      "id": "neighbour-0095-down"
+    },
+    {
+      "args": [
+        "0x4055b9d368280d13"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d538",
+      "expected_bits": "0x5af6bb246d36d74e",
+      "id": "neighbour-0095-up"
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e6"
+      ],
+      "calc_func_prediction": "0x5c7702f454606df6",
+      "expected_bits": "0x5c7702f454606f52",
+      "id": "neighbour-0096-down"
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e8"
+      ],
+      "calc_func_prediction": "0x5c7702f454607247",
+      "expected_bits": "0x5c7702f454607297",
+      "id": "neighbour-0096-up"
+    }
+  ]
+}

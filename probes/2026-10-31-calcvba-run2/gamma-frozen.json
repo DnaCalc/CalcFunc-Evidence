@@ -1,0 +1,4775 @@
+{
+  "calc_func_commit": "379d51f9f753d5d9874520bbffc838f1cbca19aa",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-10-31T03:49:43Z",
+  "function": "GAMMA",
+  "input_document": {
+    "changed_controls": 97,
+    "function": "GAMMA",
+    "new_neighbours": 194,
+    "selection": "All 97 identities changed by df1215e versus its parent, replayed through the same CalcFunc call and verdict helpers on Windows; plus 194 adjacent binary64 inputs absent from the loaded GAMMA banks. Chosen before fresh Excel readings. No coefficient search.",
+    "witnesses": [
+      {
+        "args": [
+          "0x3f63781feba98e35"
+        ],
+        "banked_expected": "0x407a431056e92bf2",
+        "banked_id": "oc7702",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0000",
+        "model_prediction_at_selection": "0x407a431056e92bee",
+        "previous_prediction": "0x407a431056e92be7"
+      },
+      {
+        "args": [
+          "0x3fec7188ee8bd5c8"
+        ],
+        "banked_expected": "0x3ff13e9a10bd5c42",
+        "banked_id": "oc10364",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0001",
+        "model_prediction_at_selection": "0x3ff13e9a10bd5c48",
+        "previous_prediction": "0x3ff13e9a10bd5c4d"
+      },
+      {
+        "args": [
+          "0x400336c092761c9f"
+        ],
+        "banked_expected": "0x3ff3e5b1d5c080cd",
+        "banked_id": "oc11146",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0002",
+        "model_prediction_at_selection": "0x3ff3e5b1d5c080c9",
+        "previous_prediction": "0x3ff3e5b1d5c080ce"
+      },
+      {
+        "args": [
+          "0x400590fe1f150189"
+        ],
+        "banked_expected": "0x3ff8a1e7f6b34d46",
+        "banked_id": "oc11298",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0003",
+        "model_prediction_at_selection": "0x3ff8a1e7f6b34d46",
+        "previous_prediction": "0x3ff8a1e7f6b34d49"
+      },
+      {
+        "args": [
+          "0x40106835d4ba7864"
+        ],
+        "banked_expected": "0x401b4ffbbe21f2f0",
+        "banked_id": "oc330",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0004",
+        "model_prediction_at_selection": "0x401b4ffbbe21f2f3",
+        "previous_prediction": "0x401b4ffbbe21f2f6"
+      },
+      {
+        "args": [
+          "0x4012bab10deca83c"
+        ],
+        "banked_expected": "0x402e16dd42a4752e",
+        "banked_id": "oc466",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0005",
+        "model_prediction_at_selection": "0x402e16dd42a47526",
+        "previous_prediction": "0x402e16dd42a4752a"
+      },
+      {
+        "args": [
+          "0x40196cb2b76f2a55"
+        ],
+        "banked_expected": "0x406bda66d5e37726",
+        "banked_id": "oc780",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0006",
+        "model_prediction_at_selection": "0x406bda66d5e37749",
+        "previous_prediction": "0x406bda66d5e37750"
+      },
+      {
+        "args": [
+          "0x401ac8308fd76de8"
+        ],
+        "banked_expected": "0x4079a062db804d34",
+        "banked_id": "oc4204",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0007",
+        "model_prediction_at_selection": "0x4079a062db804d41",
+        "previous_prediction": "0x4079a062db804d47"
+      },
+      {
+        "args": [
+          "0x401efa98d39e5e59"
+        ],
+        "banked_expected": "0x40a7a40a68e20f0f",
+        "banked_id": "oc983",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0008",
+        "model_prediction_at_selection": "0x40a7a40a68e20f13",
+        "previous_prediction": "0x40a7a40a68e20f1f"
+      },
+      {
+        "args": [
+          "0x4023650d2204f20d"
+        ],
+        "banked_expected": "0x410684a9edfcbf52",
+        "banked_id": "oc1214",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0009",
+        "model_prediction_at_selection": "0x410684a9edfcbf6c",
+        "previous_prediction": "0x410684a9edfcbf77"
+      },
+      {
+        "args": [
+          "0x402b14eaca7a06a4"
+        ],
+        "banked_expected": "0x41dc4e9c1b50cdec",
+        "banked_id": "oc1557",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0010",
+        "model_prediction_at_selection": "0x41dc4e9c1b50cddd",
+        "previous_prediction": "0x41dc4e9c1b50cdfa"
+      },
+      {
+        "args": [
+          "0x402f957930cf3df3"
+        ],
+        "banked_expected": "0x42658bfb9f4a6f38",
+        "banked_id": "oc1715",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0011",
+        "model_prediction_at_selection": "0x42658bfb9f4a6f5a",
+        "previous_prediction": "0x42658bfb9f4a6f70"
+      },
+      {
+        "args": [
+          "0x403530351a9be0c7"
+        ],
+        "banked_expected": "0x43cdd74f368e3261",
+        "banked_id": "oc2017",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0012",
+        "model_prediction_at_selection": "0x43cdd74f368e31c4",
+        "previous_prediction": "0x43cdd74f368e3200"
+      },
+      {
+        "args": [
+          "0x4035e14363b34588"
+        ],
+        "banked_expected": "0x43feab5eab0d3628",
+        "banked_id": "oc2050",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0013",
+        "model_prediction_at_selection": "0x43feab5eab0d35ea",
+        "previous_prediction": "0x43feab5eab0d3627"
+      },
+      {
+        "args": [
+          "0x40360212187cc25c"
+        ],
+        "banked_expected": "0x4406b6c5ad9260e3",
+        "banked_id": "oc2056",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0014",
+        "model_prediction_at_selection": "0x4406b6c5ad9260be",
+        "previous_prediction": "0x4406b6c5ad9260eb"
+      },
+      {
+        "args": [
+          "0x4036128be0c29da0"
+        ],
+        "banked_expected": "0x440bad0469607974",
+        "banked_id": "oc2059",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0015",
+        "model_prediction_at_selection": "0x440bad04696078ff",
+        "previous_prediction": "0x440bad0469607936"
+      },
+      {
+        "args": [
+          "0x4036392d65ef81dd"
+        ],
+        "banked_expected": "0x44160237d1283e37",
+        "banked_id": "oc2066",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0016",
+        "model_prediction_at_selection": "0x44160237d1283df0",
+        "previous_prediction": "0x44160237d1283e1c"
+      },
+      {
+        "args": [
+          "0x40365a7fecec7256"
+        ],
+        "banked_expected": "0x44206f42b11da0a8",
+        "banked_id": "oc2072",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0017",
+        "model_prediction_at_selection": "0x44206f42b11da073",
+        "previous_prediction": "0x44206f42b11da094"
+      },
+      {
+        "args": [
+          "0x403670d2af0aa492"
+        ],
+        "banked_expected": "0x4425829db57d7258",
+        "banked_id": "oc2076",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0018",
+        "model_prediction_at_selection": "0x4425829db57d724f",
+        "previous_prediction": "0x4425829db57d727a"
+      },
+      {
+        "args": [
+          "0x4036813abaec194e"
+        ],
+        "banked_expected": "0x442a388447281efe",
+        "banked_id": "oc4392",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0019",
+        "model_prediction_at_selection": "0x442a388447281ed3",
+        "previous_prediction": "0x442a388447281f07"
+      },
+      {
+        "args": [
+          "0x40368cd97dcd9e99"
+        ],
+        "banked_expected": "0x442e2c10be39cd9b",
+        "banked_id": "oc2081",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0020",
+        "model_prediction_at_selection": "0x442e2c10be39cdb2",
+        "previous_prediction": "0x442e2c10be39cdef"
+      },
+      {
+        "args": [
+          "0x4036d0ac2ab9bc02"
+        ],
+        "banked_expected": "0x44412556680ce9db",
+        "banked_id": "oc2093",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0021",
+        "model_prediction_at_selection": "0x44412556680ce9cc",
+        "previous_prediction": "0x44412556680ce9ee"
+      },
+      {
+        "args": [
+          "0x4036d756f49a3069"
+        ],
+        "banked_expected": "0x44429724bf7b2146",
+        "banked_id": "oc4396",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0022",
+        "model_prediction_at_selection": "0x44429724bf7b2100",
+        "previous_prediction": "0x44429724bf7b2125"
+      },
+      {
+        "args": [
+          "0x4037040fe8d9e23d"
+        ],
+        "banked_expected": "0x4450013043cde9d9",
+        "banked_id": "oc2102",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0023",
+        "model_prediction_at_selection": "0x4450013043cde9e7",
+        "previous_prediction": "0x4450013043cdea07"
+      },
+      {
+        "args": [
+          "0x4037154ad4644f09"
+        ],
+        "banked_expected": "0x4453bd24c59ac9dd",
+        "banked_id": "oc2105",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0024",
+        "model_prediction_at_selection": "0x4453bd24c59ac9bb",
+        "previous_prediction": "0x4453bd24c59ac9e2"
+      },
+      {
+        "args": [
+          "0x403720ce9b53b829"
+        ],
+        "banked_expected": "0x4456b600cb52259e",
+        "banked_id": "oc2107",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0025",
+        "model_prediction_at_selection": "0x4456b600cb52254f",
+        "previous_prediction": "0x4456b600cb52257d"
+      },
+      {
+        "args": [
+          "0x4037321f0bbdc3cd"
+        ],
+        "banked_expected": "0x445c0c479a901cfc",
+        "banked_id": "oc2110",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0026",
+        "model_prediction_at_selection": "0x445c0c479a901ce2",
+        "previous_prediction": "0x445c0c479a901d1b"
+      },
+      {
+        "args": [
+          "0x403742fa3cb3cd49"
+        ],
+        "banked_expected": "0x446139fb48a988d1",
+        "banked_id": "oc4401",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0027",
+        "model_prediction_at_selection": "0x446139fb48a988d6",
+        "previous_prediction": "0x446139fb48a988f9"
+      },
+      {
+        "args": [
+          "0x4037608a5aefb461"
+        ],
+        "banked_expected": "0x4468b875e24902c8",
+        "banked_id": "oc2118",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0028",
+        "model_prediction_at_selection": "0x4468b875e2490283",
+        "previous_prediction": "0x4468b875e24902b4"
+      },
+      {
+        "args": [
+          "0x4037ca508cdf9f86"
+        ],
+        "banked_expected": "0x44869c2a3665ac1c",
+        "banked_id": "oc2136",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0029",
+        "model_prediction_at_selection": "0x44869c2a3665abda",
+        "previous_prediction": "0x44869c2a3665ac07"
+      },
+      {
+        "args": [
+          "0x40383bfe79d1058f"
+        ],
+        "banked_expected": "0x44a6f8b7745558ad",
+        "banked_id": "oc2155",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0030",
+        "model_prediction_at_selection": "0x44a6f8b774555840",
+        "previous_prediction": "0x44a6f8b77455586e"
+      },
+      {
+        "args": [
+          "0x4038454ee9be1298"
+        ],
+        "banked_expected": "0x44a9c719b5809f8b",
+        "banked_id": "oc4413",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0031",
+        "model_prediction_at_selection": "0x44a9c719b5809fa3",
+        "previous_prediction": "0x44a9c719b5809fd7"
+      },
+      {
+        "args": [
+          "0x4038543213bc024d"
+        ],
+        "banked_expected": "0x44aefedd3c8e9e5d",
+        "banked_id": "oc2159",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0032",
+        "model_prediction_at_selection": "0x44aefedd3c8e9e49",
+        "previous_prediction": "0x44aefedd3c8e9e87"
+      },
+      {
+        "args": [
+          "0x40385a42c00698e1"
+        ],
+        "banked_expected": "0x44b0b505e5e9f3bd",
+        "banked_id": "oc2160",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0033",
+        "model_prediction_at_selection": "0x44b0b505e5e9f3bd",
+        "previous_prediction": "0x44b0b505e5e9f3df"
+      },
+      {
+        "args": [
+          "0x40389b6b236c29b2"
+        ],
+        "banked_expected": "0x44c2c0e1daffe151",
+        "banked_id": "oc4417",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0034",
+        "model_prediction_at_selection": "0x44c2c0e1daffe115",
+        "previous_prediction": "0x44c2c0e1daffe13a"
+      },
+      {
+        "args": [
+          "0x4038f1875d1a40cd"
+        ],
+        "banked_expected": "0x44db6a31fa65e7b4",
+        "banked_id": "oc4421",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0035",
+        "model_prediction_at_selection": "0x44db6a31fa65e7ad",
+        "previous_prediction": "0x44db6a31fa65e7e4"
+      },
+      {
+        "args": [
+          "0x4039321c885cd220"
+        ],
+        "banked_expected": "0x44eebddb590e4e0d",
+        "banked_id": "oc4424",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0036",
+        "model_prediction_at_selection": "0x44eebddb590e4d9c",
+        "previous_prediction": "0x44eebddb590e4dda"
+      },
+      {
+        "args": [
+          "0x4039f7e5e59443a4"
+        ],
+        "banked_expected": "0x452729606239cb4f",
+        "banked_id": "oc2226",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0037",
+        "model_prediction_at_selection": "0x452729606239cb4b",
+        "previous_prediction": "0x452729606239cb79"
+      },
+      {
+        "args": [
+          "0x403a096318900be2"
+        ],
+        "banked_expected": "0x452ce5d2aed19812",
+        "banked_id": "oc4434",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0038",
+        "model_prediction_at_selection": "0x452ce5d2aed197cc",
+        "previous_prediction": "0x452ce5d2aed19806"
+      },
+      {
+        "args": [
+          "0x403a099db243202e"
+        ],
+        "banked_expected": "0x452cfb49a68bedef",
+        "banked_id": "oc80",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0039",
+        "model_prediction_at_selection": "0x452cfb49a68bedd8",
+        "previous_prediction": "0x452cfb49a68bee12"
+      },
+      {
+        "args": [
+          "0x403a11d4cd2f9483"
+        ],
+        "banked_expected": "0x4530143a6074f24a",
+        "banked_id": "oc2230",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0040",
+        "model_prediction_at_selection": "0x4530143a6074f209",
+        "previous_prediction": "0x4530143a6074f22a"
+      },
+      {
+        "args": [
+          "0x403a18549201292e"
+        ],
+        "banked_expected": "0x45317557b4d15ecf",
+        "banked_id": "oc2231",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0041",
+        "model_prediction_at_selection": "0x45317557b4d15e71",
+        "previous_prediction": "0x45317557b4d15e93"
+      },
+      {
+        "args": [
+          "0x403a2bdd9ab753c0"
+        ],
+        "banked_expected": "0x45365cada2f32f4f",
+        "banked_id": "oc2234",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0042",
+        "model_prediction_at_selection": "0x45365cada2f32ed1",
+        "previous_prediction": "0x45365cada2f32efe"
+      },
+      {
+        "args": [
+          "0x403a6d65946eae7a"
+        ],
+        "banked_expected": "0x4549b1add044a92e",
+        "banked_id": "oc2244",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0043",
+        "model_prediction_at_selection": "0x4549b1add044a89f",
+        "previous_prediction": "0x4549b1add044a8d2"
+      },
+      {
+        "args": [
+          "0x403a9ba64c5401b3"
+        ],
+        "banked_expected": "0x455725dacb5fc162",
+        "banked_id": "oc2251",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0044",
+        "model_prediction_at_selection": "0x455725dacb5fc105",
+        "previous_prediction": "0x455725dacb5fc133"
+      },
+      {
+        "args": [
+          "0x403aa0147d80b450"
+        ],
+        "banked_expected": "0x45587e14e5c9fd2d",
+        "banked_id": "oc4441",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0045",
+        "model_prediction_at_selection": "0x45587e14e5c9fcf9",
+        "previous_prediction": "0x45587e14e5c9fd2a"
+      },
+      {
+        "args": [
+          "0x403ad7951ad5a8c0"
+        ],
+        "banked_expected": "0x4568ddfec78c9c49",
+        "banked_id": "oc2260",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0046",
+        "model_prediction_at_selection": "0x4568ddfec78c9bde",
+        "previous_prediction": "0x4568ddfec78c9c10"
+      },
+      {
+        "args": [
+          "0x403ae4f8e88ce1e5"
+        ],
+        "banked_expected": "0x456d82552c79ecf1",
+        "banked_id": "oc2262",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0047",
+        "model_prediction_at_selection": "0x456d82552c79ec8b",
+        "previous_prediction": "0x456d82552c79ecc6"
+      },
+      {
+        "args": [
+          "0x403b35dc73f397d1"
+        ],
+        "banked_expected": "0x4584ca8f06ac7f70",
+        "banked_id": "oc2274",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0048",
+        "model_prediction_at_selection": "0x4584ca8f06ac7f06",
+        "previous_prediction": "0x4584ca8f06ac7f2f"
+      },
+      {
+        "args": [
+          "0x403b5108e3ff748d"
+        ],
+        "banked_expected": "0x458d78e09f8dbbd4",
+        "banked_id": "oc2278",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0049",
+        "model_prediction_at_selection": "0x458d78e09f8dbb72",
+        "previous_prediction": "0x458d78e09f8dbbac"
+      },
+      {
+        "args": [
+          "0x403b79fe76352532"
+        ],
+        "banked_expected": "0x4598f41ffa3e36da",
+        "banked_id": "oc2284",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0050",
+        "model_prediction_at_selection": "0x4598f41ffa3e368e",
+        "previous_prediction": "0x4598f41ffa3e36c0"
+      },
+      {
+        "args": [
+          "0x403baa1546983f7c"
+        ],
+        "banked_expected": "0x45a72f41a8c0da5f",
+        "banked_id": "oc2291",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0051",
+        "model_prediction_at_selection": "0x45a72f41a8c0da03",
+        "previous_prediction": "0x45a72f41a8c0da31"
+      },
+      {
+        "args": [
+          "0x403bc5b5c736cce4"
+        ],
+        "banked_expected": "0x45b08ef5991d144d",
+        "banked_id": "oc2295",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0052",
+        "model_prediction_at_selection": "0x45b08ef5991d13ff",
+        "previous_prediction": "0x45b08ef5991d1420"
+      },
+      {
+        "args": [
+          "0x403c123dbe1b5ebe"
+        ],
+        "banked_expected": "0x45c647aa347901a5",
+        "banked_id": "oc2306",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0053",
+        "model_prediction_at_selection": "0x45c647aa34790164",
+        "previous_prediction": "0x45c647aa347901bd"
+      },
+      {
+        "args": [
+          "0x403c354cc3194cce"
+        ],
+        "banked_expected": "0x45d18d0f72a96a35",
+        "banked_id": "oc2311",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0054",
+        "model_prediction_at_selection": "0x45d18d0f72a96a0a",
+        "previous_prediction": "0x45d18d0f72a96a51"
+      },
+      {
+        "args": [
+          "0x403c4a6ac6f25b04"
+        ],
+        "banked_expected": "0x45d71621a0e7d81f",
+        "banked_id": "oc2314",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0055",
+        "model_prediction_at_selection": "0x45d71621a0e7d791",
+        "previous_prediction": "0x45d71621a0e7d7ed"
+      },
+      {
+        "args": [
+          "0x403c6428ac52ad9a"
+        ],
+        "banked_expected": "0x45e020ef4568c643",
+        "banked_id": "oc4462",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0056",
+        "model_prediction_at_selection": "0x45e020ef4568c634",
+        "previous_prediction": "0x45e020ef4568c674"
+      },
+      {
+        "args": [
+          "0x403cd8c91e944697"
+        ],
+        "banked_expected": "0x46026faca4edd468",
+        "banked_id": "oc2334",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0057",
+        "model_prediction_at_selection": "0x46026faca4edd443",
+        "previous_prediction": "0x46026faca4edd48c"
+      },
+      {
+        "args": [
+          "0x403db39a5cca6491"
+        ],
+        "banked_expected": "0x46445a99ce1cf8d3",
+        "banked_id": "oc2364",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0058",
+        "model_prediction_at_selection": "0x46445a99ce1cf863",
+        "previous_prediction": "0x46445a99ce1cf8b5"
+      },
+      {
+        "args": [
+          "0x403e283cdb24a6e4"
+        ],
+        "banked_expected": "0x4667c19c16a1b93d",
+        "banked_id": "oc4483",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0059",
+        "model_prediction_at_selection": "0x4667c19c16a1b893",
+        "previous_prediction": "0x4667c19c16a1b8f2"
+      },
+      {
+        "args": [
+          "0x403e2af1d1dfbb33"
+        ],
+        "banked_expected": "0x46689f8e2c57dbfe",
+        "banked_id": "oc2380",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0060",
+        "model_prediction_at_selection": "0x46689f8e2c57db98",
+        "previous_prediction": "0x46689f8e2c57dbfa"
+      },
+      {
+        "args": [
+          "0x403e313162d036f8"
+        ],
+        "banked_expected": "0x466abf642056d012",
+        "banked_id": "oc79",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0061",
+        "model_prediction_at_selection": "0x466abf642056cf85",
+        "previous_prediction": "0x466abf642056cff0"
+      },
+      {
+        "args": [
+          "0x403e3dc3e9902cab"
+        ],
+        "banked_expected": "0x466f9878761ee735",
+        "banked_id": "oc4484",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0062",
+        "model_prediction_at_selection": "0x466f9878761ee63e",
+        "previous_prediction": "0x466f9878761ee6bc"
+      },
+      {
+        "args": [
+          "0x403e93e0233e43c5"
+        ],
+        "banked_expected": "0x4688c6049f67a681",
+        "banked_id": "oc4488",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0063",
+        "model_prediction_at_selection": "0x4688c6049f67a5f6",
+        "previous_prediction": "0x4688c6049f67a659"
+      },
+      {
+        "args": [
+          "0x403eabcc52c175b3"
+        ],
+        "banked_expected": "0x46910723a01b72e2",
+        "banked_id": "oc2397",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0064",
+        "model_prediction_at_selection": "0x46910723a01b7280",
+        "previous_prediction": "0x46910723a01b72c4"
+      },
+      {
+        "args": [
+          "0x403f150a79c3666c"
+        ],
+        "banked_expected": "0x46b152502ff4d5c4",
+        "banked_id": "oc4494",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0065",
+        "model_prediction_at_selection": "0x46b152502ff4d596",
+        "previous_prediction": "0x46b152502ff4d5db"
+      },
+      {
+        "args": [
+          "0x403f3e5b4fcb9015"
+        ],
+        "banked_expected": "0x46be18a8c72ab4ce",
+        "banked_id": "oc2416",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0066",
+        "model_prediction_at_selection": "0x46be18a8c72ab444",
+        "previous_prediction": "0x46be18a8c72ab4bc"
+      },
+      {
+        "args": [
+          "0x404035dda6ea0efb"
+        ],
+        "banked_expected": "0x471b21ac995a2cd6",
+        "banked_id": "oc2454",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0067",
+        "model_prediction_at_selection": "0x471b21ac995a2c7e",
+        "previous_prediction": "0x471b21ac995a2ceb"
+      },
+      {
+        "args": [
+          "0x404041813773a44e"
+        ],
+        "banked_expected": "0x472296e5a92fb591",
+        "banked_id": "oc4511",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0068",
+        "model_prediction_at_selection": "0x472296e5a92fb4f2",
+        "previous_prediction": "0x472296e5a92fb53d"
+      },
+      {
+        "args": [
+          "0x40406289488cf37c"
+        ],
+        "banked_expected": "0x4736c24177ef4ec4",
+        "banked_id": "oc2465",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0069",
+        "model_prediction_at_selection": "0x4736c24177ef4e83",
+        "previous_prediction": "0x4736c24177ef4ede"
+      },
+      {
+        "args": [
+          "0x4040835359058158"
+        ],
+        "banked_expected": "0x474bbccdbd7274b1",
+        "banked_id": "oc2473",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0070",
+        "model_prediction_at_selection": "0x474bbccdbd727485",
+        "previous_prediction": "0x474bbccdbd7274f4"
+      },
+      {
+        "args": [
+          "0x4040c9db3e908b8b"
+        ],
+        "banked_expected": "0x4777ba902c831868",
+        "banked_id": "oc2490",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0071",
+        "model_prediction_at_selection": "0x4777ba902c831815",
+        "previous_prediction": "0x4777ba902c831874"
+      },
+      {
+        "args": [
+          "0x4041a496a551c283"
+        ],
+        "banked_expected": "0x48031f032be4df27",
+        "banked_id": "oc2541",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0072",
+        "model_prediction_at_selection": "0x48031f032be4df0b",
+        "previous_prediction": "0x48031f032be4df58"
+      },
+      {
+        "args": [
+          "0x4041ad63b09a064a"
+        ],
+        "banked_expected": "0x4808686080718b07",
+        "banked_id": "oc2543",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0073",
+        "model_prediction_at_selection": "0x4808686080718abc",
+        "previous_prediction": "0x4808686080718b1d"
+      },
+      {
+        "args": [
+          "0x4042065902dbaf37"
+        ],
+        "banked_expected": "0x48421fc667cbcf97",
+        "banked_id": "oc2563",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0074",
+        "model_prediction_at_selection": "0x48421fc667cbcf30",
+        "previous_prediction": "0x48421fc667cbcf78"
+      },
+      {
+        "args": [
+          "0x40421058ed7b607b"
+        ],
+        "banked_expected": "0x4847f53ea57e5455",
+        "banked_id": "oc4554",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0075",
+        "model_prediction_at_selection": "0x4847f53ea57e5382",
+        "previous_prediction": "0x4847f53ea57e53e2"
+      },
+      {
+        "args": [
+          "0x404257e781f96920"
+        ],
+        "banked_expected": "0x48762b9c4cf66664",
+        "banked_id": "oc2581",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0076",
+        "model_prediction_at_selection": "0x48762b9c4cf6669a",
+        "previous_prediction": "0x48762b9c4cf666f3"
+      },
+      {
+        "args": [
+          "0x4042d2186f431476"
+        ],
+        "banked_expected": "0x48c592405163c432",
+        "banked_id": "oc4572",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0077",
+        "model_prediction_at_selection": "0x48c592405163c3e5",
+        "previous_prediction": "0x48c592405163c43b"
+      },
+      {
+        "args": [
+          "0x4042ff5e141fd982"
+        ],
+        "banked_expected": "0x48e36642c52a562c",
+        "banked_id": "oc2617",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0078",
+        "model_prediction_at_selection": "0x48e36642c52a560a",
+        "previous_prediction": "0x48e36642c52a5657"
+      },
+      {
+        "args": [
+          "0x4043041a80e6484a"
+        ],
+        "banked_expected": "0x48e62f0bcc30129f",
+        "banked_id": "oc2618",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0079",
+        "model_prediction_at_selection": "0x48e62f0bcc301219",
+        "previous_prediction": "0x48e62f0bcc301272"
+      },
+      {
+        "args": [
+          "0x40436d789c22f13b"
+        ],
+        "banked_expected": "0x492ba8c90e97bd1a",
+        "banked_id": "oc2640",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0080",
+        "model_prediction_at_selection": "0x492ba8c90e97bc56",
+        "previous_prediction": "0x492ba8c90e97bcc5"
+      },
+      {
+        "args": [
+          "0x404394597891f27c"
+        ],
+        "banked_expected": "0x4944f5879453515d",
+        "banked_id": "oc2648",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0081",
+        "model_prediction_at_selection": "0x4944f5879453510d",
+        "previous_prediction": "0x4944f58794535161"
+      },
+      {
+        "args": [
+          "0x4043993b096596e0"
+        ],
+        "banked_expected": "0x49481810cb4a0c72",
+        "banked_id": "oc2649",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0082",
+        "model_prediction_at_selection": "0x49481810cb4a0bb3",
+        "previous_prediction": "0x49481810cb4a0c13"
+      },
+      {
+        "args": [
+          "0x4043accd7adfadf8"
+        ],
+        "banked_expected": "0x49551355a434fd57",
+        "banked_id": "oc2653",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0083",
+        "model_prediction_at_selection": "0x49551355a434fcb1",
+        "previous_prediction": "0x49551355a434fd05"
+      },
+      {
+        "args": [
+          "0x4043bee60de1d3ff"
+        ],
+        "banked_expected": "0x4961aee8ad0e9e0d",
+        "banked_id": "oc4594",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0084",
+        "model_prediction_at_selection": "0x4961aee8ad0e9dd1",
+        "previous_prediction": "0x4961aee8ad0e9e18"
+      },
+      {
+        "args": [
+          "0x4043c5600768e09a"
+        ],
+        "banked_expected": "0x496548fba13e4ca6",
+        "banked_id": "oc2658",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0085",
+        "model_prediction_at_selection": "0x496548fba13e4cd8",
+        "previous_prediction": "0x496548fba13e4d2d"
+      },
+      {
+        "args": [
+          "0x404419d258a832cf"
+        ],
+        "banked_expected": "0x499e04dafed721c3",
+        "banked_id": "oc2675",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0086",
+        "model_prediction_at_selection": "0x499e04dafed720cc",
+        "previous_prediction": "0x499e04dafed72144"
+      },
+      {
+        "args": [
+          "0x4044b24bf160bd8a"
+        ],
+        "banked_expected": "0x4a03290acdea298c",
+        "banked_id": "oc2705",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0087",
+        "model_prediction_at_selection": "0x4a03290acdea293c",
+        "previous_prediction": "0x4a03290acdea2988"
+      },
+      {
+        "args": [
+          "0x4044b67733b6566a"
+        ],
+        "banked_expected": "0x4a059f4a40c8d64e",
+        "banked_id": "oc4617",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0088",
+        "model_prediction_at_selection": "0x4a059f4a40c8d5a2",
+        "previous_prediction": "0x4a059f4a40c8d5f8"
+      },
+      {
+        "args": [
+          "0x404534ce02a9ae42"
+        ],
+        "banked_expected": "0x4a5aaaa005457c01",
+        "banked_id": "oc2730",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0089",
+        "model_prediction_at_selection": "0x4a5aaaa005457bab",
+        "previous_prediction": "0x4a5aaaa005457c16"
+      },
+      {
+        "args": [
+          "0x404537a18a3b7913"
+        ],
+        "banked_expected": "0x4a5cf5a0a259e9ca",
+        "banked_id": "oc4629",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0090",
+        "model_prediction_at_selection": "0x4a5cf5a0a259e964",
+        "previous_prediction": "0x4a5cf5a0a259e9d8"
+      },
+      {
+        "args": [
+          "0x40454f4a2330a7b1"
+        ],
+        "banked_expected": "0x4a6ce57ac254d258",
+        "banked_id": "oc2735",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0091",
+        "model_prediction_at_selection": "0x4a6ce57ac254d214",
+        "previous_prediction": "0x4a6ce57ac254d288"
+      },
+      {
+        "args": [
+          "0x404582fa3cb3cd49"
+        ],
+        "banked_expected": "0x4a9063dbe3a9fa8e",
+        "banked_id": "oc4636",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0092",
+        "model_prediction_at_selection": "0x4a9063dbe3a9fa1a",
+        "previous_prediction": "0x4a9063dbe3a9fa5b"
+      },
+      {
+        "args": [
+          "0x404604249338eff1"
+        ],
+        "banked_expected": "0x4ae6ce68d9df4c7a",
+        "banked_id": "oc4648",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0093",
+        "model_prediction_at_selection": "0x4ae6ce68d9df4c40",
+        "previous_prediction": "0x4ae6ce68d9df4c9b"
+      },
+      {
+        "args": [
+          "0x40554f32b00ffb7d"
+        ],
+        "banked_expected": "0x5a4c17a9d00b9910",
+        "banked_id": "oc5138",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0094",
+        "model_prediction_at_selection": "0x5a4c17a9d00b959d",
+        "previous_prediction": "0x5a4c17a9d00b975e"
+      },
+      {
+        "args": [
+          "0x4055b9d368280d12"
+        ],
+        "banked_expected": "0x5af6bb246d36d5bd",
+        "banked_id": "oc3467",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0095",
+        "model_prediction_at_selection": "0x5af6bb246d36d538",
+        "previous_prediction": "0x5af6bb246d36d6a4"
+      },
+      {
+        "args": [
+          "0x4056a7a396c857e7"
+        ],
+        "banked_expected": "0x5c7702f454607115",
+        "banked_id": "oc5202",
+        "banked_source": "cache/oracle/build-20131/GAMMA.jsonl",
+        "id": "changed-0096",
+        "model_prediction_at_selection": "0x5c7702f454606c86",
+        "previous_prediction": "0x5c7702f454606df6"
+      },
+      {
+        "args": [
+          "0x3f63781feba98e34"
+        ],
+        "id": "neighbour-0000-down",
+        "neighbour_of": "0x3f63781feba98e35"
+      },
+      {
+        "args": [
+          "0x3f63781feba98e36"
+        ],
+        "id": "neighbour-0000-up",
+        "neighbour_of": "0x3f63781feba98e35"
+      },
+      {
+        "args": [
+          "0x3fec7188ee8bd5c7"
+        ],
+        "id": "neighbour-0001-down",
+        "neighbour_of": "0x3fec7188ee8bd5c8"
+      },
+      {
+        "args": [
+          "0x3fec7188ee8bd5c9"
+        ],
+        "id": "neighbour-0001-up",
+        "neighbour_of": "0x3fec7188ee8bd5c8"
+      },
+      {
+        "args": [
+          "0x400336c092761c9e"
+        ],
+        "id": "neighbour-0002-down",
+        "neighbour_of": "0x400336c092761c9f"
+      },
+      {
+        "args": [
+          "0x400336c092761ca0"
+        ],
+        "id": "neighbour-0002-up",
+        "neighbour_of": "0x400336c092761c9f"
+      },
+      {
+        "args": [
+          "0x400590fe1f150188"
+        ],
+        "id": "neighbour-0003-down",
+        "neighbour_of": "0x400590fe1f150189"
+      },
+      {
+        "args": [
+          "0x400590fe1f15018a"
+        ],
+        "id": "neighbour-0003-up",
+        "neighbour_of": "0x400590fe1f150189"
+      },
+      {
+        "args": [
+          "0x40106835d4ba7863"
+        ],
+        "id": "neighbour-0004-down",
+        "neighbour_of": "0x40106835d4ba7864"
+      },
+      {
+        "args": [
+          "0x40106835d4ba7865"
+        ],
+        "id": "neighbour-0004-up",
+        "neighbour_of": "0x40106835d4ba7864"
+      },
+      {
+        "args": [
+          "0x4012bab10deca83b"
+        ],
+        "id": "neighbour-0005-down",
+        "neighbour_of": "0x4012bab10deca83c"
+      },
+      {
+        "args": [
+          "0x4012bab10deca83d"
+        ],
+        "id": "neighbour-0005-up",
+        "neighbour_of": "0x4012bab10deca83c"
+      },
+      {
+        "args": [
+          "0x40196cb2b76f2a54"
+        ],
+        "id": "neighbour-0006-down",
+        "neighbour_of": "0x40196cb2b76f2a55"
+      },
+      {
+        "args": [
+          "0x40196cb2b76f2a56"
+        ],
+        "id": "neighbour-0006-up",
+        "neighbour_of": "0x40196cb2b76f2a55"
+      },
+      {
+        "args": [
+          "0x401ac8308fd76de7"
+        ],
+        "id": "neighbour-0007-down",
+        "neighbour_of": "0x401ac8308fd76de8"
+      },
+      {
+        "args": [
+          "0x401ac8308fd76de9"
+        ],
+        "id": "neighbour-0007-up",
+        "neighbour_of": "0x401ac8308fd76de8"
+      },
+      {
+        "args": [
+          "0x401efa98d39e5e58"
+        ],
+        "id": "neighbour-0008-down",
+        "neighbour_of": "0x401efa98d39e5e59"
+      },
+      {
+        "args": [
+          "0x401efa98d39e5e5a"
+        ],
+        "id": "neighbour-0008-up",
+        "neighbour_of": "0x401efa98d39e5e59"
+      },
+      {
+        "args": [
+          "0x4023650d2204f20c"
+        ],
+        "id": "neighbour-0009-down",
+        "neighbour_of": "0x4023650d2204f20d"
+      },
+      {
+        "args": [
+          "0x4023650d2204f20e"
+        ],
+        "id": "neighbour-0009-up",
+        "neighbour_of": "0x4023650d2204f20d"
+      },
+      {
+        "args": [
+          "0x402b14eaca7a06a3"
+        ],
+        "id": "neighbour-0010-down",
+        "neighbour_of": "0x402b14eaca7a06a4"
+      },
+      {
+        "args": [
+          "0x402b14eaca7a06a5"
+        ],
+        "id": "neighbour-0010-up",
+        "neighbour_of": "0x402b14eaca7a06a4"
+      },
+      {
+        "args": [
+          "0x402f957930cf3df2"
+        ],
+        "id": "neighbour-0011-down",
+        "neighbour_of": "0x402f957930cf3df3"
+      },
+      {
+        "args": [
+          "0x402f957930cf3df4"
+        ],
+        "id": "neighbour-0011-up",
+        "neighbour_of": "0x402f957930cf3df3"
+      },
+      {
+        "args": [
+          "0x403530351a9be0c6"
+        ],
+        "id": "neighbour-0012-down",
+        "neighbour_of": "0x403530351a9be0c7"
+      },
+      {
+        "args": [
+          "0x403530351a9be0c8"
+        ],
+        "id": "neighbour-0012-up",
+        "neighbour_of": "0x403530351a9be0c7"
+      },
+      {
+        "args": [
+          "0x4035e14363b34587"
+        ],
+        "id": "neighbour-0013-down",
+        "neighbour_of": "0x4035e14363b34588"
+      },
+      {
+        "args": [
+          "0x4035e14363b34589"
+        ],
+        "id": "neighbour-0013-up",
+        "neighbour_of": "0x4035e14363b34588"
+      },
+      {
+        "args": [
+          "0x40360212187cc25b"
+        ],
+        "id": "neighbour-0014-down",
+        "neighbour_of": "0x40360212187cc25c"
+      },
+      {
+        "args": [
+          "0x40360212187cc25d"
+        ],
+        "id": "neighbour-0014-up",
+        "neighbour_of": "0x40360212187cc25c"
+      },
+      {
+        "args": [
+          "0x4036128be0c29d9f"
+        ],
+        "id": "neighbour-0015-down",
+        "neighbour_of": "0x4036128be0c29da0"
+      },
+      {
+        "args": [
+          "0x4036128be0c29da1"
+        ],
+        "id": "neighbour-0015-up",
+        "neighbour_of": "0x4036128be0c29da0"
+      },
+      {
+        "args": [
+          "0x4036392d65ef81dc"
+        ],
+        "id": "neighbour-0016-down",
+        "neighbour_of": "0x4036392d65ef81dd"
+      },
+      {
+        "args": [
+          "0x4036392d65ef81de"
+        ],
+        "id": "neighbour-0016-up",
+        "neighbour_of": "0x4036392d65ef81dd"
+      },
+      {
+        "args": [
+          "0x40365a7fecec7255"
+        ],
+        "id": "neighbour-0017-down",
+        "neighbour_of": "0x40365a7fecec7256"
+      },
+      {
+        "args": [
+          "0x40365a7fecec7257"
+        ],
+        "id": "neighbour-0017-up",
+        "neighbour_of": "0x40365a7fecec7256"
+      },
+      {
+        "args": [
+          "0x403670d2af0aa491"
+        ],
+        "id": "neighbour-0018-down",
+        "neighbour_of": "0x403670d2af0aa492"
+      },
+      {
+        "args": [
+          "0x403670d2af0aa493"
+        ],
+        "id": "neighbour-0018-up",
+        "neighbour_of": "0x403670d2af0aa492"
+      },
+      {
+        "args": [
+          "0x4036813abaec194d"
+        ],
+        "id": "neighbour-0019-down",
+        "neighbour_of": "0x4036813abaec194e"
+      },
+      {
+        "args": [
+          "0x4036813abaec194f"
+        ],
+        "id": "neighbour-0019-up",
+        "neighbour_of": "0x4036813abaec194e"
+      },
+      {
+        "args": [
+          "0x40368cd97dcd9e98"
+        ],
+        "id": "neighbour-0020-down",
+        "neighbour_of": "0x40368cd97dcd9e99"
+      },
+      {
+        "args": [
+          "0x40368cd97dcd9e9a"
+        ],
+        "id": "neighbour-0020-up",
+        "neighbour_of": "0x40368cd97dcd9e99"
+      },
+      {
+        "args": [
+          "0x4036d0ac2ab9bc01"
+        ],
+        "id": "neighbour-0021-down",
+        "neighbour_of": "0x4036d0ac2ab9bc02"
+      },
+      {
+        "args": [
+          "0x4036d0ac2ab9bc03"
+        ],
+        "id": "neighbour-0021-up",
+        "neighbour_of": "0x4036d0ac2ab9bc02"
+      },
+      {
+        "args": [
+          "0x4036d756f49a3068"
+        ],
+        "id": "neighbour-0022-down",
+        "neighbour_of": "0x4036d756f49a3069"
+      },
+      {
+        "args": [
+          "0x4036d756f49a306a"
+        ],
+        "id": "neighbour-0022-up",
+        "neighbour_of": "0x4036d756f49a3069"
+      },
+      {
+        "args": [
+          "0x4037040fe8d9e23c"
+        ],
+        "id": "neighbour-0023-down",
+        "neighbour_of": "0x4037040fe8d9e23d"
+      },
+      {
+        "args": [
+          "0x4037040fe8d9e23e"
+        ],
+        "id": "neighbour-0023-up",
+        "neighbour_of": "0x4037040fe8d9e23d"
+      },
+      {
+        "args": [
+          "0x4037154ad4644f08"
+        ],
+        "id": "neighbour-0024-down",
+        "neighbour_of": "0x4037154ad4644f09"
+      },
+      {
+        "args": [
+          "0x4037154ad4644f0a"
+        ],
+        "id": "neighbour-0024-up",
+        "neighbour_of": "0x4037154ad4644f09"
+      },
+      {
+        "args": [
+          "0x403720ce9b53b828"
+        ],
+        "id": "neighbour-0025-down",
+        "neighbour_of": "0x403720ce9b53b829"
+      },
+      {
+        "args": [
+          "0x403720ce9b53b82a"
+        ],
+        "id": "neighbour-0025-up",
+        "neighbour_of": "0x403720ce9b53b829"
+      },
+      {
+        "args": [
+          "0x4037321f0bbdc3cc"
+        ],
+        "id": "neighbour-0026-down",
+        "neighbour_of": "0x4037321f0bbdc3cd"
+      },
+      {
+        "args": [
+          "0x4037321f0bbdc3ce"
+        ],
+        "id": "neighbour-0026-up",
+        "neighbour_of": "0x4037321f0bbdc3cd"
+      },
+      {
+        "args": [
+          "0x403742fa3cb3cd48"
+        ],
+        "id": "neighbour-0027-down",
+        "neighbour_of": "0x403742fa3cb3cd49"
+      },
+      {
+        "args": [
+          "0x403742fa3cb3cd4a"
+        ],
+        "id": "neighbour-0027-up",
+        "neighbour_of": "0x403742fa3cb3cd49"
+      },
+      {
+        "args": [
+          "0x4037608a5aefb460"
+        ],
+        "id": "neighbour-0028-down",
+        "neighbour_of": "0x4037608a5aefb461"
+      },
+      {
+        "args": [
+          "0x4037608a5aefb462"
+        ],
+        "id": "neighbour-0028-up",
+        "neighbour_of": "0x4037608a5aefb461"
+      },
+      {
+        "args": [
+          "0x4037ca508cdf9f85"
+        ],
+        "id": "neighbour-0029-down",
+        "neighbour_of": "0x4037ca508cdf9f86"
+      },
+      {
+        "args": [
+          "0x4037ca508cdf9f87"
+        ],
+        "id": "neighbour-0029-up",
+        "neighbour_of": "0x4037ca508cdf9f86"
+      },
+      {
+        "args": [
+          "0x40383bfe79d1058e"
+        ],
+        "id": "neighbour-0030-down",
+        "neighbour_of": "0x40383bfe79d1058f"
+      },
+      {
+        "args": [
+          "0x40383bfe79d10590"
+        ],
+        "id": "neighbour-0030-up",
+        "neighbour_of": "0x40383bfe79d1058f"
+      },
+      {
+        "args": [
+          "0x4038454ee9be1297"
+        ],
+        "id": "neighbour-0031-down",
+        "neighbour_of": "0x4038454ee9be1298"
+      },
+      {
+        "args": [
+          "0x4038454ee9be1299"
+        ],
+        "id": "neighbour-0031-up",
+        "neighbour_of": "0x4038454ee9be1298"
+      },
+      {
+        "args": [
+          "0x4038543213bc024c"
+        ],
+        "id": "neighbour-0032-down",
+        "neighbour_of": "0x4038543213bc024d"
+      },
+      {
+        "args": [
+          "0x4038543213bc024e"
+        ],
+        "id": "neighbour-0032-up",
+        "neighbour_of": "0x4038543213bc024d"
+      },
+      {
+        "args": [
+          "0x40385a42c00698e0"
+        ],
+        "id": "neighbour-0033-down",
+        "neighbour_of": "0x40385a42c00698e1"
+      },
+      {
+        "args": [
+          "0x40385a42c00698e2"
+        ],
+        "id": "neighbour-0033-up",
+        "neighbour_of": "0x40385a42c00698e1"
+      },
+      {
+        "args": [
+          "0x40389b6b236c29b1"
+        ],
+        "id": "neighbour-0034-down",
+        "neighbour_of": "0x40389b6b236c29b2"
+      },
+      {
+        "args": [
+          "0x40389b6b236c29b3"
+        ],
+        "id": "neighbour-0034-up",
+        "neighbour_of": "0x40389b6b236c29b2"
+      },
+      {
+        "args": [
+          "0x4038f1875d1a40cc"
+        ],
+        "id": "neighbour-0035-down",
+        "neighbour_of": "0x4038f1875d1a40cd"
+      },
+      {
+        "args": [
+          "0x4038f1875d1a40ce"
+        ],
+        "id": "neighbour-0035-up",
+        "neighbour_of": "0x4038f1875d1a40cd"
+      },
+      {
+        "args": [
+          "0x4039321c885cd21f"
+        ],
+        "id": "neighbour-0036-down",
+        "neighbour_of": "0x4039321c885cd220"
+      },
+      {
+        "args": [
+          "0x4039321c885cd221"
+        ],
+        "id": "neighbour-0036-up",
+        "neighbour_of": "0x4039321c885cd220"
+      },
+      {
+        "args": [
+          "0x4039f7e5e59443a3"
+        ],
+        "id": "neighbour-0037-down",
+        "neighbour_of": "0x4039f7e5e59443a4"
+      },
+      {
+        "args": [
+          "0x4039f7e5e59443a5"
+        ],
+        "id": "neighbour-0037-up",
+        "neighbour_of": "0x4039f7e5e59443a4"
+      },
+      {
+        "args": [
+          "0x403a096318900be1"
+        ],
+        "id": "neighbour-0038-down",
+        "neighbour_of": "0x403a096318900be2"
+      },
+      {
+        "args": [
+          "0x403a096318900be3"
+        ],
+        "id": "neighbour-0038-up",
+        "neighbour_of": "0x403a096318900be2"
+      },
+      {
+        "args": [
+          "0x403a099db243202d"
+        ],
+        "id": "neighbour-0039-down",
+        "neighbour_of": "0x403a099db243202e"
+      },
+      {
+        "args": [
+          "0x403a099db243202f"
+        ],
+        "id": "neighbour-0039-up",
+        "neighbour_of": "0x403a099db243202e"
+      },
+      {
+        "args": [
+          "0x403a11d4cd2f9482"
+        ],
+        "id": "neighbour-0040-down",
+        "neighbour_of": "0x403a11d4cd2f9483"
+      },
+      {
+        "args": [
+          "0x403a11d4cd2f9484"
+        ],
+        "id": "neighbour-0040-up",
+        "neighbour_of": "0x403a11d4cd2f9483"
+      },
+      {
+        "args": [
+          "0x403a18549201292d"
+        ],
+        "id": "neighbour-0041-down",
+        "neighbour_of": "0x403a18549201292e"
+      },
+      {
+        "args": [
+          "0x403a18549201292f"
+        ],
+        "id": "neighbour-0041-up",
+        "neighbour_of": "0x403a18549201292e"
+      },
+      {
+        "args": [
+          "0x403a2bdd9ab753bf"
+        ],
+        "id": "neighbour-0042-down",
+        "neighbour_of": "0x403a2bdd9ab753c0"
+      },
+      {
+        "args": [
+          "0x403a2bdd9ab753c1"
+        ],
+        "id": "neighbour-0042-up",
+        "neighbour_of": "0x403a2bdd9ab753c0"
+      },
+      {
+        "args": [
+          "0x403a6d65946eae79"
+        ],
+        "id": "neighbour-0043-down",
+        "neighbour_of": "0x403a6d65946eae7a"
+      },
+      {
+        "args": [
+          "0x403a6d65946eae7b"
+        ],
+        "id": "neighbour-0043-up",
+        "neighbour_of": "0x403a6d65946eae7a"
+      },
+      {
+        "args": [
+          "0x403a9ba64c5401b2"
+        ],
+        "id": "neighbour-0044-down",
+        "neighbour_of": "0x403a9ba64c5401b3"
+      },
+      {
+        "args": [
+          "0x403a9ba64c5401b4"
+        ],
+        "id": "neighbour-0044-up",
+        "neighbour_of": "0x403a9ba64c5401b3"
+      },
+      {
+        "args": [
+          "0x403aa0147d80b44f"
+        ],
+        "id": "neighbour-0045-down",
+        "neighbour_of": "0x403aa0147d80b450"
+      },
+      {
+        "args": [
+          "0x403aa0147d80b451"
+        ],
+        "id": "neighbour-0045-up",
+        "neighbour_of": "0x403aa0147d80b450"
+      },
+      {
+        "args": [
+          "0x403ad7951ad5a8bf"
+        ],
+        "id": "neighbour-0046-down",
+        "neighbour_of": "0x403ad7951ad5a8c0"
+      },
+      {
+        "args": [
+          "0x403ad7951ad5a8c1"
+        ],
+        "id": "neighbour-0046-up",
+        "neighbour_of": "0x403ad7951ad5a8c0"
+      },
+      {
+        "args": [
+          "0x403ae4f8e88ce1e4"
+        ],
+        "id": "neighbour-0047-down",
+        "neighbour_of": "0x403ae4f8e88ce1e5"
+      },
+      {
+        "args": [
+          "0x403ae4f8e88ce1e6"
+        ],
+        "id": "neighbour-0047-up",
+        "neighbour_of": "0x403ae4f8e88ce1e5"
+      },
+      {
+        "args": [
+          "0x403b35dc73f397d0"
+        ],
+        "id": "neighbour-0048-down",
+        "neighbour_of": "0x403b35dc73f397d1"
+      },
+      {
+        "args": [
+          "0x403b35dc73f397d2"
+        ],
+        "id": "neighbour-0048-up",
+        "neighbour_of": "0x403b35dc73f397d1"
+      },
+      {
+        "args": [
+          "0x403b5108e3ff748c"
+        ],
+        "id": "neighbour-0049-down",
+        "neighbour_of": "0x403b5108e3ff748d"
+      },
+      {
+        "args": [
+          "0x403b5108e3ff748e"
+        ],
+        "id": "neighbour-0049-up",
+        "neighbour_of": "0x403b5108e3ff748d"
+      },
+      {
+        "args": [
+          "0x403b79fe76352531"
+        ],
+        "id": "neighbour-0050-down",
+        "neighbour_of": "0x403b79fe76352532"
+      },
+      {
+        "args": [
+          "0x403b79fe76352533"
+        ],
+        "id": "neighbour-0050-up",
+        "neighbour_of": "0x403b79fe76352532"
+      },
+      {
+        "args": [
+          "0x403baa1546983f7b"
+        ],
+        "id": "neighbour-0051-down",
+        "neighbour_of": "0x403baa1546983f7c"
+      },
+      {
+        "args": [
+          "0x403baa1546983f7d"
+        ],
+        "id": "neighbour-0051-up",
+        "neighbour_of": "0x403baa1546983f7c"
+      },
+      {
+        "args": [
+          "0x403bc5b5c736cce3"
+        ],
+        "id": "neighbour-0052-down",
+        "neighbour_of": "0x403bc5b5c736cce4"
+      },
+      {
+        "args": [
+          "0x403bc5b5c736cce5"
+        ],
+        "id": "neighbour-0052-up",
+        "neighbour_of": "0x403bc5b5c736cce4"
+      },
+      {
+        "args": [
+          "0x403c123dbe1b5ebd"
+        ],
+        "id": "neighbour-0053-down",
+        "neighbour_of": "0x403c123dbe1b5ebe"
+      },
+      {
+        "args": [
+          "0x403c123dbe1b5ebf"
+        ],
+        "id": "neighbour-0053-up",
+        "neighbour_of": "0x403c123dbe1b5ebe"
+      },
+      {
+        "args": [
+          "0x403c354cc3194ccd"
+        ],
+        "id": "neighbour-0054-down",
+        "neighbour_of": "0x403c354cc3194cce"
+      },
+      {
+        "args": [
+          "0x403c354cc3194ccf"
+        ],
+        "id": "neighbour-0054-up",
+        "neighbour_of": "0x403c354cc3194cce"
+      },
+      {
+        "args": [
+          "0x403c4a6ac6f25b03"
+        ],
+        "id": "neighbour-0055-down",
+        "neighbour_of": "0x403c4a6ac6f25b04"
+      },
+      {
+        "args": [
+          "0x403c4a6ac6f25b05"
+        ],
+        "id": "neighbour-0055-up",
+        "neighbour_of": "0x403c4a6ac6f25b04"
+      },
+      {
+        "args": [
+          "0x403c6428ac52ad99"
+        ],
+        "id": "neighbour-0056-down",
+        "neighbour_of": "0x403c6428ac52ad9a"
+      },
+      {
+        "args": [
+          "0x403c6428ac52ad9b"
+        ],
+        "id": "neighbour-0056-up",
+        "neighbour_of": "0x403c6428ac52ad9a"
+      },
+      {
+        "args": [
+          "0x403cd8c91e944696"
+        ],
+        "id": "neighbour-0057-down",
+        "neighbour_of": "0x403cd8c91e944697"
+      },
+      {
+        "args": [
+          "0x403cd8c91e944698"
+        ],
+        "id": "neighbour-0057-up",
+        "neighbour_of": "0x403cd8c91e944697"
+      },
+      {
+        "args": [
+          "0x403db39a5cca6490"
+        ],
+        "id": "neighbour-0058-down",
+        "neighbour_of": "0x403db39a5cca6491"
+      },
+      {
+        "args": [
+          "0x403db39a5cca6492"
+        ],
+        "id": "neighbour-0058-up",
+        "neighbour_of": "0x403db39a5cca6491"
+      },
+      {
+        "args": [
+          "0x403e283cdb24a6e3"
+        ],
+        "id": "neighbour-0059-down",
+        "neighbour_of": "0x403e283cdb24a6e4"
+      },
+      {
+        "args": [
+          "0x403e283cdb24a6e5"
+        ],
+        "id": "neighbour-0059-up",
+        "neighbour_of": "0x403e283cdb24a6e4"
+      },
+      {
+        "args": [
+          "0x403e2af1d1dfbb32"
+        ],
+        "id": "neighbour-0060-down",
+        "neighbour_of": "0x403e2af1d1dfbb33"
+      },
+      {
+        "args": [
+          "0x403e2af1d1dfbb34"
+        ],
+        "id": "neighbour-0060-up",
+        "neighbour_of": "0x403e2af1d1dfbb33"
+      },
+      {
+        "args": [
+          "0x403e313162d036f7"
+        ],
+        "id": "neighbour-0061-down",
+        "neighbour_of": "0x403e313162d036f8"
+      },
+      {
+        "args": [
+          "0x403e313162d036f9"
+        ],
+        "id": "neighbour-0061-up",
+        "neighbour_of": "0x403e313162d036f8"
+      },
+      {
+        "args": [
+          "0x403e3dc3e9902caa"
+        ],
+        "id": "neighbour-0062-down",
+        "neighbour_of": "0x403e3dc3e9902cab"
+      },
+      {
+        "args": [
+          "0x403e3dc3e9902cac"
+        ],
+        "id": "neighbour-0062-up",
+        "neighbour_of": "0x403e3dc3e9902cab"
+      },
+      {
+        "args": [
+          "0x403e93e0233e43c4"
+        ],
+        "id": "neighbour-0063-down",
+        "neighbour_of": "0x403e93e0233e43c5"
+      },
+      {
+        "args": [
+          "0x403e93e0233e43c6"
+        ],
+        "id": "neighbour-0063-up",
+        "neighbour_of": "0x403e93e0233e43c5"
+      },
+      {
+        "args": [
+          "0x403eabcc52c175b2"
+        ],
+        "id": "neighbour-0064-down",
+        "neighbour_of": "0x403eabcc52c175b3"
+      },
+      {
+        "args": [
+          "0x403eabcc52c175b4"
+        ],
+        "id": "neighbour-0064-up",
+        "neighbour_of": "0x403eabcc52c175b3"
+      },
+      {
+        "args": [
+          "0x403f150a79c3666b"
+        ],
+        "id": "neighbour-0065-down",
+        "neighbour_of": "0x403f150a79c3666c"
+      },
+      {
+        "args": [
+          "0x403f150a79c3666d"
+        ],
+        "id": "neighbour-0065-up",
+        "neighbour_of": "0x403f150a79c3666c"
+      },
+      {
+        "args": [
+          "0x403f3e5b4fcb9014"
+        ],
+        "id": "neighbour-0066-down",
+        "neighbour_of": "0x403f3e5b4fcb9015"
+      },
+      {
+        "args": [
+          "0x403f3e5b4fcb9016"
+        ],
+        "id": "neighbour-0066-up",
+        "neighbour_of": "0x403f3e5b4fcb9015"
+      },
+      {
+        "args": [
+          "0x404035dda6ea0efa"
+        ],
+        "id": "neighbour-0067-down",
+        "neighbour_of": "0x404035dda6ea0efb"
+      },
+      {
+        "args": [
+          "0x404035dda6ea0efc"
+        ],
+        "id": "neighbour-0067-up",
+        "neighbour_of": "0x404035dda6ea0efb"
+      },
+      {
+        "args": [
+          "0x404041813773a44d"
+        ],
+        "id": "neighbour-0068-down",
+        "neighbour_of": "0x404041813773a44e"
+      },
+      {
+        "args": [
+          "0x404041813773a44f"
+        ],
+        "id": "neighbour-0068-up",
+        "neighbour_of": "0x404041813773a44e"
+      },
+      {
+        "args": [
+          "0x40406289488cf37b"
+        ],
+        "id": "neighbour-0069-down",
+        "neighbour_of": "0x40406289488cf37c"
+      },
+      {
+        "args": [
+          "0x40406289488cf37d"
+        ],
+        "id": "neighbour-0069-up",
+        "neighbour_of": "0x40406289488cf37c"
+      },
+      {
+        "args": [
+          "0x4040835359058157"
+        ],
+        "id": "neighbour-0070-down",
+        "neighbour_of": "0x4040835359058158"
+      },
+      {
+        "args": [
+          "0x4040835359058159"
+        ],
+        "id": "neighbour-0070-up",
+        "neighbour_of": "0x4040835359058158"
+      },
+      {
+        "args": [
+          "0x4040c9db3e908b8a"
+        ],
+        "id": "neighbour-0071-down",
+        "neighbour_of": "0x4040c9db3e908b8b"
+      },
+      {
+        "args": [
+          "0x4040c9db3e908b8c"
+        ],
+        "id": "neighbour-0071-up",
+        "neighbour_of": "0x4040c9db3e908b8b"
+      },
+      {
+        "args": [
+          "0x4041a496a551c282"
+        ],
+        "id": "neighbour-0072-down",
+        "neighbour_of": "0x4041a496a551c283"
+      },
+      {
+        "args": [
+          "0x4041a496a551c284"
+        ],
+        "id": "neighbour-0072-up",
+        "neighbour_of": "0x4041a496a551c283"
+      },
+      {
+        "args": [
+          "0x4041ad63b09a0649"
+        ],
+        "id": "neighbour-0073-down",
+        "neighbour_of": "0x4041ad63b09a064a"
+      },
+      {
+        "args": [
+          "0x4041ad63b09a064b"
+        ],
+        "id": "neighbour-0073-up",
+        "neighbour_of": "0x4041ad63b09a064a"
+      },
+      {
+        "args": [
+          "0x4042065902dbaf36"
+        ],
+        "id": "neighbour-0074-down",
+        "neighbour_of": "0x4042065902dbaf37"
+      },
+      {
+        "args": [
+          "0x4042065902dbaf38"
+        ],
+        "id": "neighbour-0074-up",
+        "neighbour_of": "0x4042065902dbaf37"
+      },
+      {
+        "args": [
+          "0x40421058ed7b607a"
+        ],
+        "id": "neighbour-0075-down",
+        "neighbour_of": "0x40421058ed7b607b"
+      },
+      {
+        "args": [
+          "0x40421058ed7b607c"
+        ],
+        "id": "neighbour-0075-up",
+        "neighbour_of": "0x40421058ed7b607b"
+      },
+      {
+        "args": [
+          "0x404257e781f9691f"
+        ],
+        "id": "neighbour-0076-down",
+        "neighbour_of": "0x404257e781f96920"
+      },
+      {
+        "args": [
+          "0x404257e781f96921"
+        ],
+        "id": "neighbour-0076-up",
+        "neighbour_of": "0x404257e781f96920"
+      },
+      {
+        "args": [
+          "0x4042d2186f431475"
+        ],
+        "id": "neighbour-0077-down",
+        "neighbour_of": "0x4042d2186f431476"
+      },
+      {
+        "args": [
+          "0x4042d2186f431477"
+        ],
+        "id": "neighbour-0077-up",
+        "neighbour_of": "0x4042d2186f431476"
+      },
+      {
+        "args": [
+          "0x4042ff5e141fd981"
+        ],
+        "id": "neighbour-0078-down",
+        "neighbour_of": "0x4042ff5e141fd982"
+      },
+      {
+        "args": [
+          "0x4042ff5e141fd983"
+        ],
+        "id": "neighbour-0078-up",
+        "neighbour_of": "0x4042ff5e141fd982"
+      },
+      {
+        "args": [
+          "0x4043041a80e64849"
+        ],
+        "id": "neighbour-0079-down",
+        "neighbour_of": "0x4043041a80e6484a"
+      },
+      {
+        "args": [
+          "0x4043041a80e6484b"
+        ],
+        "id": "neighbour-0079-up",
+        "neighbour_of": "0x4043041a80e6484a"
+      },
+      {
+        "args": [
+          "0x40436d789c22f13a"
+        ],
+        "id": "neighbour-0080-down",
+        "neighbour_of": "0x40436d789c22f13b"
+      },
+      {
+        "args": [
+          "0x40436d789c22f13c"
+        ],
+        "id": "neighbour-0080-up",
+        "neighbour_of": "0x40436d789c22f13b"
+      },
+      {
+        "args": [
+          "0x404394597891f27b"
+        ],
+        "id": "neighbour-0081-down",
+        "neighbour_of": "0x404394597891f27c"
+      },
+      {
+        "args": [
+          "0x404394597891f27d"
+        ],
+        "id": "neighbour-0081-up",
+        "neighbour_of": "0x404394597891f27c"
+      },
+      {
+        "args": [
+          "0x4043993b096596df"
+        ],
+        "id": "neighbour-0082-down",
+        "neighbour_of": "0x4043993b096596e0"
+      },
+      {
+        "args": [
+          "0x4043993b096596e1"
+        ],
+        "id": "neighbour-0082-up",
+        "neighbour_of": "0x4043993b096596e0"
+      },
+      {
+        "args": [
+          "0x4043accd7adfadf7"
+        ],
+        "id": "neighbour-0083-down",
+        "neighbour_of": "0x4043accd7adfadf8"
+      },
+      {
+        "args": [
+          "0x4043accd7adfadf9"
+        ],
+        "id": "neighbour-0083-up",
+        "neighbour_of": "0x4043accd7adfadf8"
+      },
+      {
+        "args": [
+          "0x4043bee60de1d3fe"
+        ],
+        "id": "neighbour-0084-down",
+        "neighbour_of": "0x4043bee60de1d3ff"
+      },
+      {
+        "args": [
+          "0x4043bee60de1d400"
+        ],
+        "id": "neighbour-0084-up",
+        "neighbour_of": "0x4043bee60de1d3ff"
+      },
+      {
+        "args": [
+          "0x4043c5600768e099"
+        ],
+        "id": "neighbour-0085-down",
+        "neighbour_of": "0x4043c5600768e09a"
+      },
+      {
+        "args": [
+          "0x4043c5600768e09b"
+        ],
+        "id": "neighbour-0085-up",
+        "neighbour_of": "0x4043c5600768e09a"
+      },
+      {
+        "args": [
+          "0x404419d258a832ce"
+        ],
+        "id": "neighbour-0086-down",
+        "neighbour_of": "0x404419d258a832cf"
+      },
+      {
+        "args": [
+          "0x404419d258a832d0"
+        ],
+        "id": "neighbour-0086-up",
+        "neighbour_of": "0x404419d258a832cf"
+      },
+      {
+        "args": [
+          "0x4044b24bf160bd89"
+        ],
+        "id": "neighbour-0087-down",
+        "neighbour_of": "0x4044b24bf160bd8a"
+      },
+      {
+        "args": [
+          "0x4044b24bf160bd8b"
+        ],
+        "id": "neighbour-0087-up",
+        "neighbour_of": "0x4044b24bf160bd8a"
+      },
+      {
+        "args": [
+          "0x4044b67733b65669"
+        ],
+        "id": "neighbour-0088-down",
+        "neighbour_of": "0x4044b67733b6566a"
+      },
+      {
+        "args": [
+          "0x4044b67733b6566b"
+        ],
+        "id": "neighbour-0088-up",
+        "neighbour_of": "0x4044b67733b6566a"
+      },
+      {
+        "args": [
+          "0x404534ce02a9ae41"
+        ],
+        "id": "neighbour-0089-down",
+        "neighbour_of": "0x404534ce02a9ae42"
+      },
+      {
+        "args": [
+          "0x404534ce02a9ae43"
+        ],
+        "id": "neighbour-0089-up",
+        "neighbour_of": "0x404534ce02a9ae42"
+      },
+      {
+        "args": [
+          "0x404537a18a3b7912"
+        ],
+        "id": "neighbour-0090-down",
+        "neighbour_of": "0x404537a18a3b7913"
+      },
+      {
+        "args": [
+          "0x404537a18a3b7914"
+        ],
+        "id": "neighbour-0090-up",
+        "neighbour_of": "0x404537a18a3b7913"
+      },
+      {
+        "args": [
+          "0x40454f4a2330a7b0"
+        ],
+        "id": "neighbour-0091-down",
+        "neighbour_of": "0x40454f4a2330a7b1"
+      },
+      {
+        "args": [
+          "0x40454f4a2330a7b2"
+        ],
+        "id": "neighbour-0091-up",
+        "neighbour_of": "0x40454f4a2330a7b1"
+      },
+      {
+        "args": [
+          "0x404582fa3cb3cd48"
+        ],
+        "id": "neighbour-0092-down",
+        "neighbour_of": "0x404582fa3cb3cd49"
+      },
+      {
+        "args": [
+          "0x404582fa3cb3cd4a"
+        ],
+        "id": "neighbour-0092-up",
+        "neighbour_of": "0x404582fa3cb3cd49"
+      },
+      {
+        "args": [
+          "0x404604249338eff0"
+        ],
+        "id": "neighbour-0093-down",
+        "neighbour_of": "0x404604249338eff1"
+      },
+      {
+        "args": [
+          "0x404604249338eff2"
+        ],
+        "id": "neighbour-0093-up",
+        "neighbour_of": "0x404604249338eff1"
+      },
+      {
+        "args": [
+          "0x40554f32b00ffb7c"
+        ],
+        "id": "neighbour-0094-down",
+        "neighbour_of": "0x40554f32b00ffb7d"
+      },
+      {
+        "args": [
+          "0x40554f32b00ffb7e"
+        ],
+        "id": "neighbour-0094-up",
+        "neighbour_of": "0x40554f32b00ffb7d"
+      },
+      {
+        "args": [
+          "0x4055b9d368280d11"
+        ],
+        "id": "neighbour-0095-down",
+        "neighbour_of": "0x4055b9d368280d12"
+      },
+      {
+        "args": [
+          "0x4055b9d368280d13"
+        ],
+        "id": "neighbour-0095-up",
+        "neighbour_of": "0x4055b9d368280d12"
+      },
+      {
+        "args": [
+          "0x4056a7a396c857e6"
+        ],
+        "id": "neighbour-0096-down",
+        "neighbour_of": "0x4056a7a396c857e7"
+      },
+      {
+        "args": [
+          "0x4056a7a396c857e8"
+        ],
+        "id": "neighbour-0096-up",
+        "neighbour_of": "0x4056a7a396c857e7"
+      }
+    ]
+  },
+  "inputs_path": "target/blind-check/gamma-inputs.json",
+  "inputs_sha256": "be9dc7d445f984cd1dbb835021bfb74194df6ffbf420ce6f97b21e12b319a6e7",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3f63781feba98e35"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "id": "changed-0000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c8"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c48",
+      "id": "changed-0001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400336c092761c9f"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c9",
+      "id": "changed-0002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400590fe1f150189"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d46",
+      "id": "changed-0003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40106835d4ba7864"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f2f3",
+      "id": "changed-0004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4012bab10deca83c"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47526",
+      "id": "changed-0005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a55"
+      ],
+      "calc_func_prediction": "0x406bda66d5e37749",
+      "id": "changed-0006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de8"
+      ],
+      "calc_func_prediction": "0x4079a062db804d41",
+      "id": "changed-0007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e59"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f13",
+      "id": "changed-0008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4023650d2204f20d"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf6c",
+      "id": "changed-0009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a4"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50cddd",
+      "id": "changed-0010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402f957930cf3df3"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f5a",
+      "id": "changed-0011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403530351a9be0c7"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e31c4",
+      "id": "changed-0012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4035e14363b34588"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d35ea",
+      "id": "changed-0013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40360212187cc25c"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad9260be",
+      "id": "changed-0014",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036128be0c29da0"
+      ],
+      "calc_func_prediction": "0x440bad04696078ff",
+      "id": "changed-0015",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036392d65ef81dd"
+      ],
+      "calc_func_prediction": "0x44160237d1283df0",
+      "id": "changed-0016",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40365a7fecec7256"
+      ],
+      "calc_func_prediction": "0x44206f42b11da073",
+      "id": "changed-0017",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403670d2af0aa492"
+      ],
+      "calc_func_prediction": "0x4425829db57d724f",
+      "id": "changed-0018",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036813abaec194e"
+      ],
+      "calc_func_prediction": "0x442a388447281ed3",
+      "id": "changed-0019",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e99"
+      ],
+      "calc_func_prediction": "0x442e2c10be39cdb2",
+      "id": "changed-0020",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc02"
+      ],
+      "calc_func_prediction": "0x44412556680ce9cc",
+      "id": "changed-0021",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d756f49a3069"
+      ],
+      "calc_func_prediction": "0x44429724bf7b2100",
+      "id": "changed-0022",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23d"
+      ],
+      "calc_func_prediction": "0x4450013043cde9e7",
+      "id": "changed-0023",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037154ad4644f09"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac9bb",
+      "id": "changed-0024",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403720ce9b53b829"
+      ],
+      "calc_func_prediction": "0x4456b600cb52254f",
+      "id": "changed-0025",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3cd"
+      ],
+      "calc_func_prediction": "0x445c0c479a901ce2",
+      "id": "changed-0026",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd49"
+      ],
+      "calc_func_prediction": "0x446139fb48a988d6",
+      "id": "changed-0027",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037608a5aefb461"
+      ],
+      "calc_func_prediction": "0x4468b875e2490283",
+      "id": "changed-0028",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f86"
+      ],
+      "calc_func_prediction": "0x44869c2a3665abda",
+      "id": "changed-0029",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40383bfe79d1058f"
+      ],
+      "calc_func_prediction": "0x44a6f8b774555840",
+      "id": "changed-0030",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038454ee9be1298"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809fa3",
+      "id": "changed-0031",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038543213bc024d"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9e49",
+      "id": "changed-0032",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40385a42c00698e1"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f3bd",
+      "id": "changed-0033",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b2"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe115",
+      "id": "changed-0034",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40cd"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e7ad",
+      "id": "changed-0035",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039321c885cd220"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4d9c",
+      "id": "changed-0036",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a4"
+      ],
+      "calc_func_prediction": "0x452729606239cb4b",
+      "id": "changed-0037",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a096318900be2"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed197cc",
+      "id": "changed-0038",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a099db243202e"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bedd8",
+      "id": "changed-0039",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9483"
+      ],
+      "calc_func_prediction": "0x4530143a6074f209",
+      "id": "changed-0040",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a18549201292e"
+      ],
+      "calc_func_prediction": "0x45317557b4d15e71",
+      "id": "changed-0041",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753c0"
+      ],
+      "calc_func_prediction": "0x45365cada2f32ed1",
+      "id": "changed-0042",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a6d65946eae7a"
+      ],
+      "calc_func_prediction": "0x4549b1add044a89f",
+      "id": "changed-0043",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b3"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc105",
+      "id": "changed-0044",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403aa0147d80b450"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fcf9",
+      "id": "changed-0045",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8c0"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9bde",
+      "id": "changed-0046",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e5"
+      ],
+      "calc_func_prediction": "0x456d82552c79ec8b",
+      "id": "changed-0047",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d1"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7f06",
+      "id": "changed-0048",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748d"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbb72",
+      "id": "changed-0049",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b79fe76352532"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e368e",
+      "id": "changed-0050",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403baa1546983f7c"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0da03",
+      "id": "changed-0051",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce4"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d13ff",
+      "id": "changed-0052",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebe"
+      ],
+      "calc_func_prediction": "0x45c647aa34790164",
+      "id": "changed-0053",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c354cc3194cce"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a96a0a",
+      "id": "changed-0054",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b04"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d791",
+      "id": "changed-0055",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad9a"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c634",
+      "id": "changed-0056",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403cd8c91e944697"
+      ],
+      "calc_func_prediction": "0x46026faca4edd443",
+      "id": "changed-0057",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403db39a5cca6491"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf863",
+      "id": "changed-0058",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e4"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b893",
+      "id": "changed-0059",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb33"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57db98",
+      "id": "changed-0060",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e313162d036f8"
+      ],
+      "calc_func_prediction": "0x466abf642056cf85",
+      "id": "changed-0061",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902cab"
+      ],
+      "calc_func_prediction": "0x466f9878761ee63e",
+      "id": "changed-0062",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c5"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a5f6",
+      "id": "changed-0063",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b3"
+      ],
+      "calc_func_prediction": "0x46910723a01b7280",
+      "id": "changed-0064",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f150a79c3666c"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d596",
+      "id": "changed-0065",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9015"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "id": "changed-0066",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efb"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2c7e",
+      "id": "changed-0067",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404041813773a44e"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb4f2",
+      "id": "changed-0068",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40406289488cf37c"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4e83",
+      "id": "changed-0069",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040835359058158"
+      ],
+      "calc_func_prediction": "0x474bbccdbd727485",
+      "id": "changed-0070",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8b"
+      ],
+      "calc_func_prediction": "0x4777ba902c831815",
+      "id": "changed-0071",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041a496a551c283"
+      ],
+      "calc_func_prediction": "0x48031f032be4df0b",
+      "id": "changed-0072",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041ad63b09a064a"
+      ],
+      "calc_func_prediction": "0x4808686080718abc",
+      "id": "changed-0073",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042065902dbaf37"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcf30",
+      "id": "changed-0074",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40421058ed7b607b"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5382",
+      "id": "changed-0075",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404257e781f96920"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf6669a",
+      "id": "changed-0076",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042d2186f431476"
+      ],
+      "calc_func_prediction": "0x48c592405163c3e5",
+      "id": "changed-0077",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd982"
+      ],
+      "calc_func_prediction": "0x48e36642c52a560a",
+      "id": "changed-0078",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043041a80e6484a"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc301219",
+      "id": "changed-0079",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40436d789c22f13b"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97bc56",
+      "id": "changed-0080",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404394597891f27c"
+      ],
+      "calc_func_prediction": "0x4944f5879453510d",
+      "id": "changed-0081",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043993b096596e0"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0bb3",
+      "id": "changed-0082",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf8"
+      ],
+      "calc_func_prediction": "0x49551355a434fcb1",
+      "id": "changed-0083",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043bee60de1d3ff"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9dd1",
+      "id": "changed-0084",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043c5600768e09a"
+      ],
+      "calc_func_prediction": "0x496548fba13e4cd8",
+      "id": "changed-0085",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404419d258a832cf"
+      ],
+      "calc_func_prediction": "0x499e04dafed720cc",
+      "id": "changed-0086",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd8a"
+      ],
+      "calc_func_prediction": "0x4a03290acdea293c",
+      "id": "changed-0087",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b67733b6566a"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d5a2",
+      "id": "changed-0088",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae42"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457bab",
+      "id": "changed-0089",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404537a18a3b7913"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259e964",
+      "id": "changed-0090",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b1"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d214",
+      "id": "changed-0091",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd49"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9fa1a",
+      "id": "changed-0092",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404604249338eff1"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4c40",
+      "id": "changed-0093",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7d"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b959d",
+      "id": "changed-0094",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4055b9d368280d12"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d538",
+      "id": "changed-0095",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e7"
+      ],
+      "calc_func_prediction": "0x5c7702f454606c86",
+      "id": "changed-0096",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f63781feba98e34"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "id": "neighbour-0000-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f63781feba98e36"
+      ],
+      "calc_func_prediction": "0x407a431056e92bee",
+      "id": "neighbour-0000-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c7"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c49",
+      "id": "neighbour-0001-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3fec7188ee8bd5c9"
+      ],
+      "calc_func_prediction": "0x3ff13e9a10bd5c48",
+      "id": "neighbour-0001-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400336c092761c9e"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c4",
+      "id": "neighbour-0002-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400336c092761ca0"
+      ],
+      "calc_func_prediction": "0x3ff3e5b1d5c080c9",
+      "id": "neighbour-0002-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400590fe1f150188"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d43",
+      "id": "neighbour-0003-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400590fe1f15018a"
+      ],
+      "calc_func_prediction": "0x3ff8a1e7f6b34d49",
+      "id": "neighbour-0003-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40106835d4ba7863"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f2ec",
+      "id": "neighbour-0004-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40106835d4ba7865"
+      ],
+      "calc_func_prediction": "0x401b4ffbbe21f304",
+      "id": "neighbour-0004-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4012bab10deca83b"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47510",
+      "id": "neighbour-0005-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4012bab10deca83d"
+      ],
+      "calc_func_prediction": "0x402e16dd42a47541",
+      "id": "neighbour-0005-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a54"
+      ],
+      "calc_func_prediction": "0x406bda66d5e37734",
+      "id": "neighbour-0006-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40196cb2b76f2a56"
+      ],
+      "calc_func_prediction": "0x406bda66d5e3772d",
+      "id": "neighbour-0006-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de7"
+      ],
+      "calc_func_prediction": "0x4079a062db804d21",
+      "id": "neighbour-0007-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401ac8308fd76de9"
+      ],
+      "calc_func_prediction": "0x4079a062db804d67",
+      "id": "neighbour-0007-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e58"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f13",
+      "id": "neighbour-0008-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x401efa98d39e5e5a"
+      ],
+      "calc_func_prediction": "0x40a7a40a68e20f4e",
+      "id": "neighbour-0008-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4023650d2204f20c"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf56",
+      "id": "neighbour-0009-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4023650d2204f20e"
+      ],
+      "calc_func_prediction": "0x410684a9edfcbf83",
+      "id": "neighbour-0009-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a3"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50cddd",
+      "id": "neighbour-0010-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402b14eaca7a06a5"
+      ],
+      "calc_func_prediction": "0x41dc4e9c1b50ce32",
+      "id": "neighbour-0010-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402f957930cf3df2"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f1a",
+      "id": "neighbour-0011-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402f957930cf3df4"
+      ],
+      "calc_func_prediction": "0x42658bfb9f4a6f5a",
+      "id": "neighbour-0011-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403530351a9be0c6"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e31c4",
+      "id": "neighbour-0012-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403530351a9be0c8"
+      ],
+      "calc_func_prediction": "0x43cdd74f368e3277",
+      "id": "neighbour-0012-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4035e14363b34587"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d356f",
+      "id": "neighbour-0013-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4035e14363b34589"
+      ],
+      "calc_func_prediction": "0x43feab5eab0d36a2",
+      "id": "neighbour-0013-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40360212187cc25b"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad926063",
+      "id": "neighbour-0014-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40360212187cc25d"
+      ],
+      "calc_func_prediction": "0x4406b6c5ad926146",
+      "id": "neighbour-0014-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036128be0c29d9f"
+      ],
+      "calc_func_prediction": "0x440bad0469607890",
+      "id": "neighbour-0015-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036128be0c29da1"
+      ],
+      "calc_func_prediction": "0x440bad0469607a13",
+      "id": "neighbour-0015-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036392d65ef81dc"
+      ],
+      "calc_func_prediction": "0x44160237d1283dc4",
+      "id": "neighbour-0016-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036392d65ef81de"
+      ],
+      "calc_func_prediction": "0x44160237d1283e48",
+      "id": "neighbour-0016-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40365a7fecec7255"
+      ],
+      "calc_func_prediction": "0x44206f42b11da073",
+      "id": "neighbour-0017-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40365a7fecec7257"
+      ],
+      "calc_func_prediction": "0x44206f42b11da094",
+      "id": "neighbour-0017-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403670d2af0aa491"
+      ],
+      "calc_func_prediction": "0x4425829db57d71f9",
+      "id": "neighbour-0018-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403670d2af0aa493"
+      ],
+      "calc_func_prediction": "0x4425829db57d724f",
+      "id": "neighbour-0018-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036813abaec194d"
+      ],
+      "calc_func_prediction": "0x442a388447281e9f",
+      "id": "neighbour-0019-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036813abaec194f"
+      ],
+      "calc_func_prediction": "0x442a388447281f07",
+      "id": "neighbour-0019-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e98"
+      ],
+      "calc_func_prediction": "0x442e2c10be39ccc1",
+      "id": "neighbour-0020-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40368cd97dcd9e9a"
+      ],
+      "calc_func_prediction": "0x442e2c10be39cd76",
+      "id": "neighbour-0020-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc01"
+      ],
+      "calc_func_prediction": "0x44412556680ce9cc",
+      "id": "neighbour-0021-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d0ac2ab9bc03"
+      ],
+      "calc_func_prediction": "0x44412556680ce9aa",
+      "id": "neighbour-0021-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d756f49a3068"
+      ],
+      "calc_func_prediction": "0x44429724bf7b20b6",
+      "id": "neighbour-0022-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4036d756f49a306a"
+      ],
+      "calc_func_prediction": "0x44429724bf7b2170",
+      "id": "neighbour-0022-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23c"
+      ],
+      "calc_func_prediction": "0x4450013043cde967",
+      "id": "neighbour-0023-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037040fe8d9e23e"
+      ],
+      "calc_func_prediction": "0x4450013043cdea27",
+      "id": "neighbour-0023-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037154ad4644f08"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac96c",
+      "id": "neighbour-0024-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037154ad4644f0a"
+      ],
+      "calc_func_prediction": "0x4453bd24c59ac9e2",
+      "id": "neighbour-0024-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403720ce9b53b828"
+      ],
+      "calc_func_prediction": "0x4456b600cb522522",
+      "id": "neighbour-0025-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403720ce9b53b82a"
+      ],
+      "calc_func_prediction": "0x4456b600cb5225d7",
+      "id": "neighbour-0025-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3cc"
+      ],
+      "calc_func_prediction": "0x445c0c479a901c02",
+      "id": "neighbour-0026-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037321f0bbdc3ce"
+      ],
+      "calc_func_prediction": "0x445c0c479a901d1b",
+      "id": "neighbour-0026-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd48"
+      ],
+      "calc_func_prediction": "0x446139fb48a988b4",
+      "id": "neighbour-0027-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403742fa3cb3cd4a"
+      ],
+      "calc_func_prediction": "0x446139fb48a988d6",
+      "id": "neighbour-0027-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037608a5aefb460"
+      ],
+      "calc_func_prediction": "0x4468b875e2490220",
+      "id": "neighbour-0028-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037608a5aefb462"
+      ],
+      "calc_func_prediction": "0x4468b875e24902e6",
+      "id": "neighbour-0028-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f85"
+      ],
+      "calc_func_prediction": "0x44869c2a3665abad",
+      "id": "neighbour-0029-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4037ca508cdf9f87"
+      ],
+      "calc_func_prediction": "0x44869c2a3665ac07",
+      "id": "neighbour-0029-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40383bfe79d1058e"
+      ],
+      "calc_func_prediction": "0x44a6f8b774555812",
+      "id": "neighbour-0030-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40383bfe79d10590"
+      ],
+      "calc_func_prediction": "0x44a6f8b77455589c",
+      "id": "neighbour-0030-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038454ee9be1297"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809ed5",
+      "id": "neighbour-0031-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038454ee9be1299"
+      ],
+      "calc_func_prediction": "0x44a9c719b5809fa3",
+      "id": "neighbour-0031-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038543213bc024c"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9dcd",
+      "id": "neighbour-0032-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038543213bc024e"
+      ],
+      "calc_func_prediction": "0x44aefedd3c8e9e0b",
+      "id": "neighbour-0032-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40385a42c00698e0"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f338",
+      "id": "neighbour-0033-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40385a42c00698e2"
+      ],
+      "calc_func_prediction": "0x44b0b505e5e9f3df",
+      "id": "neighbour-0033-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b1"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe0ef",
+      "id": "neighbour-0034-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40389b6b236c29b3"
+      ],
+      "calc_func_prediction": "0x44c2c0e1daffe13a",
+      "id": "neighbour-0034-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40cc"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e73f",
+      "id": "neighbour-0035-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4038f1875d1a40ce"
+      ],
+      "calc_func_prediction": "0x44db6a31fa65e7e4",
+      "id": "neighbour-0035-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039321c885cd21f"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4d21",
+      "id": "neighbour-0036-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039321c885cd221"
+      ],
+      "calc_func_prediction": "0x44eebddb590e4e17",
+      "id": "neighbour-0036-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a3"
+      ],
+      "calc_func_prediction": "0x452729606239caee",
+      "id": "neighbour-0037-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4039f7e5e59443a5"
+      ],
+      "calc_func_prediction": "0x452729606239cb4b",
+      "id": "neighbour-0037-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a096318900be1"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed197cc",
+      "id": "neighbour-0038-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a096318900be3"
+      ],
+      "calc_func_prediction": "0x452ce5d2aed19806",
+      "id": "neighbour-0038-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a099db243202d"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bed2a",
+      "id": "neighbour-0039-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a099db243202f"
+      ],
+      "calc_func_prediction": "0x452cfb49a68bee12",
+      "id": "neighbour-0039-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9482"
+      ],
+      "calc_func_prediction": "0x4530143a6074f1e9",
+      "id": "neighbour-0040-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a11d4cd2f9484"
+      ],
+      "calc_func_prediction": "0x4530143a6074f24a",
+      "id": "neighbour-0040-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a18549201292d"
+      ],
+      "calc_func_prediction": "0x45317557b4d15e93",
+      "id": "neighbour-0041-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a18549201292f"
+      ],
+      "calc_func_prediction": "0x45317557b4d15efc",
+      "id": "neighbour-0041-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753bf"
+      ],
+      "calc_func_prediction": "0x45365cada2f32ea5",
+      "id": "neighbour-0042-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a2bdd9ab753c1"
+      ],
+      "calc_func_prediction": "0x45365cada2f32f2b",
+      "id": "neighbour-0042-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a6d65946eae79"
+      ],
+      "calc_func_prediction": "0x4549b1add044a8d2",
+      "id": "neighbour-0043-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a6d65946eae7b"
+      ],
+      "calc_func_prediction": "0x4549b1add044a939",
+      "id": "neighbour-0043-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b2"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc105",
+      "id": "neighbour-0044-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403a9ba64c5401b4"
+      ],
+      "calc_func_prediction": "0x455725dacb5fc161",
+      "id": "neighbour-0044-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403aa0147d80b44f"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fc97",
+      "id": "neighbour-0045-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403aa0147d80b451"
+      ],
+      "calc_func_prediction": "0x45587e14e5c9fd5b",
+      "id": "neighbour-0045-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8bf"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9b7b",
+      "id": "neighbour-0046-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ad7951ad5a8c1"
+      ],
+      "calc_func_prediction": "0x4568ddfec78c9c42",
+      "id": "neighbour-0046-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e4"
+      ],
+      "calc_func_prediction": "0x456d82552c79ec15",
+      "id": "neighbour-0047-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403ae4f8e88ce1e6"
+      ],
+      "calc_func_prediction": "0x456d82552c79ed3c",
+      "id": "neighbour-0047-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d0"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7edc",
+      "id": "neighbour-0048-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b35dc73f397d2"
+      ],
+      "calc_func_prediction": "0x4584ca8f06ac7f83",
+      "id": "neighbour-0048-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748c"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbafc",
+      "id": "neighbour-0049-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b5108e3ff748e"
+      ],
+      "calc_func_prediction": "0x458d78e09f8dbbac",
+      "id": "neighbour-0049-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b79fe76352531"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e365c",
+      "id": "neighbour-0050-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403b79fe76352533"
+      ],
+      "calc_func_prediction": "0x4598f41ffa3e36f2",
+      "id": "neighbour-0050-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403baa1546983f7b"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0d9a6",
+      "id": "neighbour-0051-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403baa1546983f7d"
+      ],
+      "calc_func_prediction": "0x45a72f41a8c0da8e",
+      "id": "neighbour-0051-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce3"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d13de",
+      "id": "neighbour-0052-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403bc5b5c736cce5"
+      ],
+      "calc_func_prediction": "0x45b08ef5991d1462",
+      "id": "neighbour-0052-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebd"
+      ],
+      "calc_func_prediction": "0x45c647aa3479010b",
+      "id": "neighbour-0053-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c123dbe1b5ebf"
+      ],
+      "calc_func_prediction": "0x45c647aa347901bd",
+      "id": "neighbour-0053-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c354cc3194ccd"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a969c4",
+      "id": "neighbour-0054-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c354cc3194ccf"
+      ],
+      "calc_func_prediction": "0x45d18d0f72a96a51",
+      "id": "neighbour-0054-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b03"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d791",
+      "id": "neighbour-0055-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c4a6ac6f25b05"
+      ],
+      "calc_func_prediction": "0x45d71621a0e7d849",
+      "id": "neighbour-0055-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad99"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c5f3",
+      "id": "neighbour-0056-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403c6428ac52ad9b"
+      ],
+      "calc_func_prediction": "0x45e020ef4568c674",
+      "id": "neighbour-0056-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403cd8c91e944696"
+      ],
+      "calc_func_prediction": "0x46026faca4edd3f9",
+      "id": "neighbour-0057-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403cd8c91e944698"
+      ],
+      "calc_func_prediction": "0x46026faca4edd443",
+      "id": "neighbour-0057-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403db39a5cca6490"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf812",
+      "id": "neighbour-0058-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403db39a5cca6492"
+      ],
+      "calc_func_prediction": "0x46445a99ce1cf906",
+      "id": "neighbour-0058-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e3"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b893",
+      "id": "neighbour-0059-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e283cdb24a6e5"
+      ],
+      "calc_func_prediction": "0x4667c19c16a1b8f2",
+      "id": "neighbour-0059-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb32"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57db98",
+      "id": "neighbour-0060-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e2af1d1dfbb34"
+      ],
+      "calc_func_prediction": "0x46689f8e2c57dbfa",
+      "id": "neighbour-0060-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e313162d036f7"
+      ],
+      "calc_func_prediction": "0x466abf642056cf85",
+      "id": "neighbour-0061-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e313162d036f9"
+      ],
+      "calc_func_prediction": "0x466abf642056d05b",
+      "id": "neighbour-0061-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902caa"
+      ],
+      "calc_func_prediction": "0x466f9878761ee63e",
+      "id": "neighbour-0062-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e3dc3e9902cac"
+      ],
+      "calc_func_prediction": "0x466f9878761ee6bc",
+      "id": "neighbour-0062-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c4"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a593",
+      "id": "neighbour-0063-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403e93e0233e43c6"
+      ],
+      "calc_func_prediction": "0x4688c6049f67a659",
+      "id": "neighbour-0063-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b2"
+      ],
+      "calc_func_prediction": "0x46910723a01b72c4",
+      "id": "neighbour-0064-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403eabcc52c175b4"
+      ],
+      "calc_func_prediction": "0x46910723a01b7308",
+      "id": "neighbour-0064-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f150a79c3666b"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d596",
+      "id": "neighbour-0065-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f150a79c3666d"
+      ],
+      "calc_func_prediction": "0x46b152502ff4d5db",
+      "id": "neighbour-0065-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9014"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "id": "neighbour-0066-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x403f3e5b4fcb9016"
+      ],
+      "calc_func_prediction": "0x46be18a8c72ab444",
+      "id": "neighbour-0066-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efa"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2c12",
+      "id": "neighbour-0067-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404035dda6ea0efc"
+      ],
+      "calc_func_prediction": "0x471b21ac995a2ceb",
+      "id": "neighbour-0067-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404041813773a44d"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb4a8",
+      "id": "neighbour-0068-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404041813773a44f"
+      ],
+      "calc_func_prediction": "0x472296e5a92fb587",
+      "id": "neighbour-0068-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40406289488cf37b"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4e28",
+      "id": "neighbour-0069-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40406289488cf37d"
+      ],
+      "calc_func_prediction": "0x4736c24177ef4f39",
+      "id": "neighbour-0069-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040835359058157"
+      ],
+      "calc_func_prediction": "0x474bbccdbd7273a8",
+      "id": "neighbour-0070-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040835359058159"
+      ],
+      "calc_func_prediction": "0x474bbccdbd727563",
+      "id": "neighbour-0070-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8a"
+      ],
+      "calc_func_prediction": "0x4777ba902c8316f8",
+      "id": "neighbour-0071-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4040c9db3e908b8c"
+      ],
+      "calc_func_prediction": "0x4777ba902c831874",
+      "id": "neighbour-0071-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041a496a551c282"
+      ],
+      "calc_func_prediction": "0x48031f032be4de72",
+      "id": "neighbour-0072-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041a496a551c284"
+      ],
+      "calc_func_prediction": "0x48031f032be4dff1",
+      "id": "neighbour-0072-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041ad63b09a0649"
+      ],
+      "calc_func_prediction": "0x4808686080718a5a",
+      "id": "neighbour-0073-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4041ad63b09a064b"
+      ],
+      "calc_func_prediction": "0x4808686080718b1d",
+      "id": "neighbour-0073-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042065902dbaf36"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcee7",
+      "id": "neighbour-0074-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042065902dbaf38"
+      ],
+      "calc_func_prediction": "0x48421fc667cbcfc1",
+      "id": "neighbour-0074-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40421058ed7b607a"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5323",
+      "id": "neighbour-0075-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40421058ed7b607c"
+      ],
+      "calc_func_prediction": "0x4847f53ea57e5502",
+      "id": "neighbour-0075-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404257e781f9691f"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf66538",
+      "id": "neighbour-0076-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404257e781f96921"
+      ],
+      "calc_func_prediction": "0x48762b9c4cf6674c",
+      "id": "neighbour-0076-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042d2186f431475"
+      ],
+      "calc_func_prediction": "0x48c592405163c38f",
+      "id": "neighbour-0077-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042d2186f431477"
+      ],
+      "calc_func_prediction": "0x48c592405163c4e8",
+      "id": "neighbour-0077-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd981"
+      ],
+      "calc_func_prediction": "0x48e36642c52a55bc",
+      "id": "neighbour-0078-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4042ff5e141fd983"
+      ],
+      "calc_func_prediction": "0x48e36642c52a56a5",
+      "id": "neighbour-0078-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043041a80e64849"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc3011c0",
+      "id": "neighbour-0079-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043041a80e6484b"
+      ],
+      "calc_func_prediction": "0x48e62f0bcc301272",
+      "id": "neighbour-0079-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40436d789c22f13a"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97bbe8",
+      "id": "neighbour-0080-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40436d789c22f13c"
+      ],
+      "calc_func_prediction": "0x492ba8c90e97be11",
+      "id": "neighbour-0080-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404394597891f27b"
+      ],
+      "calc_func_prediction": "0x4944f58794535065",
+      "id": "neighbour-0081-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404394597891f27d"
+      ],
+      "calc_func_prediction": "0x4944f58794535208",
+      "id": "neighbour-0081-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043993b096596df"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0b52",
+      "id": "neighbour-0082-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043993b096596e1"
+      ],
+      "calc_func_prediction": "0x49481810cb4a0d34",
+      "id": "neighbour-0082-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf7"
+      ],
+      "calc_func_prediction": "0x49551355a434fcb1",
+      "id": "neighbour-0083-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043accd7adfadf9"
+      ],
+      "calc_func_prediction": "0x49551355a434fe02",
+      "id": "neighbour-0083-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043bee60de1d3fe"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9dd1",
+      "id": "neighbour-0084-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043bee60de1d400"
+      ],
+      "calc_func_prediction": "0x4961aee8ad0e9ea5",
+      "id": "neighbour-0084-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043c5600768e099"
+      ],
+      "calc_func_prediction": "0x496548fba13e4bd8",
+      "id": "neighbour-0085-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4043c5600768e09b"
+      ],
+      "calc_func_prediction": "0x496548fba13e4c83",
+      "id": "neighbour-0085-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404419d258a832ce"
+      ],
+      "calc_func_prediction": "0x499e04dafed72053",
+      "id": "neighbour-0086-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404419d258a832d0"
+      ],
+      "calc_func_prediction": "0x499e04dafed722ac",
+      "id": "neighbour-0086-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd89"
+      ],
+      "calc_func_prediction": "0x4a03290acdea28ef",
+      "id": "neighbour-0087-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b24bf160bd8b"
+      ],
+      "calc_func_prediction": "0x4a03290acdea2988",
+      "id": "neighbour-0087-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b67733b65669"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d54b",
+      "id": "neighbour-0088-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4044b67733b6566b"
+      ],
+      "calc_func_prediction": "0x4a059f4a40c8d6a5",
+      "id": "neighbour-0088-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae41"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457b41",
+      "id": "neighbour-0089-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404534ce02a9ae43"
+      ],
+      "calc_func_prediction": "0x4a5aaaa005457c16",
+      "id": "neighbour-0089-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404537a18a3b7912"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259e8f1",
+      "id": "neighbour-0090-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404537a18a3b7914"
+      ],
+      "calc_func_prediction": "0x4a5cf5a0a259ea4c",
+      "id": "neighbour-0090-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b0"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d12d",
+      "id": "neighbour-0091-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40454f4a2330a7b2"
+      ],
+      "calc_func_prediction": "0x4a6ce57ac254d288",
+      "id": "neighbour-0091-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd48"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9f9d8",
+      "id": "neighbour-0092-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404582fa3cb3cd4a"
+      ],
+      "calc_func_prediction": "0x4a9063dbe3a9fade",
+      "id": "neighbour-0092-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404604249338eff0"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4be5",
+      "id": "neighbour-0093-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x404604249338eff2"
+      ],
+      "calc_func_prediction": "0x4ae6ce68d9df4c9b",
+      "id": "neighbour-0093-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7c"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b959d",
+      "id": "neighbour-0094-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40554f32b00ffb7e"
+      ],
+      "calc_func_prediction": "0x5a4c17a9d00b975e",
+      "id": "neighbour-0094-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4055b9d368280d11"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d0f5",
+      "id": "neighbour-0095-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4055b9d368280d13"
+      ],
+      "calc_func_prediction": "0x5af6bb246d36d538",
+      "id": "neighbour-0095-up",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e6"
+      ],
+      "calc_func_prediction": "0x5c7702f454606df6",
+      "id": "neighbour-0096-down",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4056a7a396c857e8"
+      ],
+      "calc_func_prediction": "0x5c7702f454607247",
+      "id": "neighbour-0096-up",
+      "result_index": null
+    }
+  ]
+}
