@@ -1,0 +1,1232 @@
+{
+  "function": "BINOM.DIST",
+  "capture_provenance": {
+    "schema_version": "dnacalc-witness-reading/1",
+    "captured_utc": "2026-10-31T10:47:31.641770+00:00",
+    "capture_clock_note": "raw worker result file completion time",
+    "reader": "calc-oracle-excel witness-worker/1 at DnaCalc b952767; existing run_isolated supervisor",
+    "worker_sha256": {
+      "witness-worker.ps1": "f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+      "capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25"
+    },
+    "inputs": "probes/2026-10-31-calcvba-run4/binom-dist/request.json",
+    "inputs_sha256": "fc92e058012875beb0305ede9f33740490c044c607f6d1fe9e46fb0236043621",
+    "raw_result": "probes/2026-10-31-calcvba-run4/binom-dist/result.json",
+    "raw_result_sha256": "6dfe4bab18bf4c07e5623f9c8ac843c21ecf62ac8bcb23a72f475742e97acc6d",
+    "blind": true,
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "environment": {
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_bitness": "64-bit",
+      "platform": "Windows",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_input_plumbing": "cell_value2_bulk"
+    }
+  },
+  "witnesses": [
+    {
+      "id": "round3-binom-n2-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3d5ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3d6ffffffffff002"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3d5fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3d6ffffffffff002"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3d60000000000000",
+        false
+      ],
+      "expected_bits": "0x3d6ffffffffff002"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3d60000000000001",
+        false
+      ],
+      "expected_bits": "0x3d6ffffffffff002"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3d60000000000002",
+        false
+      ],
+      "expected_bits": "0x3d6ffffffffff002"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3e2ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffdfffffd"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3e2fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffdfffffd"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3e30000000000000",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffdfffffd"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3e30000000000001",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffdfffffd"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3e30000000000002",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffdfffffd"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3c7ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff7"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3c7fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff7"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3c80000000000000",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff7"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3c80000000000001",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff7"
+    },
+    {
+      "id": "round3-binom-n2-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0x3c80000000000002",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff7"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3d45555555555553",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe55a"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3d45555555555554",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe55a"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3d45555555555555",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe55a"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3d45555555555556",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe55a"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3d45555555555557",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe55a"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3e15555555555553",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffcaaaab5"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3e15555555555554",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffcaaaab5"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3e15555555555555",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffcaaaab5"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3e15555555555556",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffcaaaab5"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3e15555555555557",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffcaaaab5"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3c65555555555553",
+        false
+      ],
+      "expected_bits": "0x3c90000000000008"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3c65555555555554",
+        false
+      ],
+      "expected_bits": "0x3c90000000000008"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3c65555555555555",
+        false
+      ],
+      "expected_bits": "0x3c90000000000008"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3c65555555555556",
+        false
+      ],
+      "expected_bits": "0x3c90000000000008"
+    },
+    {
+      "id": "round3-binom-n6-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4018000000000000",
+        "0x3c65555555555557",
+        false
+      ],
+      "expected_bits": "0x3c90000000000008"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3d35555555555553",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe2ac"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3d35555555555554",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe2ac"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3d35555555555555",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe2ac"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3d35555555555556",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe2ac"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3d35555555555557",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe2ac"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3e05555555555553",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc555547"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3e05555555555554",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc555547"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3e05555555555555",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc555547"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3e05555555555556",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc555547"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3e05555555555557",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc555547"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3c55555555555553",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffe2"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3c55555555555554",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffe2"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3c55555555555555",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffe2"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3c55555555555556",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffe2"
+    },
+    {
+      "id": "round3-binom-n12-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4028000000000000",
+        "0x3c55555555555557",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffe2"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3d25555555555553",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe17d"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3d25555555555554",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe17d"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3d25555555555555",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe17d"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3d25555555555556",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe17d"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3d25555555555557",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe17d"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3df5555555555553",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc2aaab8"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3df5555555555554",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc2aaab8"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3df5555555555555",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc2aaab8"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3df5555555555556",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc2aaab8"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3df5555555555557",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc2aaab8"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3c45555555555553",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffd1"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3c45555555555554",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffd1"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3c45555555555555",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffd1"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3c45555555555556",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffd1"
+    },
+    {
+      "id": "round3-binom-n24-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4038000000000000",
+        "0x3c45555555555557",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffd1"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3d15555555555553",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe088"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3d15555555555554",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe088"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3d15555555555555",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe088"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3d15555555555556",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe088"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3d15555555555557",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe088"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3de5555555555553",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc155543"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3de5555555555554",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc155543"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3de5555555555555",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc155543"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3de5555555555556",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc155543"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3de5555555555557",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc155543"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3c35555555555553",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffffd"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3c35555555555554",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffffd"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3c35555555555555",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffffd"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3c35555555555556",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffffd"
+    },
+    {
+      "id": "round3-binom-n48-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4048000000000000",
+        "0x3c35555555555557",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffffd"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3d09999999999998",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe070"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3d09999999999999",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe070"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3d0999999999999a",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe070"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3d0999999999999b",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe070"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3d0999999999999c",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe070"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3dd9999999999998",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc0ccccb"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3dd9999999999999",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc0ccccb"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3dd999999999999a",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc0ccccb"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3dd999999999999b",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc0ccccb"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3dd999999999999c",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc0ccccb"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3c29999999999998",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffc5"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3c29999999999999",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffc5"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3c2999999999999a",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffc5"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3c2999999999999b",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffc5"
+    },
+    {
+      "id": "round3-binom-n80-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4054000000000000",
+        "0x3c2999999999999c",
+        false
+      ],
+      "expected_bits": "0x3c8fffffffffffc5"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3ce0624dd2f1a9fa",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe010"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3ce0624dd2f1a9fb",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe010"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3ce0624dd2f1a9fc",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe010"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3ce0624dd2f1a9fd",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe010"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3ce0624dd2f1a9fe",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe010"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3db0624dd2f1a9fa",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc020c4b"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3db0624dd2f1a9fb",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc020c4b"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3db0624dd2f1a9fc",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc020c4b"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3db0624dd2f1a9fd",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc020c4b"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3db0624dd2f1a9fe",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc020c4b"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3c00624dd2f1a9fa",
+        false
+      ],
+      "expected_bits": "0x3c90000000000012"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3c00624dd2f1a9fb",
+        false
+      ],
+      "expected_bits": "0x3c90000000000012"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3c00624dd2f1a9fc",
+        false
+      ],
+      "expected_bits": "0x3c90000000000012"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3c00624dd2f1a9fd",
+        false
+      ],
+      "expected_bits": "0x3c90000000000012"
+    },
+    {
+      "id": "round3-binom-n500-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x407f400000000000",
+        "0x3c00624dd2f1a9fe",
+        false
+      ],
+      "expected_bits": "0x3c90000000000012"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-40--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3cb95cbb0be377ac",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdff7"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-40--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3cb95cbb0be377ad",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdff7"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-40-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3cb95cbb0be377ae",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdff7"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-40-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3cb95cbb0be377af",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdff7"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-40-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3cb95cbb0be377b0",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdff7"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-27--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3d895cbb0be377ac",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc006573"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-27--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3d895cbb0be377ad",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc006573"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-27-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3d895cbb0be377ae",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc006573"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-27-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3d895cbb0be377af",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc006573"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-27-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3d895cbb0be377b0",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc006573"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-54--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3bd95cbb0be377ac",
+        false
+      ],
+      "expected_bits": "0x3c90000000000016"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-54--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3bd95cbb0be377ad",
+        false
+      ],
+      "expected_bits": "0x3c90000000000016"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-54-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3bd95cbb0be377ae",
+        false
+      ],
+      "expected_bits": "0x3c90000000000016"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-54-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3bd95cbb0be377af",
+        false
+      ],
+      "expected_bits": "0x3c90000000000016"
+    },
+    {
+      "id": "round3-binom-n2584-mean2e-54-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x40a4300000000000",
+        "0x3bd95cbb0be377b0",
+        false
+      ],
+      "expected_bits": "0x3c90000000000016"
+    }
+  ]
+}

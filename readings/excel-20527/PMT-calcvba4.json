@@ -1,0 +1,1484 @@
+{
+  "function": "PMT",
+  "capture_provenance": {
+    "schema_version": "dnacalc-witness-reading/1",
+    "captured_utc": "2026-10-31T10:46:36.127455+00:00",
+    "capture_clock_note": "raw worker result file completion time",
+    "reader": "calc-oracle-excel witness-worker/1 at DnaCalc b952767; existing run_isolated supervisor",
+    "worker_sha256": {
+      "witness-worker.ps1": "f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+      "capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25"
+    },
+    "inputs": "probes/2026-10-31-calcvba-run4/pmt/request.json",
+    "inputs_sha256": "6c73889d0f97491d99d3276a6d826e2331878c5e6e5db68e6bec27daea1ab64d",
+    "raw_result": "probes/2026-10-31-calcvba-run4/pmt/result.json",
+    "raw_result_sha256": "ea44c01a4478a3dc800661825442905d0fdd9cceca0fac15562e2c9ae4b38db9",
+    "blind": true,
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "environment": {
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_bitness": "64-bit",
+      "platform": "Windows",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_input_plumbing": "cell_value2_bulk"
+    }
+  },
+  "witnesses": [
+    {
+      "id": "round3-pmt-balance-0600",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x04dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0601",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x04dad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0432",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0433",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0012",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0013",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0096",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0097",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0180",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0181",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e9421f615d46cf9"
+    },
+    {
+      "id": "round3-pmt-balance-0252",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x4023ffffffffffff"
+    },
+    {
+      "id": "round3-pmt-balance-0253",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0348",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x5dbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0349",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x5dbad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0516",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0517",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f2c7c5e6a0"
+    },
+    {
+      "id": "round3-pmt-balance-0602",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x04dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0603",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x04dad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0434",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0435",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0014",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0015",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0098",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0099",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0182",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0183",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e9421f615d46cf9"
+    },
+    {
+      "id": "round3-pmt-balance-0264",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0259",
+      "args": [
+        "0xbfeccccccccccccd",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x40567ffffffffffe"
+    },
+    {
+      "id": "round3-pmt-balance-0350",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x5dbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0351",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x5dbad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0518",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0519",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f2c7c5e6a0"
+    },
+    {
+      "id": "round3-pmt-balance-0604",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x04dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0605",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x04dad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0436",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0437",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x1f3ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0016",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0017",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e6ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0100",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0101",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e8ad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0184",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3e9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0185",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3e9421f615d46cf9"
+    },
+    {
+      "id": "round3-pmt-balance-0266",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0261",
+      "args": [
+        "0xbfeccccccccccccd",
+        "0x4010000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x40567ffffffffffe"
+    },
+    {
+      "id": "round3-pmt-balance-0352",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x5dbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0353",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x5dbad7f2c7c5e6a1"
+    },
+    {
+      "id": "round3-pmt-balance-0520",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0521",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x7e5ad7f2c7c5e6a0"
+    },
+    {
+      "id": "round3-pmt-balance-0606",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x84dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0607",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x84dad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0438",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0439",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0018",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0019",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0102",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0103",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0186",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0187",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe9421f5d2469a65"
+    },
+    {
+      "id": "round3-pmt-balance-0268",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0263",
+      "args": [
+        "0xbfeccccccccccccd",
+        "0x4070000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x40567ffffffffffe"
+    },
+    {
+      "id": "round3-pmt-balance-0354",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xddbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0355",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xddbad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0522",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0523",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f26db37886"
+    },
+    {
+      "id": "round3-pmt-balance-0608",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x84dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0609",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x84dad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0440",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0441",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0020",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0021",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0104",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0105",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0188",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0189",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe9421f5d2469a65"
+    },
+    {
+      "id": "round3-pmt-balance-0270",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbeb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0265",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7bcdbb025"
+    },
+    {
+      "id": "round3-pmt-balance-0356",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xddbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0357",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xddbad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0524",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0525",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f26db37886"
+    },
+    {
+      "id": "round3-pmt-balance-0610",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x84dad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0611",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x84dad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0442",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0443",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x9f3ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0022",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0023",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe6ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0106",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0107",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe8ad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0190",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbe9421f5f40d8376"
+    },
+    {
+      "id": "round3-pmt-balance-0191",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbe9421f5d2469a65"
+    },
+    {
+      "id": "round3-pmt-balance-0272",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbeb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0267",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4010000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7bcdbb025"
+    },
+    {
+      "id": "round3-pmt-balance-0358",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xddbad7f29abcaf48"
+    },
+    {
+      "id": "round3-pmt-balance-0359",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xddbad7f26db37887"
+    },
+    {
+      "id": "round3-pmt-balance-0526",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f29abcaf47"
+    },
+    {
+      "id": "round3-pmt-balance-0527",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xfe5ad7f26db37886"
+    },
+    {
+      "id": "round3-pmt-balance-0612",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x860999999999999a"
+    },
+    {
+      "id": "round3-pmt-balance-0613",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x8608618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0444",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xa06999999999999a"
+    },
+    {
+      "id": "round3-pmt-balance-0445",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x20b0000000000000",
+        "0xa0b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xa068618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0024",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbf9999999999999a"
+    },
+    {
+      "id": "round3-pmt-balance-0025",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbf98618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0108",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbfb999999999999a"
+    },
+    {
+      "id": "round3-pmt-balance-0109",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x4000000000000000",
+        "0xc000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbfb8618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0192",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbfc3333333333334"
+    },
+    {
+      "id": "round3-pmt-balance-0193",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xbfc2492492492492"
+    },
+    {
+      "id": "round3-pmt-balance-0274",
+      "args": [
+        "0x3e7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xbeb0c6f7a0b5ed8d"
+    },
+    {
+      "id": "round3-pmt-balance-0269",
+      "args": [
+        "0xbe7ad7f29abcaf48",
+        "0x4070000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3eb0c6f7bcdbb025"
+    },
+    {
+      "id": "round3-pmt-balance-0360",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xdee999999999999a"
+    },
+    {
+      "id": "round3-pmt-balance-0361",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x5f30000000000000",
+        "0xdf30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xdee8618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0528",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xff89999999999999"
+    },
+    {
+      "id": "round3-pmt-balance-0529",
+      "args": [
+        "0x3fa999999999999a",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xff88618618618617"
+    },
+    {
+      "id": "round3-pmt-balance-0000",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x3ff0000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x3fdfffffffffffff"
+    },
+    {
+      "id": "round3-pmt-balance-0046",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4070000000000000",
+        "0xbfe0000000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0005",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4070000000000000",
+        "0x3fe0000000000000",
+        "0xbfe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0166",
+      "args": [
+        "0x4059000000000000",
+        "0x4070000000000000",
+        "0xc000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x4069000000000000"
+    },
+    {
+      "id": "round3-pmt-balance-0165",
+      "args": [
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0xc000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x3fffaee41e6a7498"
+    },
+    {
+      "id": "round3-pmt-balance-0171",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4010000000000000",
+        "0x4008000000000000",
+        "0xc008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0282",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x4024000000000000",
+        "0xc024000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0xc024000000000000"
+    },
+    {
+      "id": "round3-pmt-balance-0297",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4010000000000000",
+        "0xc024000000000000",
+        "0x4024000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0408",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0xdf30000000000000",
+        "0x5f30000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x5f30000000000000"
+    },
+    {
+      "id": "round3-pmt-balance-0411",
+      "args": [
+        "0x3ff0000000000000",
+        "0x4010000000000000",
+        "0xdf30000000000000",
+        "0x5f30000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x5f20000000000000"
+    },
+    {
+      "id": "round3-pmt-balance-0492",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0xa0b0000000000000",
+        "0x20b0000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x20b0000000000000"
+    },
+    {
+      "id": "round3-pmt-balance-0491",
+      "args": [
+        "0x3fa999999999999a",
+        "0x4070000000000000",
+        "0xa0b0000000000000",
+        "0x20b0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0x2068618618618618"
+    },
+    {
+      "id": "round3-pmt-balance-0535",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x7fcfffffffffffff",
+        "0xffcfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xffbfffffffffffff"
+    },
+    {
+      "id": "round3-pmt-balance-0590",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4010000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "0x064fffffffffffff"
+    },
+    {
+      "id": "round3-pmt-balance-0589",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x3ff0000000000000",
+        "0x0650000000000000",
+        "0x8650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-balance-0635",
+      "args": [
+        "0xbfefffffffffffff",
+        "0x4070000000000000",
+        "0x8650000000000000",
+        "0x0650000000000000",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-overflow-0000",
+      "args": [
+        "0x7fe80458d01575b0",
+        "0x3ff0000000000000",
+        "0x7fefffffffffffff",
+        "0xffefffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-overflow-0001",
+      "args": [
+        "0x7fe80458d01575b0",
+        "0x3ff0000000000000",
+        "0x7fefffffffffffff",
+        "0xffefffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xffefffffffffffff"
+    },
+    {
+      "id": "round3-pmt-overflow-0002",
+      "args": [
+        "0x7fe80458d01575b0",
+        "0x4010000000000000",
+        "0x7fefffffffffffff",
+        "0xffefffffffffffff",
+        "0x0000000000000000"
+      ],
+      "expected_bits": "error:Num"
+    },
+    {
+      "id": "round3-pmt-overflow-0003",
+      "args": [
+        "0x7fe80458d01575b0",
+        "0x4010000000000000",
+        "0x7fefffffffffffff",
+        "0xffefffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "expected_bits": "0xffefffffffffffff"
+    }
+  ]
+}

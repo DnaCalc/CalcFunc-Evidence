@@ -1,0 +1,5 @@
+*.json -text
+*.txt -text
+*.ps1 -text
+*.rs -text
+*.tsv -text

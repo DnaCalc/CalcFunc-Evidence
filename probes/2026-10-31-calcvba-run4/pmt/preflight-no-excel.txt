@@ -1,0 +1,13 @@
+Ok(
+    WorkerRun {
+        worker_pid: 54664,
+        excel_pid: None,
+        excel: NotReported,
+        exit_code: Some(
+            1,
+        ),
+        done: false,
+        other_output: [],
+        stderr: "Join-Path : Cannot process argument because the value of argument \"drive\" is null. Change the value of argument \r\n\"drive\" to a non-null value.\r\nAt \\\\?\\C:\\Work\\DnaCalc\\OxFunc-Evidence\\probes\\2026-10-31-calcvba-run4\\pmt\\witness-worker.ps1:45 char:4\r\n+ . (Join-Path $PSScriptRoot 'capture-worker.ps1')\r\n+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidArgument: (:) [Join-Path], PSArgumentNullException\r\n    + FullyQualifiedErrorId : ArgumentNull,Microsoft.PowerShell.Commands.JoinPathCommand\r\n \r\n",
+    },
+)

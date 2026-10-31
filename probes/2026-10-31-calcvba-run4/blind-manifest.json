@@ -1,0 +1,42 @@
+{
+  "prepared_utc": "2026-10-31T10:45:26.298972+00:00",
+  "predictions_opened": false,
+  "packets": [
+    {
+      "label": "pmt",
+      "source": "pmt-fresh-plan/pmt-fresh-worker-request.json",
+      "function": "PMT",
+      "count": 132,
+      "request_sha256": "6c73889d0f97491d99d3276a6d826e2331878c5e6e5db68e6bec27daea1ab64d",
+      "result_completed_utc": "2026-10-31T10:46:36.127455+00:00"
+    },
+    {
+      "label": "gamma-dist",
+      "source": "gamma-cdf-worker/fresh-independent-plan/gamma-dist-fresh-worker-request.json",
+      "function": "GAMMA.DIST",
+      "count": 128,
+      "request_sha256": "0d56ac526c307c595db01aaa17995dfd35232d14ab0860b84c0887aed48f034c",
+      "result_completed_utc": "2026-10-31T10:47:02.271041+00:00"
+    },
+    {
+      "label": "binom-dist",
+      "source": "mass-worker/binomial-fresh-worker-request.json",
+      "function": "BINOM.DIST",
+      "count": 120,
+      "request_sha256": "fc92e058012875beb0305ede9f33740490c044c607f6d1fe9e46fb0236043621",
+      "result_completed_utc": "2026-10-31T10:47:31.641770+00:00"
+    },
+    {
+      "label": "poisson-dist",
+      "source": "mass-worker/poisson-fresh-worker-request.json",
+      "function": "POISSON.DIST",
+      "count": 161,
+      "request_sha256": "e5db841bff44a04e12e0abbf0c5da23fae4415b17f35e906c9428cef9f461963",
+      "result_completed_utc": "2026-10-31T10:48:06.107254+00:00"
+    }
+  ],
+  "worker_hashes": {
+    "witness-worker.ps1": "f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+    "capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25"
+  }
+}

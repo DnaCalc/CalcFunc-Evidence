@@ -1,0 +1,15 @@
+Ok(
+    WorkerRun {
+        worker_pid: 9112,
+        excel_pid: Some(
+            46856,
+        ),
+        excel: Exited,
+        exit_code: Some(
+            0,
+        ),
+        done: true,
+        other_output: [],
+        stderr: "",
+    },
+)

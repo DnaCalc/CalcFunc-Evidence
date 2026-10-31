@@ -1,0 +1,1463 @@
+{
+  "function": "POISSON.DIST",
+  "capture_provenance": {
+    "schema_version": "dnacalc-witness-reading/1",
+    "captured_utc": "2026-10-31T10:48:06.107254+00:00",
+    "capture_clock_note": "raw worker result file completion time",
+    "reader": "calc-oracle-excel witness-worker/1 at DnaCalc b952767; existing run_isolated supervisor",
+    "worker_sha256": {
+      "witness-worker.ps1": "f37177d6a225ddbc07bc59f5f8e1f65a426fd121cf4529bd40394cd389c31831",
+      "capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25"
+    },
+    "inputs": "probes/2026-10-31-calcvba-run4/poisson-dist/request.json",
+    "inputs_sha256": "e5db841bff44a04e12e0abbf0c5da23fae4415b17f35e906c9428cef9f461963",
+    "raw_result": "probes/2026-10-31-calcvba-run4/poisson-dist/result.json",
+    "raw_result_sha256": "ffddc654e282c6e682402b8656a150f05e2c989db34521c15e76a888ec57919f",
+    "blind": true,
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "environment": {
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_bitness": "64-bit",
+      "platform": "Windows",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_input_plumbing": "cell_value2_bulk"
+    }
+  },
+  "witnesses": [
+    {
+      "id": "round3-tiny-witness--16",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff0",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffdfe0"
+    },
+    {
+      "id": "round3-tiny-witness--15",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff1",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--14",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff2",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--13",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff3",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--12",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff4",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--11",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff5",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--10",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff6",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--9",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff7",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff8",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffff9",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffffa",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffffb",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffffc",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffffd",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d6fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000000",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000001",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000002",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000003",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000004",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000005",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000006",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000007",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000008",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe000"
+    },
+    {
+      "id": "round3-tiny-witness-+9",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000009",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+10",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000a",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+11",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000b",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+12",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000c",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+13",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000d",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+14",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000e",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+15",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d7000000000000f",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-witness-+16",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3d70000000000010",
+        false
+      ],
+      "expected_bits": "0x3d6fffffffffe020"
+    },
+    {
+      "id": "round3-tiny-cutoff--16",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff0",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--15",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff1",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--14",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff2",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--13",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff3",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--12",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff4",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--11",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff5",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--10",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff6",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--9",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff7",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff8",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffff9",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffffa",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffffb",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffffc",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffffd",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e3fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000000",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000001",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000002",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000003",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000004",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000005",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffbfffffb"
+    },
+    {
+      "id": "round3-tiny-cutoff-+6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000006",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000007",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000008",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+9",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000009",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+10",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000a",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+11",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000b",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+12",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000c",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+13",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000d",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+14",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000e",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+15",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e4000000000000f",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-cutoff-+16",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3e40000000000010",
+        false
+      ],
+      "expected_bits": "0x3e3ffffffc00001b"
+    },
+    {
+      "id": "round3-tiny-theorem--8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffff8",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffff9",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffffa",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffffb",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffffc",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffffd",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8ffffffffffffe",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem--1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c8fffffffffffff",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000000",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000001",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000002",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000003",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000004",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+5",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000005",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+6",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000006",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+7",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000007",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-theorem-+8",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3c90000000000008",
+        false
+      ],
+      "expected_bits": "0x3c8ffffffffffff5"
+    },
+    {
+      "id": "round3-tiny-publication-+0",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000000",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "round3-tiny-publication-+1",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000001",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "round3-tiny-publication-+2",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000002",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "round3-tiny-publication-+3",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000003",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "round3-tiny-publication-+4",
+      "args": [
+        "0x3ff0000000000000",
+        "0x0010000000000004",
+        false
+      ],
+      "expected_bits": "0x001000000000007c"
+    },
+    {
+      "id": "round3-central-a--8",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffdc",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b1c"
+    },
+    {
+      "id": "round3-central-a--7",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffdd",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b1e"
+    },
+    {
+      "id": "round3-central-a--6",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffde",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b1f"
+    },
+    {
+      "id": "round3-central-a--5",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffdf",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b1e"
+    },
+    {
+      "id": "round3-central-a--4",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe0",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b20"
+    },
+    {
+      "id": "round3-central-a--3",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe1",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b21"
+    },
+    {
+      "id": "round3-central-a--2",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe2",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b22"
+    },
+    {
+      "id": "round3-central-a--1",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe3",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b23"
+    },
+    {
+      "id": "round3-central-a-+0",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe4",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b23"
+    },
+    {
+      "id": "round3-central-a-+1",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe5",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b23"
+    },
+    {
+      "id": "round3-central-a-+2",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe6",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b24"
+    },
+    {
+      "id": "round3-central-a-+3",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe7",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b25"
+    },
+    {
+      "id": "round3-central-a-+4",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe8",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b25"
+    },
+    {
+      "id": "round3-central-a-+5",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffe9",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b25"
+    },
+    {
+      "id": "round3-central-a-+6",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffea",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b26"
+    },
+    {
+      "id": "round3-central-a-+7",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffeb",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b27"
+    },
+    {
+      "id": "round3-central-a-+8",
+      "args": [
+        "0x4008000000000000",
+        "0x4004166ca268ffec",
+        false
+      ],
+      "expected_bits": "0x3fcb6bbdbc1f4b28"
+    },
+    {
+      "id": "round3-central-b--8",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916bd",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a2"
+    },
+    {
+      "id": "round3-central-b--7",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916be",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a3"
+    },
+    {
+      "id": "round3-central-b--6",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916bf",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a4"
+    },
+    {
+      "id": "round3-central-b--5",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c0",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a4"
+    },
+    {
+      "id": "round3-central-b--4",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c1",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a5"
+    },
+    {
+      "id": "round3-central-b--3",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c2",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a5"
+    },
+    {
+      "id": "round3-central-b--2",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c3",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a5"
+    },
+    {
+      "id": "round3-central-b--1",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c4",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a6"
+    },
+    {
+      "id": "round3-central-b-+0",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c5",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a7"
+    },
+    {
+      "id": "round3-central-b-+1",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c6",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a7"
+    },
+    {
+      "id": "round3-central-b-+2",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c7",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a7"
+    },
+    {
+      "id": "round3-central-b-+3",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c8",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a8"
+    },
+    {
+      "id": "round3-central-b-+4",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916c9",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a8"
+    },
+    {
+      "id": "round3-central-b-+5",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916ca",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a9"
+    },
+    {
+      "id": "round3-central-b-+6",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916cb",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9a9"
+    },
+    {
+      "id": "round3-central-b-+7",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916cc",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9aa"
+    },
+    {
+      "id": "round3-central-b-+8",
+      "args": [
+        "0x4008000000000000",
+        "0x4004d05f2c1916cd",
+        false
+      ],
+      "expected_bits": "0x3fcbdb4f54c4f9aa"
+    },
+    {
+      "id": "round3-central-c--8",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c3",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e6"
+    },
+    {
+      "id": "round3-central-c--7",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c4",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e6"
+    },
+    {
+      "id": "round3-central-c--6",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c5",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e5"
+    },
+    {
+      "id": "round3-central-c--5",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c6",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e4"
+    },
+    {
+      "id": "round3-central-c--4",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c7",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e4"
+    },
+    {
+      "id": "round3-central-c--3",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c8",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e3"
+    },
+    {
+      "id": "round3-central-c--2",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106c9",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e3"
+    },
+    {
+      "id": "round3-central-c--1",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106ca",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e2"
+    },
+    {
+      "id": "round3-central-c-+0",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106cb",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e2"
+    },
+    {
+      "id": "round3-central-c-+1",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106cc",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e1"
+    },
+    {
+      "id": "round3-central-c-+2",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106cd",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e0"
+    },
+    {
+      "id": "round3-central-c-+3",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106ce",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2e0"
+    },
+    {
+      "id": "round3-central-c-+4",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106cf",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2df"
+    },
+    {
+      "id": "round3-central-c-+5",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106d0",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2df"
+    },
+    {
+      "id": "round3-central-c-+6",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106d1",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2de"
+    },
+    {
+      "id": "round3-central-c-+7",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106d2",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2de"
+    },
+    {
+      "id": "round3-central-c-+8",
+      "args": [
+        "0x4008000000000000",
+        "0x400befcb2ac106d3",
+        false
+      ],
+      "expected_bits": "0x3fcba6cd419fd2de"
+    },
+    {
+      "id": "round3-stress-a--4",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a39",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071b4943"
+    },
+    {
+      "id": "round3-stress-a--3",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3a",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071b512a"
+    },
+    {
+      "id": "round3-stress-a--2",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3b",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071b9851"
+    },
+    {
+      "id": "round3-stress-a--1",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3c",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071c1ac0"
+    },
+    {
+      "id": "round3-stress-a-+0",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3d",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071c1eb4"
+    },
+    {
+      "id": "round3-stress-a-+1",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3e",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071c69cd"
+    },
+    {
+      "id": "round3-stress-a-+2",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a3f",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071cf030"
+    },
+    {
+      "id": "round3-stress-a-+3",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a40",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071cf818"
+    },
+    {
+      "id": "round3-stress-a-+4",
+      "args": [
+        "0x410d20e000000000",
+        "0x410b336b377e6a41",
+        false
+      ],
+      "expected_bits": "0x0dff9edd071d3b49"
+    },
+    {
+      "id": "round3-stress-b--4",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f0697907",
+        false
+      ],
+      "expected_bits": "0x10dc9cf51920a39d"
+    },
+    {
+      "id": "round3-stress-b--3",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f0697908",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5192098e1"
+    },
+    {
+      "id": "round3-stress-b--2",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f0697909",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191facd2"
+    },
+    {
+      "id": "round3-stress-b--1",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790a",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191ec0c3"
+    },
+    {
+      "id": "round3-stress-b-+0",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790b",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191dd4b5"
+    },
+    {
+      "id": "round3-stress-b-+1",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790c",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191ce8a6"
+    },
+    {
+      "id": "round3-stress-b-+2",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790d",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191bfc97"
+    },
+    {
+      "id": "round3-stress-b-+3",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790e",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191b0cf5"
+    },
+    {
+      "id": "round3-stress-b-+4",
+      "args": [
+        "0x414dab3f00000000",
+        "0x414e2759f069790f",
+        false
+      ],
+      "expected_bits": "0x10dc9cf5191a2479"
+    }
+  ],
+  "unread": [
+    {
+      "id": "round3-tiny-publication--4",
+      "reason": "Excel changed an input through Value2; raw result is not an answer to the requested tuple"
+    },
+    {
+      "id": "round3-tiny-publication--3",
+      "reason": "Excel changed an input through Value2; raw result is not an answer to the requested tuple"
+    },
+    {
+      "id": "round3-tiny-publication--2",
+      "reason": "Excel changed an input through Value2; raw result is not an answer to the requested tuple"
+    },
+    {
+      "id": "round3-tiny-publication--1",
+      "reason": "Excel changed an input through Value2; raw result is not an answer to the requested tuple"
+    }
+  ]
+}

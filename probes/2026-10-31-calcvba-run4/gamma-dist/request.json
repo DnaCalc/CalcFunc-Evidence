@@ -1,0 +1,2311 @@
+{
+  "format": "dnacalc-witness-request",
+  "version": 1,
+  "function": "GAMMA.DIST",
+  "rows": [
+    {
+      "id": "round3-gammacdf-independent-000",
+      "args": [
+        {
+          "number": "3f6c8a96667d6bff"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-001",
+      "args": [
+        {
+          "number": "3f6c8a96667d6c01"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-002",
+      "args": [
+        {
+          "number": "3f6d4cc68fc4dbff"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-003",
+      "args": [
+        {
+          "number": "3f6d4cc68fc4dc01"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-004",
+      "args": [
+        {
+          "number": "3f7db73ce6e929ff"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-005",
+      "args": [
+        {
+          "number": "3f7db73ce6e92a01"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-006",
+      "args": [
+        {
+          "number": "3f6d4cc68fc4dbff"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-007",
+      "args": [
+        {
+          "number": "3f6d4cc68fc4dc01"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-008",
+      "args": [
+        {
+          "number": "3f7db73ce6e929ff"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-009",
+      "args": [
+        {
+          "number": "3f7db73ce6e92a01"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-010",
+      "args": [
+        {
+          "number": "3fb0a8f1e300331f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-011",
+      "args": [
+        {
+          "number": "3fb0a8f1e3003321"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-012",
+      "args": [
+        {
+          "number": "3fb0ae012a7759df"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-013",
+      "args": [
+        {
+          "number": "3fb0ae012a7759e1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-014",
+      "args": [
+        {
+          "number": "3fb0af34e954a9df"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-015",
+      "args": [
+        {
+          "number": "3fb0af34e954a9e1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-016",
+      "args": [
+        {
+          "number": "3fb0b068bf1f4a1f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-017",
+      "args": [
+        {
+          "number": "3fb0b068bf1f4a21"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-018",
+      "args": [
+        {
+          "number": "3fb0b39e140a8d5f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-019",
+      "args": [
+        {
+          "number": "3fb0b39e140a8d61"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-020",
+      "args": [
+        {
+          "number": "3fb0bc86be5aaa9f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-021",
+      "args": [
+        {
+          "number": "3fb0bc86be5aaaa1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-022",
+      "args": [
+        {
+          "number": "3fb0bd09c0166d9f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-023",
+      "args": [
+        {
+          "number": "3fb0bd09c0166da1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-024",
+      "args": [
+        {
+          "number": "3fb0c1b846e05f5f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-025",
+      "args": [
+        {
+          "number": "3fb0c1b846e05f61"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-026",
+      "args": [
+        {
+          "number": "3fb0cb2c2c522f1f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-027",
+      "args": [
+        {
+          "number": "3fb0cb2c2c522f21"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-028",
+      "args": [
+        {
+          "number": "3fb0ccf863715d9f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-029",
+      "args": [
+        {
+          "number": "3fb0ccf863715da1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-030",
+      "args": [
+        {
+          "number": "3fb0d4186b6efa5f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-031",
+      "args": [
+        {
+          "number": "3fb0d4186b6efa61"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-032",
+      "args": [
+        {
+          "number": "3fb0d95183faac9f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-033",
+      "args": [
+        {
+          "number": "3fb0d95183faaca1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-034",
+      "args": [
+        {
+          "number": "3fb0e7b273ba241f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-035",
+      "args": [
+        {
+          "number": "3fb0e7b273ba2421"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-036",
+      "args": [
+        {
+          "number": "3fb0ed6ce8f6149f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-037",
+      "args": [
+        {
+          "number": "3fb0ed6ce8f614a1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-038",
+      "args": [
+        {
+          "number": "3fb0f091f2e1231f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-039",
+      "args": [
+        {
+          "number": "3fb0f091f2e12321"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-040",
+      "args": [
+        {
+          "number": "3fb0abd1db9c1e60"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-041",
+      "args": [
+        {
+          "number": "3fb0fd5baac36920"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-042",
+      "args": [
+        {
+          "number": "3f6cb1c55c6bd2f7"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-043",
+      "args": [
+        {
+          "number": "3f6ca555434e06d1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-044",
+      "args": [
+        {
+          "number": "3fb0a5b55e56023e"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-045",
+      "args": [
+        {
+          "number": "3fb0b59664969fbd"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-046",
+      "args": [
+        {
+          "number": "3fb0c38cd1a3c2bd"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-047",
+      "args": [
+        {
+          "number": "3fb0cd01c85d05bc"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-048",
+      "args": [
+        {
+          "number": "3fb0ced7997187bc"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-049",
+      "args": [
+        {
+          "number": "3fb0de8c49a7ea3c"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-050",
+      "args": [
+        {
+          "number": "3fb0f67577a2973b"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-051",
+      "args": [
+        {
+          "number": "3fb103d28bc7bc3a"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-052",
+      "args": [
+        {
+          "number": "3fb104f9a5ce86ba"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-053",
+      "args": [
+        {
+          "number": "3fb128279097c839"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-054",
+      "args": [
+        {
+          "number": "3f6d4acaa94b4563"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-055",
+      "args": [
+        {
+          "number": "3f84ae59e7c0ed94"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-056",
+      "args": [
+        {
+          "number": "3fb0a317950387bd"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-057",
+      "args": [
+        {
+          "number": "3fb0b3df705915c4"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-058",
+      "args": [
+        {
+          "number": "3fb0bb19e1a47fb2"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-059",
+      "args": [
+        {
+          "number": "3fb0c574526666b2"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-060",
+      "args": [
+        {
+          "number": "3fb0cf2c303b80b1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-061",
+      "args": [
+        {
+          "number": "3f6ce8138396c44d"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-062",
+      "args": [
+        {
+          "number": "3f6d1f27493c943d"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-063",
+      "args": [
+        {
+          "number": "3f6cccc8361776cf"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-064",
+      "args": [
+        {
+          "number": "3f6cbf3408bf992c"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-065",
+      "args": [
+        {
+          "number": "3f6cd86eac3ea938"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-066",
+      "args": [
+        {
+          "number": "3f6cea95b418e940"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-067",
+      "args": [
+        {
+          "number": "3f6cf6775090b946"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-068",
+      "args": [
+        {
+          "number": "3f792fe990999c5a"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-069",
+      "args": [
+        {
+          "number": "3f6ce776ea5eea79"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-070",
+      "args": [
+        {
+          "number": "3f6cc4cd5fce9ba9"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-071",
+      "args": [
+        {
+          "number": "3fb0d4aefe9fc4b1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-072",
+      "args": [
+        {
+          "number": "3fb0e10dfbeeb731"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-073",
+      "args": [
+        {
+          "number": "3fb0e13d2ed07531"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-074",
+      "args": [
+        {
+          "number": "3fb0e509f0d382b1"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-075",
+      "args": [
+        {
+          "number": "3fb0eb645306a646"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-076",
+      "args": [
+        {
+          "number": "3fb0f06293a99ec6"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-077",
+      "args": [
+        {
+          "number": "3fb10aab4d076faf"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-078",
+      "args": [
+        {
+          "number": "3fb10f9677a9292f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-079",
+      "args": [
+        {
+          "number": "3fb1159841dadd2f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-080",
+      "args": [
+        {
+          "number": "3e4e462283353fc5"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-081",
+      "args": [
+        {
+          "number": "3e5f40b8be3b61c8"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-082",
+      "args": [
+        {
+          "number": "3e6698c4a5217ead"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-083",
+      "args": [
+        {
+          "number": "3e762b976e181a9e"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-084",
+      "args": [
+        {
+          "number": "3e8fdb6dac010511"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-085",
+      "args": [
+        {
+          "number": "3e9fa7edddf1d49b"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-086",
+      "args": [
+        {
+          "number": "3ea6080795023c6b"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-087",
+      "args": [
+        {
+          "number": "3eb674ce2d7c37fd"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-088",
+      "args": [
+        {
+          "number": "3ec65080d7b63d8d"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-089",
+      "args": [
+        {
+          "number": "3ed67516af5c7935"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-090",
+      "args": [
+        {
+          "number": "3ee4e5b63a6fec75"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-091",
+      "args": [
+        {
+          "number": "3efe171799a83dff"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-092",
+      "args": [
+        {
+          "number": "3f05c192a803c1e5"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-093",
+      "args": [
+        {
+          "number": "3f148be1d80205b3"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-094",
+      "args": [
+        {
+          "number": "3f2f108cbdeef3c8"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-095",
+      "args": [
+        {
+          "number": "3f34cf7895666aee"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-096",
+      "args": [
+        {
+          "number": "3f457bb9afd2df7e"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-097",
+      "args": [
+        {
+          "number": "3f562d8c976cedfe"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-098",
+      "args": [
+        {
+          "number": "3f6609b2726ad8bd"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-099",
+      "args": [
+        {
+          "number": "3f762dd4333a5411"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-100",
+      "args": [
+        {
+          "number": "3f80093ec2637e6d"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-101",
+      "args": [
+        {
+          "number": "3f9132cfa1960110"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-102",
+      "args": [
+        {
+          "number": "3e4c689e804ece53"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-103",
+      "args": [
+        {
+          "number": "3e5cf4e1b417d90f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-104",
+      "args": [
+        {
+          "number": "3e6c0d0f5fbdcca6"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-105",
+      "args": [
+        {
+          "number": "3e716930af7aa85a"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-106",
+      "args": [
+        {
+          "number": "3e86e31a0866d56a"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-107",
+      "args": [
+        {
+          "number": "3e9216c6345d506c"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-108",
+      "args": [
+        {
+          "number": "3ea699569209b144"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-109",
+      "args": [
+        {
+          "number": "3eb0c2bf3cf8911e"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-110",
+      "args": [
+        {
+          "number": "3ec14d7b0f7adbfb"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-111",
+      "args": [
+        {
+          "number": "3ed62c6e313f38d8"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-112",
+      "args": [
+        {
+          "number": "3ee699e882a03f7f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-113",
+      "args": [
+        {
+          "number": "3ef62cb5c96fe37d"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-114",
+      "args": [
+        {
+          "number": "3f01fa365cfbbf67"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-115",
+      "args": [
+        {
+          "number": "3f1cf712bf1634bb"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-116",
+      "args": [
+        {
+          "number": "3f2c6b20ae9cf8ce"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-117",
+      "args": [
+        {
+          "number": "3f36bf89976a9ae4"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-118",
+      "args": [
+        {
+          "number": "3f4c6b7c70b6c30f"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-119",
+      "args": [
+        {
+          "number": "3f51a3cc978b6596"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-120",
+      "args": [
+        {
+          "number": "3f6cec0db871f025"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-121",
+      "args": [
+        {
+          "number": "3f716af27f2a5698"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-122",
+      "args": [
+        {
+          "number": "3f82360a098535f0"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-123",
+      "args": [
+        {
+          "number": "3f95e658f7847303"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-124",
+      "args": [
+        {
+          "number": "3fab5c253c7be585"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-125",
+      "args": [
+        {
+          "number": "3fb0a187c6026a41"
+        },
+        {
+          "number": "4008000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-126",
+      "args": [
+        {
+          "number": "3e4e462283353fc7"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    },
+    {
+      "id": "round3-gammacdf-independent-127",
+      "args": [
+        {
+          "number": "3e5f40b8be3b61ca"
+        },
+        {
+          "number": "4000000000000000"
+        },
+        {
+          "number": "3ff0000000000000"
+        },
+        {
+          "logical": true
+        }
+      ],
+      "formula": "=GAMMA.DIST(RC[1],RC[2],RC[3],RC[4])"
+    }
+  ]
+}
