@@ -1,0 +1,18 @@
+{
+  "opened_after_answer_commit": "0df452ec",
+  "opened_utc": "2026-10-31T10:51:23.719875+00:00",
+  "sources": {
+    "pmt-native.tsv": "pmt-fresh-plan/frozen-native-predictions.tsv",
+    "pmt-software.tsv": "pmt-fresh-plan/frozen-software-predictions.tsv",
+    "gamma-dist.tsv": "gamma-cdf-worker/fresh-independent-plan/frozen-predictions.tsv",
+    "binom-dist.tsv": "mass-worker/binomial-fresh-frozen-predictions.tsv",
+    "poisson-dist.tsv": "mass-worker/poisson-fresh-frozen-predictions.tsv"
+  },
+  "files": {
+    "pmt-native.tsv": "31b381fbebacdaad014adacdf0b2eb9ddc22d467fb10b047a011d9c51d801959",
+    "pmt-software.tsv": "14fad938c6d4405bace4c5405d8a7f7c2f3ee1a82220439962667be295d38676",
+    "gamma-dist.tsv": "6e728f20391676bcac36825493837fd302a1c54e5c5435537df01bb3b43ef72b",
+    "binom-dist.tsv": "957e4fb939572efb5ecf2a056376d98ac2ca9df68458b888827d58b0cdd5ecea",
+    "poisson-dist.tsv": "8834ac06b5adb2a4a2246a98d7038e490916b345fdf5b2952c72a5411c9286f9"
+  }
+}

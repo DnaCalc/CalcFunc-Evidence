@@ -35,3 +35,39 @@ to the requested tuples; they remain unread failures in prediction scoring.
 Recheck: python probes/2026-10-31-calcvba-run4/verify-blind.py.
 Repository check: python archive-evidence.py verify --sample 100 --seed 4.
 Frozen prediction scores are deliberately absent from this first answer commit.
+
+## Frozen prediction scores (opened after answer commit 0df452ec)
+
+| Function / frozen model | Exact matches / all questions | Failed | Worst numeric ULP |
+|---|---:|---:|---:|
+| PMT current application, native and software | 78 / 132 | 54 | 3 |
+| PMT pre-identity, native and software | 15 / 132 | 117 | 4,627,045 |
+| GAMMA.DIST retained candidate A | 34 / 128 | 94 | 5 |
+| GAMMA.DIST baseline | 0 / 128 | 128 | 31 |
+| GAMMA.DIST research B (unretained) | 34 / 128 | 94 | 5 |
+| GAMMA.DIST mathematical rounded reference | 6 / 128 | 122 | 62 |
+| BINOM.DIST baseline (retained product) | 25 / 120 | 95 | 57 |
+| BINOM.DIST tiny compensated (unretained) | 5 / 120 | 115 | 60 |
+| BINOM.DIST tiny control (unretained) | 5 / 120 | 115 | 61 |
+| POISSON.DIST retained tiny endpoint | 31 / 161 | 130 | 75,996 |
+| POISSON.DIST baseline | 28 / 161 | 133 | 75,996 |
+| POISSON.DIST research u_scalar | 31 / 161 | 130 | 76,911 |
+| POISSON.DIST research u_pc64 | 29 / 161 | 132 | 75,996 |
+
+POISSON failures include all four changed-input rows; its four recorded-input
+rechecks remain in the denominator (one matches tiny endpoint). Its 157 new
+argument identities therefore give 30 matches, 123 mismatches and four unread.
+PMT gains 63, A gains 34 and tiny endpoint gains three against their respective
+baselines, with no exact-match losses in these selected questions. PMT's four
+overflow questions all match; its remaining failures include four numeric
+predictions where Excel returned #NUM!, 47 one-ULP and three three-ULP misses.
+Numeric ULP maxima exclude error/number differences, which still count as fail.
+These targeted results do not identify a general Excel algorithm or establish
+full-function parity. No coefficient, numerical kernel or bound was changed.
+
+predictions/ retains the original bytes, with hashes in prediction-manifest.json;
+the available original SHA-256 manifests were checked. score-frozen.py verifies
+raw answers against the blind Git commit before joining IDs and comparing exact
+bits/errors. Worksheet error spellings such as #NUM! are normalized to the
+standard witness encoding error:Num. scores.json and score-rows.tsv retain every
+column and every row. Reproduce with python probes/2026-10-31-calcvba-run4/score-frozen.py.
