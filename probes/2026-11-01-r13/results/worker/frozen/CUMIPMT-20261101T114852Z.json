@@ -1,0 +1,319 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:48:52Z",
+  "function": "CUMIPMT",
+  "input_document": {
+    "function": "CUMIPMT",
+    "witnesses": [
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x3ff0000000000000",
+          "0x404f800000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-00",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x4050000000000000",
+          "0x405fc00000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-01",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x3ff0000000000000",
+          "0x405fc00000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-02",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x3ff0000000000000",
+          "0x404f800000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-03",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x4050000000000000",
+          "0x405fc00000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-04",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x3ff0000000000000",
+          "0x405fc00000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-05",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x3ff0000000000000",
+          "0x4066800000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-06",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x4066a00000000000",
+          "0x4076800000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-07",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x3ff0000000000000",
+          "0x4076800000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-cumipmt-08",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x3ff0000000000000",
+          "0x4066800000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-09",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x4066a00000000000",
+          "0x4076800000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-10",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x3ff0000000000000",
+          "0x4076800000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-cumipmt-11",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\prior\\round11\\requests-CUMIPMT.json",
+  "inputs_sha256": "d1c9491a351ba0db5d75597e0533869f05d8236bdc8af6a3bf6eaca655b5da5c",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc02d24d3bfb409f0",
+      "id": "r11-cumipmt-00",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc014d140f582c260",
+      "id": "r11-cumipmt-01",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc033c6ba1d3ab580",
+      "id": "r11-cumipmt-02",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc02c8112f5edfa28",
+      "id": "r11-cumipmt-03",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc014ca01cff16040",
+      "id": "r11-cumipmt-04",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0337309eef35518",
+      "id": "r11-cumipmt-05",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc0ff7ff99fe87e3f",
+      "id": "r11-cumipmt-06",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc0ec11fef1e61590",
+      "id": "r11-cumipmt-07",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc106c47c8c6dc483",
+      "id": "r11-cumipmt-08",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0ff2aa5bbecd6f1",
+      "id": "r11-cumipmt-09",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0ebf42db0192de0",
+      "id": "r11-cumipmt-10",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc106925e49fcb6f1",
+      "id": "r11-cumipmt-11",
+      "result_index": null
+    }
+  ]
+}

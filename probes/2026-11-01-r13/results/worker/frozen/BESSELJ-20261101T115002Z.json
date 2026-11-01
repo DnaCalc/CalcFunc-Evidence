@@ -1,0 +1,291 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:50:02Z",
+  "function": "BESSELJ",
+  "input_document": {
+    "function": "BESSELJ",
+    "witnesses": [
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-00",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-01",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-02",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-03",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besselj-04",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besselj-05",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besselj-06",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besselj-07",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besselj-08",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besselj-09",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besselj-10",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besselj-11",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc19fffffffffffff",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-12",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc1a0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-13",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc1a0000000000001",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-14",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc19ffffffe000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besselj-15",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\prior\\structural-r11-v2\\requests-BESSELJ.json",
+  "inputs_sha256": "df094ebb059f3db443fe8046d90585530798c1ceb9d54344d5d42778aea0e754",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff1a3593be75",
+      "id": "r11-struct-besselj-00",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff19ed9c47a0",
+      "id": "r11-struct-besselj-01",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff195dad59f6",
+      "id": "r11-struct-besselj-02",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf03e23975421ed4",
+      "id": "r11-struct-besselj-03",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb4a6203d",
+      "id": "r11-struct-besselj-04",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb5061ca3",
+      "id": "r11-struct-besselj-05",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb5c61570",
+      "id": "r11-struct-besselj-06",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf0e23e917d6cf56",
+      "id": "r11-struct-besselj-07",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff19ed9c47a2",
+      "id": "r11-struct-besselj-08",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff19a5a4d0cc",
+      "id": "r11-struct-besselj-09",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff1915b5e31f",
+      "id": "r11-struct-besselj-10",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f03e2396db9248e",
+      "id": "r11-struct-besselj-11",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc19fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff1a3593be75",
+      "id": "r11-struct-besselj-12",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc1a0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff19ed9c47a0",
+      "id": "r11-struct-besselj-13",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc1a0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbed7ff195dad59f6",
+      "id": "r11-struct-besselj-14",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc19ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf03e23975421ed4",
+      "id": "r11-struct-besselj-15",
+      "result_index": null
+    }
+  ]
+}

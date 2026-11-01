@@ -1,0 +1,111 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:49:32Z",
+  "function": "PMT",
+  "input_document": {
+    "function": "PMT",
+    "witnesses": [
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-pmt-00",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-pmt-01",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r11-pmt-02",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-pmt-03",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\prior\\round11\\requests-PMT.json",
+  "inputs_sha256": "3407f594fa60d9b6e42d676fd47355b3531822637c025129f69669014e758d8c",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbffe49b178993c72",
+      "id": "r11-pmt-00",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffe3f265c984e89",
+      "id": "r11-pmt-01",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc090c692af15f63a",
+      "id": "r11-pmt-02",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc090b4c0d059daa6",
+      "id": "r11-pmt-03",
+      "result_index": null
+    }
+  ]
+}

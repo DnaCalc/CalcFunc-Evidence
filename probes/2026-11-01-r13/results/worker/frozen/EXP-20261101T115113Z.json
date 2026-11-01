@@ -1,0 +1,200 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:51:13Z",
+  "function": "EXP",
+  "input_document": {
+    "function": "EXP",
+    "selection": "R13 instruction-boundary and original-gap audit; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x3e4149806ad5133c"
+        ],
+        "id": "r13-exp-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbe4149806ad5133c"
+        ],
+        "id": "r13-exp-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3edb5f2c86067c92"
+        ],
+        "id": "r13-exp-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbedb5f2c86067c92"
+        ],
+        "id": "r13-exp-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ec4f8b530ed6b56"
+        ],
+        "id": "r13-exp-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbec4f8b530ed6b56"
+        ],
+        "id": "r13-exp-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f4d7dbc625490e0"
+        ],
+        "id": "r13-exp-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbf4d7dbc625490e0"
+        ],
+        "id": "r13-exp-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f0e49eed3c660ed"
+        ],
+        "id": "r13-exp-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbf0e49eed3c660ed"
+        ],
+        "id": "r13-exp-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3fc61eaaaf9065da"
+        ],
+        "id": "r13-exp-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xbfc61eaaaf9065da"
+        ],
+        "id": "r13-exp-011",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\requests-EXP.json",
+  "inputs_sha256": "c134b714d612f060ca0d875ca9a43c00ce17e159ad3fcd61bd837f7566860d5d",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3e4149806ad5133c"
+      ],
+      "calc_func_prediction": "0x3ff000000229300e",
+      "id": "r13-exp-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbe4149806ad5133c"
+      ],
+      "calc_func_prediction": "0x3feffffffbad9fe6",
+      "id": "r13-exp-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3edb5f2c86067c92"
+      ],
+      "calc_func_prediction": "0x3ff00006d7cc981d",
+      "id": "r13-exp-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbedb5f2c86067c92"
+      ],
+      "calc_func_prediction": "0x3feffff2506caa33",
+      "id": "r13-exp-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ec4f8b530ed6b56"
+      ],
+      "calc_func_prediction": "0x3ff000029f16dd17",
+      "id": "r13-exp-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbec4f8b530ed6b56"
+      ],
+      "calc_func_prediction": "0x3feffffac1d321b8",
+      "id": "r13-exp-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f4d7dbc625490e0"
+      ],
+      "calc_func_prediction": "0x3ff003b0244bf277",
+      "id": "r13-exp-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbf4d7dbc625490e0"
+      ],
+      "calc_func_prediction": "0x3feff8a16a4554e3",
+      "id": "r13-exp-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f0e49eed3c660ed"
+      ],
+      "calc_func_prediction": "0x3ff0003c94505548",
+      "id": "r13-exp-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbf0e49eed3c660ed"
+      ],
+      "calc_func_prediction": "0x3fefff86d92a0a1a",
+      "id": "r13-exp-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3fc61eaaaf9065da"
+      ],
+      "calc_func_prediction": "0x3ff304acb876538c",
+      "id": "r13-exp-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xbfc61eaaaf9065da"
+      ],
+      "calc_func_prediction": "0x3feaebe71420c169",
+      "id": "r13-exp-011",
+      "result_index": null
+    }
+  ]
+}

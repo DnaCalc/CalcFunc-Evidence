@@ -9,3 +9,5 @@ readings/excel-20527/BESSELI.json -text
 readings/excel-20527/BESSELJ.json -text
 readings/excel-20527/CONCATENATE.json -text
 readings/excel-20527/CONCAT.json -text
+readings/excel-20527/r13-*.json -text
+probes/2026-11-01-r13/** -text

@@ -1,0 +1,224 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:50:53Z",
+  "function": "POWER",
+  "input_document": {
+    "function": "POWER",
+    "selection": "R13 instruction-boundary and original-gap audit; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x3ff000000229300e",
+          "0x3ff0000000000000"
+        ],
+        "id": "r13-power-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000000229300e",
+          "0xbff0000000000000"
+        ],
+        "id": "r13-power-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000002f5884a4",
+          "0x4042800000000000"
+        ],
+        "id": "r13-power-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000002f5884a4",
+          "0xc042800000000000"
+        ],
+        "id": "r13-power-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000008637bd06",
+          "0x4014000000000000"
+        ],
+        "id": "r13-power-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000008637bd06",
+          "0xc014000000000000"
+        ],
+        "id": "r13-power-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff00003254e6e22",
+          "0x4072c00000000000"
+        ],
+        "id": "r13-power-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff00003254e6e22",
+          "0xc072c00000000000"
+        ],
+        "id": "r13-power-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000050c534480",
+          "0x4028000000000000"
+        ],
+        "id": "r13-power-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff000050c534480",
+          "0xc028000000000000"
+        ],
+        "id": "r13-power-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff00593c8ec048f",
+          "0x405fc00000000000"
+        ],
+        "id": "r13-power-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff00593c8ec048f",
+          "0xc05fc00000000000"
+        ],
+        "id": "r13-power-011",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\requests-POWER.json",
+  "inputs_sha256": "ccecc39bdb1c2c19dd19dd8087588c863bd6796ea8b2284977d18e7b24f44629",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3ff000000229300e",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff000000229300e",
+      "id": "r13-power-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000000229300e",
+        "0xbff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffbad9fe5",
+      "id": "r13-power-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000002f5884a4",
+        "0x4042800000000000"
+      ],
+      "calc_func_prediction": "0x3ff00006d7cc982c",
+      "id": "r13-power-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000002f5884a4",
+        "0xc042800000000000"
+      ],
+      "calc_func_prediction": "0x3feffff2506caa16",
+      "id": "r13-power-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000008637bd06",
+        "0x4014000000000000"
+      ],
+      "calc_func_prediction": "0x3ff000029f16dd1a",
+      "id": "r13-power-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000008637bd06",
+        "0xc014000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffac1d321b3",
+      "id": "r13-power-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff00003254e6e22",
+        "0x4072c00000000000"
+      ],
+      "calc_func_prediction": "0x3ff003b0244bf20b",
+      "id": "r13-power-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff00003254e6e22",
+        "0xc072c00000000000"
+      ],
+      "calc_func_prediction": "0x3feff8a16a4555bb",
+      "id": "r13-power-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000050c534480",
+        "0x4028000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0003c9450554f",
+      "id": "r13-power-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff000050c534480",
+        "0xc028000000000000"
+      ],
+      "calc_func_prediction": "0x3fefff86d92a0a0c",
+      "id": "r13-power-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff00593c8ec048f",
+        "0x405fc00000000000"
+      ],
+      "calc_func_prediction": "0x3ff304acb876539a",
+      "id": "r13-power-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff00593c8ec048f",
+        "0xc05fc00000000000"
+      ],
+      "calc_func_prediction": "0x3feaebe71420c155",
+      "id": "r13-power-011",
+      "result_index": null
+    }
+  ]
+}

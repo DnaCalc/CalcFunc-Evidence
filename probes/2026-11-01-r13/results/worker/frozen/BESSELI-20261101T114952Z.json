@@ -1,0 +1,291 @@
+{
+  "calc_func_commit": "baf27cdec01dbb40c19039e2234d613f5fee6f0f",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T11:49:52Z",
+  "function": "BESSELI",
+  "input_document": {
+    "function": "BESSELI",
+    "witnesses": [
+      {
+        "args": [
+          "0x40862d9999999999",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-00",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-01",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-02",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d9999a70593",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-03",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d9999999999",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besseli-04",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besseli-05",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besseli-06",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d9999a70593",
+          "0x3ff0000000000000"
+        ],
+        "id": "r11-struct-besseli-07",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d9999999999",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besseli-08",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besseli-09",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besseli-10",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d9999a70593",
+          "0x4000000000000000"
+        ],
+        "id": "r11-struct-besseli-11",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d9999999999",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-12",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-13",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-14",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d9999a70593",
+          "0x0000000000000000"
+        ],
+        "id": "r11-struct-besseli-15",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r13\\packet\\prior\\structural-r11-v2\\requests-BESSELI.json",
+  "inputs_sha256": "042f402d4c801fccc0f3ca649e7c04d212994c244d8a2043e06b2d94e189f2ab",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x40862d9999999999",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee1ba",
+      "id": "r11-struct-besseli-00",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee541",
+      "id": "r11-struct-besseli-01",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee8c7",
+      "id": "r11-struct-besseli-02",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d9999a70593",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d5184e7205d",
+      "id": "r11-struct-besseli-03",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d9999999999",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c383994e04545",
+      "id": "r11-struct-besseli-04",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c383994e048cc",
+      "id": "r11-struct-besseli-05",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c383994e04c51",
+      "id": "r11-struct-besseli-06",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d9999a70593",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3839c42ffd33",
+      "id": "r11-struct-besseli-07",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d9999999999",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f5d197af23",
+      "id": "r11-struct-besseli-08",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f5d197b2a8",
+      "id": "r11-struct-besseli-09",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f5d197b62e",
+      "id": "r11-struct-besseli-10",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d9999a70593",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f600cdd6c0",
+      "id": "r11-struct-besseli-11",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d9999999999",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee1ba",
+      "id": "r11-struct-besseli-12",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee541",
+      "id": "r11-struct-besseli-13",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee8c7",
+      "id": "r11-struct-besseli-14",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d9999a70593",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d5184e7205d",
+      "id": "r11-struct-besseli-15",
+      "result_index": null
+    }
+  ]
+}

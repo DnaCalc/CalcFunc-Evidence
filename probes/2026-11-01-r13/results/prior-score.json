@@ -1,0 +1,451 @@
+{
+  "predictions": [
+    {
+      "file": "packet\\prior\\round11\\application-predictions-CUMIPMT.jsonl",
+      "sha256": "7382be376f9b6c7f0eb246187613e8b3a4cdafb4608379ff5013e2aaebefdc63",
+      "total": 12,
+      "matched": 3,
+      "mismatched": 9,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\round11\\application-predictions-CUMPRINC.jsonl",
+      "sha256": "02f21dce7a06ff21a81f02bc6954927bdece5a2d9db3c2a7c8658a9e7f8d130e",
+      "total": 32,
+      "matched": 15,
+      "mismatched": 17,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\round11\\application-predictions-PMT.jsonl",
+      "sha256": "2ab3055e5b027d2f724aaeb21a5d59b23d0ae47c8a1bd45721d01a67fe5a5a73",
+      "total": 4,
+      "matched": 2,
+      "mismatched": 2,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\round11\\application-predictions-PPMT.jsonl",
+      "sha256": "3e392134e156dd3d0e472ec746cd19ada2ad6a4b2a337d44d5e74961f0ae42d0",
+      "total": 16,
+      "matched": 3,
+      "mismatched": 13,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\round12-pmt-groups\\predictions-native.jsonl",
+      "sha256": "3e52fcef2e00162abc6193174efe4053a8393a04d7201d0b3567373e904fbd89",
+      "total": 64,
+      "matched": 21,
+      "mismatched": 43,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\round12-pmt-groups\\predictions-software.jsonl",
+      "sha256": "3e52fcef2e00162abc6193174efe4053a8393a04d7201d0b3567373e904fbd89",
+      "total": 64,
+      "matched": 21,
+      "mismatched": 43,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\structural-r11-v2\\registered-predictions-BESSELI.jsonl",
+      "sha256": "2f067eef3a796c75302fbb22d080cacdedd30cc49da7f12e6e4df4a2c0e7aba8",
+      "total": 16,
+      "matched": 6,
+      "mismatched": 10,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\structural-r11-v2\\registered-predictions-BESSELJ.jsonl",
+      "sha256": "759920f6b6472a6b868efbb317e6c8e8656fa64b6f2b85920455b7419d621ec6",
+      "total": 16,
+      "matched": 0,
+      "mismatched": 16,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\structural-r11-v2\\registered-predictions-CONCAT.jsonl",
+      "sha256": "a5b98f80b2a02101c076f1c047134e6d3f20c1773ed4c5a93b3c96dffbdc798b",
+      "total": 10,
+      "matched": 5,
+      "mismatched": 5,
+      "failed_or_missing": 0
+    },
+    {
+      "file": "packet\\prior\\structural-r11-v2\\registered-predictions-CONCATENATE.jsonl",
+      "sha256": "38122af37d3a6490608e41fc8d5ba7acb32a8ac900b6ba5518ca069cc032c925",
+      "total": 10,
+      "matched": 5,
+      "mismatched": 5,
+      "failed_or_missing": 0
+    }
+  ],
+  "batches": [
+    {
+      "batch": "prior\\round11\\requests-CUMIPMT.json",
+      "requested": 12,
+      "read": 12,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\round11\\requests-CUMPRINC.json",
+      "requested": 32,
+      "read": 32,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\round11\\requests-PMT.json",
+      "requested": 4,
+      "read": 4,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\round11\\requests-PPMT.json",
+      "requested": 16,
+      "read": 16,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\round12-pmt-groups\\requests-PMT.json",
+      "requested": 64,
+      "read": 64,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\structural-r11-v2\\requests-BESSELI.json",
+      "requested": 16,
+      "read": 16,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\structural-r11-v2\\requests-BESSELJ.json",
+      "requested": 16,
+      "read": 16,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\structural-r11-v2\\requests-CONCAT.json",
+      "requested": 10,
+      "read": 10,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "prior\\structural-r11-v2\\requests-CONCATENATE.json",
+      "requested": 10,
+      "read": 10,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "requests-EXP.json",
+      "requested": 12,
+      "read": 12,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "requests-LN.json",
+      "requested": 6,
+      "read": 6,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "requests-PMT.json",
+      "requested": 24,
+      "read": 24,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    },
+    {
+      "batch": "requests-POWER.json",
+      "requested": 12,
+      "read": 12,
+      "unread": [],
+      "transport_audits": 0,
+      "calculation_settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      }
+    }
+  ],
+  "note": "Scores supplied immutable prior predictions before any elimination. Predictions are not readings."
+}

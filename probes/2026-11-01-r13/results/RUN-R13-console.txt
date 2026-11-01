@@ -1,0 +1,62 @@
+**********************
+PowerShell transcript start
+Start time: 20261101134718
+Username: AzureAD\GovertvanDrimmelen
+RunAs User: AzureAD\GovertvanDrimmelen
+Configuration Name: 
+Machine: GOVERT-OMEN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference='Stop'
+$results='C:\Work\DnaCalc\codex-runs\excel-results-r13'
+$null=New-Item -ItemType Directory -Path $results
+Copy-Item -LiteralPath 'C:\Work\DnaCalc\codex-runs\excel-questions-r13' -Destination (Join-Path $results 'packet') -Recurse
+$witness=(Resolve-Path -LiteralPath 'target/witness').Path
+if ($witness -ne 'C:\Work\DnaCalc\DnaCalc-win\target\witness') { throw 'Unexpected witness directory' }
+Move-Item -LiteralPath $witness -Destination 'C:\Work\DnaCalc\DnaCalc-win\target\witness-before-r13'
+$null=New-Item -ItemType Directory -Path (Join-Path $results 'worker')
+$null=New-Item -ItemType Junction -Path $witness -Target (Join-Path $results 'worker')
+$env:DNACALC_LEGACY_ROOT=$results
+Start-Transcript -LiteralPath (Join-Path $results 'RUN-R13-console.txt')
+try { & (Join-Path $results 'packet/RUN-R13.ps1') -DnaCalcCheckout 'C:\Work\DnaCalc\DnaCalc-win' } finally { Stop-Transcript }
+Process ID: 54228
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Work\DnaCalc\codex-runs\excel-results-r13\RUN-R13-console.txt
+R13: round11 / CUMIPMT: 12 calls
+
+R13: round11 / CUMPRINC: 32 calls
+
+R13: round11 / PMT: 4 calls
+
+R13: round11 / PPMT: 16 calls
+
+R13: structural-r11-v2 / BESSELI: 16 calls
+
+R13: structural-r11-v2 / BESSELJ: 16 calls
+
+R13: structural-r11-v2 / CONCAT: 10 calls
+
+R13: structural-r11-v2 / CONCATENATE: 10 calls
+
+R13: round12-pmt-groups / PMT: 64 calls
+
+R13: r13 / PMT: 24 calls
+
+R13: r13 / POWER: 12 calls
+
+R13: r13 / LN: 6 calls
+
+R13: r13 / EXP: 12 calls
+
+**********************
+PowerShell transcript end
+End time: 20261101135121
+**********************
