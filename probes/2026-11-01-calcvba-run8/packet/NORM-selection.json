@@ -1,0 +1,198 @@
+{
+  "pool": 17120,
+  "selected_pairs": 8,
+  "questions": 16,
+  "additional_disjoint_model_pairs": [],
+  "control_and_discriminator_selection": [
+    {
+      "negative_id": "r10-norm-00",
+      "positive_id": "r10-norm-01",
+      "trace_index": 6333,
+      "historical_id": "oc15085",
+      "source": "cache/oracle/build-20131/NORM.S.DIST.jsonl",
+      "reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "reason": "published/mathematical coordinate control near |z|=0.66291; not a claimed Excel branch",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-02",
+      "positive_id": "r10-norm-03",
+      "trace_index": 14922,
+      "historical_id": "oc6290",
+      "source": "cache/oracle/build-20131/NORM.S.DIST.jsonl",
+      "reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "reason": "published/mathematical coordinate control near |z|=5.656854249492381; not a claimed Excel branch",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-04",
+      "positive_id": "r10-norm-05",
+      "trace_index": 15787,
+      "historical_id": "oc7100",
+      "source": "cache/oracle/build-20131/NORM.S.DIST.jsonl",
+      "reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "reason": "published/mathematical coordinate control near |z|=7.07106781186547; not a claimed Excel branch",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-06",
+      "positive_id": "r10-norm-07",
+      "trace_index": 6458,
+      "historical_id": "oc3",
+      "source": "cache/oracle/build-20131/NORM.S.DIST.jsonl",
+      "reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "reason": "published/mathematical coordinate control near |z|=1.0; not a claimed Excel branch",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-08",
+      "positive_id": "r10-norm-09",
+      "trace_index": 4828,
+      "historical_id": "w111pub-heldout-NORM.S.DIST-004183",
+      "source": "runs/w111-numeric-publication-heldout-20260929/answers/answers-norm.s.dist.json",
+      "reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20430",
+        "platform": "Windows"
+      },
+      "reason": "build/source transport and stability control",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-10",
+      "positive_id": "r10-norm-11",
+      "trace_index": 4892,
+      "historical_id": "oc16495",
+      "source": "cache/oracle/build-20131/NORM.S.DIST.jsonl",
+      "reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "reason": "build/source transport and stability control",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-12",
+      "positive_id": "r10-norm-13",
+      "trace_index": 4830,
+      "historical_id": "w111pub-heldout-NORM.S.DIST-002215",
+      "source": "runs/w111-numeric-publication-heldout-20260929/answers/answers-norm.s.dist.json",
+      "reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20430",
+        "platform": "Windows"
+      },
+      "reason": "fixed input-order control",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    },
+    {
+      "negative_id": "r10-norm-14",
+      "positive_id": "r10-norm-15",
+      "trace_index": 4832,
+      "historical_id": "w111pub-heldout-NORM.S.DIST-003855",
+      "source": "runs/w111-numeric-publication-heldout-20260929/answers/answers-norm.s.dist.json",
+      "reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20430",
+        "platform": "Windows"
+      },
+      "reason": "fixed input-order control",
+      "positive_typed_input_novel": true,
+      "argument_types": [
+        "binary64",
+        "binary64"
+      ]
+    }
+  ],
+  "surviving_profiles": [
+    {
+      "id": 0,
+      "form": 0,
+      "models": [
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "form": 0,
+      "models": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "form": 0,
+      "models": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "form": 0,
+      "models": [
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "form": 0,
+      "models": [
+        4
+      ]
+    }
+  ],
+  "method": "greedy additional disjoint set separation, then independent published-coordinate and build/source controls; no numerical closeness score"
+}

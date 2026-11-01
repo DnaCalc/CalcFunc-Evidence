@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-11-01T01:05:10.988317+00:00",
+  "function": "PMT",
+  "calls": 64,
+  "new_excel_answers": 0,
+  "input_trace_sha256": "68b9221a4aac4631ed6446b3b1cc695e065bfce5d18affcac71764267ebf9932",
+  "certificate_sha256": "411e3ba9fe7f33e7f357ba3861377dbd9fccda8a7829dac2432be94a610179b7",
+  "files_sha256": {
+    "requests-PMT.json": "c57fa4f196c2285909a43c894cda5af6dd0a89b20cad7c8f1d868ae73e1ffe50",
+    "PMT-selection.json": "b1384effd6ac7e1f71c601a59fba8508461219d2b66b43648891c0a08130640a",
+    "PMT-predictions-historical.jsonl": "106c80db19ae5cbef45712d73983c1cc72c67876552f83fb3b124676c4cf0870",
+    "README.txt": "079ea3eb58e4b9f50978d26f54dcdf9484f1c317d641fabf832628062e3dfb5e"
+  },
+  "assumptions": "conditional legacy transport/build invariance; not confirmed"
+}

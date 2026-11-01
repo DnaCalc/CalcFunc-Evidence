@@ -1,0 +1,16 @@
+Run exactly these two batches with the updated DnaCalc master on Windows:
+ cargo xtask witness read --func PMT --inputs <packet>/requests-PMT.json
+ cargo xtask witness read --func NORM.S.DIST --inputs <packet>/requests-NORM.S.DIST-all.json
+64PMT calls plus24normal-CDF calls =88 total, zero supplied answers.
+Do not also run the two smaller NORM request files: the all file includes them.
+Do not use --new-only: there are deliberate historical negative-tail rechecks.
+Retain raw worker request/result files, frozen model predictions, readings and audits.
+The8lattice calls are4new sign pairs from mathematical probability-rounding cells.
+NORM-lattice-predictions.json contains a frozen3-case relation table: classify only
+by the returned negative probability in its predeclared exact intervals. A return
+outside all cases is an unmet prerequisite; do not revise the table after answers.
+No mathematical-reference value is an Excel answer or an identified private helper.
+Other NORM predictions keep their exact historical-anchor prerequisites unchanged.
+Literal PMT readings remain counted transport audits, never ordinary semantic rows.
+Record actual build/CPU/settings and requested/submitted/read-back inputs. No current
+build20527 reproduction or complete numerical-program validation is claimed yet.

@@ -1,0 +1,22 @@
+{
+  "captured_utc": "2026-11-01",
+  "reader_commit": "7596c280189fae19df95d4d1bd16a7b5b5082bb7",
+  "calls": 88,
+  "owned_excel_pids": [
+    15396,
+    50400
+  ],
+  "sha256": {
+    "packet/RUN-ROUND10.txt": "2650179f41eb518a90bc4b70067a073da290245b0fd93d780b9583425e4523a7",
+    "packet/requests-PMT.json": "c57fa4f196c2285909a43c894cda5af6dd0a89b20cad7c8f1d868ae73e1ffe50",
+    "packet/requests-NORM.S.DIST-all.json": "8e10bf3c19cbd9f62151c719f6df0e9561bda66d3dbf8c86f20ec8ee875abf41",
+    "pmt/request.json": "fe1bc83ba6f378794f1aa12d06c74ea41508c4606066832c1c48b9df6126cfa6",
+    "pmt/result.json": "798cca8981a617ebe0e80ffc6121f5477aae8586abcabab5364de8d3cf799ee4",
+    "pmt/witness-worker.ps1": "9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "pmt/capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25",
+    "norm-s-dist/request.json": "860f27f779690cb7904a43d9b821e66566f59473cc580e45c27a23869a5765c7",
+    "norm-s-dist/result.json": "cd39ef65dc2e8964e7085b5497b981f57495c3a08daf5eb5b303bd5d5c1de645",
+    "norm-s-dist/witness-worker.ps1": "9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "norm-s-dist/capture-worker.ps1": "599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25"
+  }
+}

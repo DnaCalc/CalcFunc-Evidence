@@ -1,0 +1,255 @@
+{
+  "cases": [
+    {
+      "negative_outcome_interval": {
+        "lower": [
+          "4095",
+          "73786976294838206464"
+        ],
+        "upper": [
+          "1",
+          "18014398509481984"
+        ],
+        "lower_closed": true,
+        "upper_closed": false
+      },
+      "alternatives": [
+        {
+          "profile_id": 0,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 1,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 2,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 3,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 4,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        }
+      ]
+    },
+    {
+      "negative_outcome_interval": {
+        "lower": [
+          "1",
+          "18014398509481984"
+        ],
+        "upper": [
+          "1",
+          "18014398509481984"
+        ],
+        "lower_closed": true,
+        "upper_closed": true
+      },
+      "alternatives": [
+        {
+          "profile_id": 0,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 1,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 2,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 3,
+          "possible_outcomes": [
+            "0x3fefffffffffffff",
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 4,
+          "possible_outcomes": [
+            "0x3fefffffffffffff",
+            "0x3ff0000000000000"
+          ]
+        }
+      ]
+    },
+    {
+      "negative_outcome_interval": {
+        "lower": [
+          "1",
+          "18014398509481984"
+        ],
+        "upper": [
+          "4097",
+          "73786976294838206464"
+        ],
+        "lower_closed": false,
+        "upper_closed": true
+      },
+      "alternatives": [
+        {
+          "profile_id": 0,
+          "possible_outcomes": [
+            "0x3fefffffffffffff"
+          ]
+        },
+        {
+          "profile_id": 1,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 2,
+          "possible_outcomes": [
+            "0x3ff0000000000000"
+          ]
+        },
+        {
+          "profile_id": 3,
+          "possible_outcomes": [
+            "0x3fefffffffffffff"
+          ]
+        },
+        {
+          "profile_id": 4,
+          "possible_outcomes": [
+            "0x3fefffffffffffff"
+          ]
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "negative_request": "r10-norm-lattice-00",
+      "positive_request": "r10-norm-lattice-01",
+      "reason": "adjacent input below mathematical tail midpoint",
+      "mathematical_reference_only": {
+        "lower": [
+          "28948022309329600039893842462555908291827367417934019467265634831311322312613",
+          "521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256"
+        ],
+        "upper": [
+          "28948022309329600039893842462555908291827367417934019467265634831311322312661",
+          "521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256"
+        ],
+        "rounded_binary64": "0x3c90000000000056",
+        "precision": 256
+      },
+      "prerequisite": "admitted inputs; returned negative result lies in one of the3frozen intervals; same-profile shared latent for this sign pair",
+      "positive_prediction": "use only the predeclared case table; outside its domain is a failed prerequisite, never a revised prediction"
+    },
+    {
+      "negative_request": "r10-norm-lattice-02",
+      "positive_request": "r10-norm-lattice-03",
+      "reason": "nearest input to mathematical tail midpoint",
+      "mathematical_reference_only": {
+        "lower": [
+          "56539106072908530463510531271932513783911490648645268053775167998697581649",
+          "1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+        ],
+        "upper": [
+          "1809251394333072974832337000701840441085167700756648577720805375958322612771",
+          "32592575621351777380295131014550050576823494298654980010178247189670100796213387298934358016"
+        ],
+        "rounded_binary64": "0x3c90000000000012",
+        "precision": 256
+      },
+      "prerequisite": "admitted inputs; returned negative result lies in one of the3frozen intervals; same-profile shared latent for this sign pair",
+      "positive_prediction": "use only the predeclared case table; outside its domain is a failed prerequisite, never a revised prediction"
+    },
+    {
+      "negative_request": "r10-norm-lattice-04",
+      "positive_request": "r10-norm-lattice-05",
+      "reason": "adjacent input above mathematical tail midpoint",
+      "mathematical_reference_only": {
+        "lower": [
+          "57896044618657470309481883132545896275644930291286875568804816304867727751811",
+          "1042962419883256876169444192465601618458351817556959360325703910069443225478828393565899456512"
+        ],
+        "upper": [
+          "57896044618657470309481883132545896275644930291286875568804816304867727751907",
+          "1042962419883256876169444192465601618458351817556959360325703910069443225478828393565899456512"
+        ],
+        "rounded_binary64": "0x3c8fffffffffff9e",
+        "precision": 256
+      },
+      "prerequisite": "admitted inputs; returned negative result lies in one of the3frozen intervals; same-profile shared latent for this sign pair",
+      "positive_prediction": "use only the predeclared case table; outside its domain is a failed prerequisite, never a revised prediction"
+    },
+    {
+      "negative_request": "r10-norm-lattice-06",
+      "positive_request": "r10-norm-lattice-07",
+      "reason": "interior of the exact double-rounding discriminator window",
+      "mathematical_reference_only": {
+        "lower": [
+          "28951556003458805997771805820865084198648673106375339490623897234091559129725",
+          "521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256"
+        ],
+        "upper": [
+          "28951556003458805997771805820865084198648673106375339490623897234091559129773",
+          "521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256"
+        ],
+        "rounded_binary64": "0x3c9000800000001f",
+        "precision": 256
+      },
+      "prerequisite": "admitted inputs; returned negative result lies in one of the3frozen intervals; same-profile shared latent for this sign pair",
+      "positive_prediction": "use only the predeclared case table; outside its domain is a failed prerequisite, never a revised prediction"
+    }
+  ],
+  "conditional_relations_only": true,
+  "complete_function_programs": 0,
+  "probability_midpoint": [
+    "1",
+    "18014398509481984"
+  ],
+  "window": [
+    "1",
+    "73786976294838206464"
+  ],
+  "mathematical_proposal": {
+    "mpfr_version": "4.2.2",
+    "root_bracket": [
+      4620857802336140364,
+      4620857802336140365
+    ],
+    "robust_bracket": [
+      4620857794165156126,
+      4620857794165156127
+    ],
+    "targets": [
+      [
+        "1",
+        "18014398509481984"
+      ],
+      [
+        "8193",
+        "147573952589676412928"
+      ]
+    ],
+    "source": "DLMF7.20.1 normal CDF with directed MPFR enclosures; choose inputs, not coefficients or target answers"
+  },
+  "explanation": "For negative publication p just above2^-54, strict and PC53 complement predict prev(1), while PC64 then binary64 predicts1. The returned negative determines a frozen case, not an adapted helper value."
+}

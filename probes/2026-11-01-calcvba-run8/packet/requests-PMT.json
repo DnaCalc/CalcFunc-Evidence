@@ -1,0 +1,710 @@
+{
+  "function": "PMT",
+  "selection": "R10 observation audit; intentional rechecks, do not use --new-only",
+  "witnesses": [
+    {
+      "id": "r10-pmt-00",
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-01",
+      "args": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-02",
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-03",
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-04",
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-05",
+      "args": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-06",
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-07",
+      "args": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-08",
+      "args": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-09",
+      "args": [
+        "0x3f9755b519d39c12",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-10",
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-11",
+      "args": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-12",
+      "args": [
+        "0x3ec92a737110e454",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-13",
+      "args": [
+        "0x3f9376fe2939c029",
+        "0x4008000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-14",
+      "args": [
+        "0x3ed4314d11fea7e7",
+        "0x4028000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-15",
+      "args": [
+        "0x3f869869647a63ee",
+        "0x4048000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-16",
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-17",
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-18",
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-19",
+      "args": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-20",
+      "args": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-21",
+      "args": [
+        "0x3fc5364bdd3509ec",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-22",
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-23",
+      "args": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-24",
+      "args": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-25",
+      "args": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-26",
+      "args": [
+        "0x3f0aa99554c62e95",
+        "0x4040000000000000",
+        "0x3ff2000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-27",
+      "args": [
+        "0x3f6681922cbb3cb8",
+        "0x4038000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-28",
+      "args": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-29",
+      "args": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-30",
+      "args": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40fa4c4d5274941b",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-31",
+      "args": [
+        "0x3f90000000000000",
+        "0x40ae78563a000000",
+        "0x40c0cb42df9c74de",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-32",
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-33",
+      "args": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-34",
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-35",
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-36",
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-37",
+      "args": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-38",
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-39",
+      "args": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-40",
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-41",
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-42",
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-43",
+      "args": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-44",
+      "args": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-45",
+      "args": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-46",
+      "args": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-47",
+      "args": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "formula_literals"
+    },
+    {
+      "id": "r10-pmt-48",
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-49",
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-50",
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-51",
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-52",
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-53",
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-54",
+      "args": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-55",
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        true
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-56",
+      "args": [
+        "0.0044557502625213567",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-57",
+      "args": [
+        "0.02",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-58",
+      "args": [
+        "2.9516769794057447e-05",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-59",
+      "args": [
+        "0.044999999999999998",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-60",
+      "args": [
+        "0.0013616417420825142",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-61",
+      "args": [
+        "9.3731542686325735e-06",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-62",
+      "args": [
+        "0.16571949292308774",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-pmt-63",
+      "args": [
+        "0.0043595306416848566",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

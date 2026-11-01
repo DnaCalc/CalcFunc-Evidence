@@ -1,0 +1,69 @@
+{
+  "function": "NORM.S.DIST",
+  "witnesses": [
+    {
+      "id": "r10-norm-lattice-00",
+      "args": [
+        "0xc02095b059d67c4b",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-01",
+      "args": [
+        "0x402095b059d67c4b",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-02",
+      "args": [
+        "0xc02095b059d67c4c",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-03",
+      "args": [
+        "0x402095b059d67c4c",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-04",
+      "args": [
+        "0xc02095b059d67c4d",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-05",
+      "args": [
+        "0x402095b059d67c4d",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-06",
+      "args": [
+        "0xc02095ae72cf291e",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-lattice-07",
+      "args": [
+        "0x402095ae72cf291e",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

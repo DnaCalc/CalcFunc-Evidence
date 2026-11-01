@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-11-01T01:53:18.395389+00:00",
+  "function": "NORM.S.DIST",
+  "questions": 16,
+  "historical_rechecks": 8,
+  "positive_companions": 8,
+  "novel_positive_inputs": 8,
+  "new_excel_answers": 0,
+  "source_trace_sha256": "dbed16a93d7d16d36607bd0fd4c397a9a752a030de4ad32eb043d1360b963f26",
+  "symmetry_survivors_sha256": "fef0b6a84a3077ef0cec435a6a13a411a36b6024d7951b6862cec4b647e621c1",
+  "generator_sha256": "a3e202cefa29b08174aadb64ba51a697299f4c403d096e42f4646ad634c2ac57",
+  "files_sha256": {
+    "requests-NORM.S.DIST.json": "1c13c0a16c1bdba4f12e32ea94481a85105ce9bf3afdb56d1f4d6f2e96c8be9d",
+    "NORM-predictions.jsonl": "360678b8f777229154bff5d29d6b23bcd1679716c680944cf7a8c6098c9496ee",
+    "NORM-selection.json": "41083c0ed3e6c9844cdecca982a2b7973b702c390c9a13ab91c1c1a2df4fb7d3",
+    "README-NORM.S.DIST.txt": "f581c6d9918bdac14fdd967ad5eb46e188ad5c7edee7d3b1b86e39e49ef82680"
+  },
+  "claim": "Frozen conditional set predictions for5surviving reconstruction relations, not complete numerical programs or independently validated Excel internals."
+}

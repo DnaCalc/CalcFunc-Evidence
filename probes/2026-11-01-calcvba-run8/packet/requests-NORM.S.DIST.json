@@ -1,0 +1,133 @@
+{
+  "function": "NORM.S.DIST",
+  "witnesses": [
+    {
+      "id": "r10-norm-00",
+      "args": [
+        "0xbfe537a6f4de9bd2",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-01",
+      "args": [
+        "0x3fe537a6f4de9bd2",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-02",
+      "args": [
+        "0xc016a24fcfb0a98c",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-03",
+      "args": [
+        "0x4016a24fcfb0a98c",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-04",
+      "args": [
+        "0xc01c4c81941d1031",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-05",
+      "args": [
+        "0x401c4c81941d1031",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-06",
+      "args": [
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-07",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-08",
+      "args": [
+        "0xbca1b9ca76368a75",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-09",
+      "args": [
+        "0x3ca1b9ca76368a75",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-10",
+      "args": [
+        "0xbfa9999999999986",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-11",
+      "args": [
+        "0x3fa9999999999986",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-12",
+      "args": [
+        "0xbca80cfd91bcbb9f",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-13",
+      "args": [
+        "0x3ca80cfd91bcbb9f",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-14",
+      "args": [
+        "0xbcc3d1f0758e7d53",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r10-norm-15",
+      "args": [
+        "0x3cc3d1f0758e7d53",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

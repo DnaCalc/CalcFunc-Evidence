@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-11-01T01:57:55.470986+00:00",
+  "new_lattice_calls": 8,
+  "total_normal_calls": 24,
+  "total_PMT_calls": 64,
+  "new_excel_answers": 0,
+  "coefficient_fitted": false,
+  "profile_hypotheses": 5,
+  "generator_sha256": "207a7516f00d8122d30208edcc2985f70e24799bc5286a50f02d6a438708ae9b",
+  "files_sha256": {
+    "requests-NORM.S.DIST-lattice.json": "335e2be0f9c5a5c52aec39732b7c08bb221b473f345096c4d15608196084668f",
+    "NORM-lattice-predictions.json": "2c8aaad4e17090e3a7705abd8b6d39a3d63cb6001e6326799752bcb729c072e7",
+    "requests-NORM.S.DIST-all.json": "8e10bf3c19cbd9f62151c719f6df0e9561bda66d3dbf8c86f20ec8ee875abf41",
+    "RUN-ROUND10.txt": "2650179f41eb518a90bc4b70067a073da290245b0fd93d780b9583425e4523a7"
+  },
+  "parent_normal_request_sha256": "1c13c0a16c1bdba4f12e32ea94481a85105ce9bf3afdb56d1f4d6f2e96c8be9d"
+}

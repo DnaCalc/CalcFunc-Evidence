@@ -1,0 +1,2574 @@
+{
+  "method": "deterministic balanced round-robin strata, hash order within each stratum; no numeric fitting",
+  "unique_historical_rows": 32,
+  "gaps": 24,
+  "passing_controls": 8,
+  "numeric_build_counts": {
+    "20131": 20,
+    "20228": 12
+  },
+  "legacy_transport": "not recorded; not presumed Value2",
+  "target_build": "20527; actual build must be recorded and compared",
+  "questions": [
+    {
+      "id": "r10-pmt-00",
+      "original_id": "oc28025",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-00",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-01",
+      "original_id": "oc24952",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-01",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-02",
+      "original_id": "oc60",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-02",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-03",
+      "original_id": "oc27062",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-03",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-04",
+      "original_id": "oc627",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-04",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-05",
+      "original_id": "oc18705",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-05",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-06",
+      "original_id": "oc117",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-06",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-07",
+      "original_id": "oc330",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-07",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-08",
+      "original_id": "oc24546",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-08",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-09",
+      "original_id": "oc27224",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-09",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        true,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f9755b519d39c12",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-10",
+      "original_id": "oc262",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-10",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        true,
+        "ordinary",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f947ae147ae147b",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-11",
+      "original_id": "oc24549",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-11",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        true,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-12",
+      "original_id": "oc87",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-12",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        true,
+        "small",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ec92a737110e454",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-13",
+      "original_id": "oc26961",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-13",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f9376fe2939c029",
+        "0x4008000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-14",
+      "original_id": "oc16552",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-14",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ed4314d11fea7e7",
+        "0x4028000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-15",
+      "original_id": "oc26405",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-15",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f869869647a63ee",
+        "0x4048000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-16",
+      "original_id": "cumx-c00-t1-v02-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-16",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-17",
+      "original_id": "cumx-c03-t1-v00-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-17",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-18",
+      "original_id": "pmt-tf-order-0203-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-18",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-19",
+      "original_id": "pmt-tf-order-0235-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-19",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-20",
+      "original_id": "pmt-tf-order-0100-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-20",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-21",
+      "original_id": "pmt-tf-order-0163-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-21",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        true,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fc5364bdd3509ec",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-22",
+      "original_id": "pmt-tf-order-0155-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-22",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        true,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-23",
+      "original_id": "cumx-c02-t1-v04-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-23",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-24",
+      "original_id": "oc89317",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-24",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-25",
+      "original_id": "oc26338",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-25",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-26",
+      "original_id": "oc46734",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-26",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f0aa99554c62e95",
+        "0x4040000000000000",
+        "0x3ff2000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-27",
+      "original_id": "oc24308",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-27",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f6681922cbb3cb8",
+        "0x4038000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-28",
+      "original_id": "cumx-c04-t0-v03-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-28",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-29",
+      "original_id": "cumx-c01-t1-v00-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-29",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-30",
+      "original_id": "cumx-c02-t0-v01-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-30",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40fa4c4d5274941b",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-31",
+      "original_id": "pmt-tf-ho-0493-t0",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-metamer-heldout-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "numeric",
+      "paired_numeric_id": "r10-pmt-31",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-metamer-heldout-20260809.json",
+        false,
+        false,
+        "ordinary",
+        false,
+        false,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f90000000000000",
+        "0x40ae78563a000000",
+        "0x40c0cb42df9c74de",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-32",
+      "original_id": "oc28025",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-00",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-33",
+      "original_id": "oc24952",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-01",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-34",
+      "original_id": "oc60",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-02",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-35",
+      "original_id": "oc27062",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-03",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-36",
+      "original_id": "oc627",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-04",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-37",
+      "original_id": "oc18705",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-05",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-38",
+      "original_id": "oc117",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-06",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-39",
+      "original_id": "oc330",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-07",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-40",
+      "original_id": "cumx-c00-t1-v02-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-16",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-41",
+      "original_id": "cumx-c03-t1-v00-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-17",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-42",
+      "original_id": "pmt-tf-order-0203-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-18",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-43",
+      "original_id": "pmt-tf-order-0235-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-19",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-44",
+      "original_id": "oc89317",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-24",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-45",
+      "original_id": "oc26338",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-25",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-46",
+      "original_id": "cumx-c04-t0-v03-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-28",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        false,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-47",
+      "original_id": "cumx-c01-t1-v00-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "passing_control",
+      "variant": "literal",
+      "paired_numeric_id": "r10-pmt-29",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "17-decimal-place scientific literals in PMT and echo cells; adapter emits exact strings",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-48",
+      "original_id": "oc28025",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-00",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-49",
+      "original_id": "oc60",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-02",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-50",
+      "original_id": "oc627",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-04",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-51",
+      "original_id": "oc117",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-06",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        true
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-52",
+      "original_id": "cumx-c00-t1-v02-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-16",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-53",
+      "original_id": "pmt-tf-order-0203-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-18",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-54",
+      "original_id": "pmt-tf-order-0100-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-20",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-55",
+      "original_id": "pmt-tf-order-0155-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "logical_timing",
+      "paired_numeric_id": "r10-pmt-22",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        true,
+        false,
+        "tiny",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64",
+        "logical"
+      ],
+      "requested": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        true
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-56",
+      "original_id": "oc24952",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-01",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.0044557502625213567",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-57",
+      "original_id": "oc27062",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-03",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.02",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-58",
+      "original_id": "oc18705",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-05",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        false,
+        true,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "2.9516769794057447e-05",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-59",
+      "original_id": "oc330",
+      "original_source": "cache/oracle/build-20131/PMT.jsonl",
+      "original_reading": {
+        "bitness": null,
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "excel_build": "20131",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-07",
+      "stratum": [
+        "cache/oracle/build-20131/PMT.jsonl",
+        true,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.044999999999999998",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-60",
+      "original_id": "cumx-c03-t1-v00-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-17",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.0013616417420825142",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-61",
+      "original_id": "pmt-tf-order-0235-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-19",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "9.3731542686325735e-06",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-62",
+      "original_id": "pmt-tf-order-0163-t1",
+      "original_source": "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-21",
+      "stratum": [
+        "work/w109/G6-solvers/answers-pmt-tf-order-discriminator-20260809.json",
+        true,
+        false,
+        "ordinary",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.16571949292308774",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    },
+    {
+      "id": "r10-pmt-63",
+      "original_id": "cumx-c02-t1-v04-pmt",
+      "original_source": "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+      "original_reading": {
+        "bitness": "64-bit",
+        "cpu": null,
+        "excel_build": "20228",
+        "platform": "Windows"
+      },
+      "sample_role": "certified_gap",
+      "variant": "text_rate",
+      "paired_numeric_id": "r10-pmt-23",
+      "stratum": [
+        "work/w109/G6-cumprinc/answers-pmt-cumprinc-companion-20260809.json",
+        false,
+        false,
+        "small",
+        true,
+        true,
+        false
+      ],
+      "argument_types": [
+        "text",
+        "binary64",
+        "binary64",
+        "binary64",
+        "binary64"
+      ],
+      "requested": [
+        "0.0043595306416848566",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "submitted": "typed Value2 cells",
+      "read_back": null,
+      "effective_callee_inputs": "not directly observable"
+    }
+  ]
+}

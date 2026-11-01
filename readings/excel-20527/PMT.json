@@ -1,0 +1,6130 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-01T03:02:18Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "7596c280189fae19df95d4d1bd16a7b5b5082bb7",
+      "formula_literal_ids": [
+        "r10-pmt-32",
+        "r10-pmt-33",
+        "r10-pmt-34",
+        "r10-pmt-35",
+        "r10-pmt-36",
+        "r10-pmt-37",
+        "r10-pmt-38",
+        "r10-pmt-39",
+        "r10-pmt-40",
+        "r10-pmt-41",
+        "r10-pmt-42",
+        "r10-pmt-43",
+        "r10-pmt-44",
+        "r10-pmt-45",
+        "r10-pmt-46",
+        "r10-pmt-47"
+      ],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-cfml\\target/witness/frozen\\PMT-20261101T030206Z.json",
+      "frozen_sha256": "1252d8910b750033ba20a416b1397175701d1082d923d1755a8b1bca00215b7d",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\fresh-questions-r10\\requests-PMT.json",
+      "inputs_sha256": "c57fa4f196c2285909a43c894cda5af6dd0a89b20cad7c8f1d868ae73e1ffe50",
+      "novelty": null,
+      "selection": "R10 observation audit; intentional rechecks, do not use --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\fresh-questions-r10\\requests-PMT.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "PMT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-00",
+      "observed_raw": {
+        "number": "bfb55b59ee3acb5e"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-01",
+      "observed_raw": {
+        "number": "bfc59236a4c29f4a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-02",
+      "observed_raw": {
+        "number": "c0690001a36e2eb3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-03",
+      "observed_raw": {
+        "number": "c0363583763b4526"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-04",
+      "observed_raw": {
+        "number": "407c21cac00361c7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-05",
+      "observed_raw": {
+        "number": "403f3419d05241b8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-06",
+      "observed_raw": {
+        "number": "400ab3df73be1c8a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-07",
+      "observed_raw": {
+        "number": "c08f3fffffffffff"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-08",
+      "observed_raw": {
+        "number": "bff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f9755b519d39c12"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f9755b519d39c12"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f9755b519d39c12"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-09",
+      "observed_raw": {
+        "number": "408e85c2378d9a98"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-10",
+      "observed_raw": {
+        "number": "408fdcdcdcdcdcdd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f6ca9762334e132"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-11",
+      "observed_raw": {
+        "number": "c08f2c1b7e48e4f0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-12",
+      "observed_raw": {
+        "number": "408f400624dbf9de"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f9376fe2939c029"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f9376fe2939c029"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f9376fe2939c029"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-13",
+      "observed_raw": {
+        "number": "bfd5bc7cec9a9104"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ed4314d11fea7e7"
+          },
+          {
+            "number": "4028000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ed4314d11fea7e7"
+          },
+          {
+            "number": "4028000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ed4314d11fea7e7"
+          },
+          {
+            "number": "4028000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-14",
+      "observed_raw": {
+        "number": "bfb5557a5a704167"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f869869647a63ee"
+          },
+          {
+            "number": "4048000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f869869647a63ee"
+          },
+          {
+            "number": "4048000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f869869647a63ee"
+          },
+          {
+            "number": "4048000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-15",
+      "observed_raw": {
+        "number": "402f6d36082df694"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-16",
+      "observed_raw": {
+        "number": "c0623142e15a6fe3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-17",
+      "observed_raw": {
+        "number": "c00e3f265c984e88"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-18",
+      "observed_raw": {
+        "number": "bffff599d76393d6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-19",
+      "observed_raw": {
+        "number": "c038a86c81c76b77"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-20",
+      "observed_raw": {
+        "number": "bf8810922e9dbb0a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fc5364bdd3509ec"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fc5364bdd3509ec"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fc5364bdd3509ec"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-21",
+      "observed_raw": {
+        "number": "bfcf3897970e9906"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-22",
+      "observed_raw": {
+        "number": "bfaa950ab2586dfe"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-23",
+      "observed_raw": {
+        "number": "c08ce55c75fb2ede"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-24",
+      "observed_raw": {
+        "number": "bfa0028ae81400ad"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-25",
+      "observed_raw": {
+        "number": "bf8cb2ce72297911"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f0aa99554c62e95"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff2000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f0aa99554c62e95"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff2000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f0aa99554c62e95"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff2000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-26",
+      "observed_raw": {
+        "number": "bfa203de1a5c12e3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f6681922cbb3cb8"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f6681922cbb3cb8"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f6681922cbb3cb8"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-27",
+      "observed_raw": {
+        "number": "bfa6035fe3714c2d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-28",
+      "observed_raw": {
+        "number": "c053c15559a37ddf"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-29",
+      "observed_raw": {
+        "number": "c0805528da3836a5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40fa4c4d5274941b"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40fa4c4d5274941b"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71db4c9882da2e"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40fa4c4d5274941b"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-30",
+      "observed_raw": {
+        "number": "c09d059c35eeff10"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f90000000000000"
+          },
+          {
+            "number": "40ae78563a000000"
+          },
+          {
+            "number": "40c0cb42df9c74de"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f90000000000000"
+          },
+          {
+            "number": "40ae78563a000000"
+          },
+          {
+            "number": "40c0cb42df9c74de"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f90000000000000"
+          },
+          {
+            "number": "40ae78563a000000"
+          },
+          {
+            "number": "40c0cb42df9c74de"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-31",
+      "observed_raw": {
+        "number": "c060cb42df9c74de"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "4.17077073060293305e-2",
+          "1.60000000000000000e1",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.17077073060293305e-2,1.60000000000000000e1,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa55ab66dbdb6e9"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-32",
+      "observed_raw": {
+        "number": "bfb55b59ee3acb5f"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "4.45575026252135672e-3",
+          "6.00000000000000000e0",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.45575026252135672e-3,6.00000000000000000e0,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f7240315a81bb24"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-33",
+      "observed_raw": {
+        "number": "bfc59236a4c29f4a"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "4.99999999999999977e-7",
+          "5.00000000000000000e0",
+          "1.00000000000000000e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.99999999999999977e-7,5.00000000000000000e0,1.00000000000000000e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ea0c6f7a0b5ed84"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-34",
+      "observed_raw": {
+        "number": "c0690001a36e2eb2"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "2.00000000000000004e-2",
+          "3.20000000000000000e1",
+          "1.00000000000000000e0",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.00000000000000004e-2,3.20000000000000000e1,1.00000000000000000e0,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-35",
+      "observed_raw": {
+        "number": "c0363583763b4526"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "2.89999999999999980e-1",
+          "2.40000000000000000e1",
+          "-2.00000000000000000e3",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.89999999999999980e-1,2.40000000000000000e1,-2.00000000000000000e3,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fd28f5c28f5c27d"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-36",
+      "observed_raw": {
+        "number": "407c21cac00361b3"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "2.95167697940574470e-5",
+          "3.20000000000000000e1",
+          "1.00000000000000000e0",
+          "-1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.95167697940574470e-5,3.20000000000000000e1,1.00000000000000000e0,-1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3efef358f9a5b297"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-37",
+      "observed_raw": {
+        "number": "403f3419d05241b9"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "3.00000000000000008e-6",
+          "3.00000000000000000e2",
+          "-2.00000000000000000e3",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(3.00000000000000008e-6,3.00000000000000000e2,-2.00000000000000000e3,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-38",
+      "observed_raw": {
+        "number": "400ab3df73be1c8a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "4.49999999999999983e-2",
+          "1.00000000000000000e0",
+          "1.00000000000000000e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.49999999999999983e-2,1.00000000000000000e0,1.00000000000000000e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa70a3d70a3d6fc"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-39",
+      "observed_raw": {
+        "number": "c08f400000000000"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "6.49385261097154970e-2",
+          "1.70000000000000000e1",
+          "1.56772377514019740e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(6.49385261097154970e-2,1.70000000000000000e1,1.56772377514019740e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fb09fcfade44478"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7318"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-40",
+      "observed_raw": {
+        "number": "c0623142e15a6fc7"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "1.36164174208251417e-3",
+          "1.27000000000000000e2",
+          "4.41267290117965160e2",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.36164174208251417e-3,1.27000000000000000e2,4.41267290117965160e2,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f564f23b0123b9f"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b342"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-41",
+      "observed_raw": {
+        "number": "c00e3f265c984e81"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "4.68214646474116092e-1",
+          "6.00000000000000000e0",
+          "5.63828803247614907e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.68214646474116092e-1,6.00000000000000000e0,5.63828803247614907e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fddf73a90875475"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a720"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-42",
+      "observed_raw": {
+        "number": "bffff599d76393c6"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "9.37315426863257354e-6",
+          "2.00000000000000000e0",
+          "4.93155802491103259e1",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(9.37315426863257354e-6,2.00000000000000000e0,4.93155802491103259e1,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ee3a82c836effe8"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef00989c"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-43",
+      "observed_raw": {
+        "number": "c038a86c81c76b73"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "3.12500000000000000e-2",
+          "2.40000000000000000e2",
+          "1.00000000000004730e0",
+          "0.00000000000000000e0",
+          "0.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(3.12500000000000000e-2,2.40000000000000000e2,1.00000000000004730e0,0.00000000000000000e0,0.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000b4"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-44",
+      "observed_raw": {
+        "number": "bfa0028ae814008c"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "1.03857544028067364e-2",
+          "1.28000000000000000e2",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.03857544028067364e-2,1.28000000000000000e2,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f8545205c08e4df"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-45",
+      "observed_raw": {
+        "number": "bf8cb2ce72297903"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "1.24423154382797326e-2",
+          "2.57000000000000000e2",
+          "6.08632232941457914e3",
+          "0.00000000000000000e0",
+          "0.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.24423154382797326e-2,2.57000000000000000e2,6.08632232941457914e3,0.00000000000000000e0,0.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f897b5b4f26c350"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e361e"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-46",
+      "observed_raw": {
+        "number": "c053c15559a37dcb"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": [
+          "2.15703222560819675e-2",
+          "3.10000000000000000e1",
+          "1.19791913424580434e4",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.15703222560819675e-2,3.10000000000000000e1,1.19791913424580434e4,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f961687d29dbffe"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfb9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "id": "r10-pmt-47",
+      "observed_raw": {
+        "number": "c0805528da38368f"
+      },
+      "reading_failure": "Excel did not keep the arguments as written"
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-48",
+      "observed_raw": {
+        "number": "bfb55b59ee3acb5e"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-49",
+      "observed_raw": {
+        "number": "c0690001a36e2eb3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-50",
+      "observed_raw": {
+        "number": "407c21cac00361c7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-51",
+      "observed_raw": {
+        "number": "400ab3df73be1c8a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-52",
+      "observed_raw": {
+        "number": "c0623142e15a6fe3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-53",
+      "observed_raw": {
+        "number": "bffff599d76393d6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e87ac4251bffd77"
+          },
+          {
+            "number": "4042800000000000"
+          },
+          {
+            "number": "3fdbd3233bd73f51"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-54",
+      "observed_raw": {
+        "number": "bf8810922e9dbb0a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586dfe"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-55",
+      "observed_raw": {
+        "number": "bfaa950ab2586dfe"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e0030003000340034003500350037003500300032003600320035003200310033003500360037"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.0044557502625213567"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e0030003000340034003500350037003500300032003600320035003200310033003500360037"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-56",
+      "observed_raw": {
+        "number": "bfc59236a4c29f4a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e00300032"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.02"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e00300032"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-57",
+      "observed_raw": {
+        "number": "c0363583763b4526"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0032002e00390035003100360037003600390037003900340030003500370034003400370065002d00300035"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "2.9516769794057447e-05"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0032002e00390035003100360037003600390037003900340030003500370034003400370065002d00300035"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-58",
+      "observed_raw": {
+        "number": "403f3419d05241b9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e003000340034003900390039003900390039003900390039003900390039003900390038"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.044999999999999998"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e003000340034003900390039003900390039003900390039003900390039003900390038"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-59",
+      "observed_raw": {
+        "number": "c08f400000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e0030003000310033003600310036003400310037003400320030003800320035003100340032"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.0013616417420825142"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e0030003000310033003600310036003400310037003400320030003800320035003100340032"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-60",
+      "observed_raw": {
+        "number": "c00e3f265c984e85"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0039002e00330037003300310035003400320036003800360033003200350037003300350065002d00300036"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "9.3731542686325735e-06"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0039002e00330037003300310035003400320036003800360033003200350037003300350065002d00300036"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-61",
+      "observed_raw": {
+        "number": "c038a86c81c76b77"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e00310036003500370031003900340039003200390032003300300038003700370034"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.16571949292308774"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e00310036003500370031003900340039003200390032003300300038003700370034"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fcf3897970e9902"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-62",
+      "observed_raw": {
+        "number": "bfcf3897970e9902"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "text": "0030002e0030003000340033003500390035003300300036003400310036003800340038003500360036"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "0.0043595306416848566"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0030002e0030003000340033003500390035003300300036003400310036003800340038003500360036"
+          },
+          {
+            "number": "4050c00000000000"
+          },
+          {
+            "number": "40ea4c4d5274941a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r10-pmt-63",
+      "observed_raw": {
+        "number": "c08ce55c75fb2edb"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [
+    {
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-32",
+      "input_audit": {
+        "argument_literals": [
+          "4.17077073060293305e-2",
+          "1.60000000000000000e1",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.17077073060293305e-2,1.60000000000000000e1,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa55ab66dbdb6e9"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa55ab66dbdb6ed"
+          },
+          {
+            "number": "4030000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "bfb55b59ee3acb5f"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xbfb55b59ee3acb5f"
+    },
+    {
+      "args": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-33",
+      "input_audit": {
+        "argument_literals": [
+          "4.45575026252135672e-3",
+          "6.00000000000000000e0",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.45575026252135672e-3,6.00000000000000000e0,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f7240315a81bb24"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f7240315a81bb2c"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "bfc59236a4c29f4a"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xbfc59236a4c29f4b"
+    },
+    {
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-34",
+      "input_audit": {
+        "argument_literals": [
+          "4.99999999999999977e-7",
+          "5.00000000000000000e0",
+          "1.00000000000000000e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.99999999999999977e-7,5.00000000000000000e0,1.00000000000000000e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ea0c6f7a0b5ed84"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ea0c6f7a0b5ed8d"
+          },
+          {
+            "number": "4014000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c0690001a36e2eb2"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc0690001a36e2eb1"
+    },
+    {
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-35",
+      "input_audit": {
+        "argument_literals": [
+          "2.00000000000000004e-2",
+          "3.20000000000000000e1",
+          "1.00000000000000000e0",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.00000000000000004e-2,3.20000000000000000e1,1.00000000000000000e0,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c0363583763b4526"
+      },
+      "reading_failure": null,
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc0363583763b4524"
+    },
+    {
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-36",
+      "input_audit": {
+        "argument_literals": [
+          "2.89999999999999980e-1",
+          "2.40000000000000000e1",
+          "-2.00000000000000000e3",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.89999999999999980e-1,2.40000000000000000e1,-2.00000000000000000e3,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fd28f5c28f5c27d"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fd28f5c28f5c28f"
+          },
+          {
+            "number": "4038000000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "407c21cac00361b3"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0x407c21cac00361c9"
+    },
+    {
+      "args": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-37",
+      "input_audit": {
+        "argument_literals": [
+          "2.95167697940574470e-5",
+          "3.20000000000000000e1",
+          "1.00000000000000000e0",
+          "-1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.95167697940574470e-5,3.20000000000000000e1,1.00000000000000000e0,-1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3efef358f9a5b297"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3efef358f9a5b2a5"
+          },
+          {
+            "number": "4040000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "c08f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "403f3419d05241b9"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0x403f3419d05241b7"
+    },
+    {
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-38",
+      "input_audit": {
+        "argument_literals": [
+          "3.00000000000000008e-6",
+          "3.00000000000000000e2",
+          "-2.00000000000000000e3",
+          "1.00000000000000000e3",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(3.00000000000000008e-6,3.00000000000000000e2,-2.00000000000000000e3,1.00000000000000000e3,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ec92a737110e454"
+          },
+          {
+            "number": "4072c00000000000"
+          },
+          {
+            "number": "c09f400000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "400ab3df73be1c8a"
+      },
+      "reading_failure": null,
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0x400ab3df73be1c89"
+    },
+    {
+      "args": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-39",
+      "input_audit": {
+        "argument_literals": [
+          "4.49999999999999983e-2",
+          "1.00000000000000000e0",
+          "1.00000000000000000e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.49999999999999983e-2,1.00000000000000000e0,1.00000000000000000e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa70a3d70a3d6fc"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa70a3d70a3d70a"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c08f400000000000"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc08f400000000001"
+    },
+    {
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-40",
+      "input_audit": {
+        "argument_literals": [
+          "6.49385261097154970e-2",
+          "1.70000000000000000e1",
+          "1.56772377514019740e3",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(6.49385261097154970e-2,1.70000000000000000e1,1.56772377514019740e3,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fb09fcfade44478"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7318"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fb09fcfade4447f"
+          },
+          {
+            "number": "4031000000000000"
+          },
+          {
+            "number": "40987ee5254f7339"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c0623142e15a6fc7"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc0623142e15a6fe4"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-41",
+      "input_audit": {
+        "argument_literals": [
+          "1.36164174208251417e-3",
+          "1.27000000000000000e2",
+          "4.41267290117965160e2",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.36164174208251417e-3,1.27000000000000000e2,4.41267290117965160e2,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f564f23b0123b9f"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b342"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "407b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c00e3f265c984e81"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc00e3f265c984e89"
+    },
+    {
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-42",
+      "input_audit": {
+        "argument_literals": [
+          "4.68214646474116092e-1",
+          "6.00000000000000000e0",
+          "5.63828803247614907e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(4.68214646474116092e-1,6.00000000000000000e0,5.63828803247614907e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fddf73a90875475"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a720"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fddf73a90875477"
+          },
+          {
+            "number": "4018000000000000"
+          },
+          {
+            "number": "40168d9b60c3a72a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "bffff599d76393c6"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xbffff599d76393d5"
+    },
+    {
+      "args": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-43",
+      "input_audit": {
+        "argument_literals": [
+          "9.37315426863257354e-6",
+          "2.00000000000000000e0",
+          "4.93155802491103259e1",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(9.37315426863257354e-6,2.00000000000000000e0,4.93155802491103259e1,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3ee3a82c836effe8"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef00989c"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ee3a82c836effea"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4048a864ef0098a0"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c038a86c81c76b73"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc038a86c81c76b78"
+    },
+    {
+      "args": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r10-pmt-44",
+      "input_audit": {
+        "argument_literals": [
+          "3.12500000000000000e-2",
+          "2.40000000000000000e2",
+          "1.00000000000004730e0",
+          "0.00000000000000000e0",
+          "0.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(3.12500000000000000e-2,2.40000000000000000e2,1.00000000000004730e0,0.00000000000000000e0,0.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000b4"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3fa0000000000000"
+          },
+          {
+            "number": "406e000000000000"
+          },
+          {
+            "number": "3ff00000000000d5"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "bfa0028ae814008c"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xbfa0028ae81400ad"
+    },
+    {
+      "args": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-45",
+      "input_audit": {
+        "argument_literals": [
+          "1.03857544028067364e-2",
+          "1.28000000000000000e2",
+          "1.00000000000000000e0",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.03857544028067364e-2,1.28000000000000000e2,1.00000000000000000e0,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f8545205c08e4df"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f8545205c08e4f4"
+          },
+          {
+            "number": "4060000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "bf8cb2ce72297903"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xbf8cb2ce72297911"
+    },
+    {
+      "args": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "id": "r10-pmt-46",
+      "input_audit": {
+        "argument_literals": [
+          "1.24423154382797326e-2",
+          "2.57000000000000000e2",
+          "6.08632232941457914e3",
+          "0.00000000000000000e0",
+          "0.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(1.24423154382797326e-2,2.57000000000000000e2,6.08632232941457914e3,0.00000000000000000e0,0.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f897b5b4f26c350"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e361e"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f897b5b4f26c363"
+          },
+          {
+            "number": "4070100000000000"
+          },
+          {
+            "number": "40b7c652842e3628"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c053c15559a37dcb"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc053c15559a37ddf"
+    },
+    {
+      "args": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "id": "r10-pmt-47",
+      "input_audit": {
+        "argument_literals": [
+          "2.15703222560819675e-2",
+          "3.10000000000000000e1",
+          "1.19791913424580434e4",
+          "0.00000000000000000e0",
+          "1.00000000000000000e0"
+        ],
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PMT(2.15703222560819675e-2,3.10000000000000000e1,1.19791913424580434e4,0.00000000000000000e0,1.00000000000000000e0)",
+        "read_back": [
+          {
+            "number": "3f961687d29dbffe"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfb9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f961687d29dc011"
+          },
+          {
+            "number": "403f000000000000"
+          },
+          {
+            "number": "40c765987de8dfd1"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "formula_literals_with_cell_echo"
+      },
+      "input_transport": "formula_literals_with_cell_echo",
+      "observed_raw": {
+        "number": "c0805528da38368f"
+      },
+      "reading_failure": "Excel did not keep the arguments as written",
+      "result_index": null,
+      "semantic_witness": false,
+      "typed_argument_prediction": "0xc0805528da3836a5"
+    }
+  ],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfb55b59ee3acb5f",
+      "expected_bits": "0xbfb55b59ee3acb5e",
+      "id": "r10-pmt-00"
+    },
+    {
+      "args": [
+        "0x3f7240315a81bb2c",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfc59236a4c29f4b",
+      "expected_bits": "0xbfc59236a4c29f4a",
+      "id": "r10-pmt-01"
+    },
+    {
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0690001a36e2eb1",
+      "expected_bits": "0xc0690001a36e2eb3",
+      "id": "r10-pmt-02"
+    },
+    {
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0363583763b4524",
+      "expected_bits": "0xc0363583763b4526",
+      "id": "r10-pmt-03"
+    },
+    {
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x407c21cac00361c9",
+      "expected_bits": "0x407c21cac00361c7",
+      "id": "r10-pmt-04"
+    },
+    {
+      "args": [
+        "0x3efef358f9a5b2a5",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x403f3419d05241b7",
+      "expected_bits": "0x403f3419d05241b8",
+      "id": "r10-pmt-05"
+    },
+    {
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x400ab3df73be1c89",
+      "expected_bits": "0x400ab3df73be1c8a",
+      "id": "r10-pmt-06"
+    },
+    {
+      "args": [
+        "0x3fa70a3d70a3d70a",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc08f400000000001",
+      "expected_bits": "0xc08f3fffffffffff",
+      "id": "r10-pmt-07"
+    },
+    {
+      "args": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfefffffffffffff",
+      "expected_bits": "0xbff0000000000000",
+      "id": "r10-pmt-08"
+    },
+    {
+      "args": [
+        "0x3f9755b519d39c12",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x408e85c2378d9a9a",
+      "expected_bits": "0x408e85c2378d9a98",
+      "id": "r10-pmt-09"
+    },
+    {
+      "args": [
+        "0x3f947ae147ae147b",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x408fdcdcdcdcdcdc",
+      "expected_bits": "0x408fdcdcdcdcdcdd",
+      "id": "r10-pmt-10"
+    },
+    {
+      "args": [
+        "0x3f6ca9762334e132",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc08f2c1b7e48e4ef",
+      "expected_bits": "0xc08f2c1b7e48e4f0",
+      "id": "r10-pmt-11"
+    },
+    {
+      "args": [
+        "0x3ec92a737110e454",
+        "0x3ff0000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x408f400624dbf9df",
+      "expected_bits": "0x408f400624dbf9de",
+      "id": "r10-pmt-12"
+    },
+    {
+      "args": [
+        "0x3f9376fe2939c029",
+        "0x4008000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfd5bc7cec9a9105",
+      "expected_bits": "0xbfd5bc7cec9a9104",
+      "id": "r10-pmt-13"
+    },
+    {
+      "args": [
+        "0x3ed4314d11fea7e7",
+        "0x4028000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfb5557a5a704168",
+      "expected_bits": "0xbfb5557a5a704167",
+      "id": "r10-pmt-14"
+    },
+    {
+      "args": [
+        "0x3f869869647a63ee",
+        "0x4048000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x402f6d36082df695",
+      "expected_bits": "0x402f6d36082df694",
+      "id": "r10-pmt-15"
+    },
+    {
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0623142e15a6fe4",
+      "expected_bits": "0xc0623142e15a6fe3",
+      "id": "r10-pmt-16"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc00e3f265c984e89",
+      "expected_bits": "0xc00e3f265c984e88",
+      "id": "r10-pmt-17"
+    },
+    {
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffff599d76393d5",
+      "expected_bits": "0xbffff599d76393d6",
+      "id": "r10-pmt-18"
+    },
+    {
+      "args": [
+        "0x3ee3a82c836effea",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc038a86c81c76b78",
+      "expected_bits": "0xc038a86c81c76b77",
+      "id": "r10-pmt-19"
+    },
+    {
+      "args": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf8810922e9dbb09",
+      "expected_bits": "0xbf8810922e9dbb0a",
+      "id": "r10-pmt-20"
+    },
+    {
+      "args": [
+        "0x3fc5364bdd3509ec",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfcf3897970e9901",
+      "expected_bits": "0xbfcf3897970e9906",
+      "id": "r10-pmt-21"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586dfd",
+      "expected_bits": "0xbfaa950ab2586dfe",
+      "id": "r10-pmt-22"
+    },
+    {
+      "args": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc08ce55c75fb2edf",
+      "expected_bits": "0xc08ce55c75fb2ede",
+      "id": "r10-pmt-23"
+    },
+    {
+      "args": [
+        "0x3fa0000000000000",
+        "0x406e000000000000",
+        "0x3ff00000000000d5",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfa0028ae81400ad",
+      "expected_bits": "0xbfa0028ae81400ad",
+      "id": "r10-pmt-24"
+    },
+    {
+      "args": [
+        "0x3f8545205c08e4f4",
+        "0x4060000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf8cb2ce72297911",
+      "expected_bits": "0xbf8cb2ce72297911",
+      "id": "r10-pmt-25"
+    },
+    {
+      "args": [
+        "0x3f0aa99554c62e95",
+        "0x4040000000000000",
+        "0x3ff2000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfa203de1a5c12e3",
+      "expected_bits": "0xbfa203de1a5c12e3",
+      "id": "r10-pmt-26"
+    },
+    {
+      "args": [
+        "0x3f6681922cbb3cb8",
+        "0x4038000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfa6035fe3714c2d",
+      "expected_bits": "0xbfa6035fe3714c2d",
+      "id": "r10-pmt-27"
+    },
+    {
+      "args": [
+        "0x3f897b5b4f26c363",
+        "0x4070100000000000",
+        "0x40b7c652842e3628",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc053c15559a37ddf",
+      "expected_bits": "0xc053c15559a37ddf",
+      "id": "r10-pmt-28"
+    },
+    {
+      "args": [
+        "0x3f961687d29dc011",
+        "0x403f000000000000",
+        "0x40c765987de8dfd1",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0805528da3836a5",
+      "expected_bits": "0xc0805528da3836a5",
+      "id": "r10-pmt-29"
+    },
+    {
+      "args": [
+        "0x3f71db4c9882da2e",
+        "0x4050c00000000000",
+        "0x40fa4c4d5274941b",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc09d059c35eeff10",
+      "expected_bits": "0xc09d059c35eeff10",
+      "id": "r10-pmt-30"
+    },
+    {
+      "args": [
+        "0x3f90000000000000",
+        "0x40ae78563a000000",
+        "0x40c0cb42df9c74de",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc060cb42df9c74de",
+      "expected_bits": "0xc060cb42df9c74de",
+      "id": "r10-pmt-31"
+    },
+    {
+      "args": [
+        "0x3fa55ab66dbdb6ed",
+        "0x4030000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xbfb55b59ee3acb5f",
+      "expected_bits": "0xbfb55b59ee3acb5e",
+      "id": "r10-pmt-48"
+    },
+    {
+      "args": [
+        "0x3ea0c6f7a0b5ed8d",
+        "0x4014000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xc0690001a36e2eb1",
+      "expected_bits": "0xc0690001a36e2eb3",
+      "id": "r10-pmt-49"
+    },
+    {
+      "args": [
+        "0x3fd28f5c28f5c28f",
+        "0x4038000000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "calc_func_prediction": "0x407c21cac00361c9",
+      "expected_bits": "0x407c21cac00361c7",
+      "id": "r10-pmt-50"
+    },
+    {
+      "args": [
+        "0x3ec92a737110e454",
+        "0x4072c00000000000",
+        "0xc09f400000000000",
+        "0x408f400000000000",
+        true
+      ],
+      "calc_func_prediction": "0x400ab3df73be1c89",
+      "expected_bits": "0x400ab3df73be1c8a",
+      "id": "r10-pmt-51"
+    },
+    {
+      "args": [
+        "0x3fb09fcfade4447f",
+        "0x4031000000000000",
+        "0x40987ee5254f7339",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xc0623142e15a6fe4",
+      "expected_bits": "0xc0623142e15a6fe3",
+      "id": "r10-pmt-52"
+    },
+    {
+      "args": [
+        "0x3fddf73a90875477",
+        "0x4018000000000000",
+        "0x40168d9b60c3a72a",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xbffff599d76393d5",
+      "expected_bits": "0xbffff599d76393d6",
+      "id": "r10-pmt-53"
+    },
+    {
+      "args": [
+        "0x3e87ac4251bffd77",
+        "0x4042800000000000",
+        "0x3fdbd3233bd73f51",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xbf8810922e9dbb09",
+      "expected_bits": "0xbf8810922e9dbb0a",
+      "id": "r10-pmt-54"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586dfe",
+        "0x0000000000000000",
+        true
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586dfd",
+      "expected_bits": "0xbfaa950ab2586dfe",
+      "id": "r10-pmt-55"
+    },
+    {
+      "args": [
+        "0.0044557502625213567",
+        "0x4018000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xbfc59236a4c29f4a",
+      "id": "r10-pmt-56"
+    },
+    {
+      "args": [
+        "0.02",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0363583763b4524",
+      "expected_bits": "0xc0363583763b4526",
+      "id": "r10-pmt-57"
+    },
+    {
+      "args": [
+        "2.9516769794057447e-05",
+        "0x4040000000000000",
+        "0x3ff0000000000000",
+        "0xc08f400000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x403f3419d05241b9",
+      "id": "r10-pmt-58"
+    },
+    {
+      "args": [
+        "0.044999999999999998",
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xc08f400000000000",
+      "id": "r10-pmt-59"
+    },
+    {
+      "args": [
+        "0.0013616417420825142",
+        "0x405fc00000000000",
+        "0x407b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xc00e3f265c984e85",
+      "id": "r10-pmt-60"
+    },
+    {
+      "args": [
+        "9.3731542686325735e-06",
+        "0x4000000000000000",
+        "0x4048a864ef0098a0",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xc038a86c81c76b77",
+      "id": "r10-pmt-61"
+    },
+    {
+      "args": [
+        "0.16571949292308774",
+        "0x3ff0000000000000",
+        "0x3fcf3897970e9902",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xbfcf3897970e9902",
+      "id": "r10-pmt-62"
+    },
+    {
+      "args": [
+        "0.0043595306416848566",
+        "0x4050c00000000000",
+        "0x40ea4c4d5274941a",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0xc08ce55c75fb2edb",
+      "id": "r10-pmt-63"
+    }
+  ]
+}

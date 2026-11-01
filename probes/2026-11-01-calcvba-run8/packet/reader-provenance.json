@@ -1,0 +1,15 @@
+{
+  "main_revision": "3a6507d",
+  "reviewed_correction_commit": "1cd4e51",
+  "worker_sha256": "9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+  "main_check": "main-final-loop-1-check.log:153passed,0failed,2Windows-only notrun",
+  "main_push": "main-final-loop-1-push.log",
+  "PMT_request_sha256": "c57fa4f196c2285909a43c894cda5af6dd0a89b20cad7c8f1d868ae73e1ffe50",
+  "PMT_original_request_unchanged": true,
+  "literal_outcomes": "separate counted audit collection, never ordinary semantic witnesses",
+  "review": "read-only agent checked64PMTbindings and reviewed correction; liveWindows/COMnotrun",
+  "application_prediction_hashes": {
+    "PMT-predictions-application.jsonl": "e47304fdc29672bc5fdd5242920952b88cae5573c0518b14299340ea2cd70b45",
+    "NORM-predictions-application.jsonl": "abe8bc4b4c0e975fee3ae2925ff8cae0812221134904689ef251e68ef1a9118c"
+  }
+}

@@ -1,0 +1,15 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.30s
+     Running `target\debug\xtask.exe witness read --func NORM.S.DIST --inputs C:\Work\DnaCalc\codex-runs\fresh-questions-r10\requests-NORM.S.DIST-all.json`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.39s
+xtask witness: NORM.S.DIST: froze 24 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-cfml\target/witness/frozen\NORM.S.DIST-20261101T030250Z.json
+xtask witness: NORM.S.DIST: read 24 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 14 equal the frozen model prediction, 10 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\NORM.S.DIST.json
+xtask witness: NORM.S.DIST: differs: r10-norm-02 ["0xc016a24fcfb0a98c","0x3ff0000000000000"]: 0x3e40653f58c2faeb on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3e40653f58c2faf3 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-04 ["0xc01c4c81941d1031","0x3ff0000000000000"]: 0x3d6a5883dc39e7da on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3d6a5883dc39e7d5 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-06 ["0xbff0000000000000","0x3ff0000000000000"]: 0x3fc44ed0bb7cb20a on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3fc44ed0bb7cb209 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-00 ["0xc02095b059d67c4b","0x3ff0000000000000"]: 0x3c90000000000044 on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3c90000000000037 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-01 ["0x402095b059d67c4b","0x3ff0000000000000"]: 0x3fefffffffffffff on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3ff0000000000000 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-02 ["0xc02095b059d67c4c","0x3ff0000000000000"]: 0x3c90000000000014 on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3c90000000000017 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-03 ["0x402095b059d67c4c","0x3ff0000000000000"]: 0x3fefffffffffffff on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3ff0000000000000 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-04 ["0xc02095b059d67c4d","0x3ff0000000000000"]: 0x3c8fffffffffff6a on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3c8fffffffffff66 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-06 ["0xc02095ae72cf291e","0x3ff0000000000000"]: 0x3c90008000000011 on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3c90008000000008 on 20527
+xtask witness: NORM.S.DIST: differs: r10-norm-lattice-07 ["0x402095ae72cf291e","0x3ff0000000000000"]: 0x3fefffffffffffff on ?/?/?/? (calc-func 7596c280189fae19df95d4d1bd16a7b5b5082bb7 prediction), 0x3ff0000000000000 on 20527

@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "normal_questions": 24,
+  "PMT_questions": 64,
+  "new_excel_answers": 0,
+  "independent_conditional_set_comparisons": 55,
+  "exact_above_midpoint_discriminator": true,
+  "complete_normal_programs": 0,
+  "normal_checker_sha256": "2712ada899b1cb294b87f2e0f073c74986d60a6e4595576c262fc785e081569b",
+  "claim": "Frozen requests contain no answers; all conditional output sets and open/closed probability cases checked independently. Mathematical proposal values are not treated as target helper outputs.",
+  "limitations": "Profile/build and negative-anchor prerequisites remain unobserved on20527; the five survivors are reconstruction constraints, not full CDF programs.",
+  "checker_sha256": {
+    "exact.py": "842363e00ad65c464623594822d566a2af9a0415e0b574557613092c993af80f",
+    "check.py": "af6b1144e7c53bd505dff6de3da89c588c154a30537128bbee576a4a71c1b69f"
+  }
+}
