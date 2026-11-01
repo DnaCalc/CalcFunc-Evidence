@@ -1,2 +1,11 @@
 readings/excel-20527/*-calcvba4.json -text
 readings/excel-20527/*-calcvba7.json -text
+probes/2026-11-01-xll-run2/** -text
+readings/excel-20527/CUMPRINC.json -text
+readings/excel-20527/PMT-2.json -text
+readings/excel-20527/PPMT.json -text
+readings/excel-20527/CUMIPMT.json -text
+readings/excel-20527/BESSELI.json -text
+readings/excel-20527/BESSELJ.json -text
+readings/excel-20527/CONCATENATE.json -text
+readings/excel-20527/CONCAT.json -text
