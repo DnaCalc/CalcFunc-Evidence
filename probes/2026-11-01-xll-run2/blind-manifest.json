@@ -1,0 +1,84 @@
+{
+  "captured_utc": "2026-11-01",
+  "research_commit": "78f46f2ff83035b627567cfd04391674ffff6f16",
+  "reader_commit": "07ceeed010ee9cfb926577bbb3a898f98e061851",
+  "prediction_files_opened": false,
+  "new_only": false,
+  "calls": 116,
+  "unread": 0,
+  "failed_input_audits": 0,
+  "readings": [
+    {
+      "function": "CUMPRINC",
+      "packet": "round11",
+      "calls": 32,
+      "answer": "readings/excel-20527/CUMPRINC.json",
+      "answer_sha256": "3fcf2e347e11a55e69e5135e4cd0ba1f3828344e7ef927b22b2cb58e91370d35",
+      "request_sha256": "77e9ebc49f0f43e171a0f5e7c58dec22857002ad1659e7dff273d4ea68cc9ee9",
+      "raw_sha256": "40c2b39c0a17919fe08a32dd448bf611b27da90d2170f08a8201f57d03b58866"
+    },
+    {
+      "function": "PMT",
+      "packet": "round11",
+      "calls": 4,
+      "answer": "readings/excel-20527/PMT-2.json",
+      "answer_sha256": "839b347d11f147d7daef3b8686eb5585d2e920f50123168fab5009adb60902d8",
+      "request_sha256": "588147cdc34bda1400b121a1e114135a257fdfe891bc261d452fd5ce09e60821",
+      "raw_sha256": "6fcfc1c26b4bfb51055737cb0c344bc36bed8fe779e27e70f34d875ffaf93585"
+    },
+    {
+      "function": "PPMT",
+      "packet": "round11",
+      "calls": 16,
+      "answer": "readings/excel-20527/PPMT.json",
+      "answer_sha256": "06d24cb530d8a0648b040df33603ab8b84365fddef0df8ceb5b8390c19a10a17",
+      "request_sha256": "ef4ac718f8d7595febdd1567d084d557f8870ac060ee1bd8f7b518a5620ff19a",
+      "raw_sha256": "b63b36c961eb3108e79f42ac4add5d90d5fa27b4fd4532d7d838be99ad9140b8"
+    },
+    {
+      "function": "CUMIPMT",
+      "packet": "round11",
+      "calls": 12,
+      "answer": "readings/excel-20527/CUMIPMT.json",
+      "answer_sha256": "d6ba5b6b1bf7ebde3030b983793fab6aff944661a66f6940576eb6019dc3ea40",
+      "request_sha256": "ae8b24db4e491785257e7df805ab470714fcb99fd4d58cb2a006d3d4e31ec041",
+      "raw_sha256": "edda9dc85a9fe9b79333cc956e60f403b52aa3a8d7317694021df3ea6c3e9063"
+    },
+    {
+      "function": "BESSELI",
+      "packet": "structural-r11-v2",
+      "calls": 16,
+      "answer": "readings/excel-20527/BESSELI.json",
+      "answer_sha256": "279d398e7c77059b362b7be6dff8cd7289dfcd59909d8edb1c43537cbf99f7f6",
+      "request_sha256": "01109077f8142270cd17e8f5d98866d5bfff20e7b8191d759b76367909c0c62d",
+      "raw_sha256": "4283fd7efaa0962abb70d9e45f18427597760259d49228339f1aab600328e379"
+    },
+    {
+      "function": "BESSELJ",
+      "packet": "structural-r11-v2",
+      "calls": 16,
+      "answer": "readings/excel-20527/BESSELJ.json",
+      "answer_sha256": "22ae36f25f9d87cc3ae08ffa2c38583ea66d4011465736d72f47d1dec165d450",
+      "request_sha256": "ff8502a18d443c062a3fc25f956ae38337dc29db96e0e68f490da69bf9b3af66",
+      "raw_sha256": "d359eb50c0dce38d5b3890c07df4c38e46e540ab39b021e4feb408c320fe096e"
+    },
+    {
+      "function": "CONCATENATE",
+      "packet": "structural-r11-v2",
+      "calls": 10,
+      "answer": "readings/excel-20527/CONCATENATE.json",
+      "answer_sha256": "28745c625864f9ef41529d6ac42ed095379e503e2054a5fbb0e6fcc83a18cce3",
+      "request_sha256": "35a9d5783c10c0b7dce6e51dfcc4b1e9daf850afe354c146d91b47fb73a7acdc",
+      "raw_sha256": "7cdfd27f6cc1006e0a0eadfab797c81aed6b9b86f731ea3be343347c847ee291"
+    },
+    {
+      "function": "CONCAT",
+      "packet": "structural-r11-v2",
+      "calls": 10,
+      "answer": "readings/excel-20527/CONCAT.json",
+      "answer_sha256": "e7394f2007af322e83adcc4d8bf1576e57264ffa1b2969b880f9f2106e301e2a",
+      "request_sha256": "cbc87a2361f8d571c102064c5c5dc3128898e977a86ea5e785ff94d353245623",
+      "raw_sha256": "c1618c510559d31a97bdcbf133b6d0f71e0cfb897a8eaf121c9b76ac65dc7304"
+    }
+  ]
+}
