@@ -1,0 +1,196 @@
+{
+  "format": "dnacalc-r14-reading-summary/1",
+  "requested": 44,
+  "read": 44,
+  "failed_read_obligations": 0,
+  "frozen_product_matches": 21,
+  "functions": [
+    {
+      "function": "VAR.S",
+      "requested": 10,
+      "read": 10,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 2,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    },
+    {
+      "function": "VAR.P",
+      "requested": 6,
+      "read": 6,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 1,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    },
+    {
+      "function": "STDEV.S",
+      "requested": 6,
+      "read": 6,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 1,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    },
+    {
+      "function": "STDEV.P",
+      "requested": 6,
+      "read": 6,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 1,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    },
+    {
+      "function": "DEVSQ",
+      "requested": 10,
+      "read": 10,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 10,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    },
+    {
+      "function": "AVERAGE",
+      "requested": 6,
+      "read": 6,
+      "unread": [],
+      "missing_ids": [],
+      "frozen_product_matches": 6,
+      "settings": {
+        "CompatibilityVersion": 2,
+        "Date1904": false,
+        "DecimalSeparator": ".",
+        "PrecisionAsDisplayed": false,
+        "ThousandsSeparator": "\u00c2\u00a0",
+        "UseSystemSeparators": true,
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": []
+      },
+      "environment": {
+        "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "excel_bitness": "64-bit",
+        "excel_build": "20527",
+        "excel_file_version": "16.0.20527.20088",
+        "excel_input_plumbing": "cell_value2_bulk",
+        "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "excel_version": "16.0",
+        "platform": "Windows"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1
+    }
+  ],
+  "limits": "Direct numeric Value2 arguments; original array surface and private callee operands are not asserted. Predictions and mathematical controls are not Excel readings."
+}

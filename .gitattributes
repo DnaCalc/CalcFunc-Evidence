@@ -11,3 +11,5 @@ readings/excel-20527/CONCATENATE.json -text
 readings/excel-20527/CONCAT.json -text
 readings/excel-20527/r13-*.json -text
 probes/2026-11-01-r13/** -text
+readings/excel-20527/r14-*.json -text
+probes/2026-11-01-r14-variance/** -text

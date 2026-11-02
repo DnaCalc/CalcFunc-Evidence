@@ -1,0 +1,51 @@
+**********************
+PowerShell transcript start
+Start time: 20261101190124
+Username: AzureAD\GovertvanDrimmelen
+RunAs User: AzureAD\GovertvanDrimmelen
+Configuration Name: 
+Machine: GOVERT-OMEN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference='Stop'
+$results='C:\Work\DnaCalc\codex-runs\excel-results-r14-variance'
+if(Test-Path -LiteralPath $results){throw 'Results destination already exists'}
+$null=New-Item -ItemType Directory -Path $results
+Copy-Item -LiteralPath 'C:\Work\DnaCalc\codex-runs\excel-questions-r14-variance' -Destination (Join-Path $results 'packet') -Recurse
+$witness=(Get-Item -LiteralPath target/witness).FullName
+if($witness -ne 'C:\Work\DnaCalc\DnaCalc-win\target\witness'){throw 'Unexpected witness directory'}
+Move-Item -LiteralPath $witness -Destination 'C:\Work\DnaCalc\DnaCalc-win\target\witness-before-r14'
+$null=New-Item -ItemType Directory -Path (Join-Path $results 'worker')
+$null=New-Item -ItemType Junction -Path $witness -Target (Join-Path $results 'worker')
+$env:DNACALC_LEGACY_ROOT=$results
+Start-Transcript -LiteralPath (Join-Path $results 'RUN-R14-console.txt')
+try {
+  $statuses=@()
+  foreach($f in 'VAR.S','VAR.P','STDEV.S','STDEV.P','DEVSQ','AVERAGE') {
+    $request=Join-Path 'C:\Work\DnaCalc\codex-runs\excel-questions-r14-variance' "requests-$f.json"
+    & cargo xtask witness read --func $f --inputs $request
+    $statuses+= [ordered]@{function=$f;exit_code=$LASTEXITCODE;completed_utc=[DateTime]::UtcNow.ToString('O')}
+    $statuses | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $results 'reader-exits.json') -Encoding utf8
+  }
+} finally {Stop-Transcript}
+Process ID: 49384
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Work\DnaCalc\codex-runs\excel-results-r14-variance\RUN-R14-console.txt
+
+
+
+
+
+
+**********************
+PowerShell transcript end
+End time: 20261101190304
+**********************

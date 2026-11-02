@@ -1,0 +1,384 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-01T17:03:04Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "6b0e3122780ea7d2a9b7cc572257cbbe4d790fa1",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\AVERAGE-20261101T170256Z.json",
+      "frozen_sha256": "158ea56c70279cb6f1b7a8c77b1556bb8fc6e631626664db9bcd4d11ef1e6664",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r14-variance\\requests-AVERAGE.json",
+      "inputs_sha256": "cc21960f8766691bf2edb05ec3c1aecf36f3858015b8870acd23765ccf87d876",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r14-variance\\requests-AVERAGE.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "AVERAGE",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-00",
+      "observed_raw": {
+        "number": "40474ccccccccccc"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "requested": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-01",
+      "observed_raw": {
+        "number": "406f26f11e2c8287"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "requested": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-02",
+      "observed_raw": {
+        "number": "4009a06d3a06d3a0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-03",
+      "observed_raw": {
+        "number": "4002f765fd8adaba"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-04",
+      "observed_raw": {
+        "number": "400277318fc50481"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=AVERAGE(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r14-average-05",
+      "observed_raw": {
+        "number": "4008a568fe7f85ab"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0xc04b0ccccccccccd",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x40474ccccccccccc",
+      "expected_bits": "0x40474ccccccccccc",
+      "id": "r14-average-00"
+    },
+    {
+      "args": [
+        "0x406a3ad916872b02",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x406f26f11e2c8287",
+      "expected_bits": "0x406f26f11e2c8287",
+      "id": "r14-average-01"
+    },
+    {
+      "args": [
+        "0x400c000000000000",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x4009a06d3a06d3a0",
+      "expected_bits": "0x4009a06d3a06d3a0",
+      "id": "r14-average-02"
+    },
+    {
+      "args": [
+        "0x4005db22d0e56042",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x4002f765fd8adaba",
+      "expected_bits": "0x4002f765fd8adaba",
+      "id": "r14-average-03"
+    },
+    {
+      "args": [
+        "0x4000eab367a0f909",
+        "0x400599999999999a",
+        "0x4000e147ae147ae1"
+      ],
+      "calc_func_prediction": "0x400277318fc50481",
+      "expected_bits": "0x400277318fc50481",
+      "id": "r14-average-04"
+    },
+    {
+      "args": [
+        "0x4006666666666666",
+        "0x400770a3d70a3d71",
+        "0x400c1930be0ded29"
+      ],
+      "calc_func_prediction": "0x4008a568fe7f85ab",
+      "expected_bits": "0x4008a568fe7f85ab",
+      "id": "r14-average-05"
+    }
+  ]
+}

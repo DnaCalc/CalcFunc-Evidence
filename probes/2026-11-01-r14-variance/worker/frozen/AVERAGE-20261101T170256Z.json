@@ -1,0 +1,133 @@
+{
+  "calc_func_commit": "6b0e3122780ea7d2a9b7cc572257cbbe4d790fa1",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-01T17:02:56Z",
+  "function": "AVERAGE",
+  "input_document": {
+    "function": "AVERAGE",
+    "witnesses": [
+      {
+        "args": [
+          "0xc04b0ccccccccccd",
+          "0x406ba66666666666",
+          "0xc03b4ccccccccccd"
+        ],
+        "id": "r14-average-00",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x406a3ad916872b02",
+          "0x405dc00000000000",
+          "0x407a2cfd21ff2e49"
+        ],
+        "id": "r14-average-01",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x400c000000000000",
+          "0x40055c28f5c28f5c",
+          "0x400b851eb851eb85"
+        ],
+        "id": "r14-average-02",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4005db22d0e56042",
+          "0x400067381d7dbf48",
+          "0x4002a3d70a3d70a4"
+        ],
+        "id": "r14-average-03",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4000eab367a0f909",
+          "0x400599999999999a",
+          "0x4000e147ae147ae1"
+        ],
+        "id": "r14-average-04",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4006666666666666",
+          "0x400770a3d70a3d71",
+          "0x400c1930be0ded29"
+        ],
+        "id": "r14-average-05",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r14-variance\\requests-AVERAGE.json",
+  "inputs_sha256": "cc21960f8766691bf2edb05ec3c1aecf36f3858015b8870acd23765ccf87d876",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0xc04b0ccccccccccd",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x40474ccccccccccc",
+      "id": "r14-average-00",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x406a3ad916872b02",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x406f26f11e2c8287",
+      "id": "r14-average-01",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400c000000000000",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x4009a06d3a06d3a0",
+      "id": "r14-average-02",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4005db22d0e56042",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x4002f765fd8adaba",
+      "id": "r14-average-03",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4000eab367a0f909",
+        "0x400599999999999a",
+        "0x4000e147ae147ae1"
+      ],
+      "calc_func_prediction": "0x400277318fc50481",
+      "id": "r14-average-04",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4006666666666666",
+        "0x400770a3d70a3d71",
+        "0x400c1930be0ded29"
+      ],
+      "calc_func_prediction": "0x4008a568fe7f85ab",
+      "id": "r14-average-05",
+      "result_index": null
+    }
+  ]
+}
