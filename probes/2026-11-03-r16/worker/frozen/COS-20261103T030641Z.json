@@ -1,0 +1,110 @@
+{
+  "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T03:06:41Z",
+  "function": "COS",
+  "input_document": {
+    "function": "COS",
+    "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x419ffffffc000000"
+        ],
+        "id": "r16-cos-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000"
+        ],
+        "id": "r16-cos-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff"
+        ],
+        "id": "r16-cos-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000"
+        ],
+        "id": "r16-cos-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001"
+        ],
+        "id": "r16-cos-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000001000000"
+        ],
+        "id": "r16-cos-005",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-COS.json",
+  "inputs_sha256": "eaaffd13b1586290c65155a0495015e5f4a8d71501b5e7aaaaf275cba8acb695",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x419ffffffc000000"
+      ],
+      "calc_func_prediction": "0xbfd2c6e02793968f",
+      "id": "r16-cos-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000"
+      ],
+      "calc_func_prediction": "0x3fc9b59e71da9c6d",
+      "id": "r16-cos-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff"
+      ],
+      "calc_func_prediction": "0x3fe4ab650b8c26e2",
+      "id": "r16-cos-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r16-cos-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r16-cos-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000001000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r16-cos-005",
+      "result_index": null
+    }
+  ]
+}

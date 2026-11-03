@@ -1,0 +1,261 @@
+{
+  "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T03:06:50Z",
+  "function": "GEOMEAN",
+  "input_document": {
+    "function": "GEOMEAN",
+    "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4014000000000000",
+          "0x4008000000000000"
+        ],
+        "id": "r16-geomean-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4008000000000000",
+          "0x4014000000000000"
+        ],
+        "id": "r16-geomean-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4014000000000000",
+          "0x3ff0000000000000",
+          "0x4008000000000000"
+        ],
+        "id": "r16-geomean-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4014000000000000",
+          "0x4008000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-geomean-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4008000000000000",
+          "0x3ff0000000000000",
+          "0x4014000000000000"
+        ],
+        "id": "r16-geomean-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4008000000000000",
+          "0x4014000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-geomean-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x402e000000000000"
+        ],
+        "id": "r16-geomean-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x402e000000000000"
+        ],
+        "id": "r16-geomean-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4008000000000000",
+          "0x4014000000000000"
+        ],
+        "id": "r16-geomean-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x402e000000000000",
+          "0x3ff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-geomean-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x402e000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-geomean-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x3ff0000000000000",
+          "0x402e000000000000"
+        ],
+        "id": "r16-geomean-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4008000000000000",
+          "0x4014000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-geomean-012",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-GEOMEAN.json",
+  "inputs_sha256": "b465bb04e308b2bedcb20d32b4d287ed4a74b07fb9943a033ca31b6e9792afdc",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4014000000000000",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0x4014000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4014000000000000",
+        "0x3ff0000000000000",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4014000000000000",
+        "0x4008000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4008000000000000",
+        "0x3ff0000000000000",
+        "0x4014000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4008000000000000",
+        "0x4014000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402e000000000000"
+      ],
+      "calc_func_prediction": "0x402e000000000000",
+      "id": "r16-geomean-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x402e000000000000"
+      ],
+      "calc_func_prediction": "0x400efbdeb14f4eda",
+      "id": "r16-geomean-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4008000000000000",
+        "0x4014000000000000"
+      ],
+      "calc_func_prediction": "0x400efbdeb14f4eda",
+      "id": "r16-geomean-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x402e000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x402e000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x402e000000000000"
+      ],
+      "calc_func_prediction": "0x4003bacd6561ff5e",
+      "id": "r16-geomean-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4008000000000000",
+        "0x4014000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3fff7ce2bccf3689",
+      "id": "r16-geomean-012",
+      "result_index": null
+    }
+  ]
+}

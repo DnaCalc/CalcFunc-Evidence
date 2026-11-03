@@ -1,0 +1,210 @@
+{
+  "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T03:05:27Z",
+  "function": "STDEV.P",
+  "input_document": {
+    "function": "STDEV.P",
+    "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0xc04b0ccccccccccd",
+          "0x406ba66666666666",
+          "0xc03b4ccccccccccd"
+        ],
+        "id": "r16-stdev-p-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x406a3ad916872b02",
+          "0x405dc00000000000",
+          "0x407a2cfd21ff2e49"
+        ],
+        "id": "r16-stdev-p-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x400c000000000000",
+          "0x40055c28f5c28f5c",
+          "0x400b851eb851eb85"
+        ],
+        "id": "r16-stdev-p-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4005db22d0e56042",
+          "0x400067381d7dbf48",
+          "0x4002a3d70a3d70a4"
+        ],
+        "id": "r16-stdev-p-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4000eab367a0f909",
+          "0x400599999999999a",
+          "0x4000e147ae147ae1"
+        ],
+        "id": "r16-stdev-p-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4006666666666666",
+          "0x400770a3d70a3d71",
+          "0x400c1930be0ded29"
+        ],
+        "id": "r16-stdev-p-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc04b0ccccccccccc",
+          "0x406ba66666666666",
+          "0xc03b4ccccccccccd"
+        ],
+        "id": "r16-stdev-p-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x406a3ad916872b03",
+          "0x405dc00000000000",
+          "0x407a2cfd21ff2e49"
+        ],
+        "id": "r16-stdev-p-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x400c000000000001",
+          "0x40055c28f5c28f5c",
+          "0x400b851eb851eb85"
+        ],
+        "id": "r16-stdev-p-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4005db22d0e56043",
+          "0x400067381d7dbf48",
+          "0x4002a3d70a3d70a4"
+        ],
+        "id": "r16-stdev-p-009",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-STDEV.P.json",
+  "inputs_sha256": "8c88fbaf8f9426a5dbedc0a877502249f4a703382a061928395ae9844ff264ef",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0xc04b0ccccccccccd",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x405efc75d54b3600",
+      "id": "r16-stdev-p-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x406a3ad916872b02",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x405f6197b6aec8c0",
+      "id": "r16-stdev-p-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400c000000000000",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x3fd82fd0216a2529",
+      "id": "r16-stdev-p-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4005db22d0e56042",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x3fd1e77bab0aecc6",
+      "id": "r16-stdev-p-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4000eab367a0f909",
+        "0x400599999999999a",
+        "0x4000e147ae147ae1"
+      ],
+      "calc_func_prediction": "0x3fd1bb33490cb319",
+      "id": "r16-stdev-p-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4006666666666666",
+        "0x400770a3d70a3d71",
+        "0x400c1930be0ded29"
+      ],
+      "calc_func_prediction": "0x3fd3d2788e2e7eb0",
+      "id": "r16-stdev-p-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc04b0ccccccccccc",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x405efc75d54b3600",
+      "id": "r16-stdev-p-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x406a3ad916872b03",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x405f6197b6aec8c0",
+      "id": "r16-stdev-p-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x400c000000000001",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x3fd82fd0216a252b",
+      "id": "r16-stdev-p-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4005db22d0e56043",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x3fd1e77bab0aecc9",
+      "id": "r16-stdev-p-009",
+      "result_index": null
+    }
+  ]
+}

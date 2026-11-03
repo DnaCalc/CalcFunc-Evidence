@@ -110,3 +110,17 @@ They find this checkout at `<legacy root>/OxFunc-Evidence`, where the legacy roo
 ## Provenance
 
 The blobs are the files as found on the owner's machine on 2026-10-14. Acquisition metadata (Excel build, CPU, settings) is whatever each capture recorded itself. This GitHub repository is the one backup copy: by the owner's ruling of 2026-10-18 a copy on GitHub is enough, and the captures can be recreated from Excel. DnaCalc's `migration/evidence/oxfunc-smart-fuzzer.json` pins the commit of this repository that DnaCalc relies on and gives each cache subfolder, run folder and top-level file one acquisition label: a known Excel build with the place it was read from, or unknown. Legacy data without an Excel fingerprint remains investigation evidence and cannot certify a newly selected Exact target.
+
+
+R16 scalar captures (2026-11-03) are retained under `probes/2026-11-03-r16/`:
+the unchanged 250-call packet, 13 raw worker batches, frozen predictions,
+requested/submitted/Value2 audits and the complete 151-file supplied hash map.
+The original canonical reader exports are copied byte-for-byte to
+`readings/excel-20527/r16-*.json`; their runtime ordering is preserved.
+Three catalogue capture copies already equal the committed DnaCalc captures.
+Independent verification rejects seven corrupted-input variants. Current
+registered calculations match 70 of 250 readings and fail 180; both frozen
+prediction lineages match 69. These are observations, not new product gains.
+The 179 new distinct bank inputs add 42 matches and 137 failures; all shared
+recorded answers and calculated outputs remain unchanged. The separate
+round-18 YIELD correction gains two on the fixed pre-intake bank scope.

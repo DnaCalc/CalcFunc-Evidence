@@ -1,0 +1,876 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T03:06:10Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\BESSELY-20261103T030602Z.json",
+      "frozen_sha256": "8af154281aad2f8a3a35c96b95b3cbdb6ecbc1fc2f59082dc22c0be350de6cc6",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-BESSELY.json",
+      "inputs_sha256": "f750acda66c4d9b5f955cf7f832d0d13eae8e4104d5587e90cf0a2722b1e4b9c",
+      "novelty": null,
+      "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-BESSELY.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "BESSELY",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-000",
+      "observed_raw": {
+        "number": "bf00eaf700f6836a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-001",
+      "observed_raw": {
+        "number": "3f0fe64bf9c29c37"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffc000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-002",
+      "observed_raw": {
+        "number": "3f00eaf708f01669"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-003",
+      "observed_raw": {
+        "number": "bf0e23e914213322"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-004",
+      "observed_raw": {
+        "number": "3f03e239764b5875"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-005",
+      "observed_raw": {
+        "number": "3f0e23e91919c180"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-006",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-007",
+      "observed_raw": {
+        "number": "3ed7ff1a40469a0f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-008",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-009",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-010",
+      "observed_raw": {
+        "number": "3ed7ff19f84f233c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-011",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-012",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-013",
+      "observed_raw": {
+        "number": "3ed7ff1968603592"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000001"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-014",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-015",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-016",
+      "observed_raw": {
+        "number": "bf0ca8838551ac39"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-bessely-017",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf00eaf704c49bea",
+      "expected_bits": "0xbf00eaf700f6836a",
+      "id": "r16-bessely-000"
+    },
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f0fe64bf838c4ad",
+      "expected_bits": "0x3f0fe64bf9c29c37",
+      "id": "r16-bessely-001"
+    },
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f00eaf70cbe2ee9",
+      "expected_bits": "0x3f00eaf708f01669",
+      "id": "r16-bessely-002"
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf0e23e91698abbe",
+      "expected_bits": "0xbf0e23e914213322",
+      "id": "r16-bessely-003"
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f03e239735fe042",
+      "expected_bits": "0x3f03e239764b5875",
+      "id": "r16-bessely-004"
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f0e23e91b913a1b",
+      "expected_bits": "0x3f0e23e91919c180",
+      "id": "r16-bessely-005"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb48e2123",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-006"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff1a2395e0c0",
+      "expected_bits": "0x3ed7ff1a40469a0f",
+      "id": "r16-bessely-007"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb4ee1d8c",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-008"
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb4ee1d8a",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-009"
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff19db9e69ea",
+      "expected_bits": "0x3ed7ff19f84f233c",
+      "id": "r16-bessely-010"
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb54e19f1",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-011"
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb5ae1656",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-012"
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff194baf7c3f",
+      "expected_bits": "0x3ed7ff1968603592",
+      "id": "r16-bessely-013"
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb60e12bb",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-014"
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf05f74676d5df3d",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-015"
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf0ca88387a7ec71",
+      "expected_bits": "0xbf0ca8838551ac39",
+      "id": "r16-bessely-016"
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f05f7466fabbe5c",
+      "expected_bits": "error:Num",
+      "id": "r16-bessely-017"
+    }
+  ]
+}

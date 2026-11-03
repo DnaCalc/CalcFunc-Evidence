@@ -1,0 +1,300 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T03:06:31Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\EXP-20261103T030623Z.json",
+      "frozen_sha256": "e1528d7ab91cff21c8c5c8590485f90aee3fefc72a7e946968d3bf4537a2412a",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-EXP.json",
+      "inputs_sha256": "2a00bc55a8c0763dbcd0e0aa3098d85bcdb06215f4000139d2d07a93ede2d933",
+      "novelty": null,
+      "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-EXP.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "EXP",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "4086280000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4086280000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4086280000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-000",
+      "observed_raw": {
+        "number": "7fdd422d2be5dc9b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "40862c0000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40862c0000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40862c0000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-001",
+      "observed_raw": {
+        "number": "7fe81e9b4b52d0c9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "40862d999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40862d999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40862d999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-002",
+      "observed_raw": {
+        "number": "7fed75ae7a50ee14"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "40862d999999999b"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40862d999999999b"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40862d999999999b"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-003",
+      "observed_raw": {
+        "number": "7fed75ae7a50f1c2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "40862e3d70a3d70a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40862e3d70a3d70a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40862e3d70a3d70a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-004",
+      "observed_raw": {
+        "number": "7fefe9ce5c4c52b4"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "40862e42fefa39ef"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40862e42fefa39ef"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40862e42fefa39ef"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-005",
+      "observed_raw": {
+        "number": "7fefffffffffff2a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EXP(RC[1])",
+        "read_back": [
+          {
+            "number": "4086300000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4086300000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4086300000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-exp-006",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x4086280000000000"
+      ],
+      "calc_func_prediction": "0x7fdd422d2be5dc9b",
+      "expected_bits": "0x7fdd422d2be5dc9b",
+      "id": "r16-exp-000"
+    },
+    {
+      "args": [
+        "0x40862c0000000000"
+      ],
+      "calc_func_prediction": "0x7fe81e9b4b52d0c9",
+      "expected_bits": "0x7fe81e9b4b52d0c9",
+      "id": "r16-exp-001"
+    },
+    {
+      "args": [
+        "0x40862d999999999a"
+      ],
+      "calc_func_prediction": "0x7fed75ae7a50ee14",
+      "expected_bits": "0x7fed75ae7a50ee14",
+      "id": "r16-exp-002"
+    },
+    {
+      "args": [
+        "0x40862d999999999b"
+      ],
+      "calc_func_prediction": "0x7fed75ae7a50f1c2",
+      "expected_bits": "0x7fed75ae7a50f1c2",
+      "id": "r16-exp-003"
+    },
+    {
+      "args": [
+        "0x40862e3d70a3d70a"
+      ],
+      "calc_func_prediction": "0x7fefe9ce5c4c52b4",
+      "expected_bits": "0x7fefe9ce5c4c52b4",
+      "id": "r16-exp-004"
+    },
+    {
+      "args": [
+        "0x40862e42fefa39ef"
+      ],
+      "calc_func_prediction": "0x7fefffffffffff2a",
+      "expected_bits": "0x7fefffffffffff2a",
+      "id": "r16-exp-005"
+    },
+    {
+      "args": [
+        "0x4086300000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "expected_bits": "error:Num",
+      "id": "r16-exp-006"
+    }
+  ]
+}

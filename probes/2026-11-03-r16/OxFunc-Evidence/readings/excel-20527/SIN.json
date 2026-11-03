@@ -1,0 +1,264 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T03:06:40Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\SIN-20261103T030632Z.json",
+      "frozen_sha256": "6bcf378f8ab8d630f324bb02ce15d492184cec8fd63548e9fa2a368023945362",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-SIN.json",
+      "inputs_sha256": "200c54cd7fb761d1eab5eb03e78e458c1449af79abf690e9a7ef7c61929f8288",
+      "novelty": null,
+      "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-SIN.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "SIN",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "419ffffffc000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffc000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffc000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-000",
+      "observed_raw": {
+        "number": "bfee977f5248babf"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-001",
+      "observed_raw": {
+        "number": "bfef590e128290aa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-002",
+      "observed_raw": {
+        "number": "bfe86dcca0d6ba9d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "41a0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-003",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "41a0000000000001"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000000000001"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000000000001"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-004",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=SIN(RC[1])",
+        "read_back": [
+          {
+            "number": "41a0000001000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000001000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000001000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-sin-005",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x419ffffffc000000"
+      ],
+      "calc_func_prediction": "0xbfee977f5248babf",
+      "expected_bits": "0xbfee977f5248babf",
+      "id": "r16-sin-000"
+    },
+    {
+      "args": [
+        "0x419ffffffe000000"
+      ],
+      "calc_func_prediction": "0xbfef590e128290aa",
+      "expected_bits": "0xbfef590e128290aa",
+      "id": "r16-sin-001"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff"
+      ],
+      "calc_func_prediction": "0xbfe86dcca0d6ba9d",
+      "expected_bits": "0xbfe86dcca0d6ba9d",
+      "id": "r16-sin-002"
+    },
+    {
+      "args": [
+        "0x41a0000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "expected_bits": "error:Num",
+      "id": "r16-sin-003"
+    },
+    {
+      "args": [
+        "0x41a0000000000001"
+      ],
+      "calc_func_prediction": "error:Num",
+      "expected_bits": "error:Num",
+      "id": "r16-sin-004"
+    },
+    {
+      "args": [
+        "0x41a0000001000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "expected_bits": "error:Num",
+      "id": "r16-sin-005"
+    }
+  ]
+}

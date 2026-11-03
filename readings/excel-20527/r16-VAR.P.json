@@ -1,0 +1,608 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T03:05:17Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\VAR.P-20261103T030509Z.json",
+      "frozen_sha256": "b6a89753c8c4da0b39a09aff49d63b0f93e2aa222af0518f849f7dbe03559648",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-VAR.P.json",
+      "inputs_sha256": "83686e64653b5ab0c4510fd7008c324dc72de47e668ef48c612f03d3a0389e4d",
+      "novelty": null,
+      "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-VAR.P.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "VAR.P",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c04b0ccccccccccd"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-000",
+      "observed_raw": {
+        "number": "40ce0124b17e4b19"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "requested": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "406a3ad916872b02"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-001",
+      "observed_raw": {
+        "number": "40cec63f948570b9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "requested": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "400c000000000000"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-002",
+      "observed_raw": {
+        "number": "3fc247ffa2cb1200"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4005db22d0e56042"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-003",
+      "observed_raw": {
+        "number": "3fb408fbd21defc7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4000eab367a0f909"
+          },
+          {
+            "number": "400599999999999a"
+          },
+          {
+            "number": "4000e147ae147ae1"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-004",
+      "observed_raw": {
+        "number": "3fb3a65b3aaae872"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4006666666666666"
+          },
+          {
+            "number": "400770a3d70a3d71"
+          },
+          {
+            "number": "400c1930be0ded29"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-005",
+      "observed_raw": {
+        "number": "3fb88eaef1cf0b1c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "c04b0ccccccccccc"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c04b0ccccccccccc"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c04b0ccccccccccc"
+          },
+          {
+            "number": "406ba66666666666"
+          },
+          {
+            "number": "c03b4ccccccccccd"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-006",
+      "observed_raw": {
+        "number": "40ce0124b17e4b19"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "406a3ad916872b03"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "requested": [
+          {
+            "number": "406a3ad916872b03"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "406a3ad916872b03"
+          },
+          {
+            "number": "405dc00000000000"
+          },
+          {
+            "number": "407a2cfd21ff2e49"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-007",
+      "observed_raw": {
+        "number": "40cec63f948570b2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "400c000000000001"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "requested": [
+          {
+            "number": "400c000000000001"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "400c000000000001"
+          },
+          {
+            "number": "40055c28f5c28f5c"
+          },
+          {
+            "number": "400b851eb851eb85"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-008",
+      "observed_raw": {
+        "number": "3fc247ffa2cb1200"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=VAR.P(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4005db22d0e56043"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4005db22d0e56043"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4005db22d0e56043"
+          },
+          {
+            "number": "400067381d7dbf48"
+          },
+          {
+            "number": "4002a3d70a3d70a4"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r16-var-p-009",
+      "observed_raw": {
+        "number": "3fb408fbd21def55"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0xc04b0ccccccccccd",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x40ce0124b17e4b17",
+      "expected_bits": "0x40ce0124b17e4b19",
+      "id": "r16-var-p-000"
+    },
+    {
+      "args": [
+        "0x406a3ad916872b02",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x40cec63f948570b9",
+      "expected_bits": "0x40cec63f948570b9",
+      "id": "r16-var-p-001"
+    },
+    {
+      "args": [
+        "0x400c000000000000",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x3fc247ffa2cb1212",
+      "expected_bits": "0x3fc247ffa2cb1200",
+      "id": "r16-var-p-002"
+    },
+    {
+      "args": [
+        "0x4005db22d0e56042",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x3fb408fbd21def85",
+      "expected_bits": "0x3fb408fbd21defc7",
+      "id": "r16-var-p-003"
+    },
+    {
+      "args": [
+        "0x4000eab367a0f909",
+        "0x400599999999999a",
+        "0x4000e147ae147ae1"
+      ],
+      "calc_func_prediction": "0x3fb3a65b3aaae86f",
+      "expected_bits": "0x3fb3a65b3aaae872",
+      "id": "r16-var-p-004"
+    },
+    {
+      "args": [
+        "0x4006666666666666",
+        "0x400770a3d70a3d71",
+        "0x400c1930be0ded29"
+      ],
+      "calc_func_prediction": "0x3fb88eaef1cf0b08",
+      "expected_bits": "0x3fb88eaef1cf0b1c",
+      "id": "r16-var-p-005"
+    },
+    {
+      "args": [
+        "0xc04b0ccccccccccc",
+        "0x406ba66666666666",
+        "0xc03b4ccccccccccd"
+      ],
+      "calc_func_prediction": "0x40ce0124b17e4b17",
+      "expected_bits": "0x40ce0124b17e4b19",
+      "id": "r16-var-p-006"
+    },
+    {
+      "args": [
+        "0x406a3ad916872b03",
+        "0x405dc00000000000",
+        "0x407a2cfd21ff2e49"
+      ],
+      "calc_func_prediction": "0x40cec63f948570b9",
+      "expected_bits": "0x40cec63f948570b2",
+      "id": "r16-var-p-007"
+    },
+    {
+      "args": [
+        "0x400c000000000001",
+        "0x40055c28f5c28f5c",
+        "0x400b851eb851eb85"
+      ],
+      "calc_func_prediction": "0x3fc247ffa2cb1215",
+      "expected_bits": "0x3fc247ffa2cb1200",
+      "id": "r16-var-p-008"
+    },
+    {
+      "args": [
+        "0x4005db22d0e56043",
+        "0x400067381d7dbf48",
+        "0x4002a3d70a3d70a4"
+      ],
+      "calc_func_prediction": "0x3fb408fbd21def8d",
+      "expected_bits": "0x3fb408fbd21def55",
+      "id": "r16-var-p-009"
+    }
+  ]
+}

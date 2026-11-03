@@ -1,0 +1,125 @@
+{
+  "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T03:06:23Z",
+  "function": "EXP",
+  "input_document": {
+    "function": "EXP",
+    "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x4086280000000000"
+        ],
+        "id": "r16-exp-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862c0000000000"
+        ],
+        "id": "r16-exp-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a"
+        ],
+        "id": "r16-exp-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b"
+        ],
+        "id": "r16-exp-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862e3d70a3d70a"
+        ],
+        "id": "r16-exp-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862e42fefa39ef"
+        ],
+        "id": "r16-exp-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4086300000000000"
+        ],
+        "id": "r16-exp-006",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-EXP.json",
+  "inputs_sha256": "2a00bc55a8c0763dbcd0e0aa3098d85bcdb06215f4000139d2d07a93ede2d933",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x4086280000000000"
+      ],
+      "calc_func_prediction": "0x7fdd422d2be5dc9b",
+      "id": "r16-exp-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862c0000000000"
+      ],
+      "calc_func_prediction": "0x7fe81e9b4b52d0c9",
+      "id": "r16-exp-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a"
+      ],
+      "calc_func_prediction": "0x7fed75ae7a50ee14",
+      "id": "r16-exp-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b"
+      ],
+      "calc_func_prediction": "0x7fed75ae7a50f1c2",
+      "id": "r16-exp-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862e3d70a3d70a"
+      ],
+      "calc_func_prediction": "0x7fefe9ce5c4c52b4",
+      "id": "r16-exp-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862e42fefa39ef"
+      ],
+      "calc_func_prediction": "0x7fefffffffffff2a",
+      "id": "r16-exp-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4086300000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r16-exp-006",
+      "result_index": null
+    }
+  ]
+}

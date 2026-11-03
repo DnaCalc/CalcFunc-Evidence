@@ -1,0 +1,326 @@
+{
+  "calc_func_commit": "2132f5f10c8412365918eb1cafcac3523365dd43",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T03:06:02Z",
+  "function": "BESSELY",
+  "input_document": {
+    "function": "BESSELY",
+    "selection": "R16 fixed surface/domain questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x419ffffffc000000",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffc000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffc000000",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000000",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-012",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-013",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000000000001",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-014",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002000000",
+          "0x0000000000000000"
+        ],
+        "id": "r16-bessely-015",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r16-bessely-016",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002000000",
+          "0x4000000000000000"
+        ],
+        "id": "r16-bessely-017",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r16\\requests-BESSELY.json",
+  "inputs_sha256": "f750acda66c4d9b5f955cf7f832d0d13eae8e4104d5587e90cf0a2722b1e4b9c",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf00eaf704c49bea",
+      "id": "r16-bessely-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f0fe64bf838c4ad",
+      "id": "r16-bessely-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffc000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f00eaf70cbe2ee9",
+      "id": "r16-bessely-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf0e23e91698abbe",
+      "id": "r16-bessely-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f03e239735fe042",
+      "id": "r16-bessely-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f0e23e91b913a1b",
+      "id": "r16-bessely-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb48e2123",
+      "id": "r16-bessely-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff1a2395e0c0",
+      "id": "r16-bessely-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb4ee1d8c",
+      "id": "r16-bessely-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb4ee1d8a",
+      "id": "r16-bessely-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff19db9e69ea",
+      "id": "r16-bessely-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb54e19f1",
+      "id": "r16-bessely-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb5ae1656",
+      "id": "r16-bessely-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ed7ff194baf7c3f",
+      "id": "r16-bessely-013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000000000001",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb60e12bb",
+      "id": "r16-bessely-014",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf05f74676d5df3d",
+      "id": "r16-bessely-015",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf0ca88387a7ec71",
+      "id": "r16-bessely-016",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f05f7466fabbe5c",
+      "id": "r16-bessely-017",
+      "result_index": null
+    }
+  ]
+}

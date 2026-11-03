@@ -1,0 +1,11 @@
+{
+    "failed":  false,
+    "command_failure":  null,
+    "requested_scalar_calls":  250,
+    "canonical_batches":  13,
+    "requested_batches":  13,
+    "duplicate_fresh_batches":  [
+
+                                ],
+    "limits":  "Partial attempts and unchanged section copies are not automatically new semantic readings. Verify input hashes, section keys, raw results and settings before intake."
+}
