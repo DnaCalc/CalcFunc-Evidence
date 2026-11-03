@@ -1,0 +1,132 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:00:37Z",
+  "function": "JIS",
+  "input_document": {
+    "function": "JIS",
+    "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+    "witnesses": [
+      {
+        "args": [
+          "ABC123"
+        ],
+        "id": "fn1-jis-001"
+      },
+      {
+        "args": [
+          "ＡＢＣ１２３"
+        ],
+        "id": "fn1-jis-002"
+      },
+      {
+        "args": [
+          "ｱｶﾞ"
+        ],
+        "id": "fn1-jis-003"
+      },
+      {
+        "args": [
+          "アガ"
+        ],
+        "id": "fn1-jis-004"
+      },
+      {
+        "args": [
+          "éΣ中😀"
+        ],
+        "id": "fn1-jis-005"
+      },
+      {
+        "args": [
+          ""
+        ],
+        "id": "fn1-jis-006"
+      },
+      {
+        "args": [
+          "0x4029000000000000"
+        ],
+        "id": "fn1-jis-007"
+      },
+      {
+        "args": [
+          true
+        ],
+        "id": "fn1-jis-008"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\JIS.inputs.json",
+  "inputs_sha256": "174c090fb5fd469be1f1d1fcba0b4edbac96a2373af27169c109b15d6d52dc5f",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "ABC123"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "ＡＢＣ１２３"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "ｱｶﾞ"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "アガ"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "éΣ中😀"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        ""
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4029000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        true
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-jis-008",
+      "result_index": null
+    }
+  ]
+}

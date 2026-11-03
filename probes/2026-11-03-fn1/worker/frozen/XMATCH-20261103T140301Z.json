@@ -1,0 +1,254 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:03:01Z",
+  "function": "XMATCH",
+  "input_document": {
+    "function": "XMATCH",
+    "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+    "witnesses": [
+      {
+        "args": [
+          "é*",
+          "Élan",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-001"
+      },
+      {
+        "args": [
+          "ασ*",
+          "ΑΣ",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-002"
+      },
+      {
+        "args": [
+          "ǆ*",
+          "ǅemal",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-003"
+      },
+      {
+        "args": [
+          "*SSE",
+          "Straße",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-004"
+      },
+      {
+        "args": [
+          "nai*",
+          "naïve",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-005"
+      },
+      {
+        "args": [
+          "e*",
+          "é",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-006"
+      },
+      {
+        "args": [
+          "?",
+          "😀",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-007"
+      },
+      {
+        "args": [
+          "??",
+          "😀",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-008"
+      },
+      {
+        "args": [
+          "*",
+          "😀",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-009"
+      },
+      {
+        "args": [
+          "*",
+          "",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-010"
+      },
+      {
+        "args": [
+          "Σ*",
+          "ς",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-011"
+      },
+      {
+        "args": [
+          "i*",
+          "İ",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-012"
+      },
+      {
+        "args": [
+          "a~*",
+          "a*",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-xmatch-013"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\XMATCH.inputs.json",
+  "inputs_sha256": "96f7fa0886afb3e0c638019da00c54fc5b291879d40e95c8e8a35c046c834372",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "é*",
+        "Élan",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "ασ*",
+        "ΑΣ",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "ǆ*",
+        "ǅemal",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "*SSE",
+        "Straße",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "nai*",
+        "naïve",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "e*",
+        "é",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "?",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "??",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "*",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "*",
+        "",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "id": "fn1-xmatch-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "Σ*",
+        "ς",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "i*",
+        "İ",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-xmatch-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "a~*",
+        "a*",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "id": "fn1-xmatch-013",
+      "result_index": null
+    }
+  ]
+}

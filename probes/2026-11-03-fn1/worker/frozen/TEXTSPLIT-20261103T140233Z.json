@@ -1,0 +1,106 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:02:33Z",
+  "function": "TEXTSPLIT",
+  "input_document": {
+    "function": "TEXTSPLIT",
+    "selection": "Unanswered variants plus recorded empty-text control.",
+    "witnesses": [
+      {
+        "args": [
+          "",
+          ","
+        ],
+        "id": "fn1-textsplit-001"
+      },
+      {
+        "args": [
+          "",
+          ",",
+          false
+        ],
+        "id": "fn1-textsplit-002"
+      },
+      {
+        "args": [
+          "",
+          ",",
+          ";",
+          true
+        ],
+        "id": "fn1-textsplit-003"
+      },
+      {
+        "args": [
+          "é-É-é",
+          "é"
+        ],
+        "id": "fn1-textsplit-004"
+      },
+      {
+        "args": [
+          "a,,b",
+          ","
+        ],
+        "id": "fn1-textsplit-005"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXTSPLIT.inputs.json",
+  "inputs_sha256": "389a070b85f46b059cf4542791e7783b1dbd9412f7bdca4677efc8c1ca84a717",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "",
+        ","
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textsplit-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        ",",
+        false
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textsplit-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        ",",
+        ";",
+        true
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textsplit-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "é-É-é",
+        "é"
+      ],
+      "calc_func_prediction": "fault:ResultShape",
+      "id": "fn1-textsplit-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "a,,b",
+        ","
+      ],
+      "calc_func_prediction": "fault:ResultShape",
+      "id": "fn1-textsplit-005",
+      "result_index": null
+    }
+  ]
+}

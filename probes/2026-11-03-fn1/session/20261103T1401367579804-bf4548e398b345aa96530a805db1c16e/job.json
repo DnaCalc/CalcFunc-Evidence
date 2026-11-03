@@ -1,0 +1,12 @@
+{
+  "id": "20261103T1401367579804-bf4548e398b345aa96530a805db1c16e",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\REGEXTEST-20261103T140136Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\REGEXTEST-20261103T140136Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\REGEXTEST-20261103T140136Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\REGEXTEST-20261103T140136Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900
+}

@@ -1,0 +1,24 @@
+{
+  "function": "PROPER",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-proper-001",
+      "args": [
+        "\u03b1\u0301\u03b2 \u03a3\u0301\u03a3"
+      ]
+    },
+    {
+      "id": "fn1-proper-002",
+      "args": [
+        "\u00dfstra\u00dfe \u01c6emal"
+      ]
+    },
+    {
+      "id": "fn1-proper-003",
+      "args": [
+        "o'NEILL foo-bar"
+      ]
+    }
+  ]
+}

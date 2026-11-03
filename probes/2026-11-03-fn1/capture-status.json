@@ -1,0 +1,14 @@
+{
+  "capture_jobs": 3,
+  "captured_sections": [
+    "fn1_collation",
+    "prefix_metadata",
+    "dcuar_cell"
+  ],
+  "all_requested_calls_read": true,
+  "requested_grid_calls": 216,
+  "capture_launches": 0.0,
+  "requested_scalar_calls": 107,
+  "limits": "Source packet is unchanged. Eighteen explicit follow-ups are separate from the requested 323 calls. Metadata and CELL sections were recaptured after their section keys changed.",
+  "additional_array_calls": 18
+}

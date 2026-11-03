@@ -1,0 +1,55 @@
+{
+  "function": "TEXT",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-text-001",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmmm dddd"
+      ]
+    },
+    {
+      "id": "fn1-text-002",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-40C]mmmm dddd"
+      ]
+    },
+    {
+      "id": "fn1-text-003",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]mmmm dddd"
+      ]
+    },
+    {
+      "id": "fn1-text-004",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-419]mmmm dddd"
+      ]
+    },
+    {
+      "id": "fn1-text-005",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmm"
+      ]
+    },
+    {
+      "id": "fn1-text-006",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-de-DE]mmmm"
+      ]
+    },
+    {
+      "id": "fn1-text-007",
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]ggge"
+      ]
+    }
+  ]
+}

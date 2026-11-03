@@ -1,0 +1,272 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:00:22Z",
+  "function": "EUROCONVERT",
+  "input_document": {
+    "function": "EUROCONVERT",
+    "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+    "witnesses": [
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "EUR"
+        ],
+        "id": "fn1-euroconvert-001"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "EUR",
+          true
+        ],
+        "id": "fn1-euroconvert-002"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "FRF",
+          true,
+          "0x4018000000000000"
+        ],
+        "id": "fn1-euroconvert-003"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "FRF",
+          "DEM"
+        ],
+        "id": "fn1-euroconvert-004"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "EUR",
+          "DEM"
+        ],
+        "id": "fn1-euroconvert-005"
+      },
+      {
+        "args": [
+          "0xc024000000000000",
+          "DEM",
+          "EUR"
+        ],
+        "id": "fn1-euroconvert-006"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "EUR",
+          "FRF"
+        ],
+        "id": "fn1-euroconvert-007"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "USD",
+          "EUR"
+        ],
+        "id": "fn1-euroconvert-008"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "dem",
+          "eur"
+        ],
+        "id": "fn1-euroconvert-009"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          " DEM ",
+          "EUR"
+        ],
+        "id": "fn1-euroconvert-010"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "FRF",
+          false,
+          "0x4000000000000000"
+        ],
+        "id": "fn1-euroconvert-011"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "FRF",
+          true,
+          "0x4008000000000000"
+        ],
+        "id": "fn1-euroconvert-012"
+      },
+      {
+        "args": [
+          "0x4024000000000000",
+          "DEM",
+          "FRF",
+          true,
+          "0x4030000000000000"
+        ],
+        "id": "fn1-euroconvert-013"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\EUROCONVERT.inputs.json",
+  "inputs_sha256": "c855a8dbb14bf1013f8edbfaf3655acad6ddb2aae3d243429c9b1381e47f854b",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR",
+        true
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4018000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "FRF",
+        "DEM"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "EUR",
+        "DEM"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc024000000000000",
+        "DEM",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "EUR",
+        "FRF"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "USD",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "dem",
+        "eur"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        " DEM ",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        false,
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4030000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "id": "fn1-euroconvert-013",
+      "result_index": null
+    }
+  ]
+}

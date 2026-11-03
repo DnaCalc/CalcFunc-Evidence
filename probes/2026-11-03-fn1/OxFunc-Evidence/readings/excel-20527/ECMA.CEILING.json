@@ -1,0 +1,324 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:00:20Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\ECMA.CEILING-20261103T140007Z.json",
+      "frozen_sha256": "667c71a93b61bfb8852aa6b3e28acf723e78a22d762c81ea7890023051a43c4f",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\ECMA.CEILING.inputs.json",
+      "inputs_sha256": "dcf7a51953621cda84eb8f1fdba0fd1a352b7a8a9068f71b6340146a65155a1d",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\ECMA.CEILING.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "ECMA.CEILING",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-001",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-002",
+      "observed_raw": {
+        "number": "c010000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-003",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c011333333333333"
+          },
+          {
+            "number": "c000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-004",
+      "observed_raw": {
+        "number": "c018000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4011333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-005",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=ECMA.CEILING(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-ecma-ceiling-006",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-ecma-ceiling-001"
+    },
+    {
+      "args": [
+        "0xc011333333333333",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "0xc010000000000000",
+      "id": "fn1-ecma-ceiling-002"
+    },
+    {
+      "args": [
+        "0x4011333333333333",
+        "0xc000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Num",
+      "id": "fn1-ecma-ceiling-003"
+    },
+    {
+      "args": [
+        "0xc011333333333333",
+        "0xc000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "0xc018000000000000",
+      "id": "fn1-ecma-ceiling-004"
+    },
+    {
+      "args": [
+        "0x4011333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "0x0000000000000000",
+      "id": "fn1-ecma-ceiling-005"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "0x0000000000000000",
+      "id": "fn1-ecma-ceiling-006"
+    }
+  ]
+}

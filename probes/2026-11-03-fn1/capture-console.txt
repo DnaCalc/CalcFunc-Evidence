@@ -1,0 +1,48 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.35s
+     Running `target\debug\xtask.exe capture --pending --timeout 900 --attempts 1`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.44s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask capture: calc-func/catalogue/oracle.xlsx: 22 sections captured, 3 awaiting capture (1867 formula cells):
+xtask capture:   prefix_metadata (850 formula cells): the section capture is of section:sha256:0e74fd76e700d93d320ef821776aa57fbd795acf3e2a188f6c9a566bc333e729, the section is now section:sha256:0bcfac3a08508e11061cfb8f2f0d519e7e38fc3fda89bb1e2a9414c72561c963
+xtask capture:   fn1_collation (234 formula cells): no section capture
+xtask capture:   dcuar_cell (783 formula cells): the section capture is of section:sha256:1012e000a9dcb7cb6ad814703fe5b9a95a9c875770151d7b453b1afa119ea59a, the section is now section:sha256:b8bda30ad332b081fdcaea6d1d2b325482c167dfc7b91ab86f2c2edd5ef32e4a
+xtask capture: calc-func/catalogue/oracle.xlsx: section 1 of 3: prefix_metadata (850 formula cells)
+xtask capture: [1/1] capturing C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140553\input\oracle.xlsx as case catalogue__prefix_metadata in C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140553-2 (timeout 900s)
+xtask capture: wrote C:\Work\DnaCalc\DnaCalc-win\crates\calc-func\tests\captures\catalogue\sections\prefix_metadata.capture.json
+xtask capture: wrote C:\Work\DnaCalc\DnaCalc-win\crates\calc-func\tests\captures\catalogue\sections\prefix_metadata.saved.xml
+xtask capture: calc-func/catalogue/oracle.xlsx: section 2 of 3: fn1_collation (234 formula cells)
+xtask capture: [1/1] capturing C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140621\input\oracle.xlsx as case catalogue__fn1_collation in C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140621-2 (timeout 900s)
+xtask capture: wrote C:\Work\DnaCalc\DnaCalc-win\crates\calc-func\tests\captures\catalogue\sections\fn1_collation.capture.json
+xtask capture: calc-func/catalogue/oracle.xlsx: section 3 of 3: dcuar_cell (783 formula cells)
+xtask capture: [1/1] capturing C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140641\input\oracle.xlsx as case catalogue__dcuar_cell in C:\Work\DnaCalc\DnaCalc-win\target\c\20261103140641-2 (timeout 900s)
+xtask capture: wrote C:\Work\DnaCalc\DnaCalc-win\crates\calc-func\tests\captures\catalogue\sections\dcuar_cell.capture.json
+xtask capture: everything pending was captured

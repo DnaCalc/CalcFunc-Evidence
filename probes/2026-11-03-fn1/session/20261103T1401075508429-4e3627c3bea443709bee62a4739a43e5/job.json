@@ -1,0 +1,12 @@
+{
+  "id": "20261103T1401075508429-4e3627c3bea443709bee62a4739a43e5",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\MATCH-20261103T140106Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\MATCH-20261103T140106Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\MATCH-20261103T140106Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\MATCH-20261103T140106Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900
+}

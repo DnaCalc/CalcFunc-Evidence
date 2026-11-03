@@ -1,0 +1,232 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:02:05Z",
+  "function": "TEXTAFTER",
+  "input_document": {
+    "function": "TEXTAFTER",
+    "selection": "Unanswered variants plus the recorded empty-text control. Existing reader freezes predictions before Excel.",
+    "witnesses": [
+      {
+        "args": [
+          "",
+          "-"
+        ],
+        "id": "fn1-textafter-001"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0x3ff0000000000000"
+        ],
+        "id": "fn1-textafter-002"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0xbff0000000000000"
+        ],
+        "id": "fn1-textafter-003"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0x4000000000000000"
+        ],
+        "id": "fn1-textafter-004"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0xc000000000000000"
+        ],
+        "id": "fn1-textafter-005"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0x0000000000000000"
+        ],
+        "id": "fn1-textafter-006"
+      },
+      {
+        "args": [
+          "",
+          "",
+          "0x3ff0000000000000"
+        ],
+        "id": "fn1-textafter-007"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0x3ff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "fn1-textafter-008"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "fn1-textafter-009"
+      },
+      {
+        "args": [
+          "",
+          "-",
+          "0x3ff0000000000000",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "fallback"
+        ],
+        "id": "fn1-textafter-010"
+      },
+      {
+        "args": [
+          "é-É",
+          "é",
+          "0x3ff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "fn1-textafter-011"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXTAFTER.inputs.json",
+  "inputs_sha256": "914d24bf2f4f2631feb6d7161ce01c01b9a5def608c8ab46e0a487e84e059e1c",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "",
+        "-"
+      ],
+      "calc_func_prediction": "error:NA",
+      "id": "fn1-textafter-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "id": "fn1-textafter-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0xbff0000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "id": "fn1-textafter-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textafter-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0xc000000000000000"
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textafter-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:Value",
+      "id": "fn1-textafter-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "text:",
+      "id": "fn1-textafter-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "text:",
+      "id": "fn1-textafter-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "text:",
+      "id": "fn1-textafter-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "fallback"
+      ],
+      "calc_func_prediction": "text:fallback",
+      "id": "fn1-textafter-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "é-É",
+        "é",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "text:-É",
+      "id": "fn1-textafter-011",
+      "result_index": null
+    }
+  ]
+}

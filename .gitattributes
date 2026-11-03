@@ -26,3 +26,18 @@ probes/2026-11-03-r18/** -text
 probes/2026-11-03-r19-domains/** -text
 readings/excel-20527/r18-*.json -text
 readings/excel-20527/r19-*.json -text
+
+# Fn1 standard reader results retain original Windows bytes.
+readings/excel-20527/ECMA.CEILING.json -text
+readings/excel-20527/EUROCONVERT.json -text
+readings/excel-20527/JIS.json -text
+readings/excel-20527/LOWER.json -text
+readings/excel-20527/MATCH.json -text
+readings/excel-20527/PROPER.json -text
+readings/excel-20527/REGEXTEST.json -text
+readings/excel-20527/TEXT.json -text
+readings/excel-20527/TEXTAFTER.json -text
+readings/excel-20527/TEXTBEFORE.json -text
+readings/excel-20527/TEXTSPLIT.json -text
+readings/excel-20527/UPPER.json -text
+readings/excel-20527/XMATCH.json -text

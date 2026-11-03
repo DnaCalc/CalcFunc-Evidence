@@ -1,0 +1,18 @@
+{
+  "ECMA.CEILING.inputs.json": "dcf7a51953621cda84eb8f1fdba0fd1a352b7a8a9068f71b6340146a65155a1d",
+  "EUROCONVERT.inputs.json": "c855a8dbb14bf1013f8edbfaf3655acad6ddb2aae3d243429c9b1381e47f854b",
+  "JIS.inputs.json": "174c090fb5fd469be1f1d1fcba0b4edbac96a2373af27169c109b15d6d52dc5f",
+  "LOWER.inputs.json": "d972c525bc078f295e07bbac47a2549eed28852e6904f95f5543689037523951",
+  "manifest.json": "1d257a19959d2da0e556f0d722d862eff6a1af1ff7bf0c721f8ec981c6f9ad69",
+  "MATCH.inputs.json": "7d2dacbd7c4aaaeff170d6e966a501bc4f76c98c895eacae2a91079c62670a93",
+  "PROPER.inputs.json": "a6d62d9db2aab3414cb1c53c0604e2c18321301c78ee308defd310f73de5b932",
+  "README.md": "2f300415fd9481d9cb5bb0c817d8f65af08719e91fe11cd9eec475fd448f26f5",
+  "REGEXTEST.inputs.json": "ff357397d61e3c8167fe69a165fc19fbffbf82321d8c0da3fedaf9edbacf6d27",
+  "sheet-fn1_collation.txt": "e479d4819f57e2dbe6285e74cfe30dd942172f610448eb6c71b42759375d9434",
+  "TEXT.inputs.json": "8a01edee1cc80f487ac3f114485724f86199726c35fa1d5a97c3b92b3db68b4d",
+  "TEXTAFTER.inputs.json": "914d24bf2f4f2631feb6d7161ce01c01b9a5def608c8ab46e0a487e84e059e1c",
+  "TEXTBEFORE.inputs.json": "722c458dc195f123a931c26286cf0dc9c6e994a8aa03149e535b353683a6da10",
+  "TEXTSPLIT.inputs.json": "389a070b85f46b059cf4542791e7783b1dbd9412f7bdca4677efc8c1ca84a717",
+  "UPPER.inputs.json": "3986c8512b014d364feaeb6264475dfe54d67bc8415060142086d41eb6650db9",
+  "XMATCH.inputs.json": "96f7fa0886afb3e0c638019da00c54fc5b291879d40e95c8e8a35c046c834372"
+}

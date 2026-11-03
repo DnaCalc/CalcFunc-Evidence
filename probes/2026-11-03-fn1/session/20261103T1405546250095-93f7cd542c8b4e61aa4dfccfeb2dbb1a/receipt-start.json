@@ -1,0 +1,30 @@
+{
+  "format": "dnacalc-excel-session-job/1",
+  "id": "20261103T1405546250095-93f7cd542c8b4e61aa4dfccfeb2dbb1a",
+  "sequence": 23,
+  "environment": "capture",
+  "fresh_required": false,
+  "host_pid": 62224,
+  "started_utc": "2026-11-03T14:05:54.6690726Z",
+  "launches_before": 3,
+  "success": false,
+  "error": null,
+  "baseline_before": null,
+  "baseline_after": null,
+  "leakage": null,
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\capture-worker.ps1",
+  "host_script_sha256": "86bf801ca76abd001a08a834abfae124f33f18d77aa2b5216beb6df31b45ec67",
+  "script_sha256": "b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439",
+  "job": {
+    "id": "20261103T1405546250095-93f7cd542c8b4e61aa4dfccfeb2dbb1a",
+    "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\capture-worker.ps1",
+    "parameters": {
+      "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\request.json",
+      "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\result.json"
+    },
+    "environment": "capture",
+    "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2",
+    "fresh_required": false,
+    "timeout_seconds": 900
+  }
+}

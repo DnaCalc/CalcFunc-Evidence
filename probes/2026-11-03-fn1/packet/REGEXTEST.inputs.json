@@ -1,0 +1,54 @@
+{
+  "function": "REGEXTEST",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-regextest-001",
+      "args": [
+        "\u00c9lan",
+        "\u00e9",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-regextest-002",
+      "args": [
+        "Stra\u00dfe",
+        "STRASSE",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-regextest-003",
+      "args": [
+        "\u0391\u03a3",
+        "\u03b1\u03c2",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-regextest-004",
+      "args": [
+        "\ud83d\ude00",
+        ".",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-regextest-005",
+      "args": [
+        "a\nb",
+        "a.b",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-regextest-006",
+      "args": [
+        "\u4e2d",
+        "\\w",
+        "0x0000000000000000"
+      ]
+    }
+  ]
+}

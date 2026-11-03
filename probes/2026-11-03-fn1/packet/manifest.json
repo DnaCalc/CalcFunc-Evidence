@@ -1,0 +1,92 @@
+{
+  "format": "dnacalc-functions-question-packet",
+  "version": 1,
+  "source_revision": "f8836d8d89f7cf51f0d6a1bc0ff55d1d4368a3e4",
+  "provenance": "Original function calls and fixed text grids; no answers or numeric algorithm fitted. Existing capture, witness reader and verdict paths only.",
+  "files": [
+    {
+      "path": "EUROCONVERT.inputs.json",
+      "sha256": "c855a8dbb14bf1013f8edbfaf3655acad6ddb2aae3d243429c9b1381e47f854b",
+      "rows": 13,
+      "function": "EUROCONVERT"
+    },
+    {
+      "path": "JIS.inputs.json",
+      "sha256": "174c090fb5fd469be1f1d1fcba0b4edbac96a2373af27169c109b15d6d52dc5f",
+      "rows": 8,
+      "function": "JIS"
+    },
+    {
+      "path": "ECMA.CEILING.inputs.json",
+      "sha256": "dcf7a51953621cda84eb8f1fdba0fd1a352b7a8a9068f71b6340146a65155a1d",
+      "rows": 6,
+      "function": "ECMA.CEILING"
+    },
+    {
+      "path": "MATCH.inputs.json",
+      "sha256": "7d2dacbd7c4aaaeff170d6e966a501bc4f76c98c895eacae2a91079c62670a93",
+      "rows": 13,
+      "function": "MATCH"
+    },
+    {
+      "path": "XMATCH.inputs.json",
+      "sha256": "96f7fa0886afb3e0c638019da00c54fc5b291879d40e95c8e8a35c046c834372",
+      "rows": 13,
+      "function": "XMATCH"
+    },
+    {
+      "path": "REGEXTEST.inputs.json",
+      "sha256": "ff357397d61e3c8167fe69a165fc19fbffbf82321d8c0da3fedaf9edbacf6d27",
+      "rows": 6,
+      "function": "REGEXTEST"
+    },
+    {
+      "path": "UPPER.inputs.json",
+      "sha256": "3986c8512b014d364feaeb6264475dfe54d67bc8415060142086d41eb6650db9",
+      "rows": 5,
+      "function": "UPPER"
+    },
+    {
+      "path": "LOWER.inputs.json",
+      "sha256": "d972c525bc078f295e07bbac47a2549eed28852e6904f95f5543689037523951",
+      "rows": 6,
+      "function": "LOWER"
+    },
+    {
+      "path": "PROPER.inputs.json",
+      "sha256": "a6d62d9db2aab3414cb1c53c0604e2c18321301c78ee308defd310f73de5b932",
+      "rows": 3,
+      "function": "PROPER"
+    },
+    {
+      "path": "TEXT.inputs.json",
+      "sha256": "8a01edee1cc80f487ac3f114485724f86199726c35fa1d5a97c3b92b3db68b4d",
+      "rows": 7,
+      "function": "TEXT"
+    },
+    {
+      "path": "sheet-fn1_collation.txt",
+      "sha256": "e479d4819f57e2dbe6285e74cfe30dd942172f610448eb6c71b42759375d9434",
+      "rows": 216,
+      "route": "catalogue section; cargo xtask capture --pending"
+    },
+    {
+      "path": "TEXTBEFORE.inputs.json",
+      "sha256": "722c458dc195f123a931c26286cf0dc9c6e994a8aa03149e535b353683a6da10",
+      "rows": 11,
+      "function": "TEXTBEFORE"
+    },
+    {
+      "path": "TEXTAFTER.inputs.json",
+      "sha256": "914d24bf2f4f2631feb6d7161ce01c01b9a5def608c8ab46e0a487e84e059e1c",
+      "rows": 11,
+      "function": "TEXTAFTER"
+    },
+    {
+      "path": "TEXTSPLIT.inputs.json",
+      "sha256": "389a070b85f46b059cf4542791e7783b1dbd9412f7bdca4677efc8c1ca84a717",
+      "rows": 5,
+      "function": "TEXTSPLIT"
+    }
+  ]
+}

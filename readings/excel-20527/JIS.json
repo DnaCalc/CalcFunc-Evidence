@@ -1,0 +1,336 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:00:50Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\JIS-20261103T140037Z.json",
+      "frozen_sha256": "9d2e5617183ebcf9f07357798073ebdbab2dbbe161fcb5a52be779937ce608fd",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\JIS.inputs.json",
+      "inputs_sha256": "174c090fb5fd469be1f1d1fcba0b4edbac96a2373af27169c109b15d6d52dc5f",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\JIS.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "JIS",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": "004100420043003100320033"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ABC123"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "004100420043003100320033"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-001",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": "ff21ff22ff23ff11ff12ff13"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ＡＢＣ１２３"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "ff21ff22ff23ff11ff12ff13"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-002",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": "ff71ff76ff9e"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ｱｶﾞ"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "ff71ff76ff9e"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-003",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": "30a230ac"
+          }
+        ],
+        "requested": [
+          {
+            "text": "アガ"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "30a230ac"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-004",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": "00e903a34e2dd83dde00"
+          }
+        ],
+        "requested": [
+          {
+            "text": "éΣ中😀"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "00e903a34e2dd83dde00"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-005",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "text": ""
+          }
+        ],
+        "requested": [
+          {
+            "text": ""
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": ""
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-006",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "number": "4029000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4029000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4029000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-007",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=JIS(RC[1])",
+        "read_back": [
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-jis-008",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "ABC123"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-001"
+    },
+    {
+      "args": [
+        "ＡＢＣ１２３"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-002"
+    },
+    {
+      "args": [
+        "ｱｶﾞ"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-003"
+    },
+    {
+      "args": [
+        "アガ"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-004"
+    },
+    {
+      "args": [
+        "éΣ中😀"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-005"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-006"
+    },
+    {
+      "args": [
+        "0x4029000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-007"
+    },
+    {
+      "args": [
+        true
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-jis-008"
+    }
+  ]
+}

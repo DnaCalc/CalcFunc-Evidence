@@ -1,0 +1,384 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:01:49Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\REGEXTEST-20261103T140136Z.json",
+      "frozen_sha256": "446a277513fd6d23d513ad9991c07c4bf77cfe891ff3b4db290a3295908f523e",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\REGEXTEST.inputs.json",
+      "inputs_sha256": "ff357397d61e3c8167fe69a165fc19fbffbf82321d8c0da3fedaf9edbacf6d27",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\REGEXTEST.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "REGEXTEST",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "Élan"
+          },
+          {
+            "text": "é"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-001",
+      "observed_raw": {
+        "logical": true
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "text": "0053005400520041005300530045"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "Straße"
+          },
+          {
+            "text": "STRASSE"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "text": "0053005400520041005300530045"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-002",
+      "observed_raw": {
+        "logical": false
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "039103a3"
+          },
+          {
+            "text": "03b103c2"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ΑΣ"
+          },
+          {
+            "text": "ας"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "039103a3"
+          },
+          {
+            "text": "03b103c2"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-003",
+      "observed_raw": {
+        "logical": true
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "d83dde00"
+          },
+          {
+            "text": "002e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "😀"
+          },
+          {
+            "text": "."
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "d83dde00"
+          },
+          {
+            "text": "002e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-004",
+      "observed_raw": {
+        "logical": true
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0061000a0062"
+          },
+          {
+            "text": "0061002e0062"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "a\nb"
+          },
+          {
+            "text": "a.b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0061000a0062"
+          },
+          {
+            "text": "0061002e0062"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-005",
+      "observed_raw": {
+        "logical": false
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=REGEXTEST(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "4e2d"
+          },
+          {
+            "text": "005c0077"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "中"
+          },
+          {
+            "text": "\\w"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "4e2d"
+          },
+          {
+            "text": "005c0077"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-regextest-006",
+      "observed_raw": {
+        "logical": true
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "Élan",
+        "é",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "logical:True",
+      "id": "fn1-regextest-001"
+    },
+    {
+      "args": [
+        "Straße",
+        "STRASSE",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "logical:False",
+      "id": "fn1-regextest-002"
+    },
+    {
+      "args": [
+        "ΑΣ",
+        "ας",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "logical:True",
+      "id": "fn1-regextest-003"
+    },
+    {
+      "args": [
+        "😀",
+        ".",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "logical:True",
+      "expected_bits": "logical:True",
+      "id": "fn1-regextest-004"
+    },
+    {
+      "args": [
+        "a\nb",
+        "a.b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "logical:True",
+      "expected_bits": "logical:False",
+      "id": "fn1-regextest-005"
+    },
+    {
+      "args": [
+        "中",
+        "\\w",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "logical:False",
+      "expected_bits": "logical:True",
+      "id": "fn1-regextest-006"
+    }
+  ]
+}

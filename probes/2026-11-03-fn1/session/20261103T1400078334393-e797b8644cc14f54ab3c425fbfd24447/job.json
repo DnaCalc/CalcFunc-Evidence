@@ -1,0 +1,12 @@
+{
+  "id": "20261103T1400078334393-e797b8644cc14f54ab3c425fbfd24447",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\ECMA.CEILING-20261103T140007Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\ECMA.CEILING-20261103T140007Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\ECMA.CEILING-20261103T140007Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\ECMA.CEILING-20261103T140007Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900
+}

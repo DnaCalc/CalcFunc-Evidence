@@ -1,0 +1,119 @@
+{
+  "session_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\excel-session",
+  "failed": false,
+  "unread_calls": 0,
+  "jobs": 13,
+  "requested_batches": 13,
+  "command_failure": null,
+  "excel_launches": 0,
+  "canonical": [
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\ECMA.CEILING.json",
+      "calls": 6,
+      "inputs_sha256": "dcf7a51953621cda84eb8f1fdba0fd1a352b7a8a9068f71b6340146a65155a1d",
+      "unread": 0,
+      "function": "ECMA.CEILING"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\EUROCONVERT.json",
+      "calls": 13,
+      "inputs_sha256": "c855a8dbb14bf1013f8edbfaf3655acad6ddb2aae3d243429c9b1381e47f854b",
+      "unread": 0,
+      "function": "EUROCONVERT"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\JIS.json",
+      "calls": 8,
+      "inputs_sha256": "174c090fb5fd469be1f1d1fcba0b4edbac96a2373af27169c109b15d6d52dc5f",
+      "unread": 0,
+      "function": "JIS"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\LOWER.json",
+      "calls": 6,
+      "inputs_sha256": "d972c525bc078f295e07bbac47a2549eed28852e6904f95f5543689037523951",
+      "unread": 0,
+      "function": "LOWER"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\MATCH.json",
+      "calls": 13,
+      "inputs_sha256": "7d2dacbd7c4aaaeff170d6e966a501bc4f76c98c895eacae2a91079c62670a93",
+      "unread": 0,
+      "function": "MATCH"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\PROPER.json",
+      "calls": 3,
+      "inputs_sha256": "a6d62d9db2aab3414cb1c53c0604e2c18321301c78ee308defd310f73de5b932",
+      "unread": 0,
+      "function": "PROPER"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\REGEXTEST.json",
+      "calls": 6,
+      "inputs_sha256": "ff357397d61e3c8167fe69a165fc19fbffbf82321d8c0da3fedaf9edbacf6d27",
+      "unread": 0,
+      "function": "REGEXTEST"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\TEXT.json",
+      "calls": 7,
+      "inputs_sha256": "8a01edee1cc80f487ac3f114485724f86199726c35fa1d5a97c3b92b3db68b4d",
+      "unread": 0,
+      "function": "TEXT"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\TEXTAFTER.json",
+      "calls": 11,
+      "inputs_sha256": "914d24bf2f4f2631feb6d7161ce01c01b9a5def608c8ab46e0a487e84e059e1c",
+      "unread": 0,
+      "function": "TEXTAFTER"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\TEXTBEFORE.json",
+      "calls": 11,
+      "inputs_sha256": "722c458dc195f123a931c26286cf0dc9c6e994a8aa03149e535b353683a6da10",
+      "unread": 0,
+      "function": "TEXTBEFORE"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\TEXTSPLIT.json",
+      "calls": 5,
+      "inputs_sha256": "389a070b85f46b059cf4542791e7783b1dbd9412f7bdca4677efc8c1ca84a717",
+      "unread": 0,
+      "function": "TEXTSPLIT"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\UPPER.json",
+      "calls": 5,
+      "inputs_sha256": "3986c8512b014d364feaeb6264475dfe54d67bc8415060142086d41eb6650db9",
+      "unread": 0,
+      "function": "UPPER"
+    },
+    {
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\XMATCH.json",
+      "calls": 13,
+      "inputs_sha256": "96f7fa0886afb3e0c638019da00c54fc5b291879d40e95c8e8a35c046c834372",
+      "unread": 0,
+      "function": "XMATCH"
+    }
+  ],
+  "limits": "Raw answers and frozen predictions remain separate. Unread calls and unrun conditions are not passes.",
+  "batch_failures": [],
+  "completed_functions": [
+    "ECMA.CEILING",
+    "EUROCONVERT",
+    "JIS",
+    "LOWER",
+    "MATCH",
+    "PROPER",
+    "REGEXTEST",
+    "TEXT",
+    "TEXTAFTER",
+    "TEXTBEFORE",
+    "TEXTSPLIT",
+    "UPPER",
+    "XMATCH"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "function": "ECMA.CEILING",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-ecma-ceiling-001",
+      "args": [
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-ecma-ceiling-002",
+      "args": [
+        "0xc011333333333333",
+        "0x4000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-ecma-ceiling-003",
+      "args": [
+        "0x4011333333333333",
+        "0xc000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-ecma-ceiling-004",
+      "args": [
+        "0xc011333333333333",
+        "0xc000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-ecma-ceiling-005",
+      "args": [
+        "0x4011333333333333",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-ecma-ceiling-006",
+      "args": [
+        "0x0000000000000000",
+        "0x4000000000000000"
+      ]
+    }
+  ]
+}

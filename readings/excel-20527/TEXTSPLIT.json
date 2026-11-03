@@ -1,0 +1,308 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:02:46Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\TEXTSPLIT-20261103T140233Z.json",
+      "frozen_sha256": "601215dd9b2d93d913add4f9c39f681e890248a1d32c3c0204edea688b9b2568",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXTSPLIT.inputs.json",
+      "inputs_sha256": "389a070b85f46b059cf4542791e7783b1dbd9412f7bdca4677efc8c1ca84a717",
+      "novelty": null,
+      "selection": "Unanswered variants plus recorded empty-text control."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXTSPLIT.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "TEXTSPLIT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXTSPLIT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          }
+        ],
+        "requested": [
+          {
+            "text": ""
+          },
+          {
+            "text": ","
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-textsplit-001",
+      "observed_raw": {
+        "error_code": 2015
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXTSPLIT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "text": "00e9002d00c9002d00e9"
+          },
+          {
+            "text": "00e9"
+          }
+        ],
+        "requested": [
+          {
+            "text": "é-É-é"
+          },
+          {
+            "text": "é"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "00e9002d00c9002d00e9"
+          },
+          {
+            "text": "00e9"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-textsplit-004",
+      "observed_raw": {
+        "error_code": 2045
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXTSPLIT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "text": "0061002c002c0062"
+          },
+          {
+            "text": "002c"
+          }
+        ],
+        "requested": [
+          {
+            "text": "a,,b"
+          },
+          {
+            "text": ","
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0061002c002c0062"
+          },
+          {
+            "text": "002c"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-textsplit-005",
+      "observed_raw": {
+        "error_code": 2045
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXTSPLIT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          },
+          {
+            "logical": false
+          }
+        ],
+        "requested": [
+          {
+            "text": ""
+          },
+          {
+            "text": ","
+          },
+          {
+            "logical": false
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          },
+          {
+            "logical": false
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-textsplit-002",
+      "observed_raw": {
+        "error_code": 2015
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXTSPLIT(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          },
+          {
+            "text": "003b"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "text": ""
+          },
+          {
+            "text": ","
+          },
+          {
+            "text": ";"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": ""
+          },
+          {
+            "text": "002c"
+          },
+          {
+            "text": "003b"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-textsplit-003",
+      "observed_raw": {
+        "error_code": 2015
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "",
+        ","
+      ],
+      "calc_func_prediction": "error:Value",
+      "expected_bits": "error:Value",
+      "id": "fn1-textsplit-001"
+    },
+    {
+      "args": [
+        "é-É-é",
+        "é"
+      ],
+      "calc_func_prediction": "fault:ResultShape",
+      "expected_bits": "error:Spill",
+      "id": "fn1-textsplit-004"
+    },
+    {
+      "args": [
+        "a,,b",
+        ","
+      ],
+      "calc_func_prediction": "fault:ResultShape",
+      "expected_bits": "error:Spill",
+      "id": "fn1-textsplit-005"
+    },
+    {
+      "args": [
+        "",
+        ",",
+        false
+      ],
+      "calc_func_prediction": "error:Value",
+      "expected_bits": "error:Value",
+      "id": "fn1-textsplit-002"
+    },
+    {
+      "args": [
+        "",
+        ",",
+        ";",
+        true
+      ],
+      "calc_func_prediction": "error:Value",
+      "expected_bits": "error:Value",
+      "id": "fn1-textsplit-003"
+    }
+  ]
+}

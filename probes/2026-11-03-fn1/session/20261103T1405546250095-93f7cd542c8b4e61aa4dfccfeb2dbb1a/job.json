@@ -1,0 +1,12 @@
+{
+  "id": "20261103T1405546250095-93f7cd542c8b4e61aa4dfccfeb2dbb1a",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\capture-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2\\result.json"
+  },
+  "environment": "capture",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\c\\20261103140553-2",
+  "fresh_required": false,
+  "timeout_seconds": 900
+}

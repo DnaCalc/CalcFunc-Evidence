@@ -1,0 +1,101 @@
+{
+  "function": "TEXTAFTER",
+  "selection": "Unanswered variants plus the recorded empty-text control. Existing reader freezes predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-textafter-001",
+      "args": [
+        "",
+        "-"
+      ]
+    },
+    {
+      "id": "fn1-textafter-002",
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-003",
+      "args": [
+        "",
+        "-",
+        "0xbff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-004",
+      "args": [
+        "",
+        "-",
+        "0x4000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-005",
+      "args": [
+        "",
+        "-",
+        "0xc000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-006",
+      "args": [
+        "",
+        "-",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-007",
+      "args": [
+        "",
+        "",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-008",
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-009",
+      "args": [
+        "",
+        "-",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ]
+    },
+    {
+      "id": "fn1-textafter-010",
+      "args": [
+        "",
+        "-",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "fallback"
+      ]
+    },
+    {
+      "id": "fn1-textafter-011",
+      "args": [
+        "\u00e9-\u00c9",
+        "\u00e9",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ]
+    }
+  ]
+}

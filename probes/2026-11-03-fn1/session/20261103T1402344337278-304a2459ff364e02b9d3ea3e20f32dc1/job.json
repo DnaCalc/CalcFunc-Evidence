@@ -1,0 +1,12 @@
+{
+  "id": "20261103T1402344337278-304a2459ff364e02b9d3ea3e20f32dc1",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\TEXTSPLIT-20261103T140233Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\TEXTSPLIT-20261103T140233Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\TEXTSPLIT-20261103T140233Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\TEXTSPLIT-20261103T140233Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900
+}

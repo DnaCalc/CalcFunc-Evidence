@@ -1,0 +1,776 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:03:14Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\XMATCH-20261103T140301Z.json",
+      "frozen_sha256": "37ea431db762212e28c0ec6f0af8ecb49f5c0bc8ae417b3545d49a1a4475a3ed",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\XMATCH.inputs.json",
+      "inputs_sha256": "96f7fa0886afb3e0c638019da00c54fc5b291879d40e95c8e8a35c046c834372",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\XMATCH.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "XMATCH",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "00e9002a"
+          },
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "é*"
+          },
+          {
+            "text": "Élan"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "00e9002a"
+          },
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-001",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "03b103c3002a"
+          },
+          {
+            "text": "039103a3"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ασ*"
+          },
+          {
+            "text": "ΑΣ"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "03b103c3002a"
+          },
+          {
+            "text": "039103a3"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-002",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "01c6002a"
+          },
+          {
+            "text": "01c50065006d0061006c"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ǆ*"
+          },
+          {
+            "text": "ǅemal"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "01c6002a"
+          },
+          {
+            "text": "01c50065006d0061006c"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-003",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a005300530045"
+          },
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*SSE"
+          },
+          {
+            "text": "Straße"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a005300530045"
+          },
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-004",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "006e00610069002a"
+          },
+          {
+            "text": "006e006100ef00760065"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "nai*"
+          },
+          {
+            "text": "naïve"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "006e00610069002a"
+          },
+          {
+            "text": "006e006100ef00760065"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-005",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0065002a"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "e*"
+          },
+          {
+            "text": "é"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0065002a"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-006",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "?"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-007",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "003f003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "??"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "003f003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-008",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-009",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-010",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "03a3002a"
+          },
+          {
+            "text": "03c2"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "Σ*"
+          },
+          {
+            "text": "ς"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "03a3002a"
+          },
+          {
+            "text": "03c2"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-011",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0069002a"
+          },
+          {
+            "text": "0130"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "i*"
+          },
+          {
+            "text": "İ"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0069002a"
+          },
+          {
+            "text": "0130"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-012",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=XMATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0061007e002a"
+          },
+          {
+            "text": "0061002a"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "a~*"
+          },
+          {
+            "text": "a*"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0061007e002a"
+          },
+          {
+            "text": "0061002a"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-xmatch-013",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "é*",
+        "Élan",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-001"
+    },
+    {
+      "args": [
+        "ασ*",
+        "ΑΣ",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-002"
+    },
+    {
+      "args": [
+        "ǆ*",
+        "ǅemal",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-003"
+    },
+    {
+      "args": [
+        "*SSE",
+        "Straße",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "error:NA",
+      "id": "fn1-xmatch-004"
+    },
+    {
+      "args": [
+        "nai*",
+        "naïve",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "error:NA",
+      "id": "fn1-xmatch-005"
+    },
+    {
+      "args": [
+        "e*",
+        "é",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "error:NA",
+      "id": "fn1-xmatch-006"
+    },
+    {
+      "args": [
+        "?",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "error:NA",
+      "id": "fn1-xmatch-007"
+    },
+    {
+      "args": [
+        "??",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-008"
+    },
+    {
+      "args": [
+        "*",
+        "😀",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-009"
+    },
+    {
+      "args": [
+        "*",
+        "",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-010"
+    },
+    {
+      "args": [
+        "Σ*",
+        "ς",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-011"
+    },
+    {
+      "args": [
+        "i*",
+        "İ",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "error:NA",
+      "id": "fn1-xmatch-012"
+    },
+    {
+      "args": [
+        "a~*",
+        "a*",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-xmatch-013"
+    }
+  ]
+}

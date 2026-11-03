@@ -1,0 +1,119 @@
+{
+  "function": "EUROCONVERT",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-euroconvert-001",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-002",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR",
+        true
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-003",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4018000000000000"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-004",
+      "args": [
+        "0x4024000000000000",
+        "FRF",
+        "DEM"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-005",
+      "args": [
+        "0x3ff0000000000000",
+        "EUR",
+        "DEM"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-006",
+      "args": [
+        "0xc024000000000000",
+        "DEM",
+        "EUR"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-007",
+      "args": [
+        "0x0000000000000000",
+        "EUR",
+        "FRF"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-008",
+      "args": [
+        "0x4024000000000000",
+        "USD",
+        "EUR"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-009",
+      "args": [
+        "0x4024000000000000",
+        "dem",
+        "eur"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-010",
+      "args": [
+        "0x4024000000000000",
+        " DEM ",
+        "EUR"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-011",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        false,
+        "0x4000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-012",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4008000000000000"
+      ]
+    },
+    {
+      "id": "fn1-euroconvert-013",
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4030000000000000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:02:03Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\TEXT-20261103T140150Z.json",
+      "frozen_sha256": "5ef1db1350e5b8961da43afdc0ae783c1ba86fa99ddd0e2afd9c1b9ebee578ed",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXT.inputs.json",
+      "inputs_sha256": "8a01edee1cc80f487ac3f114485724f86199726c35fa1d5a97c3b92b3db68b4d",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXT.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "TEXT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300037005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-407]mmmm dddd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300037005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-001",
+      "observed_raw": {
+        "text": "004d00e40072007a0020004d0069007400740077006f00630068"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300043005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-40C]mmmm dddd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300043005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-002",
+      "observed_raw": {
+        "text": "006d0061007200730020006d0065007200630072006500640069"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310031005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-411]mmmm dddd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310031005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-003",
+      "observed_raw": {
+        "text": "0033670800206c3466dc65e5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310039005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-419]mmmm dddd"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310039005d006d006d006d006d00200064006400640064"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-004",
+      "observed_raw": {
+        "text": "041c043004400442002004410440043504340430"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300037005d006d006d006d"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-407]mmm"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400300037005d006d006d006d"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-005",
+      "observed_raw": {
+        "text": "004d0072007a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d00640065002d00440045005d006d006d006d006d"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-de-DE]mmmm"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d00640065002d00440045005d006d006d006d006d"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-006",
+      "observed_raw": {
+        "text": "004d00e40072007a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=TEXT(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310031005d0067006700670065"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "[$-411]ggge"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5f90000000000"
+          },
+          {
+            "text": "005b0024002d003400310031005d0067006700670065"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-text-007",
+      "observed_raw": {
+        "text": "4ee4548c0035"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:März Mittwoch",
+      "id": "fn1-text-001"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-40C]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:mars mercredi",
+      "id": "fn1-text-002"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:3月 水曜日",
+      "id": "fn1-text-003"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-419]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:Март среда",
+      "id": "fn1-text-004"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmm"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:Mrz",
+      "id": "fn1-text-005"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-de-DE]mmmm"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:März",
+      "id": "fn1-text-006"
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]ggge"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "expected_bits": "text:令和5",
+      "id": "fn1-text-007"
+    }
+  ]
+}

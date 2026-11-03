@@ -1,0 +1,44 @@
+{
+  "function": "TEXTSPLIT",
+  "selection": "Unanswered variants plus recorded empty-text control.",
+  "witnesses": [
+    {
+      "id": "fn1-textsplit-001",
+      "args": [
+        "",
+        ","
+      ]
+    },
+    {
+      "id": "fn1-textsplit-002",
+      "args": [
+        "",
+        ",",
+        false
+      ]
+    },
+    {
+      "id": "fn1-textsplit-003",
+      "args": [
+        "",
+        ",",
+        ";",
+        true
+      ]
+    },
+    {
+      "id": "fn1-textsplit-004",
+      "args": [
+        "\u00e9-\u00c9-\u00e9",
+        "\u00e9"
+      ]
+    },
+    {
+      "id": "fn1-textsplit-005",
+      "args": [
+        "a,,b",
+        ","
+      ]
+    }
+  ]
+}

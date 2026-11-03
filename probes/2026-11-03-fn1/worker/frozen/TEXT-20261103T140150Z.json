@@ -1,0 +1,132 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T14:01:50Z",
+  "function": "TEXT",
+  "input_document": {
+    "function": "TEXT",
+    "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+    "witnesses": [
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-407]mmmm dddd"
+        ],
+        "id": "fn1-text-001"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-40C]mmmm dddd"
+        ],
+        "id": "fn1-text-002"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-411]mmmm dddd"
+        ],
+        "id": "fn1-text-003"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-419]mmmm dddd"
+        ],
+        "id": "fn1-text-004"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-407]mmm"
+        ],
+        "id": "fn1-text-005"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-de-DE]mmmm"
+        ],
+        "id": "fn1-text-006"
+      },
+      {
+        "args": [
+          "0x40e5f90000000000",
+          "[$-411]ggge"
+        ],
+        "id": "fn1-text-007"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\TEXT.inputs.json",
+  "inputs_sha256": "8a01edee1cc80f487ac3f114485724f86199726c35fa1d5a97c3b92b3db68b4d",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-40C]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-419]mmmm dddd"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-407]mmm"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-de-DE]mmmm"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40e5f90000000000",
+        "[$-411]ggge"
+      ],
+      "calc_func_prediction": "fault:NotImplemented",
+      "id": "fn1-text-007",
+      "result_index": null
+    }
+  ]
+}

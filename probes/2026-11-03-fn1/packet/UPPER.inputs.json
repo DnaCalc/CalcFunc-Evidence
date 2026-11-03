@@ -1,0 +1,36 @@
+{
+  "function": "UPPER",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-upper-001",
+      "args": [
+        "\u00e9\u00df\u01c6\u0130\u03c2\u03c3\u03a3\ufb00"
+      ]
+    },
+    {
+      "id": "fn1-upper-002",
+      "args": [
+        "\u03b1\u0301"
+      ]
+    },
+    {
+      "id": "fn1-upper-003",
+      "args": [
+        "\u03ac\u03ad\u03ae\u03af\u03cc\u03cd\u03ce\u0390\u03b0"
+      ]
+    },
+    {
+      "id": "fn1-upper-004",
+      "args": [
+        "\ud801\udc28"
+      ]
+    },
+    {
+      "id": "fn1-upper-005",
+      "args": [
+        "a\ud83d\ude00z"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "function": "MATCH",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-match-001",
+      "args": [
+        "\u00e9*",
+        "\u00c9lan",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-002",
+      "args": [
+        "\u03b1\u03c3*",
+        "\u0391\u03a3",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-003",
+      "args": [
+        "\u01c6*",
+        "\u01c5emal",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-004",
+      "args": [
+        "*SSE",
+        "Stra\u00dfe",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-005",
+      "args": [
+        "nai*",
+        "na\u00efve",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-006",
+      "args": [
+        "e*",
+        "\u00e9",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-007",
+      "args": [
+        "?",
+        "\ud83d\ude00",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-008",
+      "args": [
+        "??",
+        "\ud83d\ude00",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-009",
+      "args": [
+        "*",
+        "\ud83d\ude00",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-010",
+      "args": [
+        "*",
+        "",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-011",
+      "args": [
+        "\u03a3*",
+        "\u03c2",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-012",
+      "args": [
+        "i*",
+        "\u0130",
+        "0x0000000000000000"
+      ]
+    },
+    {
+      "id": "fn1-match-013",
+      "args": [
+        "a~*",
+        "a*",
+        "0x0000000000000000"
+      ]
+    }
+  ]
+}

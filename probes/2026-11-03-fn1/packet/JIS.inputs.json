@@ -1,0 +1,54 @@
+{
+  "function": "JIS",
+  "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel.",
+  "witnesses": [
+    {
+      "id": "fn1-jis-001",
+      "args": [
+        "ABC123"
+      ]
+    },
+    {
+      "id": "fn1-jis-002",
+      "args": [
+        "\uff21\uff22\uff23\uff11\uff12\uff13"
+      ]
+    },
+    {
+      "id": "fn1-jis-003",
+      "args": [
+        "\uff71\uff76\uff9e"
+      ]
+    },
+    {
+      "id": "fn1-jis-004",
+      "args": [
+        "\u30a2\u30ac"
+      ]
+    },
+    {
+      "id": "fn1-jis-005",
+      "args": [
+        "\u00e9\u03a3\u4e2d\ud83d\ude00"
+      ]
+    },
+    {
+      "id": "fn1-jis-006",
+      "args": [
+        ""
+      ]
+    },
+    {
+      "id": "fn1-jis-007",
+      "args": [
+        "0x4029000000000000"
+      ]
+    },
+    {
+      "id": "fn1-jis-008",
+      "args": [
+        true
+      ]
+    }
+  ]
+}

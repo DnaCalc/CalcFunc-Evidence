@@ -1,0 +1,866 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:00:35Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\EUROCONVERT-20261103T140022Z.json",
+      "frozen_sha256": "5fefa1f11f47d9ded00b6e792f716fc4aec0db07f58144cea97ca1f40165a02a",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\EUROCONVERT.inputs.json",
+      "inputs_sha256": "c855a8dbb14bf1013f8edbfaf3655acad6ddb2aae3d243429c9b1381e47f854b",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\EUROCONVERT.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "EUROCONVERT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "EUR"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-001",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "text": "00440045004d"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "FRF"
+          },
+          {
+            "text": "DEM"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "text": "00440045004d"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-004",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "text": "00440045004d"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "text": "EUR"
+          },
+          {
+            "text": "DEM"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "text": "00440045004d"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-005",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "c024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "requested": [
+          {
+            "number": "c024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "EUR"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "c024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-006",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "text": "004600520046"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "text": "EUR"
+          },
+          {
+            "text": "FRF"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "text": "004600520046"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-007",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "005500530044"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "USD"
+          },
+          {
+            "text": "EUR"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "005500530044"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-008",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00640065006d"
+          },
+          {
+            "text": "006500750072"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "dem"
+          },
+          {
+            "text": "eur"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00640065006d"
+          },
+          {
+            "text": "006500750072"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-009",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "002000440045004d0020"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": " DEM "
+          },
+          {
+            "text": "EUR"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "002000440045004d0020"
+          },
+          {
+            "text": "004500550052"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-010",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "EUR"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004500550052"
+          },
+          {
+            "logical": true
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-002",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4018000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "FRF"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4018000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4018000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-003",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": false
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "FRF"
+          },
+          {
+            "logical": false
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": false
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-011",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "FRF"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-012",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=EUROCONVERT(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4030000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "DEM"
+          },
+          {
+            "text": "FRF"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4030000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4024000000000000"
+          },
+          {
+            "text": "00440045004d"
+          },
+          {
+            "text": "004600520046"
+          },
+          {
+            "logical": true
+          },
+          {
+            "number": "4030000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-euroconvert-013",
+      "observed_raw": {
+        "error_code": 2029
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-001"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "FRF",
+        "DEM"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-004"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "EUR",
+        "DEM"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-005"
+    },
+    {
+      "args": [
+        "0xc024000000000000",
+        "DEM",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-006"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "EUR",
+        "FRF"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-007"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "USD",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-008"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "dem",
+        "eur"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-009"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        " DEM ",
+        "EUR"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-010"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "EUR",
+        true
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-002"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4018000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-003"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        false,
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-011"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-012"
+    },
+    {
+      "args": [
+        "0x4024000000000000",
+        "DEM",
+        "FRF",
+        true,
+        "0x4030000000000000"
+      ],
+      "calc_func_prediction": "fault:NotCatalogued",
+      "expected_bits": "error:Name",
+      "id": "fn1-euroconvert-013"
+    }
+  ]
+}

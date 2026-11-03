@@ -1,0 +1,776 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T14:01:20Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\MATCH-20261103T140106Z.json",
+      "frozen_sha256": "35f6e86a520ad7d444a0c403d6c3d6474edd0a36e1205fb8f017f223b7564cad",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\MATCH.inputs.json",
+      "inputs_sha256": "7d2dacbd7c4aaaeff170d6e966a501bc4f76c98c895eacae2a91079c62670a93",
+      "novelty": null,
+      "selection": "Functions lane fn1; unanswered Excel questions. No expected values. The standard reader freezes product predictions before Excel."
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-fn1\\MATCH.inputs.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "MATCH",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "00e9002a"
+          },
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "é*"
+          },
+          {
+            "text": "Élan"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "00e9002a"
+          },
+          {
+            "text": "00c9006c0061006e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-001",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "03b103c3002a"
+          },
+          {
+            "text": "039103a3"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ασ*"
+          },
+          {
+            "text": "ΑΣ"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "03b103c3002a"
+          },
+          {
+            "text": "039103a3"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-002",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "01c6002a"
+          },
+          {
+            "text": "01c50065006d0061006c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "ǆ*"
+          },
+          {
+            "text": "ǅemal"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "01c6002a"
+          },
+          {
+            "text": "01c50065006d0061006c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-003",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a005300530045"
+          },
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*SSE"
+          },
+          {
+            "text": "Straße"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a005300530045"
+          },
+          {
+            "text": "005300740072006100df0065"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-004",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "006e00610069002a"
+          },
+          {
+            "text": "006e006100ef00760065"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "nai*"
+          },
+          {
+            "text": "naïve"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "006e00610069002a"
+          },
+          {
+            "text": "006e006100ef00760065"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-005",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0065002a"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "e*"
+          },
+          {
+            "text": "é"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0065002a"
+          },
+          {
+            "text": "00e9"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-006",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "?"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-007",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "003f003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "??"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "003f003f"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-008",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*"
+          },
+          {
+            "text": "😀"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": "d83dde00"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-009",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "*"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "002a"
+          },
+          {
+            "text": ""
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-010",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "03a3002a"
+          },
+          {
+            "text": "03c2"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "Σ*"
+          },
+          {
+            "text": "ς"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "03a3002a"
+          },
+          {
+            "text": "03c2"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-011",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0069002a"
+          },
+          {
+            "text": "0130"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "i*"
+          },
+          {
+            "text": "İ"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0069002a"
+          },
+          {
+            "text": "0130"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-012",
+      "observed_raw": {
+        "error_code": 2042
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=MATCH(RC[1],RC[2],RC[3])",
+        "read_back": [
+          {
+            "text": "0061007e002a"
+          },
+          {
+            "text": "0061002a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "text": "a~*"
+          },
+          {
+            "text": "a*"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "text": "0061007e002a"
+          },
+          {
+            "text": "0061002a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "fn1-match-013",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "é*",
+        "Élan",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-001"
+    },
+    {
+      "args": [
+        "ασ*",
+        "ΑΣ",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-002"
+    },
+    {
+      "args": [
+        "ǆ*",
+        "ǅemal",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-003"
+    },
+    {
+      "args": [
+        "*SSE",
+        "Straße",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "error:NA",
+      "id": "fn1-match-004"
+    },
+    {
+      "args": [
+        "nai*",
+        "naïve",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "error:NA",
+      "id": "fn1-match-005"
+    },
+    {
+      "args": [
+        "e*",
+        "é",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "error:NA",
+      "id": "fn1-match-006"
+    },
+    {
+      "args": [
+        "?",
+        "😀",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "error:NA",
+      "id": "fn1-match-007"
+    },
+    {
+      "args": [
+        "??",
+        "😀",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-008"
+    },
+    {
+      "args": [
+        "*",
+        "😀",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-009"
+    },
+    {
+      "args": [
+        "*",
+        "",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-010"
+    },
+    {
+      "args": [
+        "Σ*",
+        "ς",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-011"
+    },
+    {
+      "args": [
+        "i*",
+        "İ",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "error:NA",
+      "id": "fn1-match-012"
+    },
+    {
+      "args": [
+        "a~*",
+        "a*",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:NA",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "fn1-match-013"
+    }
+  ]
+}

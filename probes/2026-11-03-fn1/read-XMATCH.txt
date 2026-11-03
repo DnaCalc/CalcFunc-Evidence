@@ -1,0 +1,46 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.32s
+     Running `target\debug\xtask.exe witness read --func XMATCH --inputs C:\Work\DnaCalc\codex-runs\excel-questions-fn1\XMATCH.inputs.json --timeout 900`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.40s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask witness: XMATCH: froze 13 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\XMATCH-20261103T140301Z.json
+xtask witness: XMATCH: read 13 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 2 equal the frozen model prediction, 11 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\XMATCH.json
+xtask witness: XMATCH: differs: fn1-xmatch-001 ["é*","Élan","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-002 ["ασ*","ΑΣ","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-003 ["ǆ*","ǅemal","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-004 ["*SSE","Straße","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:NA on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-005 ["nai*","naïve","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:NA on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-006 ["e*","é","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:NA on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-007 ["?","😀","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:NA on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-008 ["??","😀","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-009 ["*","😀","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-011 ["Σ*","ς","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ff0000000000000 on 20527
+xtask witness: XMATCH: differs: fn1-xmatch-012 ["i*","İ","0x4000000000000000"]: fault:NotImplemented on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:NA on 20527
