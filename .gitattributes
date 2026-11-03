@@ -13,3 +13,6 @@ readings/excel-20527/r13-*.json -text
 probes/2026-11-01-r13/** -text
 readings/excel-20527/r14-*.json -text
 probes/2026-11-01-r14-variance/** -text
+readings/excel-20527/r15-*.json -text
+probes/2026-11-02-r15-annuity/** -text
+probes/2026-11-02-r15-native/** -text

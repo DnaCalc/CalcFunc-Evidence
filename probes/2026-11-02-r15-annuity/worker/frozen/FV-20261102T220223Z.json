@@ -1,0 +1,709 @@
+{
+  "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-02T22:02:23Z",
+  "function": "FV",
+  "input_document": {
+    "function": "FV",
+    "witnesses": [
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0xbffe49b178993c71",
+          "0x406b9446d200b345",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405f800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405fc00000000000",
+          "0xbffe3f265c984e88",
+          "0x406b9446d200b345",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f564f23b0123bb2",
+          "0x405f800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0xc090c692af15f63a",
+          "0x41086a0000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076700000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-012",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-013",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076800000000000",
+          "0xc090b4c0d059daa6",
+          "0x41086a0000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-014",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3f71111111111111",
+          "0x4076700000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-015",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-016",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-017",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0xbf669ee422356844",
+          "0x3fefcf6de32210e3",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-018",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076700000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-019",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-020",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-021",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076800000000000",
+          "0xbf669ee41f420675",
+          "0x3fefcf6de32210e3",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-022",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e40b25c74007082",
+          "0x4076700000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-023",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-024",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-025",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0xbfaa950ab5ef7d10",
+          "0x3faa950ab2586df9",
+          "0x0000000000000000"
+        ],
+        "id": "r15-fv-026",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0x0000000000000000",
+          "0xbff0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-027",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0xbff0000000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-028",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3e4149806bffeb65",
+          "0x3ff0000000000000",
+          "0xbfaa950ab2586df9",
+          "0x3faa950ab2586df9",
+          "0x3ff0000000000000"
+        ],
+        "id": "r15-fv-029",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-FV.json",
+  "inputs_sha256": "8f58dda9b56b13fb1869837246737572e9235d66e994fcb80bafb738db583b26",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff304acb876539a",
+      "id": "r15-fv-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x4061514447709e19",
+      "id": "r15-fv-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x406b9446d200b345",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d90800000000000",
+      "id": "r15-fv-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405f800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff2fe0de77e66bd",
+      "id": "r15-fv-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff304acb876539a",
+      "id": "r15-fv-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4061574da0e18ac0",
+      "id": "r15-fv-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d90800000000000",
+      "id": "r15-fv-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405f800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff2fe0de77e66bd",
+      "id": "r15-fv-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x4011def85d8e2f82",
+      "id": "r15-fv-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x408a0211af6a9914",
+      "id": "r15-fv-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x41086a0000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3e1a000000000000",
+      "id": "r15-fv-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x4011cbfca5664aef",
+      "id": "r15-fv-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4011def85d8e2f82",
+      "id": "r15-fv-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x408a1dcfa025b573",
+      "id": "r15-fv-013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x41086a0000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3e1a000000000000",
+      "id": "r15-fv-014",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4011cbfca5664aef",
+      "id": "r15-fv-015",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff00002ef5a8582",
+      "id": "r15-fv-016",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x4076800211dcb4b8",
+      "id": "r15-fv-017",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3e4128ea68000000",
+      "id": "r15-fv-018",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff00002ed443993",
+      "id": "r15-fv-019",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff00002ef5a8582",
+      "id": "r15-fv-020",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x4076800214cc0f3e",
+      "id": "r15-fv-021",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3e4128ea70000000",
+      "id": "r15-fv-022",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff00002ed443993",
+      "id": "r15-fv-023",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3ff000000229300d",
+      "id": "r15-fv-024",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffff898a21d",
+      "id": "r15-fv-025",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe0899e03c000000",
+      "id": "r15-fv-026",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff000000229300d",
+      "id": "r15-fv-027",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffceb0237",
+      "id": "r15-fv-028",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x3faa950ab2586df9",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbe0899e03c000000",
+      "id": "r15-fv-029",
+      "result_index": null
+    }
+  ]
+}

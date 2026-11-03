@@ -1,0 +1,2284 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:01:36Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\IPMT-20261102T220030Z.json",
+      "frozen_sha256": "1645647381dcfa490af0a18bb318334a358db39bb6643b5925a0f5b0c7e9621e",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-IPMT.json",
+      "inputs_sha256": "48f9774d4a11a03f2a959c857b5e06872548590407fb1c1263631fbd191ca259",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-IPMT.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "IPMT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-000",
+      "observed_raw": {
+        "number": "bfd33a2581239f09"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-001",
+      "observed_raw": {
+        "number": "bfd3169e21166910"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-002",
+      "observed_raw": {
+        "number": "bfc482ac2fb6fec1"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-003",
+      "observed_raw": {
+        "number": "bf65163801dbd236"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-004",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-005",
+      "observed_raw": {
+        "number": "bfd30ff9111fe765"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-006",
+      "observed_raw": {
+        "number": "bfc47b8864ec08e6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-007",
+      "observed_raw": {
+        "number": "bf650ee0da751a6b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-008",
+      "observed_raw": {
+        "number": "c08a0aaaaaaaaaab"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-009",
+      "observed_raw": {
+        "number": "c08a02a805a6ed99"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-010",
+      "observed_raw": {
+        "number": "c081be7482c51506"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-011",
+      "observed_raw": {
+        "number": "c011d1debc1b93e3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-012",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-013",
+      "observed_raw": {
+        "number": "c089e706ed327385"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-014",
+      "observed_raw": {
+        "number": "c081ab9b548d0721"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-015",
+      "observed_raw": {
+        "number": "c011bef0ee509346"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-016",
+      "observed_raw": {
+        "number": "be409904ac7cc11f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-017",
+      "observed_raw": {
+        "number": "be408d3727661953"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-018",
+      "observed_raw": {
+        "number": "be30b0a07bac3864"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-019",
+      "observed_raw": {
+        "number": "bdb79b0e7ebe0dab"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-020",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-021",
+      "observed_raw": {
+        "number": "be408d37253d6219"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-022",
+      "observed_raw": {
+        "number": "be30b0a0797ee2a8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-023",
+      "observed_raw": {
+        "number": "bdb79b0e7ba9c72f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-024",
+      "observed_raw": {
+        "number": "bdfcb878ba0f210a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=IPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ipmt-025",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfd33a2581239f08",
+      "expected_bits": "0xbfd33a2581239f09",
+      "id": "r15-ipmt-000"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x4000000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfd3169e21166910",
+      "expected_bits": "0xbfd3169e21166910",
+      "id": "r15-ipmt-001"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x404f800000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfc482ac2fb6febf",
+      "expected_bits": "0xbfc482ac2fb6fec1",
+      "id": "r15-ipmt-002"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf65163801dbd236",
+      "expected_bits": "0xbf65163801dbd236",
+      "id": "r15-ipmt-003"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-ipmt-004"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x4000000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfd30ff9111fe764",
+      "expected_bits": "0xbfd30ff9111fe765",
+      "id": "r15-ipmt-005"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x404f800000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfc47b8864ec08e4",
+      "expected_bits": "0xbfc47b8864ec08e6",
+      "id": "r15-ipmt-006"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf650ee0da751a6b",
+      "expected_bits": "0xbf650ee0da751a6b",
+      "id": "r15-ipmt-007"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc08a0aaaaaaaaaab",
+      "expected_bits": "0xc08a0aaaaaaaaaab",
+      "id": "r15-ipmt-008"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc08a02a805a6ed98",
+      "expected_bits": "0xc08a02a805a6ed99",
+      "id": "r15-ipmt-009"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc081be7482c51507",
+      "expected_bits": "0xc081be7482c51506",
+      "id": "r15-ipmt-010"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc011d1debc1b93e4",
+      "expected_bits": "0xc011d1debc1b93e3",
+      "id": "r15-ipmt-011"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-ipmt-012"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc089e706ed327384",
+      "expected_bits": "0xc089e706ed327385",
+      "id": "r15-ipmt-013"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc081ab9b548d0722",
+      "expected_bits": "0xc081ab9b548d0721",
+      "id": "r15-ipmt-014"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc011bef0ee509347",
+      "expected_bits": "0xc011bef0ee509346",
+      "id": "r15-ipmt-015"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe409904ac7cc120",
+      "expected_bits": "0xbe409904ac7cc11f",
+      "id": "r15-ipmt-016"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe408d3727661953",
+      "expected_bits": "0xbe408d3727661953",
+      "id": "r15-ipmt-017"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe30b0a07bac3864",
+      "expected_bits": "0xbe30b0a07bac3864",
+      "id": "r15-ipmt-018"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbdb79b0e7ebe0daa",
+      "expected_bits": "0xbdb79b0e7ebe0dab",
+      "id": "r15-ipmt-019"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-ipmt-020"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbe408d37253d6218",
+      "expected_bits": "0xbe408d37253d6219",
+      "id": "r15-ipmt-021"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbe30b0a0797ee2a7",
+      "expected_bits": "0xbe30b0a0797ee2a8",
+      "id": "r15-ipmt-022"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbdb79b0e7ba9c72d",
+      "expected_bits": "0xbdb79b0e7ba9c72f",
+      "id": "r15-ipmt-023"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbdfcb878ba0f210a",
+      "expected_bits": "0xbdfcb878ba0f210a",
+      "id": "r15-ipmt-024"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-ipmt-025"
+    }
+  ]
+}

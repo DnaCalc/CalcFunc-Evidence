@@ -1,0 +1,41 @@
+**********************
+PowerShell transcript start
+Start time: 20261102235938
+Username: AzureAD\GovertvanDrimmelen
+RunAs User: AzureAD\GovertvanDrimmelen
+Configuration Name: 
+Machine: GOVERT-OMEN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference = 'Stop'
+$r15NativeOut = 'C:/Work/DnaCalc/codex-runs/excel-results-r15-native'
+New-Item -ItemType Directory -Path $r15NativeOut | Out-Null
+Start-Transcript -LiteralPath "$r15NativeOut/RUN-NATIVE-PROBE-console.txt"
+try {
+& 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity/RUN-NATIVE-PROBE.ps1' -OutputDirectory $r15NativeOut
+if ($LASTEXITCODE -ne 0) { throw 'native probe failed' }
+$r15NativeActual = (Get-ChildItem -LiteralPath $r15NativeOut -Filter 'native-results-*.tsv').FullName
+python 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity/compare-native-probe.py' 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity/native-leaf-requests.tsv' 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity/predictions/native-leaf-reference.tsv' $r15NativeActual "$r15NativeOut/comparison.json"
+if ($LASTEXITCODE -ne 0) { throw 'native probe comparison failed' }
+Get-CimInstance Win32_Processor | Select-Object Name,Manufacturer,ProcessorId,AddressWidth | ConvertTo-Json | Set-Content -LiteralPath "$r15NativeOut/processor.json"
+} finally { Stop-Transcript }
+Process ID: 68012
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:/Work/DnaCalc/codex-runs/excel-results-r15-native/RUN-NATIVE-PROBE-console.txt
+
+
+Native CPU results: C:\Work\DnaCalc\codex-runs\excel-results-r15-native\native-results-20261102-235938.tsv
+Return this file with the Excel readings. It contains no Excel answers.
+
+**********************
+PowerShell transcript end
+End time: 20261102235944
+**********************

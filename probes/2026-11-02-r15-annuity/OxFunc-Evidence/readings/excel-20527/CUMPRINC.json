@@ -1,0 +1,3316 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:02:09Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\CUMPRINC-20261102T220156Z.json",
+      "frozen_sha256": "8d406c4c9c4df7e6a4bce7d9e020959becabec14b79cd4e113ec52a8c8804503",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-CUMPRINC.json",
+      "inputs_sha256": "fd096b6345561c58470dee01d912e77e0af752aaba63637b7efa329404bd1ed2",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-CUMPRINC.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "CUMPRINC",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-000",
+      "observed_raw": {
+        "number": "bff97b28185054b1"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-001",
+      "observed_raw": {
+        "number": "c05a2bf03ac05642"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-002",
+      "observed_raw": {
+        "number": "c06b9446d200b345"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-003",
+      "observed_raw": {
+        "number": "bff98409f053a22e"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-004",
+      "observed_raw": {
+        "number": "c05cfc9d6941104b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-005",
+      "observed_raw": {
+        "number": "bffe3f265c984e89"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-006",
+      "observed_raw": {
+        "number": "bffe3f265c984e88"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-007",
+      "observed_raw": {
+        "number": "c05a360764682e09"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-008",
+      "observed_raw": {
+        "number": "c06b9446d200b346"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-009",
+      "observed_raw": {
+        "number": "bff97b28185054b0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-010",
+      "observed_raw": {
+        "number": "c05cf2863f993883"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-011",
+      "observed_raw": {
+        "number": "bffe349eec2b13fc"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-012",
+      "observed_raw": {
+        "number": "c06e09eace050722"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-013",
+      "observed_raw": {
+        "number": "c0ef5d05d90a8c88"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-014",
+      "observed_raw": {
+        "number": "c1086a0000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-015",
+      "observed_raw": {
+        "number": "c06e29f56213fb6d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-016",
+      "observed_raw": {
+        "number": "c10092be89bd5cdf"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-017",
+      "observed_raw": {
+        "number": "c090b4c0d059daa5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-018",
+      "observed_raw": {
+        "number": "c090b4c0d059daa6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-019",
+      "observed_raw": {
+        "number": "c0efa3711c1fbffe"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-020",
+      "observed_raw": {
+        "number": "c1086a0000000001"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-021",
+      "observed_raw": {
+        "number": "c06e09eace050721"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-022",
+      "observed_raw": {
+        "number": "c1008123b8f81001"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-023",
+      "observed_raw": {
+        "number": "c090a301df6b8a12"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-024",
+      "observed_raw": {
+        "number": "bf669edffbf43d24"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-025",
+      "observed_raw": {
+        "number": "bfdfcf6c6daf27cf"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-026",
+      "observed_raw": {
+        "number": "bfefcf6de32210e2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-027",
+      "observed_raw": {
+        "number": "bf669edffee79e6a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-028",
+      "observed_raw": {
+        "number": "bfdfcf6f5894f9f2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-029",
+      "observed_raw": {
+        "number": "bf669ee41f420674"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-030",
+      "observed_raw": {
+        "number": "bf669ee41f420675"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-031",
+      "observed_raw": {
+        "number": "bfdfcf6c71d5692d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-032",
+      "observed_raw": {
+        "number": "bfefcf6de32210e2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-033",
+      "observed_raw": {
+        "number": "bf669edffbf43d25"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-034",
+      "observed_raw": {
+        "number": "bfdfcf6f546eb898"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-035",
+      "observed_raw": {
+        "number": "bf669ee41c4ea4a5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-036",
+      "observed_raw": {
+        "number": "bfaa950ab2586dfb"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMPRINC(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumprinc-037",
+      "observed_raw": {
+        "number": "bfaa950ab2586df9"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbff97b28185054af",
+      "expected_bits": "0xbff97b28185054b1",
+      "id": "r15-cumprinc-000"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc05a2bf03ac05642",
+      "expected_bits": "0xc05a2bf03ac05642",
+      "id": "r15-cumprinc-001"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc06b9446d200b349",
+      "expected_bits": "0xc06b9446d200b345",
+      "id": "r15-cumprinc-002"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbff98409f053a22e",
+      "expected_bits": "0xbff98409f053a22e",
+      "id": "r15-cumprinc-003"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc05cfc9d6941104c",
+      "expected_bits": "0xc05cfc9d6941104b",
+      "id": "r15-cumprinc-004"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbffe3f265c984e89",
+      "expected_bits": "0xbffe3f265c984e89",
+      "id": "r15-cumprinc-005"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffe3f265c984e89",
+      "expected_bits": "0xbffe3f265c984e88",
+      "id": "r15-cumprinc-006"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc05a360764682e0a",
+      "expected_bits": "0xc05a360764682e09",
+      "id": "r15-cumprinc-007"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc06b9446d200b349",
+      "expected_bits": "0xc06b9446d200b346",
+      "id": "r15-cumprinc-008"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbff97b28185054b0",
+      "expected_bits": "0xbff97b28185054b0",
+      "id": "r15-cumprinc-009"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc05cf2863f993885",
+      "expected_bits": "0xc05cf2863f993883",
+      "id": "r15-cumprinc-010"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffe349eec2b13fc",
+      "expected_bits": "0xbffe349eec2b13fc",
+      "id": "r15-cumprinc-011"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc06e09eace050721",
+      "expected_bits": "0xc06e09eace050722",
+      "id": "r15-cumprinc-012"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc0ef5d05d90a8c8a",
+      "expected_bits": "0xc0ef5d05d90a8c88",
+      "id": "r15-cumprinc-013"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc1086a0000000001",
+      "expected_bits": "0xc1086a0000000000",
+      "id": "r15-cumprinc-014"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc06e29f56213fb6d",
+      "expected_bits": "0xc06e29f56213fb6d",
+      "id": "r15-cumprinc-015"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc10092be89bd5cde",
+      "expected_bits": "0xc10092be89bd5cdf",
+      "id": "r15-cumprinc-016"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc090b4c0d059daa6",
+      "expected_bits": "0xc090b4c0d059daa5",
+      "id": "r15-cumprinc-017"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc090b4c0d059daa6",
+      "expected_bits": "0xc090b4c0d059daa6",
+      "id": "r15-cumprinc-018"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0efa3711c1fc002",
+      "expected_bits": "0xc0efa3711c1fbffe",
+      "id": "r15-cumprinc-019"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc1086a0000000001",
+      "expected_bits": "0xc1086a0000000001",
+      "id": "r15-cumprinc-020"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc06e09eace050721",
+      "expected_bits": "0xc06e09eace050721",
+      "id": "r15-cumprinc-021"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc1008123b8f81001",
+      "expected_bits": "0xc1008123b8f81001",
+      "id": "r15-cumprinc-022"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc090a301df6b8a13",
+      "expected_bits": "0xc090a301df6b8a12",
+      "id": "r15-cumprinc-023"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffbf43d25",
+      "expected_bits": "0xbf669edffbf43d24",
+      "id": "r15-cumprinc-024"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfdfcf6c6daf27db",
+      "expected_bits": "0xbfdfcf6c6daf27cf",
+      "id": "r15-cumprinc-025"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfefcf6de32210e8",
+      "expected_bits": "0xbfefcf6de32210e2",
+      "id": "r15-cumprinc-026"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffee79e6a",
+      "expected_bits": "0xbf669edffee79e6a",
+      "id": "r15-cumprinc-027"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfdfcf6f5894f9f1",
+      "expected_bits": "0xbfdfcf6f5894f9f2",
+      "id": "r15-cumprinc-028"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41f420674",
+      "expected_bits": "0xbf669ee41f420674",
+      "id": "r15-cumprinc-029"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41f420673",
+      "expected_bits": "0xbf669ee41f420675",
+      "id": "r15-cumprinc-030"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfdfcf6c71d56935",
+      "expected_bits": "0xbfdfcf6c71d5692d",
+      "id": "r15-cumprinc-031"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfefcf6de32210e7",
+      "expected_bits": "0xbfefcf6de32210e2",
+      "id": "r15-cumprinc-032"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffbf43d24",
+      "expected_bits": "0xbf669edffbf43d25",
+      "id": "r15-cumprinc-033"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfdfcf6f546eb894",
+      "expected_bits": "0xbfdfcf6f546eb898",
+      "id": "r15-cumprinc-034"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41c4ea4a4",
+      "expected_bits": "0xbf669ee41c4ea4a5",
+      "id": "r15-cumprinc-035"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586df9",
+      "expected_bits": "0xbfaa950ab2586dfb",
+      "id": "r15-cumprinc-036"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586df9",
+      "expected_bits": "0xbfaa950ab2586df9",
+      "id": "r15-cumprinc-037"
+    }
+  ]
+}

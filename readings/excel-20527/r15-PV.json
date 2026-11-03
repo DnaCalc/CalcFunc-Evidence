@@ -1,0 +1,2328 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:02:41Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\PV-20261102T220233Z.json",
+      "frozen_sha256": "cac3270b8446ccc203f4695cd2f81e9199e8126acb57a56a6b32b88dc92c397f",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-PV.json",
+      "inputs_sha256": "5678f6e6b8697be17f146b99790a1a6931ae5ed7a76ad8209e3ac18219977c26",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-PV.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "PV",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-000",
+      "observed_raw": {
+        "number": "3feaebe71420c155"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-001",
+      "observed_raw": {
+        "number": "405d2362aa031787"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-002",
+      "observed_raw": {
+        "number": "406b9446d200b3b4"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-003",
+      "observed_raw": {
+        "number": "3feaf54975c3fc35"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-004",
+      "observed_raw": {
+        "number": "3feaebe71420c155"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-005",
+      "observed_raw": {
+        "number": "405d2d8adbdad604"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-006",
+      "observed_raw": {
+        "number": "406b9446d200b3b4"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-007",
+      "observed_raw": {
+        "number": "3feaf54975c3fc35"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-008",
+      "observed_raw": {
+        "number": "3fcca65992209751"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-009",
+      "observed_raw": {
+        "number": "4067490301c05c89"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-010",
+      "observed_raw": {
+        "number": "41086a000000000c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-011",
+      "observed_raw": {
+        "number": "3fccc4e8e09a53ac"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-012",
+      "observed_raw": {
+        "number": "3fcca65992209751"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-013",
+      "observed_raw": {
+        "number": "406761d96b5bd463"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-014",
+      "observed_raw": {
+        "number": "41086a000000000c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-015",
+      "observed_raw": {
+        "number": "3fccc4e8e09a53ac"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-016",
+      "observed_raw": {
+        "number": "3feffffa214c0b72"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-017",
+      "observed_raw": {
+        "number": "40767ffde67dfae0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-018",
+      "observed_raw": {
+        "number": "3fefcf6dd82e7fa6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-019",
+      "observed_raw": {
+        "number": "3feffffa2578a1c7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-020",
+      "observed_raw": {
+        "number": "3feffffa214c0b72"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-021",
+      "observed_raw": {
+        "number": "40767ffde96d54d9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-022",
+      "observed_raw": {
+        "number": "3fefcf6dd82e7fa6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076700000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-023",
+      "observed_raw": {
+        "number": "3feffffa2578a1c7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-024",
+      "observed_raw": {
+        "number": "3feffffffbad9fe5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-025",
+      "observed_raw": {
+        "number": "3ff00000018aa508"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-026",
+      "observed_raw": {
+        "number": "3faa950ab87f2566"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-027",
+      "observed_raw": {
+        "number": "3feffffffbad9fe5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-028",
+      "observed_raw": {
+        "number": "3ff0000003b3d516"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PV(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-pv-029",
+      "observed_raw": {
+        "number": "3faa950ab87f2566"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feaebe71420c155",
+      "expected_bits": "0x3feaebe71420c155",
+      "id": "r15-pv-000"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x405d2362aa031787",
+      "expected_bits": "0x405d2362aa031787",
+      "id": "r15-pv-001"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x406b9446d200b3b4",
+      "expected_bits": "0x406b9446d200b3b4",
+      "id": "r15-pv-002"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405f800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feaf54975c3fc35",
+      "expected_bits": "0x3feaf54975c3fc35",
+      "id": "r15-pv-003"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feaebe71420c155",
+      "expected_bits": "0x3feaebe71420c155",
+      "id": "r15-pv-004"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x405d2d8adbdad604",
+      "expected_bits": "0x405d2d8adbdad604",
+      "id": "r15-pv-005"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x406b9446d200b3b4",
+      "expected_bits": "0x406b9446d200b3b4",
+      "id": "r15-pv-006"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405f800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feaf54975c3fc35",
+      "expected_bits": "0x3feaf54975c3fc35",
+      "id": "r15-pv-007"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fcca65992209751",
+      "expected_bits": "0x3fcca65992209751",
+      "id": "r15-pv-008"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x4067490301c05c89",
+      "expected_bits": "0x4067490301c05c89",
+      "id": "r15-pv-009"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x41086a000000000c",
+      "expected_bits": "0x41086a000000000c",
+      "id": "r15-pv-010"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fccc4e8e09a53ac",
+      "expected_bits": "0x3fccc4e8e09a53ac",
+      "id": "r15-pv-011"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3fcca65992209751",
+      "expected_bits": "0x3fcca65992209751",
+      "id": "r15-pv-012"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x406761d96b5bd463",
+      "expected_bits": "0x406761d96b5bd463",
+      "id": "r15-pv-013"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x41086a000000000c",
+      "expected_bits": "0x41086a000000000c",
+      "id": "r15-pv-014"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3fccc4e8e09a53ac",
+      "expected_bits": "0x3fccc4e8e09a53ac",
+      "id": "r15-pv-015"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffa214c08a2",
+      "expected_bits": "0x3feffffa214c0b72",
+      "id": "r15-pv-016"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x40767ffdf145c998",
+      "expected_bits": "0x40767ffde67dfae0",
+      "id": "r15-pv-017"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fefcf6de76c4ab4",
+      "expected_bits": "0x3fefcf6dd82e7fa6",
+      "id": "r15-pv-018"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffa25789ef9",
+      "expected_bits": "0x3feffffa2578a1c7",
+      "id": "r15-pv-019"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffa214c08a2",
+      "expected_bits": "0x3feffffa214c0b72",
+      "id": "r15-pv-020"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x40767ffdf4352394",
+      "expected_bits": "0x40767ffde96d54d9",
+      "id": "r15-pv-021"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3fefcf6de76c4ab6",
+      "expected_bits": "0x3fefcf6dd82e7fa6",
+      "id": "r15-pv-022"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076700000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffa25789ef9",
+      "expected_bits": "0x3feffffa2578a1c7",
+      "id": "r15-pv-023"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffbad9fe7",
+      "expected_bits": "0x3feffffffbad9fe5",
+      "id": "r15-pv-024"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffff4464205",
+      "expected_bits": "0x3ff00000018aa508",
+      "id": "r15-pv-025"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3faa950aac31f5ea",
+      "expected_bits": "0x3faa950ab87f2566",
+      "id": "r15-pv-026"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x0000000000000000",
+        "0xbff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffbad9fe7",
+      "expected_bits": "0x3feffffffbad9fe5",
+      "id": "r15-pv-027"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbff0000000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffff898a21e",
+      "expected_bits": "0x3ff0000003b3d516",
+      "id": "r15-pv-028"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3faa950aac31f5ea",
+      "expected_bits": "0x3faa950ab87f2566",
+      "id": "r15-pv-029"
+    }
+  ]
+}

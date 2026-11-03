@@ -1,0 +1,3316 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:02:21Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\CUMIPMT-20261102T220212Z.json",
+      "frozen_sha256": "d6713bdd105b7c9f422c83b8324a95bcf2af6893da826d3253537fcf3b1f1183",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-CUMIPMT.json",
+      "inputs_sha256": "7ed21b6503ed648bae13ef1e6d6452fc64b6e0d56a9494acba0a1d4695fb75de",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-CUMIPMT.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "CUMIPMT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-000",
+      "observed_raw": {
+        "number": "bfd33a2581239f00"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-001",
+      "observed_raw": {
+        "number": "c02d24d3bfb409e8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-002",
+      "observed_raw": {
+        "number": "c033c6ba1d3ab598"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-003",
+      "observed_raw": {
+        "number": "bfd3169e2116690c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-004",
+      "observed_raw": {
+        "number": "c014d140f582c260"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-005",
+      "observed_raw": {
+        "number": "bf65163801dbd000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-006",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-007",
+      "observed_raw": {
+        "number": "c02c8112f5edfa28"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-008",
+      "observed_raw": {
+        "number": "c0337309eef35528"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-009",
+      "observed_raw": {
+        "number": "bfd30ff9111fe760"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "4050000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-010",
+      "observed_raw": {
+        "number": "c014ca01cff16050"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-011",
+      "observed_raw": {
+        "number": "bf650ee0da751800"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-012",
+      "observed_raw": {
+        "number": "c08a0aaaaaaaaaac"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-013",
+      "observed_raw": {
+        "number": "c0ff7ff99fe87e40"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-014",
+      "observed_raw": {
+        "number": "c106c47c8c6dc484"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-015",
+      "observed_raw": {
+        "number": "c08a02a805a6ed99"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-016",
+      "observed_raw": {
+        "number": "c0ec11fef1e6158c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-017",
+      "observed_raw": {
+        "number": "c011d1debc1b9500"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-018",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-019",
+      "observed_raw": {
+        "number": "c0ff2aa5bbecd6f4"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-020",
+      "observed_raw": {
+        "number": "c106925e49fcb6f2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-021",
+      "observed_raw": {
+        "number": "c089e706ed327384"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-022",
+      "observed_raw": {
+        "number": "c0ebf42db0192de0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-023",
+      "observed_raw": {
+        "number": "c011bef0ee509400"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-024",
+      "observed_raw": {
+        "number": "be409904ac800000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-025",
+      "observed_raw": {
+        "number": "beb189afcb440000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-026",
+      "observed_raw": {
+        "number": "beb767c84df00000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-027",
+      "observed_raw": {
+        "number": "be408d3727680000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-028",
+      "observed_raw": {
+        "number": "be9778620ae00000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-029",
+      "observed_raw": {
+        "number": "bdb79b0e80000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-030",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-031",
+      "observed_raw": {
+        "number": "beb1687dbfa00000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-032",
+      "observed_raw": {
+        "number": "beb7469641900000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-033",
+      "observed_raw": {
+        "number": "be408d3725400000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4066a00000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-034",
+      "observed_raw": {
+        "number": "be97786207d00000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-035",
+      "observed_raw": {
+        "number": "bdb79b0e80000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-036",
+      "observed_raw": {
+        "number": "bdfcb878a8000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=CUMIPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-cumipmt-037",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfd33a2581239f0c",
+      "expected_bits": "0xbfd33a2581239f00",
+      "id": "r15-cumipmt-000"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc02d24d3bfb409f0",
+      "expected_bits": "0xc02d24d3bfb409e8",
+      "id": "r15-cumipmt-001"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc033c6ba1d3ab580",
+      "expected_bits": "0xc033c6ba1d3ab598",
+      "id": "r15-cumipmt-002"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfd3169e21166910",
+      "expected_bits": "0xbfd3169e2116690c",
+      "id": "r15-cumipmt-003"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc014d140f582c260",
+      "expected_bits": "0xc014d140f582c260",
+      "id": "r15-cumipmt-004"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf65163801dbd200",
+      "expected_bits": "0xbf65163801dbd000",
+      "id": "r15-cumipmt-005"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-cumipmt-006"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x404f800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc02c8112f5edfa28",
+      "expected_bits": "0xc02c8112f5edfa28",
+      "id": "r15-cumipmt-007"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0337309eef35518",
+      "expected_bits": "0xc0337309eef35528",
+      "id": "r15-cumipmt-008"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfd30ff9111fe764",
+      "expected_bits": "0xbfd30ff9111fe760",
+      "id": "r15-cumipmt-009"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x4050000000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc014ca01cff16040",
+      "expected_bits": "0xc014ca01cff16050",
+      "id": "r15-cumipmt-010"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf650ee0da751a00",
+      "expected_bits": "0xbf650ee0da751800",
+      "id": "r15-cumipmt-011"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc08a0aaaaaaaaaac",
+      "expected_bits": "0xc08a0aaaaaaaaaac",
+      "id": "r15-cumipmt-012"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc0ff7ff99fe87e3f",
+      "expected_bits": "0xc0ff7ff99fe87e40",
+      "id": "r15-cumipmt-013"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc106c47c8c6dc483",
+      "expected_bits": "0xc106c47c8c6dc484",
+      "id": "r15-cumipmt-014"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc08a02a805a6ed99",
+      "expected_bits": "0xc08a02a805a6ed99",
+      "id": "r15-cumipmt-015"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc0ec11fef1e61590",
+      "expected_bits": "0xc0ec11fef1e6158c",
+      "id": "r15-cumipmt-016"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc011d1debc1b9400",
+      "expected_bits": "0xc011d1debc1b9500",
+      "id": "r15-cumipmt-017"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-cumipmt-018"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0ff2aa5bbecd6f1",
+      "expected_bits": "0xc0ff2aa5bbecd6f4",
+      "id": "r15-cumipmt-019"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc106925e49fcb6f1",
+      "expected_bits": "0xc106925e49fcb6f2",
+      "id": "r15-cumipmt-020"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc089e706ed327384",
+      "expected_bits": "0xc089e706ed327384",
+      "id": "r15-cumipmt-021"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc0ebf42db0192de0",
+      "expected_bits": "0xc0ebf42db0192de0",
+      "id": "r15-cumipmt-022"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc011bef0ee509300",
+      "expected_bits": "0xc011bef0ee509400",
+      "id": "r15-cumipmt-023"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe409904ac7c0000",
+      "expected_bits": "0xbe409904ac800000",
+      "id": "r15-cumipmt-024"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbeb189afcb140000",
+      "expected_bits": "0xbeb189afcb440000",
+      "id": "r15-cumipmt-025"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbeb767c84dc00000",
+      "expected_bits": "0xbeb767c84df00000",
+      "id": "r15-cumipmt-026"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe408d3727680000",
+      "expected_bits": "0xbe408d3727680000",
+      "id": "r15-cumipmt-027"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbe9778620af00000",
+      "expected_bits": "0xbe9778620ae00000",
+      "id": "r15-cumipmt-028"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbdb79b0e80000000",
+      "expected_bits": "0xbdb79b0e80000000",
+      "id": "r15-cumipmt-029"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-cumipmt-030"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4066800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbeb1687dbf740000",
+      "expected_bits": "0xbeb1687dbfa00000",
+      "id": "r15-cumipmt-031"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbeb7469641580000",
+      "expected_bits": "0xbeb7469641900000",
+      "id": "r15-cumipmt-032"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4000000000000000",
+        "0x4000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbe408d37253c0000",
+      "expected_bits": "0xbe408d3725400000",
+      "id": "r15-cumipmt-033"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4066a00000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbe97786207e00000",
+      "expected_bits": "0xbe97786207d00000",
+      "id": "r15-cumipmt-034"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbdb79b0e78000000",
+      "expected_bits": "0xbdb79b0e80000000",
+      "id": "r15-cumipmt-035"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbdfcb878b8000000",
+      "expected_bits": "0xbdfcb878a8000000",
+      "id": "r15-cumipmt-036"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r15-cumipmt-037"
+    }
+  ]
+}

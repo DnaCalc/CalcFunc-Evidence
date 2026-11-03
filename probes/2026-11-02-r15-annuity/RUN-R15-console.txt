@@ -1,0 +1,45 @@
+**********************
+PowerShell transcript start
+Start time: 20261102235915
+Username: AzureAD\GovertvanDrimmelen
+RunAs User: AzureAD\GovertvanDrimmelen
+Configuration Name: 
+Machine: GOVERT-OMEN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference = 'Stop'
+$r15Out = 'C:/Work/DnaCalc/codex-runs/excel-results-r15-annuity'
+New-Item -ItemType Directory -Path $r15Out | Out-Null
+New-Item -ItemType Directory -Path "$r15Out/worker","$r15Out/OxFunc-Evidence" | Out-Null
+Copy-Item -LiteralPath 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity' -Destination "$r15Out/packet" -Recurse
+$r15Link = Get-Item -LiteralPath 'C:/Work/DnaCalc/DnaCalc-win/target/witness'
+if ($r15Link.LinkType -ne 'Junction' -or $r15Link.Target -ne 'C:\Work\DnaCalc\codex-runs\excel-results-r14-variance\worker') { throw 'Unexpected witness junction' }
+$r15Link.Delete()
+New-Item -ItemType Junction -Path 'C:/Work/DnaCalc/DnaCalc-win/target/witness' -Target "$r15Out/worker" | Out-Null
+$env:DNACALC_LEGACY_ROOT = $r15Out
+Start-Transcript -LiteralPath "$r15Out/RUN-R15-console.txt"
+try { & 'C:/Work/DnaCalc/codex-runs/excel-questions-r15-annuity/round15-annuity/RUN-R15.ps1' -DnaCalcCheckout 'C:/Work/DnaCalc/DnaCalc-win' } finally { Stop-Transcript }
+Process ID: 49516
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:/Work/DnaCalc/codex-runs/excel-results-r15-annuity/RUN-R15-console.txt
+
+
+
+
+
+
+
+
+
+**********************
+PowerShell transcript end
+End time: 20261103000302
+**********************

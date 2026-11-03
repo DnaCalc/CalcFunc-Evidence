@@ -1,0 +1,1424 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:03:02Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\RATE-20261102T220253Z.json",
+      "frozen_sha256": "d9263846490f33de28c3716f6c3e4c46881fa90178638c1de6916cfe4e5750be",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-RATE.json",
+      "inputs_sha256": "cab7452d0f50c132b1daa670df6cdc753b87ac226f96208a28d589c425d7817b",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-RATE.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "RATE",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "requested": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-000",
+      "observed_raw": {
+        "number": "3f564f23b0124239"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe49b178993c71"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-001",
+      "observed_raw": {
+        "number": "3f564f23b01285c8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "requested": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f564f23b0123bb2"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-002",
+      "observed_raw": {
+        "number": "3f564f23b01241cd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "bffe3f265c984e88"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-003",
+      "observed_raw": {
+        "number": "3f564f23b0128a1c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-004",
+      "observed_raw": {
+        "number": "3f71111111111118"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090c692af15f63a"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-005",
+      "observed_raw": {
+        "number": "3f711111111110e0"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3f71111111111111"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-006",
+      "observed_raw": {
+        "number": "3f71111111111118"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "c090b4c0d059daa6"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-007",
+      "observed_raw": {
+        "number": "3f71111111111147"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-008",
+      "observed_raw": {
+        "number": "3e40aaaa1045654e"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee422356844"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-009",
+      "observed_raw": {
+        "number": "3e408a8c09f4795f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e40b25c74007082"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-010",
+      "observed_raw": {
+        "number": "3e40e5b6c222d6b9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "bf669ee41f420675"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-011",
+      "observed_raw": {
+        "number": "3e40bb0c97e1246d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-012",
+      "observed_raw": {
+        "number": "3e43f3b801c73541"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab5ef7d10"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-013",
+      "observed_raw": {
+        "number": "3e5599f186e835e9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3e4149806bffeb65"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-014",
+      "observed_raw": {
+        "number": "3f50625687ad0e7c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=RATE(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "bfaa950ab2586df9"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3fb999999999999a"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-rate-015",
+      "observed_raw": {
+        "number": "3fb9d2c88b1a76a0"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3f564f23b0123bb2"
+      ],
+      "calc_func_prediction": "0x3f564f23b0124a69",
+      "expected_bits": "0x3f564f23b0124239",
+      "id": "r15-rate-000"
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f564f23b0124e39",
+      "expected_bits": "0x3f564f23b01285c8",
+      "id": "r15-rate-001"
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3f564f23b0123bb2"
+      ],
+      "calc_func_prediction": "0x3f564f23b0123e30",
+      "expected_bits": "0x3f564f23b01241cd",
+      "id": "r15-rate-002"
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f564f23b01252aa",
+      "expected_bits": "0x3f564f23b0128a1c",
+      "id": "r15-rate-003"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3f71111111111111"
+      ],
+      "calc_func_prediction": "0x3f71111111111119",
+      "expected_bits": "0x3f71111111111118",
+      "id": "r15-rate-004"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f71111111111119",
+      "expected_bits": "0x3f711111111110e0",
+      "id": "r15-rate-005"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3f71111111111111"
+      ],
+      "calc_func_prediction": "0x3f7111111111111d",
+      "expected_bits": "0x3f71111111111118",
+      "id": "r15-rate-006"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f71111111111115",
+      "expected_bits": "0x3f71111111111147",
+      "id": "r15-rate-007"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3e40b25c74007082"
+      ],
+      "calc_func_prediction": "0x3e408c776f0900ec",
+      "expected_bits": "0x3e40aaaa1045654e",
+      "id": "r15-rate-008"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e40a76d24e35d37",
+      "expected_bits": "0x3e408a8c09f4795f",
+      "id": "r15-rate-009"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3e40b25c74007082"
+      ],
+      "calc_func_prediction": "0x3e40966836d5cfb5",
+      "expected_bits": "0x3e40e5b6c222d6b9",
+      "id": "r15-rate-010"
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e40928b63401f72",
+      "expected_bits": "0x3e40bb0c97e1246d",
+      "id": "r15-rate-011"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3e4149806bffeb65"
+      ],
+      "calc_func_prediction": "0x3e3b388cf0509182",
+      "expected_bits": "0x3e43f3b801c73541",
+      "id": "r15-rate-012"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e4226676af1bdb3",
+      "expected_bits": "0x3e5599f186e835e9",
+      "id": "r15-rate-013"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3e4149806bffeb65"
+      ],
+      "calc_func_prediction": "0x3e41cb952095e854",
+      "expected_bits": "0x3f50625687ad0e7c",
+      "id": "r15-rate-014"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3fb9999c926c4e7e",
+      "expected_bits": "0x3fb9d2c88b1a76a0",
+      "id": "r15-rate-015"
+    }
+  ]
+}

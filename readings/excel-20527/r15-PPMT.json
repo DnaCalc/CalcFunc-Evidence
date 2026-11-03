@@ -1,0 +1,2284 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-02T22:01:51Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\PPMT-20261102T220138Z.json",
+      "frozen_sha256": "ffee224a0b74aa0ad882a23fb9733f581da32c169cb1a81a3ae8c6d00530655a",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-PPMT.json",
+      "inputs_sha256": "e0d711e6c6ffa11b9fc30b2c38aa3e8b65820011d5225e8d7f575871fc7d8a23",
+      "novelty": null,
+      "selection": null
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-PPMT.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:599032d018da3b9889269e0ca46c2c1c7f2f21572fb378bc1781a73b9cd93d25; witness worker sha256:9a2341b3c938f27cc1e3f9de44e4ed5e9f3727e3bfdfd85007b2f421cb2fb804",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "PPMT",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-000",
+      "observed_raw": {
+        "number": "bff97b28185054ae"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-001",
+      "observed_raw": {
+        "number": "bff98409f053a22c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-002",
+      "observed_raw": {
+        "number": "bffbb95bf2a25c99"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-003",
+      "observed_raw": {
+        "number": "bffe3f265c984e87"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-004",
+      "observed_raw": {
+        "number": "bffe3f265c984e88"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-005",
+      "observed_raw": {
+        "number": "bff97b28185054ae"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "404f800000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-006",
+      "observed_raw": {
+        "number": "bffbafb54ffacd6b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f564f23b0123bb2"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "405fc00000000000"
+          },
+          {
+            "number": "406b9446d200b345"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-007",
+      "observed_raw": {
+        "number": "bffe349eec2b13fa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-008",
+      "observed_raw": {
+        "number": "c06e09eace050723"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-009",
+      "observed_raw": {
+        "number": "c06e29f56213fb6e"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-010",
+      "observed_raw": {
+        "number": "c07f9d61b6cdaedc"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-011",
+      "observed_raw": {
+        "number": "c090b4c0d059daa6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-012",
+      "observed_raw": {
+        "number": "c090b4c0d059daa6"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-013",
+      "observed_raw": {
+        "number": "c06e09eace050722"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-014",
+      "observed_raw": {
+        "number": "c07f7bcc984d5c57"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3f71111111111111"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "41086a0000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-015",
+      "observed_raw": {
+        "number": "c090a301df6b8a13"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-016",
+      "observed_raw": {
+        "number": "bf669edffbf43d25"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-017",
+      "observed_raw": {
+        "number": "bf669edffee79e6a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-018",
+      "observed_raw": {
+        "number": "bf669ee20c2158ce"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-019",
+      "observed_raw": {
+        "number": "bf669ee41f420674"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-020",
+      "observed_raw": {
+        "number": "bf669ee41f420675"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-021",
+      "observed_raw": {
+        "number": "bf669edffbf43d25"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4066800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-022",
+      "observed_raw": {
+        "number": "bf669ee2092df744"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e40b25c74007082"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "4076800000000000"
+          },
+          {
+            "number": "3fefcf6de32210e3"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-023",
+      "observed_raw": {
+        "number": "bf669ee41c4ea4a5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-024",
+      "observed_raw": {
+        "number": "bfaa950ab2586df9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=PPMT(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6])",
+        "read_back": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3e4149806bffeb65"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "3faa950ab2586df9"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r15-ppmt-025",
+      "observed_raw": {
+        "number": "bfaa950ab2586df9"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbff97b28185054af",
+      "expected_bits": "0xbff97b28185054ae",
+      "id": "r15-ppmt-000"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x4000000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbff98409f053a22e",
+      "expected_bits": "0xbff98409f053a22c",
+      "id": "r15-ppmt-001"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x404f800000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbffbb95bf2a25c9a",
+      "expected_bits": "0xbffbb95bf2a25c99",
+      "id": "r15-ppmt-002"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbffe3f265c984e89",
+      "expected_bits": "0xbffe3f265c984e87",
+      "id": "r15-ppmt-003"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x3ff0000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffe3f265c984e89",
+      "expected_bits": "0xbffe3f265c984e88",
+      "id": "r15-ppmt-004"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x4000000000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbff97b28185054b0",
+      "expected_bits": "0xbff97b28185054ae",
+      "id": "r15-ppmt-005"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x404f800000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffbafb54ffacd6d",
+      "expected_bits": "0xbffbafb54ffacd6b",
+      "id": "r15-ppmt-006"
+    },
+    {
+      "args": [
+        "0x3f564f23b0123bb2",
+        "0x405fc00000000000",
+        "0x405fc00000000000",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbffe349eec2b13fc",
+      "expected_bits": "0xbffe349eec2b13fa",
+      "id": "r15-ppmt-007"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc06e09eace050721",
+      "expected_bits": "0xc06e09eace050723",
+      "id": "r15-ppmt-008"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc06e29f56213fb6d",
+      "expected_bits": "0xc06e29f56213fb6e",
+      "id": "r15-ppmt-009"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc07f9d61b6cdaed9",
+      "expected_bits": "0xc07f9d61b6cdaedc",
+      "id": "r15-ppmt-010"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xc090b4c0d059daa6",
+      "expected_bits": "0xc090b4c0d059daa6",
+      "id": "r15-ppmt-011"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc090b4c0d059daa6",
+      "expected_bits": "0xc090b4c0d059daa6",
+      "id": "r15-ppmt-012"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc06e09eace050721",
+      "expected_bits": "0xc06e09eace050722",
+      "id": "r15-ppmt-013"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc07f7bcc984d5c54",
+      "expected_bits": "0xc07f7bcc984d5c57",
+      "id": "r15-ppmt-014"
+    },
+    {
+      "args": [
+        "0x3f71111111111111",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xc090a301df6b8a13",
+      "expected_bits": "0xc090a301df6b8a13",
+      "id": "r15-ppmt-015"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffbf43d25",
+      "expected_bits": "0xbf669edffbf43d25",
+      "id": "r15-ppmt-016"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffee79e6a",
+      "expected_bits": "0xbf669edffee79e6a",
+      "id": "r15-ppmt-017"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee20c2158ce",
+      "expected_bits": "0xbf669ee20c2158ce",
+      "id": "r15-ppmt-018"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41f420674",
+      "expected_bits": "0xbf669ee41f420674",
+      "id": "r15-ppmt-019"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x3ff0000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41f420673",
+      "expected_bits": "0xbf669ee41f420675",
+      "id": "r15-ppmt-020"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4000000000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669edffbf43d24",
+      "expected_bits": "0xbf669edffbf43d25",
+      "id": "r15-ppmt-021"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4066800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee2092df743",
+      "expected_bits": "0xbf669ee2092df744",
+      "id": "r15-ppmt-022"
+    },
+    {
+      "args": [
+        "0x3e40b25c74007082",
+        "0x4076800000000000",
+        "0x4076800000000000",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf669ee41c4ea4a4",
+      "expected_bits": "0xbf669ee41c4ea4a5",
+      "id": "r15-ppmt-023"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586df9",
+      "expected_bits": "0xbfaa950ab2586df9",
+      "id": "r15-ppmt-024"
+    },
+    {
+      "args": [
+        "0x3e4149806bffeb65",
+        "0x3ff0000000000000",
+        "0x3ff0000000000000",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbfaa950ab2586df9",
+      "expected_bits": "0xbfaa950ab2586df9",
+      "id": "r15-ppmt-025"
+    }
+  ]
+}

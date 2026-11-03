@@ -1,0 +1,419 @@
+{
+  "calc_func_commit": "8b3d1c163d2062b743791e57487e10db5297e539",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-02T22:02:53Z",
+  "function": "RATE",
+  "input_document": {
+    "function": "RATE",
+    "witnesses": [
+      {
+        "args": [
+          "0x405fc00000000000",
+          "0xbffe49b178993c71",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3f564f23b0123bb2"
+        ],
+        "id": "r15-rate-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x405fc00000000000",
+          "0xbffe49b178993c71",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x405fc00000000000",
+          "0xbffe3f265c984e88",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3f564f23b0123bb2"
+        ],
+        "id": "r15-rate-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x405fc00000000000",
+          "0xbffe3f265c984e88",
+          "0x406b9446d200b345",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xc090c692af15f63a",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3f71111111111111"
+        ],
+        "id": "r15-rate-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xc090c692af15f63a",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xc090b4c0d059daa6",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3f71111111111111"
+        ],
+        "id": "r15-rate-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xc090b4c0d059daa6",
+          "0x41086a0000000000",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xbf669ee422356844",
+          "0x3fefcf6de32210e3",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3e40b25c74007082"
+        ],
+        "id": "r15-rate-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xbf669ee422356844",
+          "0x3fefcf6de32210e3",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xbf669ee41f420675",
+          "0x3fefcf6de32210e3",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3e40b25c74007082"
+        ],
+        "id": "r15-rate-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4076800000000000",
+          "0xbf669ee41f420675",
+          "0x3fefcf6de32210e3",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0xbfaa950ab5ef7d10",
+          "0x3faa950ab2586df9",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3e4149806bffeb65"
+        ],
+        "id": "r15-rate-012",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0xbfaa950ab5ef7d10",
+          "0x3faa950ab2586df9",
+          "0x0000000000000000",
+          "0x0000000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-013",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0xbfaa950ab2586df9",
+          "0x3faa950ab2586df9",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3e4149806bffeb65"
+        ],
+        "id": "r15-rate-014",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0xbfaa950ab2586df9",
+          "0x3faa950ab2586df9",
+          "0x0000000000000000",
+          "0x3ff0000000000000",
+          "0x3fb999999999999a"
+        ],
+        "id": "r15-rate-015",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r15-annuity\\round15-annuity\\requests-RATE.json",
+  "inputs_sha256": "cab7452d0f50c132b1daa670df6cdc753b87ac226f96208a28d589c425d7817b",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3f564f23b0123bb2"
+      ],
+      "calc_func_prediction": "0x3f564f23b0124a69",
+      "id": "r15-rate-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe49b178993c71",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f564f23b0124e39",
+      "id": "r15-rate-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3f564f23b0123bb2"
+      ],
+      "calc_func_prediction": "0x3f564f23b0123e30",
+      "id": "r15-rate-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x405fc00000000000",
+        "0xbffe3f265c984e88",
+        "0x406b9446d200b345",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f564f23b01252aa",
+      "id": "r15-rate-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3f71111111111111"
+      ],
+      "calc_func_prediction": "0x3f71111111111119",
+      "id": "r15-rate-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090c692af15f63a",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f71111111111119",
+      "id": "r15-rate-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3f71111111111111"
+      ],
+      "calc_func_prediction": "0x3f7111111111111d",
+      "id": "r15-rate-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xc090b4c0d059daa6",
+        "0x41086a0000000000",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3f71111111111115",
+      "id": "r15-rate-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3e40b25c74007082"
+      ],
+      "calc_func_prediction": "0x3e408c776f0900ec",
+      "id": "r15-rate-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee422356844",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e40a76d24e35d37",
+      "id": "r15-rate-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3e40b25c74007082"
+      ],
+      "calc_func_prediction": "0x3e40966836d5cfb5",
+      "id": "r15-rate-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4076800000000000",
+        "0xbf669ee41f420675",
+        "0x3fefcf6de32210e3",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e40928b63401f72",
+      "id": "r15-rate-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3e4149806bffeb65"
+      ],
+      "calc_func_prediction": "0x3e3b388cf0509182",
+      "id": "r15-rate-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab5ef7d10",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x0000000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3e4226676af1bdb3",
+      "id": "r15-rate-013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3e4149806bffeb65"
+      ],
+      "calc_func_prediction": "0x3e41cb952095e854",
+      "id": "r15-rate-014",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0xbfaa950ab2586df9",
+        "0x3faa950ab2586df9",
+        "0x0000000000000000",
+        "0x3ff0000000000000",
+        "0x3fb999999999999a"
+      ],
+      "calc_func_prediction": "0x3fb9999c926c4e7e",
+      "id": "r15-rate-015",
+      "result_index": null
+    }
+  ]
+}
