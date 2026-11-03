@@ -1,0 +1,270 @@
+{
+  "function": "BESSELY",
+  "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+  "witnesses": [
+    {
+      "id": "r19-endpoints-bessely-016",
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-017",
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-018",
+      "args": [
+        "0x41a0000002000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-019",
+      "args": [
+        "0x41a0000008000000",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-020",
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-021",
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-126",
+      "args": [
+        "0x419fffffff243f67",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-127",
+      "args": [
+        "0x419fffffff243f68",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-128",
+      "args": [
+        "0x419fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-129",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-130",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-131",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-132",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-133",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-134",
+      "args": [
+        "0x419fffffff243f6f",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-135",
+      "args": [
+        "0x41a0000002b65f1c",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-136",
+      "args": [
+        "0x41a0000002b65f1d",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-137",
+      "args": [
+        "0x41a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-138",
+      "args": [
+        "0x41a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-139",
+      "args": [
+        "0x41a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-140",
+      "args": [
+        "0x41a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-141",
+      "args": [
+        "0x41a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-142",
+      "args": [
+        "0x41a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-143",
+      "args": [
+        "0x41a0000002b65f24",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-144",
+      "args": [
+        "0x419fffffff243f67",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-145",
+      "args": [
+        "0x419fffffff243f68",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-146",
+      "args": [
+        "0x419fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-147",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-148",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-149",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-150",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-151",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-bessely-152",
+      "args": [
+        "0x419fffffff243f6f",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

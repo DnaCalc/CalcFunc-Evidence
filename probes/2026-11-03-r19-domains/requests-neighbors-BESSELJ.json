@@ -1,0 +1,390 @@
+{
+  "function": "BESSELJ",
+  "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+  "witnesses": [
+    {
+      "id": "r19-neighbors-besselj-000",
+      "args": [
+        "0x419fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-001",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-002",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-003",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-004",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-005",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-006",
+      "args": [
+        "0xc19fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-007",
+      "args": [
+        "0xc19fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-008",
+      "args": [
+        "0xc19fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-009",
+      "args": [
+        "0xc19fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-010",
+      "args": [
+        "0xc19fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-011",
+      "args": [
+        "0xc19fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-012",
+      "args": [
+        "0x41a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-013",
+      "args": [
+        "0x41a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-014",
+      "args": [
+        "0x41a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-015",
+      "args": [
+        "0x41a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-016",
+      "args": [
+        "0x41a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-017",
+      "args": [
+        "0x41a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-018",
+      "args": [
+        "0xc1a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-019",
+      "args": [
+        "0xc1a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-020",
+      "args": [
+        "0xc1a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-021",
+      "args": [
+        "0xc1a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-022",
+      "args": [
+        "0xc1a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-023",
+      "args": [
+        "0xc1a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-024",
+      "args": [
+        "0x419fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-025",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-026",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-027",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-028",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-029",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-030",
+      "args": [
+        "0xc19fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-031",
+      "args": [
+        "0xc19fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-032",
+      "args": [
+        "0xc19fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-033",
+      "args": [
+        "0xc19fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-034",
+      "args": [
+        "0xc19fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-035",
+      "args": [
+        "0xc19fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-036",
+      "args": [
+        "0x419fffffff243f69",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-037",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-038",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-039",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-040",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-041",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-042",
+      "args": [
+        "0x419fffffff243f69",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-043",
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-044",
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-045",
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-046",
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-neighbors-besselj-047",
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4010000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

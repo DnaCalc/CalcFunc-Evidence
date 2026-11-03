@@ -1,0 +1,31 @@
+{
+  "command_failure": null,
+  "failed": false,
+  "requested_batches": 2,
+  "unread_calls": 0,
+  "limits": "Raw answers and frozen predictions remain separate. Unread calls and unrun conditions are not passes.",
+  "canonical": [
+    {
+      "calls": 15,
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\CONCAT-2.json",
+      "unread": 0,
+      "function": "CONCAT",
+      "inputs_sha256": "3b29d19ca5bbf3d8302f5f50f9be3dc6b04d1a217240989eab705492ff5204b2"
+    },
+    {
+      "calls": 29,
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\YIELD.json",
+      "unread": 0,
+      "function": "YIELD",
+      "inputs_sha256": "f2e35b2430e14234b9ea6bfe6d57b26b5b2a12f63a2016078961e65950046d04"
+    }
+  ],
+  "completed_functions": [
+    "YIELD",
+    "CONCAT"
+  ],
+  "session_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\excel-session",
+  "jobs": 2,
+  "excel_launches": 2,
+  "batch_failures": []
+}

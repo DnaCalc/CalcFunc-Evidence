@@ -124,3 +124,20 @@ prediction lineages match 69. These are observations, not new product gains.
 The 179 new distinct bank inputs add 42 matches and 137 failures; all shared
 recorded answers and calculated outputs remain unchanged. The separate
 round-18 YIELD correction gains two on the fixed pre-intake bank scope.
+
+
+R18 and R19-domain scalar captures received on 2026-11-03 are retained under
+`probes/2026-11-03-r18/` and `probes/2026-11-03-r19-domains/`, including the
+original packets, worker requests/results, frozen predictions, session receipts
+and supplied hash maps. The original canonical exports are copied byte-for-byte
+to `readings/excel-20527/r18-*.json` and `r19-*.json`.
+R18 has 44 calls in two batches; R19 has 219 calls in five batches, with 153
+distinct inputs and 66 rechecks. All requested/submitted/Value2 operands agree;
+there are no unread results or transport obligations. The R19 adaptive replay
+reproduces every request, both journals and all eleven adjacent local brackets.
+The brackets do not establish global monotonicity or a general cutoff.
+Current registered calculations match 22/44 R18 observations and 33/219 R19
+observations. Every other observation remains a failure. These new captures
+add evidence coverage; they are separate from numerical implementation gains.
+The independent intake receipts and bank coverage comparison are published in
+DnaCalc-Research `evidence/round20/`.

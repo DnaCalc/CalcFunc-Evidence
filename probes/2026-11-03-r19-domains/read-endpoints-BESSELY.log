@@ -1,0 +1,68 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.32s
+     Running `target\debug\xtask.exe witness read --func BESSELY --inputs C:\Work\DnaCalc\codex-runs\excel-results-r19-domains\requests-endpoints-BESSELY.json --timeout 900`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.37s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask witness: BESSELY: froze 33 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\BESSELY-20261103T135809Z.json
+xtask witness: BESSELY: read 33 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 0 equal the frozen model prediction, 33 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\BESSELY-2.json
+xtask witness: BESSELY: differs: r19-endpoints-bessely-016 ["0x419ffffffe000000","0x0000000000000000"]: 0xbf0e23e91698abbe on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf0e23e914213322 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-017 ["0x419fffffffffffff","0x0000000000000000"]: 0xbf11fdddb48e2123 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-018 ["0x41a0000002000000","0x3ff0000000000000"]: 0xbf0ca88387a7ec71 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf0ca8838551ac39 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-019 ["0x41a0000008000000","0x3ff0000000000000"]: 0x3f09458971492d6d on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-020 ["0x419ffffffe000000","0x4000000000000000"]: 0x3f0e23e91b913a1b on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f0e23e91919c180 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-021 ["0x419fffffffffffff","0x4000000000000000"]: 0x3f11fdddb4ee1d8c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-126 ["0x419fffffff243f67","0x0000000000000000"]: 0xbf114272fc148ada on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272fb60e0d8 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-127 ["0x419fffffff243f68","0x0000000000000000"]: 0xbf114272fd678a84 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272fcb3e082 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-128 ["0x419fffffff243f69","0x0000000000000000"]: 0xbf114272feba8a2d on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272fe06e02c on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-129 ["0x419fffffff243f6a","0x0000000000000000"]: 0xbf114273000d89d4 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272ff59dfd5 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-130 ["0x419fffffff243f6b","0x0000000000000000"]: 0xbf1142730160897c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf11427300acdf7c on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-131 ["0x419fffffff243f6c","0x0000000000000000"]: 0xbf11427302b38922 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-132 ["0x419fffffff243f6d","0x0000000000000000"]: 0xbf114273040688c6 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-133 ["0x419fffffff243f6e","0x0000000000000000"]: 0xbf1142730559886a on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-134 ["0x419fffffff243f6f","0x0000000000000000"]: 0xbf11427306ac880e on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-135 ["0x41a0000002b65f1c","0x3ff0000000000000"]: 0xbf114272f554f26d on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272f4b7da52 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-136 ["0x41a0000002b65f1d","0x3ff0000000000000"]: 0xbf114272f7faf1c9 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272f75dd9ae on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-137 ["0x41a0000002b65f1e","0x3ff0000000000000"]: 0xbf114272faa0f11e on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272fa03d906 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-138 ["0x41a0000002b65f1f","0x3ff0000000000000"]: 0xbf114272fd46f071 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272fca9d859 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-139 ["0x41a0000002b65f20","0x3ff0000000000000"]: 0xbf114272ffecefc0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbf114272ff4fd7a9 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-140 ["0x41a0000002b65f21","0x3ff0000000000000"]: 0xbf1142730292ef0a on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-141 ["0x41a0000002b65f22","0x3ff0000000000000"]: 0xbf1142730538ee4f on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-142 ["0x41a0000002b65f23","0x3ff0000000000000"]: 0xbf11427307deed91 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-143 ["0x41a0000002b65f24","0x3ff0000000000000"]: 0xbf1142730a84ecce on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-144 ["0x419fffffff243f67","0x4000000000000000"]: 0x3f114272fd678a85 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f114272fcb3e083 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-145 ["0x419fffffff243f68","0x4000000000000000"]: 0x3f114272feba8a2e on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f114272fe06e02c on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-146 ["0x419fffffff243f69","0x4000000000000000"]: 0x3f114273000d89d6 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f114272ff59dfd5 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-147 ["0x419fffffff243f6a","0x4000000000000000"]: 0x3f1142730160897c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f11427300acdf7d on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-148 ["0x419fffffff243f6b","0x4000000000000000"]: 0x3f11427302b38922 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f11427301ffdf23 on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-149 ["0x419fffffff243f6c","0x4000000000000000"]: 0x3f114273040688c7 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-150 ["0x419fffffff243f6d","0x4000000000000000"]: 0x3f1142730559886a on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-151 ["0x419fffffff243f6e","0x4000000000000000"]: 0x3f11427306ac880d on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELY: differs: r19-endpoints-bessely-152 ["0x419fffffff243f6f","0x4000000000000000"]: 0x3f11427307ff87b0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527

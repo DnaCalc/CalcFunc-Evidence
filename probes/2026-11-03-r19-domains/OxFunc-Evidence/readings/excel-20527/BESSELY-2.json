@@ -1,0 +1,1566 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T13:58:22Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\BESSELY-20261103T135809Z.json",
+      "frozen_sha256": "2beeb8d004d7ce47ceba0a49d71131a6345d50a233ac298ee55c08bb05cbc666",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r19-domains\\requests-endpoints-BESSELY.json",
+      "inputs_sha256": "2a114d023c08f6b723203073e7df390fbcd88e320f65f01a7bc85ee6d0f9009b",
+      "novelty": null,
+      "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r19-domains\\requests-endpoints-BESSELY.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "BESSELY",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-016",
+      "observed_raw": {
+        "number": "bf0e23e914213322"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-017",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-018",
+      "observed_raw": {
+        "number": "bf0ca8838551ac39"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000008000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000008000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000008000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-019",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419ffffffe000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-020",
+      "observed_raw": {
+        "number": "3f0e23e91919c180"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffffffffff"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-021",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-126",
+      "observed_raw": {
+        "number": "bf114272fb60e0d8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-127",
+      "observed_raw": {
+        "number": "bf114272fcb3e082"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-128",
+      "observed_raw": {
+        "number": "bf114272fe06e02c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-129",
+      "observed_raw": {
+        "number": "bf114272ff59dfd5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-130",
+      "observed_raw": {
+        "number": "bf11427300acdf7c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-131",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-132",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-133",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-134",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f1c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f1c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f1c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-135",
+      "observed_raw": {
+        "number": "bf114272f4b7da52"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f1d"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f1d"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f1d"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-136",
+      "observed_raw": {
+        "number": "bf114272f75dd9ae"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f1e"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f1e"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f1e"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-137",
+      "observed_raw": {
+        "number": "bf114272fa03d906"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f1f"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f1f"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f1f"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-138",
+      "observed_raw": {
+        "number": "bf114272fca9d859"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f20"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f20"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f20"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-139",
+      "observed_raw": {
+        "number": "bf114272ff4fd7a9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f21"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f21"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f21"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-140",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f22"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f22"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f22"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-141",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f23"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f23"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f23"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-142",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "41a0000002b65f24"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "41a0000002b65f24"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "41a0000002b65f24"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-143",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f67"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-144",
+      "observed_raw": {
+        "number": "3f114272fcb3e083"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f68"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-145",
+      "observed_raw": {
+        "number": "3f114272fe06e02c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f69"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-146",
+      "observed_raw": {
+        "number": "3f114272ff59dfd5"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6a"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-147",
+      "observed_raw": {
+        "number": "3f11427300acdf7d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6b"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-148",
+      "observed_raw": {
+        "number": "3f11427301ffdf23"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6c"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-149",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6d"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-150",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6e"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-151",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BESSELY(RC[1],RC[2])",
+        "read_back": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "419fffffff243f6f"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r19-endpoints-bessely-152",
+      "observed_raw": {
+        "error_code": 2036
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf0e23e91698abbe",
+      "expected_bits": "0xbf0e23e914213322",
+      "id": "r19-endpoints-bessely-016"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb48e2123",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-017"
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf0ca88387a7ec71",
+      "expected_bits": "0xbf0ca8838551ac39",
+      "id": "r19-endpoints-bessely-018"
+    },
+    {
+      "args": [
+        "0x41a0000008000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f09458971492d6d",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-019"
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f0e23e91b913a1b",
+      "expected_bits": "0x3f0e23e91919c180",
+      "id": "r19-endpoints-bessely-020"
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb4ee1d8c",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-021"
+    },
+    {
+      "args": [
+        "0x419fffffff243f67",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fc148ada",
+      "expected_bits": "0xbf114272fb60e0d8",
+      "id": "r19-endpoints-bessely-126"
+    },
+    {
+      "args": [
+        "0x419fffffff243f68",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fd678a84",
+      "expected_bits": "0xbf114272fcb3e082",
+      "id": "r19-endpoints-bessely-127"
+    },
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272feba8a2d",
+      "expected_bits": "0xbf114272fe06e02c",
+      "id": "r19-endpoints-bessely-128"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273000d89d4",
+      "expected_bits": "0xbf114272ff59dfd5",
+      "id": "r19-endpoints-bessely-129"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730160897c",
+      "expected_bits": "0xbf11427300acdf7c",
+      "id": "r19-endpoints-bessely-130"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427302b38922",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-131"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273040688c6",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-132"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730559886a",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-133"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6f",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427306ac880e",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-134"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272f554f26d",
+      "expected_bits": "0xbf114272f4b7da52",
+      "id": "r19-endpoints-bessely-135"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1d",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272f7faf1c9",
+      "expected_bits": "0xbf114272f75dd9ae",
+      "id": "r19-endpoints-bessely-136"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272faa0f11e",
+      "expected_bits": "0xbf114272fa03d906",
+      "id": "r19-endpoints-bessely-137"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fd46f071",
+      "expected_bits": "0xbf114272fca9d859",
+      "id": "r19-endpoints-bessely-138"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272ffecefc0",
+      "expected_bits": "0xbf114272ff4fd7a9",
+      "id": "r19-endpoints-bessely-139"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730292ef0a",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-140"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730538ee4f",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-141"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427307deed91",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-142"
+    },
+    {
+      "args": [
+        "0x41a0000002b65f24",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730a84ecce",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-143"
+    },
+    {
+      "args": [
+        "0x419fffffff243f67",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114272fd678a85",
+      "expected_bits": "0x3f114272fcb3e083",
+      "id": "r19-endpoints-bessely-144"
+    },
+    {
+      "args": [
+        "0x419fffffff243f68",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114272feba8a2e",
+      "expected_bits": "0x3f114272fe06e02c",
+      "id": "r19-endpoints-bessely-145"
+    },
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273000d89d6",
+      "expected_bits": "0x3f114272ff59dfd5",
+      "id": "r19-endpoints-bessely-146"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730160897c",
+      "expected_bits": "0x3f11427300acdf7d",
+      "id": "r19-endpoints-bessely-147"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427302b38922",
+      "expected_bits": "0x3f11427301ffdf23",
+      "id": "r19-endpoints-bessely-148"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273040688c7",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-149"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730559886a",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-150"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427306ac880d",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-151"
+    },
+    {
+      "args": [
+        "0x419fffffff243f6f",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427307ff87b0",
+      "expected_bits": "error:Num",
+      "id": "r19-endpoints-bessely-152"
+    }
+  ]
+}

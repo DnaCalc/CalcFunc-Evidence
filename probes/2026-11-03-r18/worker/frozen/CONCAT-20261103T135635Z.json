@@ -1,0 +1,245 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T13:56:35Z",
+  "function": "CONCAT",
+  "input_document": {
+    "function": "CONCAT",
+    "selection": "R18 mathematical/boundary questions; intentional rechecks, no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0xc296d752c3df9781"
+        ],
+        "id": "r18-concat-tie-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc296d752c3df9780"
+        ],
+        "id": "r18-concat-tie-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc296d752c3df977f"
+        ],
+        "id": "r18-concat-tie-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4294f2e4625bed7f"
+        ],
+        "id": "r18-concat-tie-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4294f2e4625bed80"
+        ],
+        "id": "r18-concat-tie-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4294f2e4625bed81"
+        ],
+        "id": "r18-concat-tie-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ed6038e11b5d39e"
+        ],
+        "id": "r18-concat-tie-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ed6038e11b5d39f"
+        ],
+        "id": "r18-concat-tie-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ed6038e11b5d3a0"
+        ],
+        "id": "r18-concat-tie-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x42fda21018b91417"
+        ],
+        "id": "r18-concat-tie-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x42fda21018b91418"
+        ],
+        "id": "r18-concat-tie-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x42fda21018b91419"
+        ],
+        "id": "r18-concat-tie-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x425f9e7fea0503ff"
+        ],
+        "id": "r18-concat-tie-012",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x425f9e7fea050400"
+        ],
+        "id": "r18-concat-tie-013",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x425f9e7fea050401"
+        ],
+        "id": "r18-concat-tie-014",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r18\\excel-questions-r18\\requests-CONCAT.json",
+  "inputs_sha256": "3b29d19ca5bbf3d8302f5f50f9be3dc6b04d1a217240989eab705492ff5204b2",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0xc296d752c3df9781"
+      ],
+      "calc_func_prediction": "text:-6278515587045.88",
+      "id": "r18-concat-tie-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc296d752c3df9780"
+      ],
+      "calc_func_prediction": "text:-6278515587045.87",
+      "id": "r18-concat-tie-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc296d752c3df977f"
+      ],
+      "calc_func_prediction": "text:-6278515587045.87",
+      "id": "r18-concat-tie-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4294f2e4625bed7f"
+      ],
+      "calc_func_prediction": "text:5758361573115.37",
+      "id": "r18-concat-tie-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4294f2e4625bed80"
+      ],
+      "calc_func_prediction": "text:5758361573115.37",
+      "id": "r18-concat-tie-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4294f2e4625bed81"
+      ],
+      "calc_func_prediction": "text:5758361573115.38",
+      "id": "r18-concat-tie-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ed6038e11b5d39e"
+      ],
+      "calc_func_prediction": "text:5.24851955262676E-06",
+      "id": "r18-concat-tie-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ed6038e11b5d39f"
+      ],
+      "calc_func_prediction": "text:5.24851955262676E-06",
+      "id": "r18-concat-tie-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ed6038e11b5d3a0"
+      ],
+      "calc_func_prediction": "text:5.24851955262677E-06",
+      "id": "r18-concat-tie-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x42fda21018b91417"
+      ],
+      "calc_func_prediction": "text:521310271410497",
+      "id": "r18-concat-tie-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x42fda21018b91418"
+      ],
+      "calc_func_prediction": "text:521310271410497",
+      "id": "r18-concat-tie-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x42fda21018b91419"
+      ],
+      "calc_func_prediction": "text:521310271410498",
+      "id": "r18-concat-tie-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x425f9e7fea0503ff"
+      ],
+      "calc_func_prediction": "text:543212677140.062",
+      "id": "r18-concat-tie-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x425f9e7fea050400"
+      ],
+      "calc_func_prediction": "text:543212677140.062",
+      "id": "r18-concat-tie-013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x425f9e7fea050401"
+      ],
+      "calc_func_prediction": "text:543212677140.063",
+      "id": "r18-concat-tie-014",
+      "result_index": null
+    }
+  ]
+}

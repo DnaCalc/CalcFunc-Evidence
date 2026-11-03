@@ -1,0 +1,2832 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-03T13:56:34Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\YIELD-20261103T135239Z.json",
+      "frozen_sha256": "5064cfae09d2b7b0533c361442671b771dad549c4a204df914dd233a7510dc15",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r18\\excel-questions-r18\\requests-YIELD.json",
+      "inputs_sha256": "f2e35b2430e14234b9ea6bfe6d57b26b5b2a12f63a2016078961e65950046d04",
+      "novelty": null,
+      "selection": "R18 mathematical/boundary questions; intentional rechecks, no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r18\\excel-questions-r18\\requests-YIELD.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:b8c1c482f73b050effc0a22e2a70b34e13ae71ea8a073e5e209d7e6dc0666439; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "YIELD",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-000",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-001",
+      "observed_raw": {
+        "number": "bc8b4e81b4e81b4f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-002",
+      "observed_raw": {
+        "number": "3fa999999999999a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-003",
+      "observed_raw": {
+        "number": "3fa9999999999994"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-004",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d71"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-005",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d6a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-006",
+      "observed_raw": {
+        "number": "3fc0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "40e61d8000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-007",
+      "observed_raw": {
+        "number": "3fbffffffffffffd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-008",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-009",
+      "observed_raw": {
+        "number": "bc9b4e81b4e81b4f"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-010",
+      "observed_raw": {
+        "number": "3fa999999999999a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-011",
+      "observed_raw": {
+        "number": "3fa999999999998d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-012",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d71"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-013",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d63"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-014",
+      "observed_raw": {
+        "number": "3fc0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-015",
+      "observed_raw": {
+        "number": "3fbffffffffffff9"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-016",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-017",
+      "observed_raw": {
+        "number": "bca0624dd2f1a9fb"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-018",
+      "observed_raw": {
+        "number": "3fa999999999999a"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-019",
+      "observed_raw": {
+        "number": "3fa9999999999988"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-020",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d72"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-021",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d60"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-022",
+      "observed_raw": {
+        "number": "3fc0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e5892000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fc0000000000000"
+          },
+          {
+            "number": "4059000000000001"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4010000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-023",
+      "observed_raw": {
+        "number": "3fbffffffffffff7"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-024",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d70"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-025",
+      "observed_raw": {
+        "number": "3fa9999999999980"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e5c24000000000"
+          },
+          {
+            "number": "3fad70a3d70a3d71"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-026",
+      "observed_raw": {
+        "number": "3fad70a3d70a3d72"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e594a000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-027",
+      "observed_raw": {
+        "number": "3fa9999999999980"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=YIELD(RC[1],RC[2],RC[3],RC[4],RC[5],RC[6],RC[7])",
+        "read_back": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e6d42000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e6d42000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "40e57da000000000"
+          },
+          {
+            "number": "40e6d42000000000"
+          },
+          {
+            "number": "3fa999999999999a"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "4000000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r18-yield-par-028",
+      "observed_raw": {
+        "number": "3fa999999999999a"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x0000000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r18-yield-par-000"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x0000000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbc90000000000000",
+      "expected_bits": "0xbc8b4e81b4e81b4f",
+      "id": "r18-yield-par-001"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa999999999999a",
+      "expected_bits": "0x3fa999999999999a",
+      "id": "r18-yield-par-002"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa9999999999991",
+      "expected_bits": "0x3fa9999999999994",
+      "id": "r18-yield-par-003"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d71",
+      "expected_bits": "0x3fad70a3d70a3d71",
+      "id": "r18-yield-par-004"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d64",
+      "expected_bits": "0x3fad70a3d70a3d6a",
+      "id": "r18-yield-par-005"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fc0000000000000",
+      "expected_bits": "0x3fc0000000000000",
+      "id": "r18-yield-par-006"
+    },
+    {
+      "args": [
+        "0x40e594a000000000",
+        "0x40e61d8000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x3ff0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fbffffffffffff8",
+      "expected_bits": "0x3fbffffffffffffd",
+      "id": "r18-yield-par-007"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x0000000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r18-yield-par-008"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x0000000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbca0000000000000",
+      "expected_bits": "0xbc9b4e81b4e81b4f",
+      "id": "r18-yield-par-009"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa999999999999a",
+      "expected_bits": "0x3fa999999999999a",
+      "id": "r18-yield-par-010"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa99999999999a0",
+      "expected_bits": "0x3fa999999999998d",
+      "id": "r18-yield-par-011"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d71",
+      "expected_bits": "0x3fad70a3d70a3d71",
+      "id": "r18-yield-par-012"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d60",
+      "expected_bits": "0x3fad70a3d70a3d63",
+      "id": "r18-yield-par-013"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fc0000000000000",
+      "expected_bits": "0x3fc0000000000000",
+      "id": "r18-yield-par-014"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fbffffffffffff0",
+      "expected_bits": "0x3fbffffffffffff9",
+      "id": "r18-yield-par-015"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x0000000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r18-yield-par-016"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x0000000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbcb0000000000000",
+      "expected_bits": "0xbca0624dd2f1a9fb",
+      "id": "r18-yield-par-017"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa999999999999a",
+      "expected_bits": "0x3fa999999999999a",
+      "id": "r18-yield-par-018"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa99999999999bf",
+      "expected_bits": "0x3fa9999999999988",
+      "id": "r18-yield-par-019"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d71",
+      "expected_bits": "0x3fad70a3d70a3d72",
+      "id": "r18-yield-par-020"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d41",
+      "expected_bits": "0x3fad70a3d70a3d60",
+      "id": "r18-yield-par-021"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fc0000000000000",
+      "expected_bits": "0x3fc0000000000000",
+      "id": "r18-yield-par-022"
+    },
+    {
+      "args": [
+        "0x40e5892000000000",
+        "0x40e5c24000000000",
+        "0x3fc0000000000000",
+        "0x4059000000000001",
+        "0x4059000000000000",
+        "0x4010000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fbfffffffffffe0",
+      "expected_bits": "0x3fbffffffffffff7",
+      "id": "r18-yield-par-023"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d71",
+      "expected_bits": "0x3fad70a3d70a3d70",
+      "id": "r18-yield-par-024"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e594a000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa90b21642c8578",
+      "expected_bits": "0x3fa9999999999980",
+      "id": "r18-yield-par-025"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e5c24000000000",
+        "0x3fad70a3d70a3d71",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0x3fad70a3d70a3d71",
+      "expected_bits": "0x3fad70a3d70a3d72",
+      "id": "r18-yield-par-026"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e594a000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0x3fa9642c8590b1fd",
+      "expected_bits": "0x3fa9999999999980",
+      "id": "r18-yield-par-027"
+    },
+    {
+      "args": [
+        "0x40e57da000000000",
+        "0x40e6d42000000000",
+        "0x3fa999999999999a",
+        "0x4059000000000000",
+        "0x4059000000000000",
+        "0x4000000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3fa999999999999a",
+      "expected_bits": "0x3fa999999999999a",
+      "id": "r18-yield-par-028"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running `target\debug\xtask.exe witness read --func YIELD --inputs C:\Work\DnaCalc\codex-runs\excel-questions-r18\excel-questions-r18\requests-YIELD.json --timeout 900`
+   Compiling xtask-harness v0.1.0 (C:\Work\DnaCalc\DnaCalc-win\tools\xtask-harness)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.30s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask witness: YIELD: froze 29 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\YIELD-20261103T135239Z.json
+xtask witness: YIELD: read 29 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 12 equal the frozen model prediction, 17 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\YIELD.json
+xtask witness: YIELD: differs: r18-yield-par-001 ["0x40e594a000000000","0x40e61d8000000000","0x0000000000000000","0x4059000000000001","0x4059000000000000","0x3ff0000000000000","0x0000000000000000"]: 0xbc90000000000000 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbc8b4e81b4e81b4f on 20527
+xtask witness: YIELD: differs: r18-yield-par-003 ["0x40e594a000000000","0x40e61d8000000000","0x3fa999999999999a","0x4059000000000001","0x4059000000000000","0x3ff0000000000000","0x0000000000000000"]: 0x3fa9999999999991 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fa9999999999994 on 20527
+xtask witness: YIELD: differs: r18-yield-par-005 ["0x40e594a000000000","0x40e61d8000000000","0x3fad70a3d70a3d71","0x4059000000000001","0x4059000000000000","0x3ff0000000000000","0x0000000000000000"]: 0x3fad70a3d70a3d64 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d6a on 20527
+xtask witness: YIELD: differs: r18-yield-par-007 ["0x40e594a000000000","0x40e61d8000000000","0x3fc0000000000000","0x4059000000000001","0x4059000000000000","0x3ff0000000000000","0x0000000000000000"]: 0x3fbffffffffffff8 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fbffffffffffffd on 20527
+xtask witness: YIELD: differs: r18-yield-par-009 ["0x40e57da000000000","0x40e5c24000000000","0x0000000000000000","0x4059000000000001","0x4059000000000000","0x4000000000000000","0x0000000000000000"]: 0xbca0000000000000 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbc9b4e81b4e81b4f on 20527
+xtask witness: YIELD: differs: r18-yield-par-011 ["0x40e57da000000000","0x40e5c24000000000","0x3fa999999999999a","0x4059000000000001","0x4059000000000000","0x4000000000000000","0x0000000000000000"]: 0x3fa99999999999a0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fa999999999998d on 20527
+xtask witness: YIELD: differs: r18-yield-par-013 ["0x40e57da000000000","0x40e5c24000000000","0x3fad70a3d70a3d71","0x4059000000000001","0x4059000000000000","0x4000000000000000","0x0000000000000000"]: 0x3fad70a3d70a3d60 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d63 on 20527
+xtask witness: YIELD: differs: r18-yield-par-015 ["0x40e57da000000000","0x40e5c24000000000","0x3fc0000000000000","0x4059000000000001","0x4059000000000000","0x4000000000000000","0x0000000000000000"]: 0x3fbffffffffffff0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fbffffffffffff9 on 20527
+xtask witness: YIELD: differs: r18-yield-par-017 ["0x40e5892000000000","0x40e5c24000000000","0x0000000000000000","0x4059000000000001","0x4059000000000000","0x4010000000000000","0x0000000000000000"]: 0xbcb0000000000000 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbca0624dd2f1a9fb on 20527
+xtask witness: YIELD: differs: r18-yield-par-019 ["0x40e5892000000000","0x40e5c24000000000","0x3fa999999999999a","0x4059000000000001","0x4059000000000000","0x4010000000000000","0x0000000000000000"]: 0x3fa99999999999bf on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fa9999999999988 on 20527
+xtask witness: YIELD: differs: r18-yield-par-020 ["0x40e5892000000000","0x40e5c24000000000","0x3fad70a3d70a3d71","0x4059000000000000","0x4059000000000000","0x4010000000000000","0x0000000000000000"]: 0x3fad70a3d70a3d71 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d72 on 20527
+xtask witness: YIELD: differs: r18-yield-par-021 ["0x40e5892000000000","0x40e5c24000000000","0x3fad70a3d70a3d71","0x4059000000000001","0x4059000000000000","0x4010000000000000","0x0000000000000000"]: 0x3fad70a3d70a3d41 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d60 on 20527
+xtask witness: YIELD: differs: r18-yield-par-023 ["0x40e5892000000000","0x40e5c24000000000","0x3fc0000000000000","0x4059000000000001","0x4059000000000000","0x4010000000000000","0x0000000000000000"]: 0x3fbfffffffffffe0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fbffffffffffff7 on 20527
+xtask witness: YIELD: differs: r18-yield-par-024 ["0x40e57da000000000","0x40e5c24000000000","0x3fad70a3d70a3d71","0x4059000000000000","0x4059000000000000","0x4000000000000000","0x4000000000000000"]: 0x3fad70a3d70a3d71 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d70 on 20527
+xtask witness: YIELD: differs: r18-yield-par-025 ["0x40e57da000000000","0x40e594a000000000","0x3fa999999999999a","0x4059000000000000","0x4059000000000000","0x4000000000000000","0x4000000000000000"]: 0x3fa90b21642c8578 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fa9999999999980 on 20527
+xtask witness: YIELD: differs: r18-yield-par-026 ["0x40e57da000000000","0x40e5c24000000000","0x3fad70a3d70a3d71","0x4059000000000000","0x4059000000000000","0x4000000000000000","0x4008000000000000"]: 0x3fad70a3d70a3d71 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fad70a3d70a3d72 on 20527
+xtask witness: YIELD: differs: r18-yield-par-027 ["0x40e57da000000000","0x40e594a000000000","0x3fa999999999999a","0x4059000000000000","0x4059000000000000","0x4000000000000000","0x4008000000000000"]: 0x3fa9642c8590b1fd on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3fa9999999999980 on 20527

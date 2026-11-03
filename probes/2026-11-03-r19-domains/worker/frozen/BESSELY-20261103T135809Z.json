@@ -1,0 +1,581 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T13:58:09Z",
+  "function": "BESSELY",
+  "input_document": {
+    "function": "BESSELY",
+    "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+    "witnesses": [
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-016",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-017",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-018",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000008000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-019",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419ffffffe000000",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-020",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffffffffff",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-021",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f67",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-126",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f68",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-127",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f69",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-128",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6a",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-129",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6b",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-130",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6c",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-131",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6d",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-132",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6e",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-133",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6f",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-134",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1c",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-135",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1d",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-136",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1e",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-137",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1f",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-138",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f20",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-139",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f21",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-140",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f22",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-141",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f23",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-142",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f24",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-bessely-143",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f67",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-144",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f68",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-145",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f69",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-146",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6a",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-147",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6b",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-148",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6c",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-149",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6d",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-150",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6e",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-151",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6f",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-bessely-152",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r19-domains\\requests-endpoints-BESSELY.json",
+  "inputs_sha256": "2a114d023c08f6b723203073e7df390fbcd88e320f65f01a7bc85ee6d0f9009b",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf0e23e91698abbe",
+      "id": "r19-endpoints-bessely-016",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11fdddb48e2123",
+      "id": "r19-endpoints-bessely-017",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf0ca88387a7ec71",
+      "id": "r19-endpoints-bessely-018",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000008000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3f09458971492d6d",
+      "id": "r19-endpoints-bessely-019",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419ffffffe000000",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f0e23e91b913a1b",
+      "id": "r19-endpoints-bessely-020",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffffffffff",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11fdddb4ee1d8c",
+      "id": "r19-endpoints-bessely-021",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f67",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fc148ada",
+      "id": "r19-endpoints-bessely-126",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f68",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fd678a84",
+      "id": "r19-endpoints-bessely-127",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272feba8a2d",
+      "id": "r19-endpoints-bessely-128",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273000d89d4",
+      "id": "r19-endpoints-bessely-129",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730160897c",
+      "id": "r19-endpoints-bessely-130",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427302b38922",
+      "id": "r19-endpoints-bessely-131",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273040688c6",
+      "id": "r19-endpoints-bessely-132",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730559886a",
+      "id": "r19-endpoints-bessely-133",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6f",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427306ac880e",
+      "id": "r19-endpoints-bessely-134",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272f554f26d",
+      "id": "r19-endpoints-bessely-135",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1d",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272f7faf1c9",
+      "id": "r19-endpoints-bessely-136",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272faa0f11e",
+      "id": "r19-endpoints-bessely-137",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fd46f071",
+      "id": "r19-endpoints-bessely-138",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272ffecefc0",
+      "id": "r19-endpoints-bessely-139",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730292ef0a",
+      "id": "r19-endpoints-bessely-140",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730538ee4f",
+      "id": "r19-endpoints-bessely-141",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427307deed91",
+      "id": "r19-endpoints-bessely-142",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f24",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730a84ecce",
+      "id": "r19-endpoints-bessely-143",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f67",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114272fd678a85",
+      "id": "r19-endpoints-bessely-144",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f68",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114272feba8a2e",
+      "id": "r19-endpoints-bessely-145",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273000d89d6",
+      "id": "r19-endpoints-bessely-146",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730160897c",
+      "id": "r19-endpoints-bessely-147",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427302b38922",
+      "id": "r19-endpoints-bessely-148",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273040688c7",
+      "id": "r19-endpoints-bessely-149",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730559886a",
+      "id": "r19-endpoints-bessely-150",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427306ac880d",
+      "id": "r19-endpoints-bessely-151",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6f",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427307ff87b0",
+      "id": "r19-endpoints-bessely-152",
+      "result_index": null
+    }
+  ]
+}

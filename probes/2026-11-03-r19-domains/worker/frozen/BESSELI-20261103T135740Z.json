@@ -1,0 +1,564 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T13:57:40Z",
+  "function": "BESSELI",
+  "input_document": {
+    "function": "BESSELI",
+    "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+    "witnesses": [
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-022",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-023",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-024",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x0000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-025",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-besseli-026",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-besseli-027",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-besseli-028",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-endpoints-besseli-029",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-030",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-031",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-032",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x4000000000000000"
+        ],
+        "id": "r19-endpoints-besseli-033",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4008000000000000"
+        ],
+        "id": "r19-endpoints-besseli-034",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x4008000000000000"
+        ],
+        "id": "r19-endpoints-besseli-035",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4008000000000000"
+        ],
+        "id": "r19-endpoints-besseli-036",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x4008000000000000"
+        ],
+        "id": "r19-endpoints-besseli-037",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4024000000000000"
+        ],
+        "id": "r19-endpoints-besseli-038",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x4024000000000000"
+        ],
+        "id": "r19-endpoints-besseli-039",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4024000000000000"
+        ],
+        "id": "r19-endpoints-besseli-040",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x4024000000000000"
+        ],
+        "id": "r19-endpoints-besseli-041",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4059000000000000"
+        ],
+        "id": "r19-endpoints-besseli-042",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x4059000000000000"
+        ],
+        "id": "r19-endpoints-besseli-043",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4059000000000000"
+        ],
+        "id": "r19-endpoints-besseli-044",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x4059000000000000"
+        ],
+        "id": "r19-endpoints-besseli-045",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x4098880000000000"
+        ],
+        "id": "r19-endpoints-besseli-046",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x4098880000000000"
+        ],
+        "id": "r19-endpoints-besseli-047",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x4098880000000000"
+        ],
+        "id": "r19-endpoints-besseli-048",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x4098880000000000"
+        ],
+        "id": "r19-endpoints-besseli-049",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999a",
+          "0x40c3880000000000"
+        ],
+        "id": "r19-endpoints-besseli-050",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999a",
+          "0x40c3880000000000"
+        ],
+        "id": "r19-endpoints-besseli-051",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x40862d999999999b",
+          "0x40c3880000000000"
+        ],
+        "id": "r19-endpoints-besseli-052",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0xc0862d999999999b",
+          "0x40c3880000000000"
+        ],
+        "id": "r19-endpoints-besseli-053",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r19-domains\\requests-endpoints-BESSELI.json",
+  "inputs_sha256": "07018af358d5b253f08e5ee33bc3c37c3b4f541677cb19fe132f05c85bfc8af5",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee541",
+      "id": "r19-endpoints-besseli-022",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c3d51558ee541",
+      "id": "r19-endpoints-besseli-023",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-024",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-025",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c383994e048cc",
+      "id": "r19-endpoints-besseli-026",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xff8c383994e048cc",
+      "id": "r19-endpoints-besseli-027",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-028",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-029",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f58d3ee5cd",
+      "id": "r19-endpoints-besseli-030",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c28f58d3ee5cd",
+      "id": "r19-endpoints-besseli-031",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-032",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-033",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0x7f8c0f9777ca38a3",
+      "id": "r19-endpoints-besseli-034",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "0xff8c0f9777ca38a3",
+      "id": "r19-endpoints-besseli-035",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-036",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x4008000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-037",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4024000000000000"
+      ],
+      "calc_func_prediction": "0x7f8a51322ea0afc0",
+      "id": "r19-endpoints-besseli-038",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x4024000000000000"
+      ],
+      "calc_func_prediction": "0x7f8a51322ea0afc0",
+      "id": "r19-endpoints-besseli-039",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4024000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-040",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x4024000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-041",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4059000000000000"
+      ],
+      "calc_func_prediction": "0x7ee95f1f215df5a2",
+      "id": "r19-endpoints-besseli-042",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x4059000000000000"
+      ],
+      "calc_func_prediction": "0x7ee95f1f215df5a2",
+      "id": "r19-endpoints-besseli-043",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4059000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-044",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x4059000000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-045",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x4098880000000000"
+      ],
+      "calc_func_prediction": "0x019d0063ccbeda76",
+      "id": "r19-endpoints-besseli-046",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x4098880000000000"
+      ],
+      "calc_func_prediction": "0x019d0063ccbeda76",
+      "id": "r19-endpoints-besseli-047",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x4098880000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-048",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x4098880000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-049",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999a",
+        "0x40c3880000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r19-endpoints-besseli-050",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999a",
+        "0x40c3880000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r19-endpoints-besseli-051",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x40862d999999999b",
+        "0x40c3880000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-052",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0xc0862d999999999b",
+        "0x40c3880000000000"
+      ],
+      "calc_func_prediction": "error:Num",
+      "id": "r19-endpoints-besseli-053",
+      "result_index": null
+    }
+  ]
+}

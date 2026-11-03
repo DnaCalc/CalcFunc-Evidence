@@ -1,0 +1,40 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.36s
+     Running `target\debug\xtask.exe witness read --func CONCAT --inputs C:\Work\DnaCalc\codex-runs\excel-questions-r18\excel-questions-r18\requests-CONCAT.json --timeout 900`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.44s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask witness: CONCAT: froze 15 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\CONCAT-20261103T135635Z.json
+xtask witness: CONCAT: read 15 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 10 equal the frozen model prediction, 5 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\CONCAT-2.json
+xtask witness: CONCAT: differs: r18-concat-tie-001 ["0xc296d752c3df9780"]: text:-6278515587045.87 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), text:-6278515587045.88 on 20527
+xtask witness: CONCAT: differs: r18-concat-tie-004 ["0x4294f2e4625bed80"]: text:5758361573115.37 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), text:5758361573115.38 on 20527
+xtask witness: CONCAT: differs: r18-concat-tie-007 ["0x3ed6038e11b5d39f"]: text:5.24851955262676E-06 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), text:5.24851955262677E-06 on 20527
+xtask witness: CONCAT: differs: r18-concat-tie-010 ["0x42fda21018b91418"]: text:521310271410497 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), text:521310271410498 on 20527
+xtask witness: CONCAT: differs: r18-concat-tie-013 ["0x425f9e7fea050400"]: text:543212677140.062 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), text:543212677140.063 on 20527

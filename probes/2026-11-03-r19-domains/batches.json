@@ -1,0 +1,72 @@
+[
+  {
+    "function": "BESSELI",
+    "path": "requests-endpoints-BESSELI.json",
+    "calls": 32,
+    "reading": "readings\\excel-20527\\BESSELI-3.json",
+    "reading_sha256": "99f160c5d93158205eea881977bdd11d2c130e3f799c5332a63c7d699e97130b",
+    "request_sha256": "07018af358d5b253f08e5ee33bc3c37c3b4f541677cb19fe132f05c85bfc8af5",
+    "original_worker_files_sha256": {
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\frozen\\BESSELI-20261103T135740Z.json": "d96e4e1358ca37c5b91c42c1a6bbc5e0e9a3429c183a3adc2c7ed38f854dc77f",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELI-20261103T135740Z-1\\request.json": "960c7546ebb947aa9112c33f84b6cc27cc5d3efb5ea6cfc994549855bde888a9",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELI-20261103T135740Z-1\\result.json": "a7a8333a44ec1e2f05de43b0e87a37dda88ef1947a25519074fd32d41b43948a",
+      "C:\\Work\\DnaCalc\\OxFunc-Evidence\\readings\\excel-20527\\BESSELI-3.json": "99f160c5d93158205eea881977bdd11d2c130e3f799c5332a63c7d699e97130b"
+    }
+  },
+  {
+    "function": "BESSELJ",
+    "path": "requests-endpoints-BESSELJ.json",
+    "calls": 88,
+    "reading": "readings\\excel-20527\\BESSELJ-3.json",
+    "reading_sha256": "5449fdbeb1992f9c7c39ee2fb2c86e06bcea5366ca712e399061ad7f5ba0a309",
+    "request_sha256": "7c18c3e063205f02d869bd467fc7d4bb5319faf3894b9bf0f92f2d3e11ce1254",
+    "original_worker_files_sha256": {
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\frozen\\BESSELJ-20261103T135755Z.json": "a941bfa2919ffa5cdab7e1aa5d059eb347e826eadad064df4e28f517870cb471",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELJ-20261103T135755Z-1\\request.json": "708a9a496f79c18f8aacad1ba037b154470315ede8d5490890cac1e0c8f07a0c",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELJ-20261103T135755Z-1\\result.json": "ddfeff4d1456b376dff0d3fdb574b5e694f682a0b1ff1e0448352f36e7b9532e",
+      "C:\\Work\\DnaCalc\\OxFunc-Evidence\\readings\\excel-20527\\BESSELJ-3.json": "5449fdbeb1992f9c7c39ee2fb2c86e06bcea5366ca712e399061ad7f5ba0a309"
+    }
+  },
+  {
+    "function": "BESSELY",
+    "path": "requests-endpoints-BESSELY.json",
+    "calls": 33,
+    "reading": "readings\\excel-20527\\BESSELY-2.json",
+    "reading_sha256": "0cd05133b5d10775792c31f949e424f94585b848f7bd1ac4e00bf7a817557cf3",
+    "request_sha256": "2a114d023c08f6b723203073e7df390fbcd88e320f65f01a7bc85ee6d0f9009b",
+    "original_worker_files_sha256": {
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\frozen\\BESSELY-20261103T135809Z.json": "2beeb8d004d7ce47ceba0a49d71131a6345d50a233ac298ee55c08bb05cbc666",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELY-20261103T135809Z-1\\request.json": "2b87d67723d78fbd677fed727061784e0d55e8261c760d098843e5464767ad77",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELY-20261103T135809Z-1\\result.json": "af088c9e697670aeaf55f06593a58407e9c817d6ed253b51ea3a3ce534ce8d97",
+      "C:\\Work\\DnaCalc\\OxFunc-Evidence\\readings\\excel-20527\\BESSELY-2.json": "0cd05133b5d10775792c31f949e424f94585b848f7bd1ac4e00bf7a817557cf3"
+    }
+  },
+  {
+    "function": "BESSELJ",
+    "path": "requests-neighbors-BESSELJ.json",
+    "calls": 48,
+    "reading": "readings\\excel-20527\\BESSELJ-4.json",
+    "reading_sha256": "3d6aa84166aafb6bd081e41fa07218c6a8e37ca3fc9dea557e930b45f173e582",
+    "request_sha256": "ccafbb6b5b45af9a1863f8834a1df6d9a4e9a9e05f2b9dadfa17812ff195372f",
+    "original_worker_files_sha256": {
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\frozen\\BESSELJ-20261103T135824Z.json": "5fc00ffb88d27c20d748f6ee361b25e3c339a59d6ec63329e932bffb659c5ccd",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELJ-20261103T135824Z-1\\request.json": "42184509eac1b6702ee3a69f390422eb771b01387d02283b96be61f285f1ce88",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELJ-20261103T135824Z-1\\result.json": "83fd3b49827e8c196e0c77d29cdbe420c9307de5eb51c7303ea638fd7d0ea632",
+      "C:\\Work\\DnaCalc\\OxFunc-Evidence\\readings\\excel-20527\\BESSELJ-4.json": "3d6aa84166aafb6bd081e41fa07218c6a8e37ca3fc9dea557e930b45f173e582"
+    }
+  },
+  {
+    "function": "BESSELY",
+    "path": "requests-neighbors-BESSELY.json",
+    "calls": 18,
+    "reading": "readings\\excel-20527\\BESSELY-3.json",
+    "reading_sha256": "a02ef6e080caf6f900ee2be7a7c13371a5df6610e385c704111ebfd03679556e",
+    "request_sha256": "fb22f642a2fcbdb5354b5b47feb928b9b89a8219df68a64df1d7e46b4d9d1567",
+    "original_worker_files_sha256": {
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\frozen\\BESSELY-20261103T135838Z.json": "47a85ca7bcc82ab8e13bbfc9e8125c34eeccbb1c38ee0635e7fe249c69bf6f9b",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELY-20261103T135838Z-1\\request.json": "762d61b93b8ead337f80277641b29aebe2bfe1be4ea7985f63a43a3e88473a74",
+      "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BESSELY-20261103T135838Z-1\\result.json": "2a617830b490c9b2430749063e65a0815606b87d76f15f8142a98408fb4c8ea5",
+      "C:\\Work\\DnaCalc\\OxFunc-Evidence\\readings\\excel-20527\\BESSELY-3.json": "a02ef6e080caf6f900ee2be7a7c13371a5df6610e385c704111ebfd03679556e"
+    }
+  }
+]

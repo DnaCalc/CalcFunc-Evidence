@@ -1,0 +1,326 @@
+{
+  "calc_func_commit": "5050897870296b3b3a8dc45d8c8ded97c4c764d6",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-03T13:58:38Z",
+  "function": "BESSELY",
+  "input_document": {
+    "function": "BESSELY",
+    "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+    "witnesses": [
+      {
+        "args": [
+          "0x419fffffff243f69",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-048",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6a",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-049",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6b",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-050",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6c",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-051",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6d",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-052",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6e",
+          "0x0000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-053",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1e",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-054",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f1f",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-055",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f20",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-056",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f21",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-057",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f22",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-058",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x41a0000002b65f23",
+          "0x3ff0000000000000"
+        ],
+        "id": "r19-neighbors-bessely-059",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f69",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-060",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6a",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-061",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6b",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-062",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6c",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-063",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6d",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-064",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x419fffffff243f6e",
+          "0x4000000000000000"
+        ],
+        "id": "r19-neighbors-bessely-065",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r19-domains\\requests-neighbors-BESSELY.json",
+  "inputs_sha256": "fb22f642a2fcbdb5354b5b47feb928b9b89a8219df68a64df1d7e46b4d9d1567",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272feba8a2d",
+      "id": "r19-neighbors-bessely-048",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273000d89d4",
+      "id": "r19-neighbors-bessely-049",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730160897c",
+      "id": "r19-neighbors-bessely-050",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427302b38922",
+      "id": "r19-neighbors-bessely-051",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf114273040688c6",
+      "id": "r19-neighbors-bessely-052",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730559886a",
+      "id": "r19-neighbors-bessely-053",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1e",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272faa0f11e",
+      "id": "r19-neighbors-bessely-054",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f1f",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272fd46f071",
+      "id": "r19-neighbors-bessely-055",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f20",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf114272ffecefc0",
+      "id": "r19-neighbors-bessely-056",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f21",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730292ef0a",
+      "id": "r19-neighbors-bessely-057",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f22",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf1142730538ee4f",
+      "id": "r19-neighbors-bessely-058",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x41a0000002b65f23",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0xbf11427307deed91",
+      "id": "r19-neighbors-bessely-059",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f69",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273000d89d6",
+      "id": "r19-neighbors-bessely-060",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6a",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730160897c",
+      "id": "r19-neighbors-bessely-061",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6b",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427302b38922",
+      "id": "r19-neighbors-bessely-062",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6c",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f114273040688c7",
+      "id": "r19-neighbors-bessely-063",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6d",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f1142730559886a",
+      "id": "r19-neighbors-bessely-064",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x419fffffff243f6e",
+        "0x4000000000000000"
+      ],
+      "calc_func_prediction": "0x3f11427306ac880d",
+      "id": "r19-neighbors-bessely-065",
+      "result_index": null
+    }
+  ]
+}

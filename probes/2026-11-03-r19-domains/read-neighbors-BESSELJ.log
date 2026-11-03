@@ -1,0 +1,83 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.28s
+     Running `target\debug\xtask.exe witness read --func BESSELJ --inputs C:\Work\DnaCalc\codex-runs\excel-results-r19-domains\requests-neighbors-BESSELJ.json --timeout 900`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.36s
+warning: method `opened_position` is never used
+   --> crates\calc-host\src\state.rs:767:19
+    |
+162 | impl HostState {
+    | -------------- method in this implementation
+...
+767 |     pub(crate) fn opened_position(&self, at: CellKey) -> Option<(u32, u32)> {
+    |                   ^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `step`
+  --> tools\xtask-harness\src\compare.rs:69:40
+   |
+69 |     RecalcFailed, WorkBudget, project, step,
+   |                                        ^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: field `driver_pid` is never read
+   --> tools\xtask-harness\src\app.rs:797:5
+    |
+793 | struct Session {
+    |        ------- field in this struct
+...
+797 |     driver_pid: u32,
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+xtask witness: BESSELJ: froze 48 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\BESSELJ-20261103T135824Z.json
+xtask witness: BESSELJ: read 48 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 0 equal the frozen model prediction, 48 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\BESSELJ-4.json
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-000 ["0x419fffffff243f69","0x0000000000000000"]: 0xbef52ffa8d0dd7ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa9502584e on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-001 ["0x419fffffff243f6a","0x0000000000000000"]: 0xbef52ffa7bcb64ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa83bfe550 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-002 ["0x419fffffff243f6b","0x0000000000000000"]: 0xbef52ffa6a88f1ad on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa727d724f on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-003 ["0x419fffffff243f6c","0x0000000000000000"]: 0xbef52ffa59467eab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-004 ["0x419fffffff243f6d","0x0000000000000000"]: 0xbef52ffa48040ba6 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-005 ["0x419fffffff243f6e","0x0000000000000000"]: 0xbef52ffa36c198a2 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-006 ["0xc19fffffff243f69","0x0000000000000000"]: 0xbef52ffa8d0dd7ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa9502584e on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-007 ["0xc19fffffff243f6a","0x0000000000000000"]: 0xbef52ffa7bcb64ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa83bfe550 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-008 ["0xc19fffffff243f6b","0x0000000000000000"]: 0xbef52ffa6a88f1ad on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa727d724f on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-009 ["0xc19fffffff243f6c","0x0000000000000000"]: 0xbef52ffa59467eab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-010 ["0xc19fffffff243f6d","0x0000000000000000"]: 0xbef52ffa48040ba6 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-011 ["0xc19fffffff243f6e","0x0000000000000000"]: 0xbef52ffa36c198a2 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-012 ["0x41a0000002b65f1e","0x3ff0000000000000"]: 0xbef52ffaaa53cdab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffab1222213 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-013 ["0x41a0000002b65f1f","0x3ff0000000000000"]: 0xbef52ffa87cee7b2 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa8e9d3c1b on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-014 ["0x41a0000002b65f20","0x3ff0000000000000"]: 0xbef52ffa654a01b4 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa6c185620 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-015 ["0x41a0000002b65f21","0x3ff0000000000000"]: 0xbef52ffa42c51bb1 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-016 ["0x41a0000002b65f22","0x3ff0000000000000"]: 0xbef52ffa204035a8 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-017 ["0x41a0000002b65f23","0x3ff0000000000000"]: 0xbef52ff9fdbb4f9b on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-018 ["0xc1a0000002b65f1e","0x3ff0000000000000"]: 0x3ef52ffaaa53cdab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffab1222213 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-019 ["0xc1a0000002b65f1f","0x3ff0000000000000"]: 0x3ef52ffa87cee7b2 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa8e9d3c1b on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-020 ["0xc1a0000002b65f20","0x3ff0000000000000"]: 0x3ef52ffa654a01b4 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa6c185620 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-021 ["0xc1a0000002b65f21","0x3ff0000000000000"]: 0x3ef52ffa42c51bb1 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-022 ["0xc1a0000002b65f22","0x3ff0000000000000"]: 0x3ef52ffa204035a8 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-023 ["0xc1a0000002b65f23","0x3ff0000000000000"]: 0x3ef52ff9fdbb4f9b on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-024 ["0x419fffffff243f69","0x4000000000000000"]: 0x3ef52ffa7bcb64ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa83bfe54f on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-025 ["0x419fffffff243f6a","0x4000000000000000"]: 0x3ef52ffa6a88f1ad on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa727d7250 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-026 ["0x419fffffff243f6b","0x4000000000000000"]: 0x3ef52ffa59467eab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa613aff4d on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-027 ["0x419fffffff243f6c","0x4000000000000000"]: 0x3ef52ffa48040ba8 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-028 ["0x419fffffff243f6d","0x4000000000000000"]: 0x3ef52ffa36c198a1 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-029 ["0x419fffffff243f6e","0x4000000000000000"]: 0x3ef52ffa257f259c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-030 ["0xc19fffffff243f69","0x4000000000000000"]: 0x3ef52ffa7bcb64ae on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa83bfe54f on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-031 ["0xc19fffffff243f6a","0x4000000000000000"]: 0x3ef52ffa6a88f1ad on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa727d7250 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-032 ["0xc19fffffff243f6b","0x4000000000000000"]: 0x3ef52ffa59467eab on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3ef52ffa613aff4d on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-033 ["0xc19fffffff243f6c","0x4000000000000000"]: 0x3ef52ffa48040ba8 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-034 ["0xc19fffffff243f6d","0x4000000000000000"]: 0x3ef52ffa36c198a1 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-035 ["0xc19fffffff243f6e","0x4000000000000000"]: 0x3ef52ffa257f259c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-036 ["0x419fffffff243f69","0x4008000000000000"]: 0x3f11427301b54967 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f11427301183150 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-037 ["0x419fffffff243f6a","0x4008000000000000"]: 0x3f1142730308490c on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f114273026b30f4 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-038 ["0x419fffffff243f6b","0x4008000000000000"]: 0x3f114273045b48b0 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0x3f11427303be3099 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-039 ["0x419fffffff243f6c","0x4008000000000000"]: 0x3f11427305ae4855 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-040 ["0x419fffffff243f6d","0x4008000000000000"]: 0x3f114273070147f7 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-041 ["0x419fffffff243f6e","0x4008000000000000"]: 0x3f11427308544799 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-042 ["0x419fffffff243f69","0x4010000000000000"]: 0xbef52ffa48040ba7 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa4ff88c4a on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-043 ["0x419fffffff243f6a","0x4010000000000000"]: 0xbef52ffa36c198a3 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa3eb61947 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-044 ["0x419fffffff243f6b","0x4010000000000000"]: 0xbef52ffa257f259d on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), 0xbef52ffa2d73a640 on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-045 ["0x419fffffff243f6c","0x4010000000000000"]: 0xbef52ffa143cb296 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-046 ["0x419fffffff243f6d","0x4010000000000000"]: 0xbef52ffa02fa3f8b on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527
+xtask witness: BESSELJ: differs: r19-neighbors-besselj-047 ["0x419fffffff243f6e","0x4010000000000000"]: 0xbef52ff9f1b7cc82 on ?/?/?/? (calc-func 5050897870296b3b3a8dc45d8c8ded97c4c764d6 prediction), error:Num on 20527

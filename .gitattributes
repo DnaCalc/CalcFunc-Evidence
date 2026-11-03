@@ -20,3 +20,9 @@ probes/2026-11-02-r15-native/** -text
 # R16 packet and standard-reader exports retain original Windows bytes.
 probes/2026-11-03-r16/** -text
 readings/excel-20527/r16-*.json -text
+
+# R18/R19 packets and reader exports retain original Windows bytes.
+probes/2026-11-03-r18/** -text
+probes/2026-11-03-r19-domains/** -text
+readings/excel-20527/r18-*.json -text
+readings/excel-20527/r19-*.json -text

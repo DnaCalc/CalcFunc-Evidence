@@ -1,0 +1,262 @@
+{
+  "function": "BESSELI",
+  "selection": "R19 adaptive binary64 domain bisection; endpoint rechecks intentional",
+  "witnesses": [
+    {
+      "id": "r19-endpoints-besseli-022",
+      "args": [
+        "0x40862d999999999a",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-023",
+      "args": [
+        "0xc0862d999999999a",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-024",
+      "args": [
+        "0x40862d999999999b",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-025",
+      "args": [
+        "0xc0862d999999999b",
+        "0x0000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-026",
+      "args": [
+        "0x40862d999999999a",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-027",
+      "args": [
+        "0xc0862d999999999a",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-028",
+      "args": [
+        "0x40862d999999999b",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-029",
+      "args": [
+        "0xc0862d999999999b",
+        "0x3ff0000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-030",
+      "args": [
+        "0x40862d999999999a",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-031",
+      "args": [
+        "0xc0862d999999999a",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-032",
+      "args": [
+        "0x40862d999999999b",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-033",
+      "args": [
+        "0xc0862d999999999b",
+        "0x4000000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-034",
+      "args": [
+        "0x40862d999999999a",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-035",
+      "args": [
+        "0xc0862d999999999a",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-036",
+      "args": [
+        "0x40862d999999999b",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-037",
+      "args": [
+        "0xc0862d999999999b",
+        "0x4008000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-038",
+      "args": [
+        "0x40862d999999999a",
+        "0x4024000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-039",
+      "args": [
+        "0xc0862d999999999a",
+        "0x4024000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-040",
+      "args": [
+        "0x40862d999999999b",
+        "0x4024000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-041",
+      "args": [
+        "0xc0862d999999999b",
+        "0x4024000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-042",
+      "args": [
+        "0x40862d999999999a",
+        "0x4059000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-043",
+      "args": [
+        "0xc0862d999999999a",
+        "0x4059000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-044",
+      "args": [
+        "0x40862d999999999b",
+        "0x4059000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-045",
+      "args": [
+        "0xc0862d999999999b",
+        "0x4059000000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-046",
+      "args": [
+        "0x40862d999999999a",
+        "0x4098880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-047",
+      "args": [
+        "0xc0862d999999999a",
+        "0x4098880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-048",
+      "args": [
+        "0x40862d999999999b",
+        "0x4098880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-049",
+      "args": [
+        "0xc0862d999999999b",
+        "0x4098880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-050",
+      "args": [
+        "0x40862d999999999a",
+        "0x40c3880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-051",
+      "args": [
+        "0xc0862d999999999a",
+        "0x40c3880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-052",
+      "args": [
+        "0x40862d999999999b",
+        "0x40c3880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    },
+    {
+      "id": "r19-endpoints-besseli-053",
+      "args": [
+        "0xc0862d999999999b",
+        "0x40c3880000000000"
+      ],
+      "input_transport": "cell_value2_bulk"
+    }
+  ]
+}

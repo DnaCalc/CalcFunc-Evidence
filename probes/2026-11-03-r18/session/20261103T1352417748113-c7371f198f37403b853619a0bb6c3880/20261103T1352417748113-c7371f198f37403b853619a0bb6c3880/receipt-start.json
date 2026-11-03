@@ -1,0 +1,30 @@
+{
+  "format": "dnacalc-excel-session-job/1",
+  "id": "20261103T1352417748113-c7371f198f37403b853619a0bb6c3880",
+  "sequence": 3,
+  "environment": "witness",
+  "fresh_required": false,
+  "host_pid": 17432,
+  "started_utc": "2026-11-03T13:52:41.8367413Z",
+  "launches_before": 1,
+  "success": false,
+  "error": null,
+  "baseline_before": null,
+  "baseline_after": null,
+  "leakage": null,
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\YIELD-20261103T135239Z-1\\witness-worker.ps1",
+  "host_script_sha256": "cf55a7605a4f7f45411531b068a54b99731946a6e0880d7c781df19f875888fb",
+  "script_sha256": "3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+  "job": {
+    "id": "20261103T1352417748113-c7371f198f37403b853619a0bb6c3880",
+    "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\YIELD-20261103T135239Z-1\\witness-worker.ps1",
+    "parameters": {
+      "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\YIELD-20261103T135239Z-1\\request.json",
+      "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\YIELD-20261103T135239Z-1\\result.json"
+    },
+    "environment": "witness",
+    "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\YIELD-20261103T135239Z-1",
+    "fresh_required": false,
+    "timeout_seconds": 900
+  }
+}
