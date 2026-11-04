@@ -1,0 +1,24 @@
+{
+  "canonical": [
+    {
+      "inputs_sha256": "0b7a93c14f663a055c1dda3d97341183ff51314961cc2c2aaea93447a099d382",
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\BESSELI-4.json",
+      "unread": 0,
+      "function": "BESSELI",
+      "calls": 49
+    }
+  ],
+  "excel_launches": 0,
+  "packet_batches": 1,
+  "unread_calls": 0,
+  "requested_batches": 1,
+  "command_failure": null,
+  "jobs": 1,
+  "limits": "Raw answers and frozen predictions remain separate. Unread calls and unrun conditions are not passes.",
+  "batch_failures": [],
+  "failed": false,
+  "session_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\excel-session-r11",
+  "completed_functions": [
+    "BESSELI"
+  ]
+}

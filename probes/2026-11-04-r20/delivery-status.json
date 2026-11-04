@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "requested_calls": 44,
+  "recorded_calls": 44,
+  "unread_calls": 0,
+  "excel_launches": 0,
+  "canonical": [
+    {
+      "function": "HYPGEOM.DIST",
+      "calls": 8,
+      "unread": 0,
+      "path": "OxFunc-Evidence/readings/excel-20527/HYPGEOM.DIST.json",
+      "sha256": "5238046f1dea8be1840bd160992a8456b31688e7ca5964608142f7ec31c2a750"
+    },
+    {
+      "function": "BINOM.DIST",
+      "calls": 36,
+      "unread": 0,
+      "path": "OxFunc-Evidence/readings/excel-20527/BINOM.DIST.json",
+      "sha256": "97280bf79370b52c961ef59bdccb80fa629965e614be7ce3bddb30b85cbee057"
+    }
+  ],
+  "retained_preflight_failures": 1,
+  "limits": "The initial duplicate-call refusal remains in run-status.json. The unchanged BINOM packet was retried with explicit --repeat-calls; HYPGEOM was not repeated. These are worksheet calls sharing the existing owned process, not fresh-process replicates."
+}

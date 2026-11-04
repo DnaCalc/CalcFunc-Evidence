@@ -1,0 +1,13 @@
+{
+  "id": "20261104T0143210252561-1c36b58f24944438ac30efb14883ccba",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BINOM.DIST-20261104T014320Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BINOM.DIST-20261104T014320Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BINOM.DIST-20261104T014320Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\BINOM.DIST-20261104T014320Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900,
+  "packet_id": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r20\\retry-binom"
+}

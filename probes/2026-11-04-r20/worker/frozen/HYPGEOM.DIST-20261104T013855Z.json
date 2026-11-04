@@ -1,0 +1,204 @@
+{
+  "calc_func_commit": "7b5a71e69ed8256348b0d5d67992d452cfe6b391",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-04T01:38:55Z",
+  "function": "HYPGEOM.DIST",
+  "input_document": {
+    "function": "HYPGEOM.DIST",
+    "selection": "R20 fixed discriminating questions, with intentional recorded controls; no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4021000000000000",
+          "0x4008000000000000",
+          "0x4020333333333333",
+          "0x0000000000000000"
+        ],
+        "id": "r20-hypgeom-dist-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4021000000000000",
+          "0x4008000000000000",
+          "0x4020333333333333",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-hypgeom-dist-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4020333333333333",
+          "0x4008000000000000",
+          "0x4021000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r20-hypgeom-dist-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4020333333333333",
+          "0x4008000000000000",
+          "0x4021000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-hypgeom-dist-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4008000000000000",
+          "0x4021000000000000",
+          "0x4020333333333333",
+          "0x0000000000000000"
+        ],
+        "id": "r20-hypgeom-dist-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4008000000000000",
+          "0x4021000000000000",
+          "0x4020333333333333",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-hypgeom-dist-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4008000000000000",
+          "0x4020333333333333",
+          "0x4021000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r20-hypgeom-dist-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x0000000000000000",
+          "0x4008000000000000",
+          "0x4020333333333333",
+          "0x4021000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-hypgeom-dist-007",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-HYPGEOM.DIST.json",
+  "inputs_sha256": "57acc27e5516c7065b9b59b6cc49c841ae194270a65f1c8a3092cf1f695a9b81",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4021000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4021000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4020333333333333",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4020333333333333",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x4020333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x4020333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x4021000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x4021000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-007",
+      "result_index": null
+    }
+  ]
+}

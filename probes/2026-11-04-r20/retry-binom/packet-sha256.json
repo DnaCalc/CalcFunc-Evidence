@@ -1,0 +1,12 @@
+{
+  "application-predictions-BINOM.DIST.jsonl": "09ae8bb382637587c4ab57c32f13fa9ad967a91605f52423bae89ece52ca1350",
+  "application-predictions-HYPGEOM.DIST.jsonl": "ec46d2bfee7e70bed3076326432d916eae2f82fa533d94b832286f2e6f3a194f",
+  "application-route-audit.jsonl": "6341f85ed5c6a4fc06bf3a37a2d721abb0b4274f6b4cc756c439997ca8cd5538",
+  "application-route-inputs.jsonl": "7c9fb0b1f9ef1cb506d061bd92b94c706c781f2fe16af54d655043e97f8afb32",
+  "batches.json": "1a95192bc7508af2c86676eda1f84af9e956e51ce94dc9fe57227b305e844b93",
+  "manifest.json": "a2978c879796f06d7c6f385b86b8bb99c848cb0ea4bf4ba8211223f52108369a",
+  "README.txt": "98755676fc1103dd7d5a627a210504ac31823f2381679cbd8bcf4e61f632338e",
+  "requests-BINOM.DIST.json": "57943296ed8eff6216fcb5afabf893d2bc1ffadf8623bc0cb859f16cd7c5b563",
+  "requests-HYPGEOM.DIST.json": "57acc27e5516c7065b9b59b6cc49c841ae194270a65f1c8a3092cf1f695a9b81",
+  "selection.json": "7d923b79e20a5aa6e56079dfc3ad2ecef9370b8fc7d80345b4d99709384a8567"
+}

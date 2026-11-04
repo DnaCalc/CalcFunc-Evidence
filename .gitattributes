@@ -41,3 +41,9 @@ readings/excel-20527/TEXTBEFORE.json -text
 readings/excel-20527/TEXTSPLIT.json -text
 readings/excel-20527/UPPER.json -text
 readings/excel-20527/XMATCH.json -text
+
+# R20/R22 scalar deliveries retain original Windows bytes.
+probes/2026-11-04-r20/** -text
+probes/2026-11-04-r22/** -text
+readings/excel-20527/r20-*.json -text
+readings/excel-20527/r22-*.json -text

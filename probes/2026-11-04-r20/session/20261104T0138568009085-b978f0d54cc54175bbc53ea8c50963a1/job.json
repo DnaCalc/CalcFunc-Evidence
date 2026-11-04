@@ -1,0 +1,13 @@
+{
+  "id": "20261104T0138568009085-b978f0d54cc54175bbc53ea8c50963a1",
+  "script": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\HYPGEOM.DIST-20261104T013855Z-1\\witness-worker.ps1",
+  "parameters": {
+    "Request": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\HYPGEOM.DIST-20261104T013855Z-1\\request.json",
+    "Result": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\HYPGEOM.DIST-20261104T013855Z-1\\result.json"
+  },
+  "environment": "witness",
+  "working_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\witness\\read\\HYPGEOM.DIST-20261104T013855Z-1",
+  "fresh_required": false,
+  "timeout_seconds": 900,
+  "packet_id": "C:\\Work\\DnaCalc\\codex-runs\\excel-results-r20"
+}

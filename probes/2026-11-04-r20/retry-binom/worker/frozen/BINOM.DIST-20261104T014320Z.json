@@ -1,0 +1,777 @@
+{
+  "calc_func_commit": "7b5a71e69ed8256348b0d5d67992d452cfe6b391",
+  "format": "dnacalc-frozen-function-predictions/1",
+  "frozen_utc": "2026-11-04T01:43:20Z",
+  "function": "BINOM.DIST",
+  "input_document": {
+    "function": "BINOM.DIST",
+    "selection": "R20 fixed discriminating questions, with intentional recorded controls; no --new-only",
+    "witnesses": [
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fdfffffffffffff",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-000",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fdfffffffffffff",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-001",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-002",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-003",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-004",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-005",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-006",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000000",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-007",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000001",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-008",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x408f400000000000",
+          "0x3fe0000000000001",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-009",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fdffffffffffffe",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-010",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x408f380000000000",
+          "0x408f400000000000",
+          "0x3fdffffffffffffe",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-011",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333332",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-012",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333332",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-013",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666667",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-014",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666667",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-015",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333333",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-016",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333333",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-017",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666666",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-018",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666666",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-019",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333334",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-020",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x3ff0000000000000",
+          "0x4059000000000000",
+          "0x3fd3333333333334",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-021",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666666",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-022",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4058c00000000000",
+          "0x4059000000000000",
+          "0x3fe6666666666666",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-023",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147a",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-024",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147a",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-025",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-026",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-027",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147b",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-028",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147b",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-029",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-030",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-031",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147c",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-032",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4074d00000000000",
+          "0x408f400000000000",
+          "0x3f947ae147ae147c",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-033",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x0000000000000000"
+        ],
+        "id": "r20-binom-dist-034",
+        "input_transport": "cell_value2_bulk"
+      },
+      {
+        "args": [
+          "0x4084d80000000000",
+          "0x408f400000000000",
+          "0x3fef5c28f5c28f5c",
+          "0x3ff0000000000000"
+        ],
+        "id": "r20-binom-dist-035",
+        "input_transport": "cell_value2_bulk"
+      }
+    ]
+  },
+  "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-BINOM.DIST.json",
+  "inputs_sha256": "57943296ed8eff6216fcb5afabf893d2bc1ffadf8623bc0cb859f16cd7c5b563",
+  "model_source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model_source_dirty": false,
+  "novelty": null,
+  "numeric_mode": "Fast",
+  "predictions": [
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fdfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f400000000866",
+      "id": "r20-binom-dist-000",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fdfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f480000000867",
+      "id": "r20-binom-dist-001",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f40000000047e",
+      "id": "r20-binom-dist-002",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "id": "r20-binom-dist-003",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f400000000866",
+      "id": "r20-binom-dist-004",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f480000000867",
+      "id": "r20-binom-dist-005",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f40000000047e",
+      "id": "r20-binom-dist-006",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "id": "r20-binom-dist-007",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f3ffffffff8c6",
+      "id": "r20-binom-dist-008",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000001",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f47fffffff8c5",
+      "id": "r20-binom-dist-009",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fdffffffffffffe",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f3ffffffff8c6",
+      "id": "r20-binom-dist-010",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fdffffffffffffe",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "id": "r20-binom-dist-011",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333332",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279fb8",
+      "id": "r20-binom-dist-012",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333332",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf63b",
+      "id": "r20-binom-dist-013",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666667",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279fb8",
+      "id": "r20-binom-dist-014",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666667",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffd",
+      "id": "r20-binom-dist-015",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f7a",
+      "id": "r20-binom-dist-016",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf5fa",
+      "id": "r20-binom-dist-017",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "id": "r20-binom-dist-018",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "id": "r20-binom-dist-019",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333334",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "id": "r20-binom-dist-020",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333334",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf5da",
+      "id": "r20-binom-dist-021",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "id": "r20-binom-dist-022",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "id": "r20-binom-dist-023",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bd886",
+      "id": "r20-binom-dist-024",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147a",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "id": "r20-binom-dist-025",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "id": "r20-binom-dist-026",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "id": "r20-binom-dist-027",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bdff5",
+      "id": "r20-binom-dist-028",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147b",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffe",
+      "id": "r20-binom-dist-029",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "id": "r20-binom-dist-030",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "id": "r20-binom-dist-031",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bdff5",
+      "id": "r20-binom-dist-032",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffd",
+      "id": "r20-binom-dist-033",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "id": "r20-binom-dist-034",
+      "result_index": null
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "id": "r20-binom-dist-035",
+      "result_index": null
+    }
+  ],
+  "repeat_calls": true
+}

@@ -1,0 +1,24 @@
+{
+  "session_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\excel-session-r11",
+  "canonical": [
+    {
+      "inputs_sha256": "57943296ed8eff6216fcb5afabf893d2bc1ffadf8623bc0cb859f16cd7c5b563",
+      "unread": 0,
+      "function": "BINOM.DIST",
+      "calls": 36,
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\BINOM.DIST.json"
+    }
+  ],
+  "requested_batches": 1,
+  "batch_failures": [],
+  "limits": "Raw answers and frozen predictions remain separate. Unread calls and unrun conditions are not passes.",
+  "packet_batches": 2,
+  "unread_calls": 0,
+  "jobs": 1,
+  "excel_launches": 0,
+  "completed_functions": [
+    "BINOM.DIST"
+  ],
+  "failed": false,
+  "command_failure": null
+}

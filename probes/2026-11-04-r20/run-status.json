@@ -1,0 +1,28 @@
+{
+  "batch_failures": [
+    {
+      "function": "BINOM.DIST",
+      "error": "cargo xtask witness read --func BINOM.DIST --inputs C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-BINOM.DIST.json --timeout 900 exited 1; see C:\\Work\\DnaCalc\\codex-runs\\excel-results-r20\\read-BINOM.DIST.txt"
+    }
+  ],
+  "requested_batches": 2,
+  "completed_functions": [
+    "HYPGEOM.DIST"
+  ],
+  "jobs": 1,
+  "limits": "Raw answers and frozen predictions remain separate. Unread calls and unrun conditions are not passes.",
+  "session_directory": "C:\\Work\\DnaCalc\\DnaCalc-win\\target\\excel-session-r11",
+  "command_failure": null,
+  "excel_launches": 0,
+  "canonical": [
+    {
+      "function": "HYPGEOM.DIST",
+      "inputs_sha256": "57acc27e5516c7065b9b59b6cc49c841ae194270a65f1c8a3092cf1f695a9b81",
+      "unread": 0,
+      "path": "OxFunc-Evidence\\readings\\excel-20527\\HYPGEOM.DIST.json",
+      "calls": 8
+    }
+  ],
+  "unread_calls": 0,
+  "failed": true
+}

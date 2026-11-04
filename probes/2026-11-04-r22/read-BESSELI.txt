@@ -1,0 +1,2 @@
+xtask witness: BESSELI: froze 49 model predictions before Excel at C:\Work\DnaCalc\DnaCalc-win\target/witness/frozen\BESSELI-20261104T014853Z.json
+xtask witness: BESSELI: read 49 rows on Excel 16.0 build 20527 (64-bit, Windows, AMD Ryzen 7 4800H with Radeon Graphics         ): 49 equal the frozen model prediction, 0 differ, 0 unread; 0 transport audit observations (0 failed audit obligations); 0 not asked (array arguments); wrote C:\Work\DnaCalc\OxFunc-Evidence\readings\excel-20527\BESSELI-4.json

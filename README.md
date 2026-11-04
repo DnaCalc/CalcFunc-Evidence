@@ -141,3 +141,14 @@ observations. Every other observation remains a failure. These new captures
 add evidence coverage; they are separate from numerical implementation gains.
 The independent intake receipts and bank coverage comparison are published in
 DnaCalc-Research `evidence/round20/`.
+
+R20 and R22 scalar deliveries received on 2026-11-04 are retained byte-for-byte
+under probes/2026-11-04-r20 and probes/2026-11-04-r22. R20 records44 calls
+(BINOM.DIST36,HYPGEOM.DIST8); its initial duplicate-call preflight refusal and
+nested retry are retained. R22 records49 BESSELI calls. Canonical reader exports
+are appended as r20-*.json and r22-*.json, with original predictions and all
+requested/submitted/Value2 audits separate from Excel answers. The registered
+software route matches61/93 observations and fails32; these are new evidence
+coverage, not numerical implementation gains. There are no unread calls.
+The105 R22 QR workbook questions have no delivered capture and remain pending.
+DnaCalc-Research evidence/round23 retains the independent intake and scoring receipts.

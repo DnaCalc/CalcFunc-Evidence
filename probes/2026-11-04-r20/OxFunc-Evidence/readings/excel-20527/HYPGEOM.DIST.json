@@ -1,0 +1,656 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-04T01:39:27Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "7b5a71e69ed8256348b0d5d67992d452cfe6b391",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\HYPGEOM.DIST-20261104T013855Z.json",
+      "frozen_sha256": "9f85df7a6b01c01f0224ff22ca8ac4d96c55397b76b168b5921d472a3bd9eb8d",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-HYPGEOM.DIST.json",
+      "inputs_sha256": "57acc27e5516c7065b9b59b6cc49c841ae194270a65f1c8a3092cf1f695a9b81",
+      "novelty": null,
+      "selection": "R20 fixed discriminating questions, with intentional recorded controls; no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-HYPGEOM.DIST.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:cae4dce8d81416cee9adb3acbd75c8448893267fd4d38d6dd6344870d072d8bc; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "HYPGEOM.DIST",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-000",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-001",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-002",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-003",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-004",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-005",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-006",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=HYPGEOM.DIST(RC[1],RC[2],RC[3],RC[4],RC[5])",
+        "read_back": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "0000000000000000"
+          },
+          {
+            "number": "4008000000000000"
+          },
+          {
+            "number": "4020333333333333"
+          },
+          {
+            "number": "4021000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-hypgeom-dist-007",
+      "observed_raw": {
+        "number": "0000000000000000"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4021000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-000"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4021000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-001"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4020333333333333",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-002"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4020333333333333",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-003"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x4020333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-004"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4021000000000000",
+        "0x4020333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-005"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x4021000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-006"
+    },
+    {
+      "args": [
+        "0x0000000000000000",
+        "0x4008000000000000",
+        "0x4020333333333333",
+        "0x4021000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x0000000000000000",
+      "expected_bits": "0x0000000000000000",
+      "id": "r20-hypgeom-dist-007"
+    }
+  ]
+}

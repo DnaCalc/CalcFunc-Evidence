@@ -1,0 +1,2424 @@
+{
+  "capture_provenance": {
+    "automation_security_after": 1,
+    "automation_security_before": 1,
+    "calculation_settings": {
+      "CompatibilityVersion": 2,
+      "Date1904": false,
+      "DecimalSeparator": ".",
+      "PrecisionAsDisplayed": false,
+      "ThousandsSeparator": " ",
+      "UseSystemSeparators": true,
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": []
+    },
+    "captured_utc": "2026-11-04T01:43:41Z",
+    "environment": {
+      "cpu_id": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "excel_bitness": "64-bit",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20088",
+      "excel_input_plumbing": "cell_value2_bulk",
+      "excel_operating_system": "Microsoft Windows NT 10.0.26200.0",
+      "excel_version": "16.0",
+      "platform": "Windows"
+    },
+    "frozen_model_predictions": {
+      "calc_func_commit": "7b5a71e69ed8256348b0d5d67992d452cfe6b391",
+      "formula_literal_ids": [],
+      "frozen_path": "C:\\Work\\DnaCalc\\DnaCalc-win\\target/witness/frozen\\BINOM.DIST-20261104T014320Z.json",
+      "frozen_sha256": "7275d57e02af293ae13ad994debb3cb2691d8a0f7cbfa79f6b3dd1e819897ab7",
+      "inputs_path": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-BINOM.DIST.json",
+      "inputs_sha256": "57943296ed8eff6216fcb5afabf893d2bc1ffadf8623bc0cb859f16cd7c5b563",
+      "novelty": null,
+      "selection": "R20 fixed discriminating questions, with intentional recorded controls; no --new-only"
+    },
+    "inputs": "C:\\Work\\DnaCalc\\codex-runs\\excel-questions-r20\\requests-BINOM.DIST.json",
+    "reader": "calc-oracle-excel 0.1.0; worker results 1; worker sha256:cae4dce8d81416cee9adb3acbd75c8448893267fd4d38d6dd6344870d072d8bc; witness worker sha256:3f716c7cda564233ec9ffc8efb53816ea4d0ad92c567c739c6b61f702e7ac0da",
+    "schema_version": "dnacalc-witness-reading/1"
+  },
+  "function": "BINOM.DIST",
+  "input_audits": [
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-000",
+      "observed_raw": {
+        "number": "020f400000000092"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdfffffffffffff"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-001",
+      "observed_raw": {
+        "number": "020f48000000027c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-002",
+      "observed_raw": {
+        "number": "020f400000000092"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-003",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-004",
+      "observed_raw": {
+        "number": "020f400000000092"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-005",
+      "observed_raw": {
+        "number": "020f48000000027d"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-006",
+      "observed_raw": {
+        "number": "020f400000000092"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000000"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-007",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-008",
+      "observed_raw": {
+        "number": "020f3ffffffff8c2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fe0000000000001"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-009",
+      "observed_raw": {
+        "number": "020f47fffffffaac"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-010",
+      "observed_raw": {
+        "number": "020f3ffffffff8c2"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "408f380000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fdffffffffffffe"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-011",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-012",
+      "observed_raw": {
+        "number": "3d0f36ec5b279ff8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333332"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-013",
+      "observed_raw": {
+        "number": "3d0ff160cdebf6a3"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-014",
+      "observed_raw": {
+        "number": "3d0f36ec5b279ff8"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666667"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-015",
+      "observed_raw": {
+        "number": "3feffffffffffffd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-016",
+      "observed_raw": {
+        "number": "3d0f36ec5b279fba"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333333"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-017",
+      "observed_raw": {
+        "number": "3d0ff160cdebf662"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-018",
+      "observed_raw": {
+        "number": "3d0f36ec5b279f9b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-019",
+      "observed_raw": {
+        "number": "3feffffffffffffd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-020",
+      "observed_raw": {
+        "number": "3d0f36ec5b279f9b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "3ff0000000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fd3333333333334"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-021",
+      "observed_raw": {
+        "number": "3d0ff160cdebf625"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-022",
+      "observed_raw": {
+        "number": "3d0f36ec5b279f9b"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4058c00000000000"
+          },
+          {
+            "number": "4059000000000000"
+          },
+          {
+            "number": "3fe6666666666666"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-023",
+      "observed_raw": {
+        "number": "3feffffffffffffd"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-024",
+      "observed_raw": {
+        "number": "024db9fd1c6bd4ce"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147a"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-025",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-026",
+      "observed_raw": {
+        "number": "024db9fd1c6be3aa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-027",
+      "observed_raw": {
+        "number": "024efd3fa03d6eaa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-028",
+      "observed_raw": {
+        "number": "024db9fd1c6bdc3c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147b"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-029",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-030",
+      "observed_raw": {
+        "number": "024db9fd1c6be3aa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-031",
+      "observed_raw": {
+        "number": "024efd3fa03d6eaa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-032",
+      "observed_raw": {
+        "number": "024db9fd1c6bdc3c"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4074d00000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3f947ae147ae147c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-033",
+      "observed_raw": {
+        "number": "3ff0000000000000"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "0000000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-034",
+      "observed_raw": {
+        "number": "024db9fd1c6be3aa"
+      },
+      "reading_failure": null
+    },
+    {
+      "audit": {
+        "argument_literals": null,
+        "effective_callee_inputs": "not directly observable",
+        "formula": "=BINOM.DIST(RC[1],RC[2],RC[3],RC[4])",
+        "read_back": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "requested": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "submitted_value2": [
+          {
+            "number": "4084d80000000000"
+          },
+          {
+            "number": "408f400000000000"
+          },
+          {
+            "number": "3fef5c28f5c28f5c"
+          },
+          {
+            "number": "3ff0000000000000"
+          }
+        ],
+        "transport": "cell_value2_bulk"
+      },
+      "id": "r20-binom-dist-035",
+      "observed_raw": {
+        "number": "024efd3fa03d6eaa"
+      },
+      "reading_failure": null
+    }
+  ],
+  "transport_audit_readings": [],
+  "unread": [],
+  "witnesses": [
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fdfffffffffffff",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f400000000866",
+      "expected_bits": "0x020f400000000092",
+      "id": "r20-binom-dist-000"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fdfffffffffffff",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f480000000867",
+      "expected_bits": "0x020f48000000027c",
+      "id": "r20-binom-dist-001"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f40000000047e",
+      "expected_bits": "0x020f400000000092",
+      "id": "r20-binom-dist-002"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-003"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f400000000866",
+      "expected_bits": "0x020f400000000092",
+      "id": "r20-binom-dist-004"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f480000000867",
+      "expected_bits": "0x020f48000000027d",
+      "id": "r20-binom-dist-005"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f40000000047e",
+      "expected_bits": "0x020f400000000092",
+      "id": "r20-binom-dist-006"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000000",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-007"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000001",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f3ffffffff8c6",
+      "expected_bits": "0x020f3ffffffff8c2",
+      "id": "r20-binom-dist-008"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x408f400000000000",
+        "0x3fe0000000000001",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x020f47fffffff8c5",
+      "expected_bits": "0x020f47fffffffaac",
+      "id": "r20-binom-dist-009"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fdffffffffffffe",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x020f3ffffffff8c6",
+      "expected_bits": "0x020f3ffffffff8c2",
+      "id": "r20-binom-dist-010"
+    },
+    {
+      "args": [
+        "0x408f380000000000",
+        "0x408f400000000000",
+        "0x3fdffffffffffffe",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3ff0000000000000",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-011"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333332",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279fb8",
+      "expected_bits": "0x3d0f36ec5b279ff8",
+      "id": "r20-binom-dist-012"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333332",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf63b",
+      "expected_bits": "0x3d0ff160cdebf6a3",
+      "id": "r20-binom-dist-013"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666667",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279fb8",
+      "expected_bits": "0x3d0f36ec5b279ff8",
+      "id": "r20-binom-dist-014"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666667",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffd",
+      "expected_bits": "0x3feffffffffffffd",
+      "id": "r20-binom-dist-015"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333333",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f7a",
+      "expected_bits": "0x3d0f36ec5b279fba",
+      "id": "r20-binom-dist-016"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333333",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf5fa",
+      "expected_bits": "0x3d0ff160cdebf662",
+      "id": "r20-binom-dist-017"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "expected_bits": "0x3d0f36ec5b279f9b",
+      "id": "r20-binom-dist-018"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "expected_bits": "0x3feffffffffffffd",
+      "id": "r20-binom-dist-019"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333334",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "expected_bits": "0x3d0f36ec5b279f9b",
+      "id": "r20-binom-dist-020"
+    },
+    {
+      "args": [
+        "0x3ff0000000000000",
+        "0x4059000000000000",
+        "0x3fd3333333333334",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3d0ff160cdebf5da",
+      "expected_bits": "0x3d0ff160cdebf625",
+      "id": "r20-binom-dist-021"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x3d0f36ec5b279f5a",
+      "expected_bits": "0x3d0f36ec5b279f9b",
+      "id": "r20-binom-dist-022"
+    },
+    {
+      "args": [
+        "0x4058c00000000000",
+        "0x4059000000000000",
+        "0x3fe6666666666666",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "expected_bits": "0x3feffffffffffffd",
+      "id": "r20-binom-dist-023"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147a",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bd886",
+      "expected_bits": "0x024db9fd1c6bd4ce",
+      "id": "r20-binom-dist-024"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147a",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffc",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-025"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "expected_bits": "0x024db9fd1c6be3aa",
+      "id": "r20-binom-dist-026"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "expected_bits": "0x024efd3fa03d6eaa",
+      "id": "r20-binom-dist-027"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147b",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bdff5",
+      "expected_bits": "0x024db9fd1c6bdc3c",
+      "id": "r20-binom-dist-028"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147b",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffe",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-029"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "expected_bits": "0x024db9fd1c6be3aa",
+      "id": "r20-binom-dist-030"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "expected_bits": "0x024efd3fa03d6eaa",
+      "id": "r20-binom-dist-031"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6bdff5",
+      "expected_bits": "0x024db9fd1c6bdc3c",
+      "id": "r20-binom-dist-032"
+    },
+    {
+      "args": [
+        "0x4074d00000000000",
+        "0x408f400000000000",
+        "0x3f947ae147ae147c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x3feffffffffffffd",
+      "expected_bits": "0x3ff0000000000000",
+      "id": "r20-binom-dist-033"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x0000000000000000"
+      ],
+      "calc_func_prediction": "0x024db9fd1c6be763",
+      "expected_bits": "0x024db9fd1c6be3aa",
+      "id": "r20-binom-dist-034"
+    },
+    {
+      "args": [
+        "0x4084d80000000000",
+        "0x408f400000000000",
+        "0x3fef5c28f5c28f5c",
+        "0x3ff0000000000000"
+      ],
+      "calc_func_prediction": "0x024efd3fa03d7341",
+      "expected_bits": "0x024efd3fa03d6eaa",
+      "id": "r20-binom-dist-035"
+    }
+  ]
+}
