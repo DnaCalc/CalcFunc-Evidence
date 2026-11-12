@@ -1,0 +1,338 @@
+{
+  "requests": [
+    [
+      "POWER",
+      [
+        [
+          {
+            "type": "number",
+            "bits": "4084daa406431804"
+          },
+          {
+            "type": "number",
+            "bits": "bfe0000000000000"
+          }
+        ]
+      ]
+    ],
+    [
+      "SERIESSUM",
+      [
+        [
+          {
+            "type": "number",
+            "bits": "4084daa406431804"
+          },
+          {
+            "type": "number",
+            "bits": "bfe0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "4024000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3929867d9c7b0918"
+          }
+        ]
+      ]
+    ],
+    [
+      "SERIESSUM",
+      [
+        [
+          {
+            "type": "number",
+            "bits": "c020000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fd5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c020000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "bfd5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c040000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fc999999999999a"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c03b000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fe5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ]
+      ]
+    ]
+  ],
+  "replies": [
+    {
+      "version": 1,
+      "id": "9c847ce0e3184fab91753b9941247f42",
+      "ok": true,
+      "rows": [
+        {
+          "type": "number",
+          "bits": "3fa3d1df6d848791"
+        }
+      ],
+      "inputs": [
+        [
+          {
+            "type": "number",
+            "bits": "4084daa406431804"
+          },
+          {
+            "type": "number",
+            "bits": "bfe0000000000000"
+          }
+        ]
+      ],
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20150",
+      "excel_pid": null,
+      "calculation_settings": {
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": [],
+        "PrecisionAsDisplayed": false,
+        "Date1904": false,
+        "CompatibilityVersion": 2,
+        "UseSystemSeparators": true,
+        "DecimalSeparator": ".",
+        "ThousandsSeparator": "\u00a0"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1,
+      "env_id": "29bedb2b6722",
+      "machine": "GOVERT-OMEN",
+      "timestamp": "2026-11-12T11:56:46.324649+00:00",
+      "service_seconds": 0.23980465903878212,
+      "request_sha256": null
+    },
+    {
+      "version": 1,
+      "id": "3572e5a8a31e4fc883becebfdd226f54",
+      "ok": true,
+      "rows": [
+        {
+          "type": "number",
+          "bits": "38df9e8663cc7c72"
+        }
+      ],
+      "inputs": [
+        [
+          {
+            "type": "number",
+            "bits": "4084daa406431804"
+          },
+          {
+            "type": "number",
+            "bits": "bfe0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "4024000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3929867d9c7b0918"
+          }
+        ]
+      ],
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20150",
+      "excel_pid": null,
+      "calculation_settings": {
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": [],
+        "PrecisionAsDisplayed": false,
+        "Date1904": false,
+        "CompatibilityVersion": 2,
+        "UseSystemSeparators": true,
+        "DecimalSeparator": ".",
+        "ThousandsSeparator": "\u00a0"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1,
+      "env_id": "29bedb2b6722",
+      "machine": "GOVERT-OMEN",
+      "timestamp": "2026-11-12T11:56:46.324244+00:00",
+      "service_seconds": 0.2392818182706833,
+      "request_sha256": null
+    },
+    {
+      "version": 1,
+      "id": "530e7d10ddb04c9ebe37fe2707788f2d",
+      "ok": true,
+      "rows": [
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        }
+      ],
+      "inputs": [
+        [
+          {
+            "type": "number",
+            "bits": "c020000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fd5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c020000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "bfd5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c040000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fc999999999999a"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ],
+        [
+          {
+            "type": "number",
+            "bits": "c03b000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3fe5555555555555"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          },
+          {
+            "type": "number",
+            "bits": "3ff0000000000000"
+          }
+        ]
+      ],
+      "excel_version": "16.0",
+      "excel_build": "20527",
+      "excel_file_version": "16.0.20527.20150",
+      "excel_pid": null,
+      "calculation_settings": {
+        "calculation": -4135,
+        "compatibility_version": null,
+        "unavailable": [],
+        "PrecisionAsDisplayed": false,
+        "Date1904": false,
+        "CompatibilityVersion": 2,
+        "UseSystemSeparators": true,
+        "DecimalSeparator": ".",
+        "ThousandsSeparator": "\u00a0"
+      },
+      "automation_security_before": 1,
+      "automation_security_after": 1,
+      "env_id": "02cb49a79d1f",
+      "machine": "GOVERT-OMEN",
+      "timestamp": "2026-11-12T11:56:46.321995+00:00",
+      "service_seconds": 0.23594052158296108,
+      "request_sha256": null
+    }
+  ]
+}
