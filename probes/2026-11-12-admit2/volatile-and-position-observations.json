@@ -1,0 +1,367 @@
+{
+  "NOW": {
+    "version": 1,
+    "id": "4dbb2691f6374d25861b25c7d6ad0be2",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "40e6a05341fcc0e8"
+      }
+    ],
+    "inputs": [
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:44.924159+00:00",
+    "service_seconds": 0.26793950400315225,
+    "request_sha256": null
+  },
+  "TODAY": {
+    "version": 1,
+    "id": "9513e8ce351b4cdcb562fe9ed700a7f4",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "40e6a04000000000"
+      }
+    ],
+    "inputs": [
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:45.146929+00:00",
+    "service_seconds": 0.22241139691323042,
+    "request_sha256": null
+  },
+  "RAND": {
+    "version": 1,
+    "id": "3499023d341849f3954802e59945e42b",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "3fc1993f60f27858"
+      },
+      {
+        "type": "number",
+        "bits": "3f7ac9aeb0faa680"
+      },
+      {
+        "type": "number",
+        "bits": "3fe16186d944eb76"
+      },
+      {
+        "type": "number",
+        "bits": "3fe5d60362f1afea"
+      },
+      {
+        "type": "number",
+        "bits": "3fef3c500bbaa2a6"
+      },
+      {
+        "type": "number",
+        "bits": "3fe239a7aced909d"
+      },
+      {
+        "type": "number",
+        "bits": "3fee6787e27b04f2"
+      },
+      {
+        "type": "number",
+        "bits": "3fc75980dad0c398"
+      },
+      {
+        "type": "number",
+        "bits": "3fe4087d13897da0"
+      },
+      {
+        "type": "number",
+        "bits": "3fde4c777b68239a"
+      }
+    ],
+    "inputs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:45.405257+00:00",
+    "service_seconds": 0.25776977301575243,
+    "request_sha256": null
+  },
+  "RANDBETWEEN": {
+    "version": 1,
+    "id": "f2d5f7a3548045c0857207982b66e5fe",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "4044800000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4026000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "404d800000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4050c00000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4042800000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4050400000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4053800000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4058000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4052400000000000"
+      }
+    ],
+    "inputs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:45.626568+00:00",
+    "service_seconds": 0.22063609305769205,
+    "request_sha256": null
+  },
+  "RANDARRAY": {
+    "version": 1,
+    "id": "c0a396d4f94644d0bd3d6ca020c6e61b",
+    "ok": true,
+    "rows": [
+      {
+        "type": "array",
+        "rows": 2,
+        "cols": 2,
+        "values": [
+          [
+            {
+              "type": "number",
+              "bits": "3fdf3f2b76cf6040"
+            },
+            {
+              "type": "number",
+              "bits": "3f5577e88cea9400"
+            }
+          ],
+          [
+            {
+              "type": "number",
+              "bits": "3fec5289a03b8e3a"
+            },
+            {
+              "type": "number",
+              "bits": "3fd87d741fa991e8"
+            }
+          ]
+        ]
+      }
+    ],
+    "inputs": [
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:45.867461+00:00",
+    "service_seconds": 0.24032447999343276,
+    "request_sha256": null
+  },
+  "ROW": {
+    "version": 1,
+    "id": "b11f161cb573455b85f8557aed18a209",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    "inputs": [
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:46.141903+00:00",
+    "service_seconds": 0.27372058597393334,
+    "request_sha256": null
+  },
+  "COLUMN": {
+    "version": 1,
+    "id": "ed6e5ecc1c6646aea244316f03909157",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    "inputs": [
+      null
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T12:26:46.428585+00:00",
+    "service_seconds": 0.2859901739284396,
+    "request_sha256": null
+  }
+}
