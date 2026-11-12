@@ -1,0 +1,816 @@
+{
+  "inputs": [
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4008000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "bff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff8000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "bfe0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "54b249ad2594c37d"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "2b2bff2ee48e0530"
+      },
+      {
+        "type": "number",
+        "bits": "4008cccccccccccd"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "54b249ad2594c37d"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4090040000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "c090c80000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "54b249ad2594c37d"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fe0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "54b249ad2594c37d"
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fe0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fe0000000000000"
+      },
+      {
+        "type": "array",
+        "values": [
+          [
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            },
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            },
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fe0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fe0000000000000"
+      },
+      {
+        "type": "array",
+        "values": [
+          [
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            },
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            },
+            {
+              "type": "number",
+              "bits": "3ff0000000000000"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "text",
+        "value": "1",
+        "mode": "cell"
+      }
+    ]
+  ],
+  "reply": {
+    "version": 1,
+    "id": "76089be84a5249849ea1bb9cd235635f",
+    "ok": true,
+    "rows": [
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4010000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "c020000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3ff0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "bfe0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fd0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "3fd0000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "error",
+        "code": "#NUM!"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "14550a6110d6a75d"
+      },
+      {
+        "type": "error",
+        "code": "#NUM!"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "0000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "c000000000000000"
+      },
+      {
+        "type": "number",
+        "bits": "4018f876ccdf6cd9"
+      },
+      {
+        "type": "number",
+        "bits": "4000000000000000"
+      }
+    ],
+    "inputs": [
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "4008000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "bff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff8000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "bfe0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "0000000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "54b249ad2594c37d"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "2b2bff2ee48e0530"
+        },
+        {
+          "type": "number",
+          "bits": "4008cccccccccccd"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "54b249ad2594c37d"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "4090040000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "c090c80000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "54b249ad2594c37d"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3fe0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "54b249ad2594c37d"
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "c000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3fe0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3fe0000000000000"
+        },
+        {
+          "type": "array",
+          "values": [
+            [
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              },
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              },
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3fe0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3fe0000000000000"
+        },
+        {
+          "type": "array",
+          "values": [
+            [
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              },
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              },
+              {
+                "type": "number",
+                "bits": "3ff0000000000000"
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "number",
+          "bits": "4000000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "number",
+          "bits": "3ff0000000000000"
+        },
+        {
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    ],
+    "excel_version": "16.0",
+    "excel_build": "20527",
+    "excel_file_version": "16.0.20527.20150",
+    "excel_pid": null,
+    "calculation_settings": {
+      "calculation": -4135,
+      "compatibility_version": null,
+      "unavailable": [],
+      "PrecisionAsDisplayed": false,
+      "Date1904": false,
+      "CompatibilityVersion": 2,
+      "UseSystemSeparators": true,
+      "DecimalSeparator": ".",
+      "ThousandsSeparator": "\u00a0"
+    },
+    "automation_security_before": 1,
+    "automation_security_after": 1,
+    "env_id": "29bedb2b6722",
+    "machine": "GOVERT-OMEN",
+    "timestamp": "2026-11-12T11:31:07.104065+00:00",
+    "service_seconds": 0.2308920882642269,
+    "request_sha256": null
+  }
+}
