@@ -2324,7 +2324,7 @@
    "formula": "=FORMULATEXT(H10)",
    "layout_sha": "fddc14a081fe69ec9da0942553c7202c967420e3f2e9f6f30e1dda905ec41f28",
    "answer": {
-    "value": "unread:probe-cell-format-inherited",
+    "value": "text:=FORMULATEXT(H10)",
     "spill": null
    }
   },
@@ -10122,6 +10122,14 @@
   "cases_per_second": 58.6,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
   "timestamp": "2026-11-16T07:34:16Z",
-  "unread_note": "1 cases answered with their own formula text: an earlier case of the same layout left the probe cell text-formatted (Excel gives a formula cell the @ format of a text cell it reads) and the worker cleared only its contents; to be asked again with the worker fix"
+  "reasked": {
+   "cases": 1,
+   "one_per_request": true,
+   "envs": [
+    "145016f4397d"
+   ],
+   "seconds": 0.8,
+   "timestamp": "2026-11-16T11:11:26Z"
+  }
  }
 }
