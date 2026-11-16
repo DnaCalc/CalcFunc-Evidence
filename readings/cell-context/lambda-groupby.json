@@ -31323,7 +31323,7 @@
    "formula": "=GROUPBY(A2:A9,C2:C9,SUM)",
    "layout_sha": "bc439f50554590fd2109563e8593c26d155e850d80846d6a6368b52b6c3af4ac",
    "answer": {
-    "value": "text:=GROUPBY(A2:A9,C2:C9,SUM)",
+    "value": "unread:probe-cell-format-inherited",
     "spill": null
    }
   },
@@ -31534,6 +31534,7 @@
   },
   "cases_per_second": 58.7,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
-  "timestamp": "2026-11-16T07:33:55Z"
+  "timestamp": "2026-11-16T07:33:55Z",
+  "unread_note": "1 cases answered with their own formula text: an earlier case of the same layout left the probe cell text-formatted (Excel gives a formula cell the @ format of a text cell it reads) and the worker cleared only its contents; to be asked again with the worker fix"
  }
 }
