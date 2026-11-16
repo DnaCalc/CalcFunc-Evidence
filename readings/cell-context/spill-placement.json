@@ -105,6 +105,22 @@
     }
    ],
    "names": {}
+  },
+  "own": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "B1": "0x3feccccccccccccd",
+      "C1": "0x3ff0000000000000",
+      "D1": "text:-1",
+      "E1": "0x4076d00000000000",
+      "G6": "0x4014000000000000",
+      "H6": "0x4018000000000000"
+     }
+    }
+   ],
+   "names": {}
   }
  },
  "cases": [
@@ -1756,6 +1772,398 @@
     "value": "error:Spill",
     "spill": null
    }
+  },
+  {
+   "id": "own-00",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=OFFSET(B1,C1,D1,E1)",
+   "layout_sha": "73927cf2f7615f81f777b7424b577a1d0357cfea80eb87d3e550b552942f4880",
+   "answer": {
+    "value": "unread:spill-larger-than-the-bound",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-01",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=OFFSET(B1,1,-1,3)",
+   "layout_sha": "ca87b9bfb3133f6c2091764d66667a91940018dffba5c3c50612f070a4fe08b7",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-02",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=OFFSET(A1,1,0,3)",
+   "layout_sha": "3ab841c9127cc483ba217e2d18f969d9583b7a699099b1a769bd655e12e92cbe",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-03",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=A2:A4",
+   "layout_sha": "709cbc6fd0fef98ef7f73ee0730300fce13ce6f0c5062454c8ef0efc5da888a7",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-04",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=A2:A4*1",
+   "layout_sha": "909c9be057dd789c251cc2add29a17a2fcc37d1e9aec2f0ddc427dc35faced3d",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-05",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=A2:A4&\"\"",
+   "layout_sha": "3e375a75bd3f1dd76fe278f33cc078907461b1f1c937d69dfea833116889ba13",
+   "answer": {
+    "value": "text:",
+    "spill": [
+     [
+      "text:"
+     ],
+     [
+      "text:"
+     ],
+     [
+      "text:"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-06",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=SEQUENCE(3)+A3",
+   "layout_sha": "12afff9bb5fd6d1a8d84c84789e1a50fdaf1e920d9eed995b3e68d397ec23da3",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x4000000000000000"
+     ],
+     [
+      "0x4008000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-07",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=SUM(A2:A3)+SEQUENCE(3)",
+   "layout_sha": "eaaae23ca17b603ca2e7b0f163436c4b975e69a59fd8f4d38dbaa12d847248f4",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x4000000000000000"
+     ],
+     [
+      "0x4008000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-08",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=A2:A6",
+   "layout_sha": "00c1ea7a609684233ee5bc84f879b0155c38dfa7023d0a391e5d125cb5fcd5af",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-09",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=OFFSET(A1,1,0,6)",
+   "layout_sha": "03f2cebc31eefe7f3931cf22e94f2929157f18b885b9daff4a449bfd10245093",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-10",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=TRANSPOSE(B1:B3)",
+   "layout_sha": "2a442e13f0e6d15f2af99da875374c3f4cc677c0f6f10fc6543cf92e9f71779b",
+   "answer": {
+    "value": "error:Spill",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-11",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=IF(TRUE,A2:A4)",
+   "layout_sha": "86936778c72ccff755c9cd2b81772baefb4f441e0c1d77dad5f6b8eb27c5a90d",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-12",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=INDEX(A2:A10,0)",
+   "layout_sha": "9117b4a7827c5b336daef706f5c41c5b1fc251d660f8704be687fc3f8102bbac",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-13",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=ROWS(A2:A4)+SEQUENCE(3)",
+   "layout_sha": "f2ab7f0b8ebbfcb511504c12318d62c765ddad7b9c3f456c60bfe4691b9c4471",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": [
+     [
+      "0x4010000000000000"
+     ],
+     [
+      "0x4014000000000000"
+     ],
+     [
+      "0x4018000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-14",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!A1",
+   "formula": "=ISBLANK(A2:A4)",
+   "layout_sha": "eb7ac5adb07fa43e528129afc33aa85379407d8b6034c9096d4bb28ca9d195b8",
+   "answer": {
+    "value": "logical:True",
+    "spill": [
+     [
+      "logical:True"
+     ],
+     [
+      "logical:True"
+     ],
+     [
+      "logical:True"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-g-00",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!G1",
+   "formula": "=G2:G7",
+   "layout_sha": "60ea5dba8fb788dfae680f313c17f45bd32a2bc16d100404f286f829135489a6",
+   "answer": {
+    "value": "error:Spill",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-g-01",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!G1",
+   "formula": "=G2:H7",
+   "layout_sha": "c1d198ca3f4341ce00557c566aee2d56dd2fd0fae0e19b5f086dfe86816ede9e",
+   "answer": {
+    "value": "error:Spill",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-g-02",
+   "function": "SPILL",
+   "layout": "own",
+   "at": "Sheet1!G1",
+   "formula": "=OFFSET(G2,0,0,3,2)",
+   "layout_sha": "98e47481dd1c075b939add7e50b6119793b51a330846a4e9f8b2fa9ec5a861d1",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000",
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000",
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000",
+      "0x0000000000000000"
+     ]
+    ]
+   }
   }
  ],
  "capture_provenance": {
@@ -1767,12 +2175,11 @@
    "international_decimal_separator": ".",
    "international_thousands_separator": " ",
    "culture_evidence": "migration/evidence/dc-wi2wu-touchstone-mt-en-za.json",
-   "calculation_clock": "40e6a0ccc2d161a7",
-   "calculation_clock_after": "40e6a0ccc3418555"
+   "calculation_clock": "40e6a0d7b336d744",
+   "calculation_clock_after": "40e6a0d7b4883adc"
   },
-  "cases_per_second": 23.5,
+  "cases_per_second": 8.9,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
-  "timestamp": "2026-11-16T07:34:21Z",
-  "unread_note_spill": "1 case(s) whose spill passed the 64 x 64 read bound were written as empty rows by the first asker; marked unread"
+  "timestamp": "2026-11-16T15:46:47Z"
  }
 }
