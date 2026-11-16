@@ -1,0 +1,2846 @@
+{
+ "format": "dnacalc-cell-context/1",
+ "family": "ifs",
+ "layouts": {
+  "mixed": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "A1": "0x4024000000000000",
+      "B1": "0x3ff0000000000000",
+      "C1": "text:x",
+      "A2": "text:abc",
+      "B2": "0x4000000000000000",
+      "C2": "text:y",
+      "A3": "0x4034000000000000",
+      "B3": "0x4008000000000000",
+      "C3": "text:x",
+      "B4": "0x4010000000000000",
+      "C4": "text:y",
+      "A5": "text:a*c",
+      "B5": "0x4014000000000000",
+      "C5": "text:x",
+      "A6": "logical:true",
+      "B6": "0x4018000000000000",
+      "C6": "text:y",
+      "A7": "0x403e000000000000",
+      "B7": "0x401c000000000000",
+      "C7": "text:x",
+      "A8": "error:NA",
+      "B8": "0x4020000000000000",
+      "C8": "text:y",
+      "A9": "=\"\"",
+      "B9": "0x4022000000000000",
+      "C9": "text:x",
+      "A10": "0x40e61d8000000000",
+      "B10": "0x4024000000000000",
+      "C10": "text:y",
+      "A11": "text:20",
+      "B11": "0x4026000000000000",
+      "C11": "text:x",
+      "A12": "0xc014000000000000",
+      "B12": "0x4028000000000000",
+      "C12": "text:y",
+      "A13": "text:Abc",
+      "B13": "0x402a000000000000",
+      "C13": "text:x",
+      "A14": "0x4034000000000000",
+      "B14": "0x402c000000000000",
+      "C14": "text:y",
+      "A15": "text:*",
+      "B15": "0x402e000000000000",
+      "C15": "text:x",
+      "E1": "0x4034000000000000",
+      "E2": "text:x",
+      "E4": "text:>10"
+     },
+     "hidden_rows": [
+      4
+     ]
+    }
+   ],
+   "names": {}
+  }
+ },
+ "cases": [
+  {
+   "id": "countifs-00",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">10\")",
+   "layout_sha": "2a4c92f8ce6ef0b75fe5d3d22de77dd069587402eef54e43d04a3389bb2ebb6f",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-00",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">10\",C1:C15,\"x\")",
+   "layout_sha": "0f210277c4b77a891a2344717725cf86592f6177010e71b9b393082962385859",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-00",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">10\")",
+   "layout_sha": "36950f7ba45f902fb44a29121240fb08172e09d4be4a351e08cc086ee8af15cc",
+   "answer": {
+    "value": "0x4041000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-00",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">10\",C1:C15,E2)",
+   "layout_sha": "ea3f6da8e73416887c62bdda2ced2297fbb77613b0de46989024a65fbf9b5c0b",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-00",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">10\")",
+   "layout_sha": "307e945d487362e07fde36d1483dce2724ef5763ea5d4675f48d48c0be7734a2",
+   "answer": {
+    "value": "0x4021000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-00",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">10\",C1:C15,E2)",
+   "layout_sha": "f510769eb75cde39847562e0a3a8d0361d42884e578ee7adfe68dbc00bb81aa0",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-00",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">10\")",
+   "layout_sha": "e66fc2e42198729f6c92823775426a2ed73cff0627f0838cd6e2513ff65e4aba",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-00",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">10\",C1:C15,E2)",
+   "layout_sha": "8770476660ec9dc9f317aa81bf8837295ac46c04448314c6fd35a386a9f10948",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-00",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">10\")",
+   "layout_sha": "b4d0c51c40e7637808ddeb52f5f4cc859ad5fc138453d8c8b32da89e1b384880",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-00",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">10\",C1:C15,E2)",
+   "layout_sha": "293c729cff15dccdd33a94b0252ab1c7e7d2771f0cf431a0d1a78fa063752490",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-01",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<=20\")",
+   "layout_sha": "0abcb761645a709a34a923ce5945f24e5f403d31141cb594ca81980ff949cd95",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-01",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<=20\",C1:C15,\"x\")",
+   "layout_sha": "a7c539b43a796a57f55a36a1e63af8b233fa0a204cd8bb5d98c830d470477c14",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-01",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<=20\")",
+   "layout_sha": "3e28890f649e0eaabfb9836eaf41f871951a4ba302059927bad8511f7c9f81ba",
+   "answer": {
+    "value": "0x403e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-01",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<=20\",C1:C15,E2)",
+   "layout_sha": "cdc784b6a2dc4415efe114340a52775c1d0e9b5e233ec0bf0d18a14c5988934c",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-01",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<=20\")",
+   "layout_sha": "3a2dca8b8efce337246039b264cb4bffcfea3b0c5d413abd483717bcf341bbad",
+   "answer": {
+    "value": "0x401e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-01",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<=20\",C1:C15,E2)",
+   "layout_sha": "db99ee2cf3bbbcf3f5a35f818e39041596d42c24689b0faad6452d397f14eb93",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-01",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<=20\")",
+   "layout_sha": "4061ed18fa545724ecf980f60622bdc4482a2c4af1c036c24408b007324ae284",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-01",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<=20\",C1:C15,E2)",
+   "layout_sha": "bd4bbcf1cd666725196e613dfbaf916650ba43708887fa251ff82c4dd994325c",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-01",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<=20\")",
+   "layout_sha": "feb69e61bc92a559337433c19750f8b4affd3c19c6c532827c9c1aaa21430bcd",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-01",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<=20\",C1:C15,E2)",
+   "layout_sha": "1925ca8cb5aad8f8d906cd7b9bcf44c1de4012e66c02e392c1743ea8db80c743",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-02",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<>30\")",
+   "layout_sha": "aba8e0ff3dd1bef81c8ab48a78de6751898895d2f70415bd0906a53ac490d1d6",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-02",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<>30\",C1:C15,\"x\")",
+   "layout_sha": "3d2bc2bd84356062a8ba369291e0eb02bffa806d79e343b50e760c0bb13405cd",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-02",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<>30\")",
+   "layout_sha": "d3d6b23cfd124752f48dce1812ec072f1d98f5259283fa24ab25420aa777117f",
+   "answer": {
+    "value": "0x405c400000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-02",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<>30\",C1:C15,E2)",
+   "layout_sha": "f760a5088d98f7cc9d52c3d80d569754f37b4990e1165b924bffb97eb73bfa2b",
+   "answer": {
+    "value": "0x404c800000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-02",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<>30\")",
+   "layout_sha": "9e142f3d076889a9f8f675b4fba1672f39b3a6c0bd3e37fc271d2b706eb24105",
+   "answer": {
+    "value": "0x4020249249249249",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-02",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<>30\",C1:C15,E2)",
+   "layout_sha": "b802e85e3ddd7cbfffe17ff8617f852015a601f0b517e39bb216486fb782f003",
+   "answer": {
+    "value": "0x4020492492492492",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-02",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<>30\")",
+   "layout_sha": "8b38fd4cbfe2658453457371f3ea2c50bdcafbf0c7e289aee3c9c869e29ecb0d",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-02",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<>30\",C1:C15,E2)",
+   "layout_sha": "b757c0cfd44fa1223bf06348493f8f57ffb3d25a26c85dce93ef5eae2192a198",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-02",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<>30\")",
+   "layout_sha": "264eb8b467e8467bb196d56466a8dc09262e5aac26cb8c9db6d647d20d8cc936",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-02",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<>30\",C1:C15,E2)",
+   "layout_sha": "bedd8cc65ef5155fc7d1bc7f109ce0d720cd1853b7aad464b7d11a1b19a99c4e",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-03",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"=abc\")",
+   "layout_sha": "dbd97860384f866bc02f7f30b3a4b69a9da60289f34ee3a31fd11c9504fa49a3",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-03",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"=abc\",C1:C15,\"x\")",
+   "layout_sha": "4a948439310a855dfd3fad24b19b4a9ba952b7338117b3ee5c69d87ca3bf9009",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-03",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"=abc\")",
+   "layout_sha": "835684e9f550b406685570af25b73073cd97c6506a498ab764d028e36017c636",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-03",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"=abc\",C1:C15,E2)",
+   "layout_sha": "702026c991ed133079b2dabdd2967266ad9963d915bf28774e3ffb6ce252de68",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-03",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"=abc\")",
+   "layout_sha": "0850be2c1be083335e2eb0ae2ada2f196ff86053fefce07b7653d2c74e3c9b6b",
+   "answer": {
+    "value": "0x401e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-03",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"=abc\",C1:C15,E2)",
+   "layout_sha": "c12a872bbdc694a1a21855b599e8e49aa760df24f796911fb3c70ec56427dd65",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-03",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"=abc\")",
+   "layout_sha": "3fa1e7c09bf3a51379ae666b9e9258c69b69eea18ce71356bed14e164422a607",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-03",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"=abc\",C1:C15,E2)",
+   "layout_sha": "f95a98636989774a08df9bd34b0f21549ff71a76c24a71556e76492459269c43",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-03",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"=abc\")",
+   "layout_sha": "5ad053097b10ed17f45ee26313fd3b51d6556d28a02651686fdbbc7c0fd6a16e",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-03",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"=abc\",C1:C15,E2)",
+   "layout_sha": "bfd687a7a278b49000c3496a7defab96c5fe566dd3bc96122c707ea4254e1310",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-04",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"a*\")",
+   "layout_sha": "cfae63151445a5f49494be12d74ddde72603759a9e3957003dc93e38decb8681",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-04",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"a*\",C1:C15,\"x\")",
+   "layout_sha": "e388b2ac65d8f41f3bfe6b89c275e223aa543d41bc64320bc9aeafab357bf935",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-04",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"a*\")",
+   "layout_sha": "5fe14d92d1f346f3837518129c966d2adc48f58b21f2d60fc69b8ba108462e0a",
+   "answer": {
+    "value": "0x4034000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-04",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"a*\",C1:C15,E2)",
+   "layout_sha": "724e95818d12a5d0b4bf88d92dcb87ae7441b526ef5dde4cf5435c1f31f01ab6",
+   "answer": {
+    "value": "0x4032000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-04",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"a*\")",
+   "layout_sha": "8e398ab88819c3eebd1db666930d65a5b04c622c7077da9aeeeabdebd343f3ba",
+   "answer": {
+    "value": "0x401aaaaaaaaaaaab",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-04",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"a*\",C1:C15,E2)",
+   "layout_sha": "30ad6e0d6243287c4b08539b8cfafaba2c53248d5dc8a3210f54b4e290328320",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-04",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"a*\")",
+   "layout_sha": "cdfd7e787ee9c809488a88ebd347fed13213ee29ed8ded82e448a4c8fba4455f",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-04",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"a*\",C1:C15,E2)",
+   "layout_sha": "8cbc7fe93e1e16812c2bb289cd539045302c31b320ef9e796ccd744ce1225740",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-04",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"a*\")",
+   "layout_sha": "dbf43bdda9fe98c22c17c535ff45e2e5cf93ddffdc3b8034b6973e540140d60a",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-04",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"a*\",C1:C15,E2)",
+   "layout_sha": "9e858dfd3488afe7e5baded14dce5461117e2f6c24055ce3842347e23d285644",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-05",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"?bc\")",
+   "layout_sha": "90a9918dee4f31ee8b11eab633c947f27abe773fc5fed4917489faa9764f8de7",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-05",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"?bc\",C1:C15,\"x\")",
+   "layout_sha": "d378b9ff93326e66b5344d31642412e79abff8cde4d6fdd4fe8b4c814fe5ce71",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-05",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"?bc\")",
+   "layout_sha": "3e17fa325d264fd298ee8e8655c8ca43f0bc5d02e3bea146d7a3b1986fef99e3",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-05",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"?bc\",C1:C15,E2)",
+   "layout_sha": "d0949813e986a1485cb981b2e80ebaa13049c3e5ce54963bb0439018faaf5c55",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-05",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"?bc\")",
+   "layout_sha": "5650a4c914d0927b2ccdd743b4eac525970df6dd7010ea3d65bf1ed9b3c5772e",
+   "answer": {
+    "value": "0x401e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-05",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"?bc\",C1:C15,E2)",
+   "layout_sha": "25d29f90bc43ac51bffd8a3c99b51c800d83ef72095caea365e1ebb32aa0c559",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-05",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"?bc\")",
+   "layout_sha": "531f3a7cc4f32f1e58b8552736ff2fe7d8d2f78ed913aaf5d94ca6b8c65318bf",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-05",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"?bc\",C1:C15,E2)",
+   "layout_sha": "5bac2f54d05ab719e7aa76b0f5f782f835a0b0fe2a359100ce9e1c03901ca3c5",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-05",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"?bc\")",
+   "layout_sha": "879501396c4bd1a4fe7df7cac2bcca913e738cb745660bf78a8ca11b4bcdcf26",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-05",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"?bc\",C1:C15,E2)",
+   "layout_sha": "3fd385773439f925ce37c3e84b124e505bd8948409deee714b2ebf1a92b44c54",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-06",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"~*\")",
+   "layout_sha": "635282012a22af37b86dee68163d3e3520e63eb2ce3469f86b2a47792b23d3e8",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-06",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"~*\",C1:C15,\"x\")",
+   "layout_sha": "3bfe023fa7470b29dcc24ab8c1adabb96de52714d83dd0fe0bdc16e890420c54",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-06",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"~*\")",
+   "layout_sha": "086adf51e239dae68a35e43b7dc3b48f9043fe1ce14f0723c48a976dd24db283",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-06",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"~*\",C1:C15,E2)",
+   "layout_sha": "540901cab7942fb3a18cf4e4a88ed1a3a39044bd171e03cf995bd0e93d455258",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-06",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"~*\")",
+   "layout_sha": "5fe8c8fec6311b28367b40ca5ab96a3942bd6aa799563d8d32c4591a89cb9bcb",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-06",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"~*\",C1:C15,E2)",
+   "layout_sha": "76cb207d5f2f346069010d823f330f524fe6bee0a8aa1ac9ff462baf60fa83e3",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-06",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"~*\")",
+   "layout_sha": "83324e0b6101580787a73c7cec9bf875ede42d41bc9b3005ceb86f83b2b39190",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-06",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"~*\",C1:C15,E2)",
+   "layout_sha": "f2edc92f3d9a25a3cae8d726581bce97741165d1ba6bba0ba01c3dc48a245654",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-06",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"~*\")",
+   "layout_sha": "e67cbc1a6b977536194716d8e77ce19b1a1dfa4262beba4d3fc5c8cbaf09521b",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-06",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"~*\",C1:C15,E2)",
+   "layout_sha": "89825b1c51176295f94b533371dab99add018c3b391c6c200d2d5ae337193b7f",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-07",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"\")",
+   "layout_sha": "34f87ead9f8106046a1dacae297f49dc4477319515229c719c629b92d975c3b4",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-07",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"\",C1:C15,\"x\")",
+   "layout_sha": "c68488b2087df602fd3d218998c1fcc5e5c25b079b77faaa5bd9f9f509677089",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-07",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"\")",
+   "layout_sha": "f7023e145c810de841135e578b51b031f1462ee21584965ebe018febb30d85b9",
+   "answer": {
+    "value": "0x402a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-07",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"\",C1:C15,E2)",
+   "layout_sha": "8003f2792d963d3a4b29d307e7ba4e8fa5dda8590c3dfe06ce666885b3c2d4b2",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-07",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"\")",
+   "layout_sha": "19ae1106ad1514cc0fbc302820346ae59fc176582fe4d55f597718427d48442f",
+   "answer": {
+    "value": "0x401a000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-07",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"\",C1:C15,E2)",
+   "layout_sha": "c5203ea035506d15278d6b00b171f991e59794675ec591f05a51fe5cea37008c",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-07",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"\")",
+   "layout_sha": "4187aa1db16df025e142983e56331b058d73302c12eee5db9819da5637be56ed",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-07",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"\",C1:C15,E2)",
+   "layout_sha": "ec0f409c2f477263c0784fa507d4a530f0d6a608a360a54ca8e60fcb68c39cf4",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-07",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"\")",
+   "layout_sha": "74446ffd42d0f30479db23c4d0945687de83e4f7c7690333f62100d3e231ce56",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-07",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"\",C1:C15,E2)",
+   "layout_sha": "b06ffc15c486c8ea1d5b43012ec11b8f7d6655d08f91355a2cb47b94c93722a6",
+   "answer": {
+    "value": "0x4022000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-08",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"=\")",
+   "layout_sha": "53d24a4d2366d824329bad0a071bd2cee656556d558a1cabeb5163e909ed7b1e",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-08",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"=\",C1:C15,\"x\")",
+   "layout_sha": "b809b0aec15fcf7805bd39b6d9457869511131844b910bf445e11939ce6f7f6a",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-08",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"=\")",
+   "layout_sha": "bb9fdf84d77649ba62cca6437af87adc567ea4a1b4a16819fa7999044e25f7ce",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-08",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"=\",C1:C15,E2)",
+   "layout_sha": "22609388ee5b225caa14d214a21d657752ad39556864cd2e1e39d79a1037dca8",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-08",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"=\")",
+   "layout_sha": "119ce28622e83403deb7025034151db8e42bd3cbfc3c7cf25992a20ea718bede",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-08",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"=\",C1:C15,E2)",
+   "layout_sha": "1c5637a0b34a0745cadfd7299d48286ea189a18ea23036d77a7c682c2f915f78",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-08",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"=\")",
+   "layout_sha": "2f4491cf5e2930ae800110afe736805d4d203e5d51d7ee9c3a8a70fe40e5dcfe",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-08",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"=\",C1:C15,E2)",
+   "layout_sha": "74fdb0f358364edce7cadfe644fb593deb11987464b2fc5518c83354519bf96e",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-08",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"=\")",
+   "layout_sha": "58540fdb890577cc843356f0b904ef4af49d138575694fe633e49e273f0612f4",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-08",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"=\",C1:C15,E2)",
+   "layout_sha": "a8edcb3e613b5fe586e5f9b96b3c3becc1402d3014cfd4e3513dbaded95a5161",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-09",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<>\")",
+   "layout_sha": "ef68d9a72ee86a9f39ad2ea7cd7577748424b9c68289d65e1f00f5516e1074ea",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-09",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"<>\",C1:C15,\"x\")",
+   "layout_sha": "5fd4884434dcf68effa8daf90963c25aecebf9cd715c825653ae2d16945aa9e7",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-09",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<>\")",
+   "layout_sha": "ea0e9bb391f9cc8579058e7853ff29dbc8d68a75d9cf36452b154c9a3f88f511",
+   "answer": {
+    "value": "0x405d000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-09",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"<>\",C1:C15,E2)",
+   "layout_sha": "f18e3795df7222dbba55e8fd9341fbb45bac9a42b512b0318223ca8188b6ea6f",
+   "answer": {
+    "value": "0x4050000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-09",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<>\")",
+   "layout_sha": "5683dbfec1e194b8df338244686fef9151b450feffedff93e0ce2c619cdeecfe",
+   "answer": {
+    "value": "0x4020924924924925",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-09",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"<>\",C1:C15,E2)",
+   "layout_sha": "24bd657d3aea3baa432eef4bfe08c86b1742496bd5af08e2b59982855bf32e49",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-09",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<>\")",
+   "layout_sha": "e2f13a7395dc109a115f2c5bceaf59c054abf29bdfd7eb92c4facf76e95ec92e",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-09",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"<>\",C1:C15,E2)",
+   "layout_sha": "cfcb69e369749db637ea9a442b28e511f1348bc7ed67f1bbcae3c3ebfc908385",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-09",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<>\")",
+   "layout_sha": "f3c7f5c7ab17112cb3b40bd2884fffe0029e6a7177152c425afd9706aaf5d986",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-09",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"<>\",C1:C15,E2)",
+   "layout_sha": "6b4cdef98b8bcd200115ce175afe98382d44d2a92d1bf8498749fd7b46d9db75",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-10",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,20)",
+   "layout_sha": "114669cafdde0dfb3deafa986bfc3b2040912096b73dd3b92d452b35966a77a8",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-10",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,20,C1:C15,\"x\")",
+   "layout_sha": "02ef15946fa2e122e67ce0e5b61e94d5b65f1a70d4a235061e8c366ec91b24e3",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-10",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,20)",
+   "layout_sha": "f79f8d0c6d2208af4639fc10650deb36c0c901fd6060789f5acce9673e989eec",
+   "answer": {
+    "value": "0x403c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-10",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,20,C1:C15,E2)",
+   "layout_sha": "8121e17524e7bde15893dc8954ad26d881a870bd9fe24a6c8d063b338bf776c7",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-10",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,20)",
+   "layout_sha": "93bd33a5a4439a2235f38d8e66c05ac03761cc496cef8d30174d26e98404b35a",
+   "answer": {
+    "value": "0x4022aaaaaaaaaaab",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-10",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,20,C1:C15,E2)",
+   "layout_sha": "16f11697c55c75b898a9bfe44c7779cf31c105c396001578eb226dfccc128d09",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-10",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,20)",
+   "layout_sha": "b315beede5b541e6db57d457c57f36782994435240201001370ba4da423c4246",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-10",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,20,C1:C15,E2)",
+   "layout_sha": "b9c1936b1cf3d869cc72ca6238b0bc1c219519866b03f84c4a88cc1ccf7f285c",
+   "answer": {
+    "value": "0x4026000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-10",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,20)",
+   "layout_sha": "2cc2ec7719ad0ef03f56989b6b74716c44bd55503ea2dc2e396cc0327d3e3372",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-10",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,20,C1:C15,E2)",
+   "layout_sha": "fd63f700a0763cc999ac15edd9a6f100df0e66b579fc95114880352a7c85304a",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-11",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"20\")",
+   "layout_sha": "dcdf2621085fafa9a714fd67d795a90eb56cc341b87a9a4bb876ad965affdfb2",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-11",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"20\",C1:C15,\"x\")",
+   "layout_sha": "24c3fe226aa2d623a05041978343c0e3fcfc62af7525ced179b01906eb32d18f",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-11",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"20\")",
+   "layout_sha": "25f777a83c9d5ab4ccbc742ac674b0b99539cc5203d468213878671310d44dfb",
+   "answer": {
+    "value": "0x403c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-11",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"20\",C1:C15,E2)",
+   "layout_sha": "7afab3ac08ba2e942236ba5198a903455c1311df0f8267e3e806f9524873f6cc",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-11",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"20\")",
+   "layout_sha": "a373f2b72967726f946457a55c14ca68247efe844ea3dc7c5f01d3a9fbea4d13",
+   "answer": {
+    "value": "0x4022aaaaaaaaaaab",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-11",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"20\",C1:C15,E2)",
+   "layout_sha": "b36d9bb12e55af39dbffa54c748ba14d649948c914eb0c0956280e4880fe1812",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-11",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"20\")",
+   "layout_sha": "ca3cff806565d310c50d00a39813114f93ba454620dbe0b08d6d3196a517ed4f",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-11",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"20\",C1:C15,E2)",
+   "layout_sha": "6bd6dfa4db47c05ac0740ce5539a5f83977c848a6caae1a366eecd084038fa28",
+   "answer": {
+    "value": "0x4026000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-11",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"20\")",
+   "layout_sha": "29cea872dcaa4df372543e798fb2a93e1ea7b10d321048299a6b6bcaaa2d04a9",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-11",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"20\",C1:C15,E2)",
+   "layout_sha": "235e2b067abe5fe959b5cb83656bcf14c1a72127971b0ddb67d92613550e02f1",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-12",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,TRUE)",
+   "layout_sha": "75279e77165410ff94c03b9bbb5da718f27d5fc01bd3f61b1a61620a19342009",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-12",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,TRUE,C1:C15,\"x\")",
+   "layout_sha": "d680813cd485b09606c64a2ba2fcc52fcb9a7a2bfdd9494abc17c83d870ce454",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-12",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,TRUE)",
+   "layout_sha": "ae08934dd308333ffe4732e77ec24b745f3373ca18b66a5f3acdc77feb974008",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-12",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,TRUE,C1:C15,E2)",
+   "layout_sha": "05c30fa930104507a26ef5fdac73dff34ef3f73885151ddafcb4cb17bf85fc01",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-12",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,TRUE)",
+   "layout_sha": "99bc8ee65d424e4524c7a9d3b1a26a51d33a9dcdeba1d34fc5219ce5d864fe4a",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-12",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,TRUE,C1:C15,E2)",
+   "layout_sha": "ab103e9212ec2f45293fa1c7373ca10877b9fd6d815918707202408db188ca29",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-12",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,TRUE)",
+   "layout_sha": "59034f5d99e16cd8de58d7b4d163b6f8e4305b6184ee54501b4520f6e15a8a36",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-12",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,TRUE,C1:C15,E2)",
+   "layout_sha": "37422fd06923bbedeaedf2b576622394332326e664a4c08fdbc5a28e73fee7ab",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-12",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,TRUE)",
+   "layout_sha": "061072b298a0fc92dc318408b8af6fd6e88e9a229e0549ae878a91d41bd98546",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-12",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,TRUE,C1:C15,E2)",
+   "layout_sha": "9e09fd77063fec39c458d7e5a09d8577901279bf7b0ec4258cb9b12459ee9069",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-13",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"TRUE\")",
+   "layout_sha": "361bc3d3fc0c4fecb845880446ecedbda86d84625f67d853ac8570bff5f85ee0",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-13",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"TRUE\",C1:C15,\"x\")",
+   "layout_sha": "d63133ef1b204ae38f31dedaccb1f3bbaa1564258567feef5e55eab8364dc0ab",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-13",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"TRUE\")",
+   "layout_sha": "5853b30bd233ed49790afc7ac20961378848af4d2f2e83d0ff516afdc7723e27",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-13",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"TRUE\",C1:C15,E2)",
+   "layout_sha": "76121c08cd78444c417959e119f4c37508d1a46516015b196e3c4448a8645ca7",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-13",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"TRUE\")",
+   "layout_sha": "ec0f5f50dbc72bb5dfe67520f007fe5d3806c868cfe6d8fd6c46c64b3c2d099e",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-13",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"TRUE\",C1:C15,E2)",
+   "layout_sha": "c6fde6224e142749582245384f57349e0e3caaae2d5fa24a2a51ac132da750ad",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-13",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"TRUE\")",
+   "layout_sha": "d6f26d50231d15094ec240f86ee7488a8f957cac22b05a3971dba2ebcaab1831",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-13",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"TRUE\",C1:C15,E2)",
+   "layout_sha": "ac412b83602ac603990349dc1ad932cd979a5855ca847303294abc82a5139811",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-13",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"TRUE\")",
+   "layout_sha": "d9b2f2e3d7f7927a1a9f5cb3ffb970052a885604f9619fca4e47a4a66e10702b",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-13",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"TRUE\",C1:C15,E2)",
+   "layout_sha": "8e8dc3be20adeadc2fb082696e5fc8b0ca9e94391d08d63527d365deaf663977",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-14",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E1)",
+   "layout_sha": "548c1d6c8ba7ae40de77c0c7c38b40984c5705d41acf91a6d8ba7dacce17e67e",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-14",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E1,C1:C15,\"x\")",
+   "layout_sha": "9d3cb393610bf3b1a21741c70ec66dde47ec980915c2c923fcc5a2bad079a28b",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-14",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E1)",
+   "layout_sha": "518fbb9eb0666b200440887b1b67994b0ba073840953b55e6930042f799025b7",
+   "answer": {
+    "value": "0x403c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-14",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E1,C1:C15,E2)",
+   "layout_sha": "83d6148f9edce6c604544dc8ac6368144eb52fd6339c27034c41f61cfcc1b6b6",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-14",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E1)",
+   "layout_sha": "b42c2856084740c7c42245db48168a4366d0b7292116464cb71d20b21cde57c8",
+   "answer": {
+    "value": "0x4022aaaaaaaaaaab",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-14",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E1,C1:C15,E2)",
+   "layout_sha": "fbb15560aaecc272e96c59ac78cddb8d80b6d462cf33b1ea1c1b6fba3cb5cfe0",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-14",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E1)",
+   "layout_sha": "fd0854f976ec498441e37ff56da31e0f2c8f996c4a842a93b05d97a8719b8773",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-14",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E1,C1:C15,E2)",
+   "layout_sha": "67f66e007214d8205899f0ccd84736c62f9d20d7e83acd879fa3977f1ae233ce",
+   "answer": {
+    "value": "0x4026000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-14",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E1)",
+   "layout_sha": "54e334c02bb90d6f120d426d2553b0420b1fa9b22b50b10f8364defced332d7a",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-14",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E1,C1:C15,E2)",
+   "layout_sha": "7ec244efcb84769bb4ca102ecf15b7760892cc42a88e1a331f244dadfec5066d",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-15",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E3)",
+   "layout_sha": "99bf2b5899de8bc9b81ec51c1b6e21baf8d13dce51f8c67e19526b36493ae716",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-15",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E3,C1:C15,\"x\")",
+   "layout_sha": "a007c0e74e475f244287b38a9f95135b2a474496024f1e6d594cb9d7f4191efe",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-15",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E3)",
+   "layout_sha": "325221132f622a58821855368fc029b5b09c6811ddee6731e145790be341912d",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-15",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E3,C1:C15,E2)",
+   "layout_sha": "153d2fe9132568a2ad85e2d11aa9290dc35699958cd4b6e4851cab1cc2d10c94",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-15",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E3)",
+   "layout_sha": "2b6be3d31e1715e0453598452fa66e562b7d9baef3ccb09b3804e99f253d9442",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-15",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E3,C1:C15,E2)",
+   "layout_sha": "6aebe4f64a3d854f5b782ef767b2e8c746a93d7c3ca107610b226c6019909196",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-15",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E3)",
+   "layout_sha": "8fc3eb17ee535185808ab638a2195db02bddaa2f27a02bfcead097b9da225f58",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-15",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E3,C1:C15,E2)",
+   "layout_sha": "048bd3cd1954809f296a13c1eefb5921fa305f727bfa35ed6ef3f1821f242da3",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-15",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E3)",
+   "layout_sha": "886c6869d2e409474f052870ea3c0418a21ae2e93f0e966abbdaa54217b6eeae",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-15",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E3,C1:C15,E2)",
+   "layout_sha": "835528964442b251cb751ae39f0d7a4b5977dec86887be3fe8ddf53fac46f505",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-16",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E4)",
+   "layout_sha": "27d2fd091f89db342b463801c71cf2b97de199c5483341a1416c396e10eca411",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-16",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,E4,C1:C15,\"x\")",
+   "layout_sha": "c5c224dbcd4f78ea9a0e186f2051a4ef6b19122a9ac1f89a3e763212b5e90d35",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-16",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E4)",
+   "layout_sha": "6d5be5f494bdeb6509f704e42b770408fc1d4ffd259985b2e0cc68afe956bc83",
+   "answer": {
+    "value": "0x4041000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-16",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,E4,C1:C15,E2)",
+   "layout_sha": "00b7a0bfa0c8b015cec65f8d3bf028676ceeb2ae6c0dd81b774132d8eafa03e5",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-16",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E4)",
+   "layout_sha": "9a6c1c4cbf9c121294702e11e622361848eb776efb60a7c99d75aca79ad97f85",
+   "answer": {
+    "value": "0x4021000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-16",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,E4,C1:C15,E2)",
+   "layout_sha": "e09f8bb1da33dfb154e37d45156afe57faee256d04f9a5153407fdfc5dc518ca",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-16",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E4)",
+   "layout_sha": "8dffdef71b78cfc88839476980861634381b188720250574a6afc884c5b9ebea",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-16",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,E4,C1:C15,E2)",
+   "layout_sha": "5871bb8c4a7b90466b83b7dd391bc31b61e7d65c1b3126989f14a309035dc6a1",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-16",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E4)",
+   "layout_sha": "7ac615a2eeaa89a2e7aeb6c871ee0a0d3405a730e48dbf19d64aaebe16ee80c1",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-16",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,E4,C1:C15,E2)",
+   "layout_sha": "8f2435a006a2cb8d37d6f556680f7f4626917e653978b62909175caa0116d307",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-17",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"#N/A\")",
+   "layout_sha": "b30ebc3da1112e450486a0faef2f79b19f0e2e364a3909f68eabb42aaaa4543d",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-17",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"#N/A\",C1:C15,\"x\")",
+   "layout_sha": "69641f01e41a21995b2f3bcc0afe242d87782835674bef346e0abb78ca321ee6",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-17",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"#N/A\")",
+   "layout_sha": "715cf1673ab5dbd44bead44ccbe925b28dc5754dee4f35ea6323c616d85c2bbb",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-17",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"#N/A\",C1:C15,E2)",
+   "layout_sha": "3980550677f38836f4c22fb359f2e773ea26075255f7dd306e2a11c09ab9867a",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-17",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"#N/A\")",
+   "layout_sha": "8d21a9cbb9d510f9f07a60fba708f4ff803a32ce7de422e606541183be7d58f0",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-17",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"#N/A\",C1:C15,E2)",
+   "layout_sha": "7431d8414f4cf9c1943305d05431dde3a979eb7a6da4376e6c31be2ce7052ceb",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-17",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"#N/A\")",
+   "layout_sha": "7480390b1f9f8e23368b27cff810154f6705c8e2e8f8d1a9213b5764293396fe",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-17",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"#N/A\",C1:C15,E2)",
+   "layout_sha": "242a6caaf27bdb1e90bb5a2e1d9463ae7bc493b6bfd80e5746b48b882f6755f0",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-17",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"#N/A\")",
+   "layout_sha": "825d1492b5067399c6908d4b13b2f7b1d2635fdd3a8849c3c016c871d5ac57a7",
+   "answer": {
+    "value": "0x4020000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-17",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"#N/A\",C1:C15,E2)",
+   "layout_sha": "00d5c876bc92d553091da2ffe38f1f7b4a55e0623317e66dac718153f60da06b",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-18",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">=2024/01/01\")",
+   "layout_sha": "9ecac2fdac6b45c18eb4283e2e5f0a80d3077f2d513dc39818efc8648b7733db",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-18",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">=2024/01/01\",C1:C15,\"x\")",
+   "layout_sha": "e1079e030d3447803f7270dadd38b6863c8b7ebf7682129e717b3473898ce9f7",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-18",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">=2024/01/01\")",
+   "layout_sha": "439914ac94b5597ed89d7ec72f480a69f43dee1f99f27ff7c5ef191d02eac69a",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-18",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">=2024/01/01\",C1:C15,E2)",
+   "layout_sha": "3423e6eb200d8776625baac15a80a359b1cbfd5d5f0e7fd484928a024059d5c0",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-18",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">=2024/01/01\")",
+   "layout_sha": "0777f8bf00ec5f82d35bdaef4cdb4f3af113fd5b917e46b63a0ae7d826ba3dba",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-18",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">=2024/01/01\",C1:C15,E2)",
+   "layout_sha": "3a7a51e8d8665052f1b1e72a06d8348c5774c2902d478675336b9787b8beda34",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-18",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">=2024/01/01\")",
+   "layout_sha": "6e2039b29643d637fb8855e3c63f2a1b02c4740b948135dc16c883ac9d98da19",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-18",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">=2024/01/01\",C1:C15,E2)",
+   "layout_sha": "5d548927cfd18d7fef846663f1d4340bbabc139882168672843eed951764714c",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-18",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">=2024/01/01\")",
+   "layout_sha": "31c903127ff58e45f4de4ca30b700e9aac40c2c0ebaae036d0d012013ec9e1d3",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-18",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">=2024/01/01\",C1:C15,E2)",
+   "layout_sha": "e92fc2f41433cd1cf0f06d1cf162d9f8ff8fc9a06a6c997222939d7c5372bd3d",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-19",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"*\")",
+   "layout_sha": "c08a2cfaf94e964f48da579a467ec34207706b609257d8d945f55536bb12a23d",
+   "answer": {
+    "value": "0x4018000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-19",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\"*\",C1:C15,\"x\")",
+   "layout_sha": "9dac807ccf667a1fd1a6a5528267d22a66bd4a31ee3b6ef0898c9c80a460c6ed",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-19",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"*\")",
+   "layout_sha": "2de29cbe04e7b5f3bad7c07d0338c381b4d778df5565667f4a329223e6e8c0fc",
+   "answer": {
+    "value": "0x404b800000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-19",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\"*\",C1:C15,E2)",
+   "layout_sha": "e8b41b7ae23b8a193e1d553b78b50bb54f965a2a80e990c21bfcdfc0828f72d5",
+   "answer": {
+    "value": "0x404a800000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-19",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"*\")",
+   "layout_sha": "97628a091dc16c270270d8e980ef19bbf6651af81a0571bb1ca19f166597c17c",
+   "answer": {
+    "value": "0x4022555555555555",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-19",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\"*\",C1:C15,E2)",
+   "layout_sha": "da8e84c708e6d9272c61c208b8ee6cddb88661007a3185ab755b654fa77bdbc6",
+   "answer": {
+    "value": "0x4025333333333333",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-19",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"*\")",
+   "layout_sha": "1ba8647fd17cb36beb63d4021483e4663d07afe96b0cde09659f7d005aa846d4",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-19",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\"*\",C1:C15,E2)",
+   "layout_sha": "5a858dbefc91e1c809657d51248706c7fe031df0edd68eebc37ca767b27861cd",
+   "answer": {
+    "value": "0x402e000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-19",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"*\")",
+   "layout_sha": "28f5754f2a51840771f1c4e923bad410be0d2b2049786ac62bc985ebd4191f99",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-19",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"*\",C1:C15,E2)",
+   "layout_sha": "485f939b3970b16fabdc2df8a528ed1260e54e0af1fb26860bf2cad942f11bef",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-20",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">\"&E1)",
+   "layout_sha": "eb350aa348052e61240a556b68d402e792352bf9d1e10a624e999323ef5189d9",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs2-20",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">\"&E1,C1:C15,\"x\")",
+   "layout_sha": "31417127d645e4fc63db66f9ffb3ee6e369e9599898be3aa93c129d598c777e2",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-20",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">\"&E1)",
+   "layout_sha": "35750fddc98b02ba9cd853ec5ac0433588cef6ddb52d369b26cac6940e8fde1f",
+   "answer": {
+    "value": "0x4031000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs2-20",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,\">\"&E1,C1:C15,E2)",
+   "layout_sha": "d84cd6094bac145a093a1a07d9e8aff5741b2f54fc3e87261fab1fa9458b881c",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-20",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">\"&E1)",
+   "layout_sha": "f9053cc3615d3780597ff9ee49001b8cffbc0effba0e145332ec594c9b01b4f3",
+   "answer": {
+    "value": "0x4021000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs2-20",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,\">\"&E1,C1:C15,E2)",
+   "layout_sha": "61692c6e943f0e58bf896ee39b7e9af9c64aad01c6d424a1ad1389e4ccf6cd61",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-20",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">\"&E1)",
+   "layout_sha": "5c461294f5108e61f34f8733476114f757c746268aeee49ec795b7eb8f3d3000",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs2-20",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,\">\"&E1,C1:C15,E2)",
+   "layout_sha": "cbefd22e096734ec3b6d22a87ffd0cbd7e17b6d6f9f4d99955ccdab39c1ee131",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-20",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">\"&E1)",
+   "layout_sha": "df063ca25266d1015eae0843c767eadff1cba5dcba77be4926306ecc24f76604",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs2-20",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\">\"&E1,C1:C15,E2)",
+   "layout_sha": "7e83c2de284cdc32545e4b44a127b7e1586007eb35b50f27d868de14fcd0388c",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "countifs-21",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,{\">10\",\"<5\"})",
+   "layout_sha": "00cdb687df06b67d865a53491a818200cc180cfca5bd04ee67ada8fa4e21b9c2",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": [
+     [
+      "0x4010000000000000",
+      "0x3ff0000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "countifs2-21",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,{\">10\",\"<5\"},C1:C15,\"x\")",
+   "layout_sha": "6ce2e26da984f788fc8f4e6cd0375ab912a30f9808f8d578b75157f492914e99",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": [
+     [
+      "0x4000000000000000",
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "sumifs-21",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,{\">10\",\"<5\"})",
+   "layout_sha": "0499c17e5ee7f6ad0293f335cff7a1c7208737f92eb0fdba30691e32af1d0f5a",
+   "answer": {
+    "value": "0x4041000000000000",
+    "spill": [
+     [
+      "0x4041000000000000",
+      "0x4028000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "sumifs2-21",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A15,{\">10\",\"<5\"},C1:C15,E2)",
+   "layout_sha": "1c29b7bd288c469f82d852c984cc3027740f8f9016311616c6c917d7aa034446",
+   "answer": {
+    "value": "0x4024000000000000",
+    "spill": [
+     [
+      "0x4024000000000000",
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "averageifs-21",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,{\">10\",\"<5\"})",
+   "layout_sha": "a011ef879544a4cef0e7ab754bae84166ff2fd8f06b56fda05ba44eea3a94764",
+   "answer": {
+    "value": "0x4021000000000000",
+    "spill": [
+     [
+      "0x4021000000000000",
+      "0x4028000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "averageifs2-21",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(B1:B15,A1:A15,{\">10\",\"<5\"},C1:C15,E2)",
+   "layout_sha": "b602c7be89870ab908a2cd928f9649151886291db09a29148d259fa41c8fdad0",
+   "answer": {
+    "value": "0x4014000000000000",
+    "spill": [
+     [
+      "0x4014000000000000",
+      "error:Div0"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "maxifs-21",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,{\">10\",\"<5\"})",
+   "layout_sha": "985b069b3c52ecbb0868347b7861aac19f71767148db968d5f6d423f061adbaf",
+   "answer": {
+    "value": "0x402c000000000000",
+    "spill": [
+     [
+      "0x402c000000000000",
+      "0x4028000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "maxifs2-21",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(B1:B15,A1:A15,{\">10\",\"<5\"},C1:C15,E2)",
+   "layout_sha": "61defe22b8210f17e14f1979363fc64c62be2ee9161abde4d9f7323695ac6bc3",
+   "answer": {
+    "value": "0x401c000000000000",
+    "spill": [
+     [
+      "0x401c000000000000",
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "minifs-21",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,{\">10\",\"<5\"})",
+   "layout_sha": "f53e1843b012f12d34226b329fea74047a7deed6ffd28da5915c00cb8c5ec56d",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": [
+     [
+      "0x4008000000000000",
+      "0x4028000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "minifs2-21",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,{\">10\",\"<5\"},C1:C15,E2)",
+   "layout_sha": "9f5daceca98b9c0af79f4083c486ec906b499a52c46f592a5b10252126b74ff9",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": [
+     [
+      "0x4008000000000000",
+      "0x0000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "countifs-shape-0220",
+   "function": "COUNTIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=COUNTIFS(A1:A15,\">0\",B1:B14,\">0\")",
+   "layout_sha": "56fbe269b515f8b8a90360474e5e4d9fd11064e1a221e2007c8c62271ee4c044",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-shape-0221",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:A14,\">0\")",
+   "layout_sha": "84f0a362eaef10c14e043d7e00d61cfb64dfc87932bd76be96edb4f30613c735",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "averageifs-shape-0222",
+   "function": "AVERAGEIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=AVERAGEIFS(A1:A15,B1:B15,\">100\")",
+   "layout_sha": "09c82a5e35039605ee2d59b3defaa8a90c0d27b91fab2570e9a5f46240785918",
+   "answer": {
+    "value": "error:Div0",
+    "spill": null
+   }
+  },
+  {
+   "id": "maxifs-shape-0223",
+   "function": "MAXIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MAXIFS(A1:A15,B1:B15,\">0\")",
+   "layout_sha": "ce58cf9b2db9e00a85a360e555ef9969c4d7d5c645cb5c11fc1eee2380f3e77c",
+   "answer": {
+    "value": "error:NA",
+    "spill": null
+   }
+  },
+  {
+   "id": "minifs-shape-0224",
+   "function": "MINIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=MINIFS(B1:B15,A1:A15,\"zzz\")",
+   "layout_sha": "23c1356b9f1df9736f4d5db7c914a8292e720b95394847d1b59701c1dfd69de5",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "sumifs-shape-0225",
+   "function": "SUMIFS",
+   "layout": "mixed",
+   "at": "Sheet1!H1",
+   "formula": "=SUMIFS(B1:B15,A1:B15,\">0\")",
+   "layout_sha": "95ac23972ea4eae42bd329a763cc03d3fdcdf084cd9b6f8b7d3db89c49709dcb",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  }
+ ],
+ "capture_provenance": {
+  "service": "touchstone/1",
+  "env_id": "145016f4397d",
+  "request": "sheet cases (_CASE, token L)",
+  "calculation_settings": {
+   "user_culture": "en-ZA",
+   "international_decimal_separator": ".",
+   "international_thousands_separator": " ",
+   "culture_evidence": "migration/evidence/dc-wi2wu-touchstone-mt-en-za.json",
+   "calculation_clock": "40e6a0ccbe8329bc",
+   "calculation_clock_after": "40e6a0ccbeea142d"
+  },
+  "cases_per_second": 55.9,
+  "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
+  "timestamp": "2026-11-16T07:33:35Z"
+ }
+}
