@@ -1724,6 +1724,253 @@
     "value": "error:Ref",
     "spill": null
    }
+  },
+  {
+   "id": "threed-137",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,1,Ja:Ma!A1)",
+   "layout_sha": "af80c879f6f61b4b776f94cc1ac74cfe75d8899842a52d4a8f212670ffca3027",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-138",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,1,Ja:Ma!A1)",
+   "layout_sha": "c82bb8403a28f6d609af19143e59cc468f0ceaa1f864da04a2f85306dd1c8669",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-139",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,Ja:Ma!A1,2)",
+   "layout_sha": "5676fa02b08ef2feb320d3e9ab577436c18ad7ec2a07cb933c3feb48e2477b89",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-140",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,Ja:Ma!A1,2,3)",
+   "layout_sha": "529b13728a414d27942590be532f0846f93557554e9c4c6b054280d039f1fc15",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-141",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,1,2,Ja:Ma!A1,3)",
+   "layout_sha": "1be28316936e624983c2c2e2dc01815ba0fe80164f3d696a1ed64ea624ee4ca3",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-142",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(Ja:Ma!A1,1,2)",
+   "layout_sha": "f255af9c6ceea637eff7b68c86114cbdb96994cfbc96518c6cb518cf8c68a716",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-143",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(Ja:Ma!A1,1,2,3)",
+   "layout_sha": "58889475e6d48ba515ef6ede4729237007b1d17de0f4fde3aaf3a2b2d936f973",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-144",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,Ja:Ma!A1,4,5)",
+   "layout_sha": "bce6c4518de518bc1762b1801cdab26c5af4b9367727f30ff4a007700e794da8",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-145",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,4,5,Ja:Ma!A1)",
+   "layout_sha": "eabba3ddf5eed2489adb13b71fd1d2e65c5713067896611bbaee6aa843f007b8",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-146",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,1,4,Ja:Ma!A1)",
+   "layout_sha": "831da7d2f7b619d61ede6a23a91ef87a32a88a83ebbabd982607b9fda06cbcd0",
+   "answer": {
+    "value": "0x4010000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-147",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,Ja:Ma!A1,3)",
+   "layout_sha": "9820677a6d831624032c76c78245f98b58ae9884f485ac604c5a0ffaf4e1b091",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-148",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,Ja:Ma!A1)",
+   "layout_sha": "1fa7660ff0943c09dc14b71fedc29535c9a3a39edf83a044b126737324156667",
+   "answer": {
+    "value": "error:NA",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-149",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,1,2,Ja:Ma!A1,4,5)",
+   "layout_sha": "78eddb98455dcc432d5f2e147d6ed8c8c1bcf1c20778ed8350ae80057ef5bce2",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-150",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,Ja:Ma!A1,4,1,5)",
+   "layout_sha": "1dc02597939575a7e4b609e4ad83b72e362a4ed75ee01ff7bfd2ec6051d8475d",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-151",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,Ja:Ma!A1,Ja:Ma!A1)",
+   "layout_sha": "aa7fec87f75bc5824e8cf7935d5d4e9ea05a415e0f54383f14e632bb0bf7327d",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-152",
+   "function": "ISREF",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=ISREF(SWITCH(1,1,Ja:Ma!A1))",
+   "layout_sha": "b4008b791b7dfcaeef4c67e3671fe3f02a01dd9787508899fcfb218c6b09917e",
+   "answer": {
+    "value": "logical:False",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-153",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(2,1,2,Ja:Ma!A1)",
+   "layout_sha": "c909f40b3955d211b7f6f78944e98e09c092b3890aeabb6818c8700748451adf",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-154",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,1,A1:A2,Ja:Ma!A1)",
+   "layout_sha": "761894247bc06d2bcf02c91f6bc48fbcfced21249b320b3e9c4ca836f647c98f",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x4000000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "threed-155",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,4,5,Ja:Ma!A1,6)",
+   "layout_sha": "0f1bb25d7163374ead85ff18f80067b56445f694f74c7a0cce626f0ddb649268",
+   "answer": {
+    "value": "error:Ref",
+    "spill": null
+   }
+  },
+  {
+   "id": "threed-156",
+   "function": "SWITCH",
+   "layout": "sheets",
+   "at": "Calc!H1",
+   "formula": "=SWITCH(1,2,3,Ja:Ma!A1)+0",
+   "layout_sha": "48596613cfab2cc2d581466e53bcc313f30f71fa6fb5336a568a1bd4457b7a1f",
+   "answer": {
+    "value": "error:Value",
+    "spill": null
+   }
   }
  ],
  "capture_provenance": {
@@ -1735,11 +1982,11 @@
    "international_decimal_separator": ".",
    "international_thousands_separator": " ",
    "culture_evidence": "migration/evidence/dc-wi2wu-touchstone-mt-en-za.json",
-   "calculation_clock": "40e6a0d5fb73a4cc",
-   "calculation_clock_after": "40e6a0d5fcf7c332"
+   "calculation_clock": "40e6a0ea4e4bd24f",
+   "calculation_clock_after": "40e6a0ea50418937"
   },
-  "cases_per_second": 8.7,
+  "cases_per_second": 7.7,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
-  "timestamp": "2026-11-16T14:29:31Z"
+  "timestamp": "2026-11-17T05:44:07Z"
  }
 }

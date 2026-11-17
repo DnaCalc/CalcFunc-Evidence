@@ -10105,6 +10105,90 @@
     "value": "error:Value",
     "spill": null
    }
+  },
+  {
+   "id": "whole-column-0",
+   "function": "SUM",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=SUM(ROW(C:C))",
+   "layout_sha": "c6fc5e440af2e90dc0032713991f60029029362d59a011a00531c0ac53bb931d",
+   "answer": {
+    "value": "0x4260000100000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-1",
+   "function": "ROWS",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=ROWS(ISFORMULA(C:D))",
+   "layout_sha": "dc872dbc628c2fec2edeeeb3c28be6205eb3de9f6d1bcba652efd91cce2cc340",
+   "answer": {
+    "value": "0x4130000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-2",
+   "function": "SUM",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=SUM(--ISFORMULA(C:D))",
+   "layout_sha": "70603130595b6c063ff4c4334fb612a046b0d680ea301a06fbdafa65de167167",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-3",
+   "function": "ROWS",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=ROWS(FORMULATEXT(C:D))",
+   "layout_sha": "deba48bcaa6fe7527ab6b4f24d14bd7fdbe7037f3a4d5a6ce43b89316a379522",
+   "answer": {
+    "value": "0x4130000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-4",
+   "function": "COUNTA",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=COUNTA(FORMULATEXT(A:A))",
+   "layout_sha": "003e9cece00442b0c854f42d85d13d15e959fe437af244fdb22a1566f3c09e8d",
+   "answer": {
+    "value": "0x4130000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-5",
+   "function": "COUNT",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=COUNT(ROW(A:A))",
+   "layout_sha": "5423a981e7a0e318187f6eca9b95e18d30a81786769fe8a5cea8c3f065882ba3",
+   "answer": {
+    "value": "0x4130000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "whole-column-6",
+   "function": "ROW",
+   "layout": "base",
+   "at": "Sheet1!H10",
+   "formula": "=ROW(A:A)",
+   "layout_sha": "6b809a4d4cf236e39f3ec98156e38d3d5b7ed09e08d785520c7c0b733bde4b0d",
+   "answer": {
+    "value": "error:Spill",
+    "spill": null
+   }
   }
  ],
  "capture_provenance": {
@@ -10116,20 +10200,11 @@
    "international_decimal_separator": ".",
    "international_thousands_separator": " ",
    "culture_evidence": "migration/evidence/dc-wi2wu-touchstone-mt-en-za.json",
-   "calculation_clock": "40e6a0ccc19690e1",
-   "calculation_clock_after": "40e6a0ccc2cc48c2"
+   "calculation_clock": "40e6a0eaebdfe645",
+   "calculation_clock_after": "40e6a0eaf619b2d8"
   },
-  "cases_per_second": 58.6,
+  "cases_per_second": 6.9,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
-  "timestamp": "2026-11-16T07:34:16Z",
-  "reasked": {
-   "cases": 1,
-   "one_per_request": true,
-   "envs": [
-    "145016f4397d"
-   ],
-   "seconds": 0.8,
-   "timestamp": "2026-11-16T11:11:26Z"
-  }
+  "timestamp": "2026-11-17T06:13:16Z"
  }
 }
