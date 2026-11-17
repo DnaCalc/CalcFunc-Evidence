@@ -121,6 +121,50 @@
     }
    ],
    "names": {}
+  },
+  "own-placed-0": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "A1": "=SEQUENCE(3)+A3+0*RAND()"
+     }
+    }
+   ],
+   "names": {}
+  },
+  "own-placed-1": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "A1": "=SEQUENCE(3)+A3"
+     }
+    }
+   ],
+   "names": {}
+  },
+  "own-placed-2": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "A1": "=ISBLANK(A2:A4)+0*RAND()"
+     }
+    }
+   ],
+   "names": {}
+  },
+  "own-placed-3": {
+   "sheets": [
+    {
+     "name": "Sheet1",
+     "cells": {
+      "A1": "=OFFSET(B1,1,-1,3)+0*RAND()"
+     }
+    }
+   ],
+   "names": {}
   }
  },
  "cases": [
@@ -2164,6 +2208,286 @@
      ]
     ]
    }
+  },
+  {
+   "id": "own-placed-0-0",
+   "function": "SPILL",
+   "layout": "own-placed-0",
+   "at": "Sheet1!C1",
+   "formula": "=A1",
+   "layout_sha": "5a38b5e8c17152f7be4d8c2344aace5f506329ff080b9638696b25338ce2f26f",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-0-1",
+   "function": "SPILL",
+   "layout": "own-placed-0",
+   "at": "Sheet1!C1",
+   "formula": "=A2",
+   "layout_sha": "281692139c2fb20a17a12f14080b3cdd08ecc355254f62da943b5c9ef3e15c69",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-0-2",
+   "function": "SPILL",
+   "layout": "own-placed-0",
+   "at": "Sheet1!C1",
+   "formula": "=A3",
+   "layout_sha": "1fd456d9fe9e123b3363ccb41bd53bfc7ec5da5b25ef01693464e4bf7a97b753",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-0-3",
+   "function": "SPILL",
+   "layout": "own-placed-0",
+   "at": "Sheet1!C1",
+   "formula": "=ISFORMULA(A2)",
+   "layout_sha": "3267f11c02f8e506972931d2e2f02ce827e810f7763a4a35e7218db0dfd243b4",
+   "answer": {
+    "value": "logical:False",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-0-4",
+   "function": "SPILL",
+   "layout": "own-placed-0",
+   "at": "Sheet1!C1",
+   "formula": "=A1#",
+   "layout_sha": "a25928c0263b0875638d9d15b3e19e537c953967ed64358587cc941d571eee48",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x4000000000000000"
+     ],
+     [
+      "0x4008000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-placed-1-0",
+   "function": "SPILL",
+   "layout": "own-placed-1",
+   "at": "Sheet1!C1",
+   "formula": "=A1",
+   "layout_sha": "c26cee9ac03854a11c3502b4ba5c3b66b692c8bd60ec632ad8761db7571488f5",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-1-1",
+   "function": "SPILL",
+   "layout": "own-placed-1",
+   "at": "Sheet1!C1",
+   "formula": "=A2",
+   "layout_sha": "c69c26a61e10c993834c7bf9084cbbb5037e0ca99b615d93435d5b83d579029b",
+   "answer": {
+    "value": "0x4000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-1-2",
+   "function": "SPILL",
+   "layout": "own-placed-1",
+   "at": "Sheet1!C1",
+   "formula": "=A3",
+   "layout_sha": "4eaad2397d1e29b0211ee26ed6d7c3e3c5eaae5045acaeae4aee47a3050f5879",
+   "answer": {
+    "value": "0x4008000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-1-3",
+   "function": "SPILL",
+   "layout": "own-placed-1",
+   "at": "Sheet1!C1",
+   "formula": "=ISFORMULA(A2)",
+   "layout_sha": "de013e2c60bd25c7939498e57cd0ca9c2cb7ce011d7122fbd8ec474343155849",
+   "answer": {
+    "value": "logical:False",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-1-4",
+   "function": "SPILL",
+   "layout": "own-placed-1",
+   "at": "Sheet1!C1",
+   "formula": "=A1#",
+   "layout_sha": "ba0ff425e54b9f7b4a29f1ca3ae741838230f9c77897058aef0a0bda16e2121d",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x4000000000000000"
+     ],
+     [
+      "0x4008000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-placed-2-0",
+   "function": "SPILL",
+   "layout": "own-placed-2",
+   "at": "Sheet1!C1",
+   "formula": "=A1",
+   "layout_sha": "062a61e3955abd7af01ca8ff936ecda75583e7675943332aac8ccfeed05e9011",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-2-1",
+   "function": "SPILL",
+   "layout": "own-placed-2",
+   "at": "Sheet1!C1",
+   "formula": "=A2",
+   "layout_sha": "d3a17576177ba93e15a8d18cecb4397a77b4fbdf28b46302ca62993d97cadac2",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-2-2",
+   "function": "SPILL",
+   "layout": "own-placed-2",
+   "at": "Sheet1!C1",
+   "formula": "=A3",
+   "layout_sha": "77794161f414fc64d271cfeb48d5609dd6dbc3d8960263dbbc31fe36dd0ff450",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-2-3",
+   "function": "SPILL",
+   "layout": "own-placed-2",
+   "at": "Sheet1!C1",
+   "formula": "=ISFORMULA(A2)",
+   "layout_sha": "43b11a81d2ee97708ca41b196c14383c03296b13124aa32102b3927970773643",
+   "answer": {
+    "value": "logical:False",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-2-4",
+   "function": "SPILL",
+   "layout": "own-placed-2",
+   "at": "Sheet1!C1",
+   "formula": "=A1#",
+   "layout_sha": "b72a9559850b9200de06e121ccfe30a22b98a5ece65a41054aa1c7c4c17a5def",
+   "answer": {
+    "value": "0x3ff0000000000000",
+    "spill": [
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x3ff0000000000000"
+     ],
+     [
+      "0x3ff0000000000000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "own-placed-3-0",
+   "function": "SPILL",
+   "layout": "own-placed-3",
+   "at": "Sheet1!C1",
+   "formula": "=A1",
+   "layout_sha": "4275b90a2f860bee6d1efe8bb4123a5b39299cb53edf95d5b6fb2466183fbd5e",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-3-1",
+   "function": "SPILL",
+   "layout": "own-placed-3",
+   "at": "Sheet1!C1",
+   "formula": "=A2",
+   "layout_sha": "66603417f1575496d1cf436e4056c9272244d6df5f1db483be5e3eed9bfa8de6",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-3-2",
+   "function": "SPILL",
+   "layout": "own-placed-3",
+   "at": "Sheet1!C1",
+   "formula": "=A3",
+   "layout_sha": "601dc9abbeb33fd5aac99ae252d1dd0ec6f241d2541eefcd0b0c09b5ab3c3434",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-3-3",
+   "function": "SPILL",
+   "layout": "own-placed-3",
+   "at": "Sheet1!C1",
+   "formula": "=ISFORMULA(A2)",
+   "layout_sha": "9dbdeb454390e4dfcf557f0c7b626af75a760c810de2bc486faf37f4170ee5cc",
+   "answer": {
+    "value": "logical:False",
+    "spill": null
+   }
+  },
+  {
+   "id": "own-placed-3-4",
+   "function": "SPILL",
+   "layout": "own-placed-3",
+   "at": "Sheet1!C1",
+   "formula": "=A1#",
+   "layout_sha": "e1d211d3fc13b9e559583e6f3d6b896f9cd0b9e12a860a754eb4407067b6429e",
+   "answer": {
+    "value": "0x0000000000000000",
+    "spill": [
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ],
+     [
+      "0x0000000000000000"
+     ]
+    ]
+   }
   }
  ],
  "capture_provenance": {
@@ -2175,11 +2499,11 @@
    "international_decimal_separator": ".",
    "international_thousands_separator": " ",
    "culture_evidence": "migration/evidence/dc-wi2wu-touchstone-mt-en-za.json",
-   "calculation_clock": "40e6a0d7b336d744",
-   "calculation_clock_after": "40e6a0d7b4883adc"
+   "calculation_clock": "40e6a0ee94008bcf",
+   "calculation_clock_after": "40e6a0ee95ed097b"
   },
-  "cases_per_second": 8.9,
+  "cases_per_second": 7.1,
   "script": "DnaCalc tools/xtask-harness/scripts/cell-context-ask.py",
-  "timestamp": "2026-11-16T15:46:47Z"
+  "timestamp": "2026-11-17T08:56:22Z"
  }
 }
