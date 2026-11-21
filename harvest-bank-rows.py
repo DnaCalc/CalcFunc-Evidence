@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Import exact worksheet answers from finished lanes and maintain the studies manifest."""
+"""Retain study discrepancies and exact regression rows from finished lanes."""
 
 import argparse
 import ast
 import csv
 from collections import Counter, defaultdict
+from functools import lru_cache
 import gzip
 import hashlib
 import json
@@ -12,8 +13,12 @@ import os
 from pathlib import Path
 import re
 import struct
+import subprocess
+import tempfile
 
 STUDIES = Path("readings/excel-20527/studies")
+DISCREPANCIES = Path("readings/excel-20527/discrepancies")
+DISCREPANCY_MANIFEST = "discrepancies-manifest.tsv"
 LEGACY_LANES = "cb1 cb2 cb3 cb4 cb5 cb6 cb7 cb8 cb9 cb10 nx1 nx2 nx3 nx4 nx5 nx6 nx7 sx1 nc1 fx1 fx2 fx3 ax1 ax2 ax3 nt1".split()
 AMD = "AMD Ryzen 7 4800H with Radeon Graphics"
 WORD = re.compile(r"(?:0x)?([0-9a-f]{16})\Z", re.I)
@@ -1030,13 +1035,7 @@ def finished_carbon(root, lane):
     return True
 
 
-def main():
-    args = argparse.ArgumentParser(description=__doc__)
-    args.add_argument("lanes", nargs="*", help="specific finished lanes (default: legacy lanes and bank-rows folders)")
-    args.add_argument("--runs", type=Path, default=Path.home() / "codex-runs")
-    args.add_argument("--evidence", type=Path, default=Path.home() / "projects/DnaCalc/CalcFunc-Evidence")
-    args.add_argument("--report", type=Path, help="write per-source import audit as JSON")
-    options = args.parse_args()
+def archive_studies(options):
     root, evidence = options.runs, options.evidence
     study_dir = evidence / STUDIES
     by_lane = defaultdict(dict)
@@ -1189,6 +1188,314 @@ def main():
     if options.report:
         atomic_write(options.report, (json.dumps({"lanes": totals, "sources": audit}, indent=2) + "\n").encode())
     print(f"{len(seen)} studies rows, {len(manifest) - 1} archives")
+
+
+def discrepancy_key(row):
+    # Different invocation contexts and contradictory Excel answers both carry evidence.
+    return (*case_key(row["function"], row["args"], row.get("result_index"), row),
+            dump(row.get("invocation") or {}), comparison_word(row["expected_bits"]))
+
+
+def comparison_word(word):
+    return word.lower() if word.lower().startswith("logical:") else word
+
+
+def recorded_outcome(value, expected):
+    if isinstance(value, str) and value.startswith(("fault:", "unsupported:", "text:")):
+        return value
+    return outcome(value, text=expected.startswith("text:") and
+                   isinstance(value, str) and not value.startswith(("error:", "logical:")))
+
+
+def archived_rows(evidence, directory, manifest):
+    with (evidence / manifest).open() as f:
+        for entry in csv.DictReader(f, delimiter="\t"):
+            path = Path(entry["path"])
+            if path.parent != directory or path.suffix != ".json":
+                raise ValueError(f"{manifest}: invalid path {path}")
+            doc = read(evidence / f"{path}.gz")
+            if doc["format"] != FORMAT or doc["lane"] != path.stem:
+                raise ValueError(f"{path}: wrong format or lane")
+            yield from doc["rows"]
+
+
+def locate(doc, locator):
+    # The study archive stores original JSON paths, using $ for the root.
+    if not re.fullmatch(r"\$?(?:\.?[\w-]+|\[\d+\])+", locator):
+        return None
+    for field, index in re.findall(r"([\w-]+)|\[(\d+)\]", locator):
+        if index and isinstance(doc, list) and int(index) < len(doc):
+            doc = doc[int(index)]
+        elif field and isinstance(doc, dict):
+            doc = doc.get(field)
+        else:
+            return None
+    return doc
+
+
+def historical_rows(root, evidence):
+    """Join earlier implementation outputs by the capture's recorded row identity."""
+    scored = {
+        "cb6/frozen_holdout_scored.json",
+        "cb7/frozen_cb7_scored.json", "cb8/frozen_cb8_scored.json",
+        "cb9/frozen_cb9_scored.json", "nx2/frozen_pre_impl_answers.json",
+        "nx6/work/frozen_predictions_nx6_scored.json", "nx7/work/frozen_nx7_proof2_scored.json",
+        "nx7/work/frozen_wh_cube_scored.json", "nx1/evidence/poisson-subnormal-results.json",
+    }
+    legacy = {
+        "cb3/frozen_betainv_cb3_answers.jsonl": ("frozen_betainv_cb3.jsonl", "i", "pred_master"),
+        "cb3/frozen_bfrac_cb3_answers.jsonl": ("frozen_bfrac_cb3.jsonl", "i", "pred_master"),
+        "cb3/frozen_lnbeta_cb3_answers.jsonl": ("frozen_lnbeta_cb3.jsonl", "i", "pred_master"),
+        "cb4/frozen_ets_cb4_answers.jsonl": ("frozen_ets_cb4.jsonl", "id", "om_bits"),
+        "cb5/frozen_cb5_answers.jsonl": ("frozen_cb5_predictions.jsonl", "idx", "pred_master"),
+        "nx4/frozen_nx4_answers.jsonl": ("frozen_nx4_predictions.jsonl", "idx", "preds"),
+    }
+    carbon_ready = {lane: finished_carbon(root, lane) for lane in ("cb9", "cb10")}
+
+    @lru_cache(maxsize=32)
+    def local(source):
+        lane = source.split("/")[0]
+        if lane in carbon_ready and not carbon_ready[lane]:
+            return None
+        path = root / source
+        return read(path) if path.is_file() and not path.is_symlink() else None
+
+    @lru_cache(maxsize=3)
+    def earlier_design(source):
+        file, key, _ = legacy[source]
+        return {str(row[key]): row for row in
+                local(str(Path(source).with_name(file))) or []}
+
+    replay = root / "wb1/koderbot/eb6/heldout.results.tsv.gz"
+    intel = {}
+    if replay.is_file():
+        with gzip.open(replay, "rt") as f:
+            for number, (case, fn, expected, actual) in enumerate(csv.reader(f, delimiter="\t"), 1):
+                old = recorded_outcome(actual, expected)
+                if comparison_word(old) != comparison_word(recorded_outcome(expected, expected)):
+                    intel[f"{number}:{case}"] = (fn, word(expected) if WORD.fullmatch(expected)
+                                                 else outcome(expected), old)
+
+    sin = local("ax1/run2-final-shared-leaf-backends.json")
+    sin = {(word(a), word(e)): word(b) for a, e, b in sin["native"]["misses"]} if sin else {}
+    anchors = root / "wb1/koderbot/fix3e/x87-discriminant-controls.json"
+    x87 = {}
+    if anchors.is_file():
+        doc = read(anchors)
+        for key in ("atan", "acoth"):
+            for fn, argument, native, _ in doc[key]:
+                x87[fn, word(argument)] = word(native)
+    ets_design = local("nx3/work/frozen_ets_pred.json") or []
+    ets_old = {row["tag"]: row["old"] for row in ets_design}
+    ax3_actual = "ax3/evidence/fresh-arms-answers.jsonl"
+    for row in archived_rows(evidence, STUDIES, MANIFEST):
+        source, locator, expected = row["source"], row["locator"], row["expected_bits"]
+        values = {}
+        if source == "eb6/heldout.inputs.tsv.gz" and locator in intel:
+            fn, answer, actual = intel[locator]
+            if (fn, answer) != (row["function"], expected):
+                raise ValueError(f"{source} {locator}: replay identity differs")
+            values["heldout.results.tsv.gz"] = actual
+        elif row["function"] == "SIN" and len(row["args"]) == 1:
+            actual = sin.get((row["args"][0], expected))
+            if actual:
+                values["run2-final-shared-leaf-backends.json"] = actual
+        elif source == "fix3e/x87-discriminant-controls.json" and len(row["args"]) == 1:
+            values["fix3e native x87"] = x87.get((row["function"], row["args"][0]))
+        elif source == "nx3/work/frozen_ets_excel.json" and ets_old:
+            match = re.fullmatch(r"(.*)\.(ets|stat|ci)\[(\d+)\]", locator)
+            if match:
+                tag, section, index = match.groups()
+                old = ets_old[tag]
+                outputs = {"ets": old["fcs"], "stat": [*old["par"], old["mae"], old["rmse"]],
+                           "ci": [*old["cis"], old["ci_frac_ci"]]}
+                values["frozen_ets_pred.json old"] = outputs[section][int(index)]
+        elif source == ax3_actual:
+            answer = locate(local(source), locator)
+            design = local(str(Path(source).with_name("fresh-arms-predictions.jsonl")))
+            if isinstance(answer, dict) and design:
+                earlier = design[answer["i"]]
+                if earlier["fn"] == row["function"]:
+                    values["fresh-arms-predictions.jsonl actual"] = earlier["actual"]
+        elif source in legacy:
+            raw = local(source)
+            if raw is not None:
+                answer = raw[int(locator.removeprefix("$[").removesuffix("]"))]
+                _, key, field = legacy[source]
+                design = earlier_design(source).get(str(answer[key]))
+                if design:
+                    value = design.get(field)
+                    values[field] = value.get("base") if isinstance(value, dict) else value
+        elif source in scored or source.startswith("ax2/") and source.endswith("-answers.jsonl"):
+            raw = local(source)
+            node = locate(raw, locator)
+            if isinstance(node, dict):
+                for key in ("calc_func", "pred_master", "pred_old", "pred_cb7", "application", "actual"):
+                    if key in node:
+                        values[key] = node[key]
+                if isinstance(node.get("preds"), dict):
+                    values["preds.master"] = node["preds"].get("master")
+        previous = {}
+        for label, value in values.items():
+            try:
+                actual = recorded_outcome(value, expected)
+            except (ValueError, TypeError):
+                continue
+            if comparison_word(actual) != comparison_word(expected):
+                previous[label] = actual
+        if previous:
+            yield row, previous
+
+
+# These pre-revision exports include ordinary controls. Their observations are still
+# examined against the current evaluator, like an archive, before admitting any row.
+LEGACY_EXPORTS = {
+    "cb11": {"CHISQ.DIST", "GAMMA.DIST", "GAMMA.INV", "GAMMADIST", "GAMMAINV", "SQRT"},
+    "nx8": {"CONCAT", "CONCATENATE", "FIXED", "TEXT", "VALUETOTEXT"},
+}
+
+
+def lane_discrepancies(root, lanes):
+    for lane in lanes:
+        if not re.fullmatch(r"[a-zA-Z0-9_-]+", lane):
+            raise ValueError(f"invalid lane: {lane}")
+        if lane in ("cb9", "cb10") and not finished_carbon(root, lane):
+            continue
+        for path in lane_files(root, lane, False):
+            if path.suffix not in (".json", ".jsonl"):
+                continue
+            for bank in [read(path)] if path.suffix == ".json" else read(path):
+                if bank.get("format") != "dnacalc-witness-set/1":
+                    raise ValueError(f"{path}: expected WitnessSet format")
+                function = bank["function"]
+                if not FUNCTION.fullmatch(function):
+                    raise ValueError(f"{path}: invalid function {function}")
+                sources = {entry["id"]: entry for entry in bank["readings"]}
+                for witness in bank["witnesses"]:
+                    source = sources[witness["reading"]]
+                    capture = fields(source)
+                    if not all(capture.get(key) for key in ("excel_build", "cpu", "timestamp")):
+                        raise ValueError(f"{path}: missing Excel build, CPU or timestamp")
+                    expected = outcome(witness["expected_bits"])
+                    row = {"function": function, "args": [scalar(a) for a in witness["args"]],
+                           "expected_bits": expected, "original_source": source["source"],
+                           "source": path.relative_to(root).as_posix(), "locator": witness["id"], **capture}
+                    if "result_index" in witness:
+                        row["result_index"] = witness["result_index"]
+                    actual = witness.get("calc_func")
+                    if actual is not None:
+                        actual = recorded_outcome(actual, expected)
+                        if comparison_word(actual) != comparison_word(expected):
+                            yield row, {"recorded": actual}
+                    elif path.stem in LEGACY_EXPORTS.get(lane, ()):
+                        yield row, None
+                    else:
+                        yield row, {"reported_by_lane": True}
+
+
+def run_judge(options, output, inputs=None):
+    command = ["cargo", "xtask", "witness", "discrepancies", "--report", str(output)]
+    if inputs:
+        command.extend(("--inputs", str(inputs)))
+    subprocess.run(command, cwd=options.dnacalc, check=True)
+
+
+def harvest_discrepancies(options):
+    evidence, root = options.evidence, options.runs
+    rows = {}
+    counts = defaultdict(Counter)
+
+    def retain(row, basis):
+        row = {key: value for key, value in row.items() if value is not None}
+        key = discrepancy_key(row)
+        lane = row["source"].split("/")[0]
+        if key not in rows:
+            row["discrepancy"] = basis
+            rows[key] = row
+            counts[lane][row["function"]] += 1
+
+    manifest = evidence / DISCREPANCY_MANIFEST
+    previous_entries = {}
+    if manifest.is_file():
+        for line in manifest.read_text().splitlines()[1:]:
+            rel = line.split("\t", 1)[0]
+            previous_entries[Path(rel).stem] = line
+        for row in archived_rows(evidence, DISCREPANCIES, DISCREPANCY_MANIFEST):
+            rows[discrepancy_key(row)] = row
+    elif next((evidence / DISCREPANCIES).glob("*.json.gz"), None):
+        raise ValueError("missing discrepancy manifest")
+
+    with tempfile.TemporaryDirectory(prefix="bank-discrepancies-") as temporary:
+        work = Path(temporary)
+        reports = list(options.current_report)
+        if not options.intake_only and not reports:
+            output = work / "archive.jsonl"
+            run_judge(options, output)
+            reports.append(output)
+        lanes = options.lanes or sorted(path.parent.name for path in root.glob("*/bank-rows"))
+        legacy = defaultdict(list)
+        for row, basis in lane_discrepancies(root, lanes):
+            if basis is None:
+                legacy[row["source"].split("/")[0]].append(row)
+            else:
+                retain(row, basis)
+        if not options.intake_only:
+            if not options.current_report:
+                for lane, candidates in legacy.items():
+                    source = work / f"{lane}.json"
+                    output = work / f"{lane}.jsonl"
+                    source.write_text(dump({"format": FORMAT, "lane": lane, "rows": candidates}))
+                    run_judge(options, output, source)
+                    reports.append(output)
+            for row, basis in historical_rows(root, evidence):
+                retain(row, {"historical": basis})
+        for path in reports:
+            with path.open() as f:
+                for line in f:
+                    item = json.loads(line)
+                    if comparison_word(item["row"]["expected_bits"]) == comparison_word(item["actual"]):
+                        raise ValueError(f"{path}: comparison report includes a match")
+                    retain(item["row"], {"judged": item["actual"]})
+
+    by_lane = defaultdict(list)
+    for key, row in sorted(rows.items()):
+        by_lane[row["source"].split("/")[0]].append(row)
+    entries = ["path\traw_bytes\traw_sha256\tgz_bytes\tgz_sha256"]
+    for lane, observations in sorted(by_lane.items()):
+        if not counts.get(lane) and lane in previous_entries:
+            entries.append(previous_entries[lane])
+            continue
+        raw = (dump({"format": FORMAT, "lane": lane, "rows": observations}) + "\n").encode()
+        blob = gzip.compress(raw, compresslevel=6, mtime=0)
+        rel = DISCREPANCIES / f"{lane}.json"
+        atomic_write(evidence / f"{rel}.gz", blob)
+        entries.append("\t".join(map(str, (rel, len(raw), hashlib.sha256(raw).hexdigest(),
+                                         len(blob), hashlib.sha256(blob).hexdigest()))))
+    atomic_write(manifest, ("\n".join(entries) + "\n").encode())
+    added = sum(sum(tally.values()) for tally in counts.values())
+    if options.report:
+        audit = {"added": added, "total": len(rows), "by_lane": counts}
+        atomic_write(options.report, (dump(audit) + "\n").encode())
+    print(f"{added} added; {len(rows)} discrepancy rows retained in {len(by_lane)} archives")
+
+
+def main():
+    args = argparse.ArgumentParser(description=__doc__)
+    args.add_argument("lanes", nargs="*", help="finished lanes to read (default: all bank-rows folders)")
+    args.add_argument("--runs", type=Path, default=Path.home() / "codex-runs")
+    args.add_argument("--evidence", type=Path, default=Path.home() / "projects/DnaCalc/CalcFunc-Evidence")
+    args.add_argument("--dnacalc", type=Path, default=Path.home() / "projects/DnaCalc/DnaCalc")
+    args.add_argument("--report", type=Path, help="write the per-lane import counts as JSON")
+    args.add_argument("--current-report", type=Path, action="append", default=[],
+                      help="supply saved witness discrepancies JSONL reports in place of current comparisons")
+    args.add_argument("--intake-only", action="store_true",
+                      help="import declared lane discrepancies and any supplied reports")
+    args.add_argument("--archive-studies", action="store_true", help="run the original studies archive importer")
+    options = args.parse_args()
+    if options.archive_studies:
+        archive_studies(options)
+    else:
+        harvest_discrepancies(options)
 
 
 if __name__ == "__main__":

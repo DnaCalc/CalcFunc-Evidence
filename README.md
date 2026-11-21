@@ -56,7 +56,7 @@ evidence is "AMD Ryzen 7 4800H with Radeon Graphics" (Windows, 64-bit Excel). A 
 `capture_provenance` names a build was read on that build; a bank without the block has no
 recorded build, and DnaCalc's witness judge labels it unknown rather than guessing one.
 
-## Studies witness bank (DnaCalc dc-j9k.65)
+## Study archives and discrepancy witnesses (DnaCalc dc-j9k.65)
 
 `readings/excel-20527/studies/<lane>.json.gz` stores exact Excel answers from completed study
 lanes. Each row records the function, typed inputs and answer, Excel build and CPU, source file
@@ -65,21 +65,28 @@ position. Identical calls on the same build and judgment CPU are deduplicated ac
 The eb6 replay records the Intel Haswell judgment CPU and the AMD Excel capture CPU in separate fields.
 `studies-manifest.tsv` records the uncompressed and gzip sizes and SHA-256 digests.
 
-Give the harvester completed lane names, or omit them to scan the original study lanes and every
-`bank-rows/` directory. New lanes write WitnessSet JSON with source, build and CPU in each
-reading. The harvester preserves existing rows and reports unresolved joins and conflicting
-answers. Repeating the harvest with the same inputs produces the same gzip bytes. The original
-cb1 NumPy captures require NumPy when reharvesting that lane.
+The full witness bank includes the entries under `readings/excel-20527/discrepancies/` listed
+in `discrepancies-manifest.tsv`. The harvester compares archived Excel observations against
+the current CalcFunc and retains earlier differences when a paired CalcFunc result is recorded.
+Rows persist after they match. The original study archives remain available for research.
+
+Finished lanes submit discrepant observations as WitnessSet JSON in `<lane>/bank-rows/`,
+with the Excel build, CPU, timestamp and original source. The harvester scans these folders
+by default. Pass `--intake-only` to ingest new lane rows between archive comparisons, or
+`--current-report <jsonl>` to reuse a `witness discrepancies` comparison.
 
 ```text
-python3 harvest-bank-rows.py --runs ~/codex-runs --report /tmp/studies-intake.json
+python3 harvest-bank-rows.py --runs ~/codex-runs --report /tmp/discrepancies-intake.json
 python3 archive-evidence.py --set studies verify --all
+python3 archive-evidence.py --set discrepancies verify --all
 cargo xtask witness judge --bank full
 ```
 
-The default full judge includes AMD study readings. Run
-`cargo xtask witness judge --bank full --study-cpu intel --report intel.json` on native Intel
-x86-64 to judge the Intel studies. The Intel report has its own totals.
+The default full judge includes AMD study discrepancies. On native Intel x86-64,
+`cargo xtask witness discrepancies --study-cpu intel --report intel-intake.jsonl`
+extracts current differences from the Intel archive. After harvesting that report, run
+`cargo xtask witness judge --bank full --study-cpu intel --report intel.json` for the
+Intel discrepancy bank totals.
 
 ## The function-lane records (DnaCalc dc-ymjf.1, 2026-10-30)
 
