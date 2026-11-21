@@ -20,6 +20,16 @@ STUDIES = Path("readings/excel-20527/studies")
 DISCREPANCIES = Path("readings/excel-20527/discrepancies")
 DISCREPANCY_MANIFEST = "discrepancies-manifest.tsv"
 AX1_LARGE_LEAVES = "ax1/run2-final-large-leaves.json"
+# Attested Touchstone en-ZA profile on GOVERT-OMEN (Excel 16.0.20527.20196,
+# env_id 218a399794f8 / c3a4f8036703: DOLLAR(1234.56)="R1 234.56",
+# DATEVALUE("04/02/01")=38018, DATEVALUE("4/2/2001")=#VALUE!, VALUE("1 234.5")=1234.5).
+TOUCHSTONE_EN_ZA = {
+    "compatibility_version": "2",
+    "date_system": "1900",
+    "locale": "en-ZA",
+    "decimal_separator": ".",
+    "thousands_separator": " ",
+}
 LEGACY_LANES = "cb1 cb2 cb3 cb4 cb5 cb6 cb7 cb8 cb9 cb10 nx1 nx2 nx3 nx4 nx5 nx6 nx7 sx1 nc1 fx1 fx2 fx3 ax1 ax2 ax3 nt1".split()
 AMD = "AMD Ryzen 7 4800H with Radeon Graphics"
 WORD = re.compile(r"(?:0x)?([0-9a-f]{16})\Z", re.I)
@@ -284,6 +294,7 @@ def scan(path, doc, emit, omitted, default):
         default_fn = path.name.split("-pinned-")[0].upper() if "-pinned-" in path.name else None
         if path.name.startswith("numbervalue-sep"):
             default_fn = "NUMBERVALUE"
+            default["invocation"] = {**TOUCHSTONE_EN_ZA, "capture_date": "2026-11-20"}
     else:
         default_fn = None
     walk(doc, default_fn, default, witness="bank-rows" in path.parts)
@@ -441,6 +452,8 @@ def special(lane, path, doc, emit, omitted, env):
                 meta = {**attestations.get(key, {}), **metadata[fn]}
                 if key in attestations:
                     meta["excel_build"] = attestations[key]["excel_build"]
+                if fn in ("TEXT", "FIXED"):
+                    meta["invocation"] = {**(meta.get("invocation") or {}), **TOUCHSTONE_EN_ZA}
                 emit(fn, row["args"], row["excel"], meta, f"scored_{kind}[{i}]", text=True)
         return True
     if lane == "cb9" and name == "excel_calls.jsonl":
@@ -599,7 +612,7 @@ def special(lane, path, doc, emit, omitted, env):
             joined("BETA.DIST", args, answers[start:start + count], tag)
             used.update(range(start, start + count))
         # The last seven calls are the E1 dyadic controls in probe_boundaries.py.
-        pairs = [(3, 5), (5, 3), (2, 6), (6, 2), (7, 9), (11, 5), (9, 7)]
+        pairs = [(3, 5), (5, 3), (2, 6), (6, 2), (7, 9), (11, 21), (15, 17)]
         joined("BETA.DIST", [[d2 / (d1 + d2), d2 / 2, d1 / 2, True] for d1, d2 in pairs],
                answers[-7:], "E1 beta controls")
         fd = [[2**30 - 1, 2, 2]] + [[1, d1, d2] for d1, d2 in pairs]
@@ -734,13 +747,15 @@ def special(lane, path, doc, emit, omitted, env):
         return True
     if lane == "nx1" and name == "yearless-date-results.json":
         for fn in ("VALUE", "DATEVALUE", "NUMBERVALUE"):
-            meta = {**env, **fields(doc), "invocation": {"capture_date": "2026-11-20"}}
+            meta = {**env, **fields(doc), "invocation": {**TOUCHSTONE_EN_ZA, "capture_date": "2026-11-20"}}
             for i, row in enumerate(doc["groups"][fn]["rows"]):
-                emit(fn, [row["input"]], row["observed"], meta, f"{fn}[{i}]")
+                operands = row["input"] if isinstance(row["input"], list) else [row["input"]]
+                emit(fn, operands, row["observed"], meta, f"{fn}[{i}]")
         return True
     if lane == "nx1" and name == "yearless-date-round2-results.json":
+        meta = {**env, **fields(doc), "invocation": {**TOUCHSTONE_EN_ZA, "capture_date": "2026-11-20"}}
         for i, row in enumerate(doc["nv_extra"]):
-            emit("NUMBERVALUE", row["args"], row["observed"], {**env, **fields(doc)}, str(i))
+            emit("NUMBERVALUE", row["args"], row["observed"], meta, str(i))
         return True
     if lane == "nx1" and name == "poisson-subnormal-results.json":
         design = {r["id"]: r for r in read(path.with_name("poisson-subnormal-predictions.json"))["cases"]}
@@ -806,9 +821,15 @@ def special(lane, path, doc, emit, omitted, env):
                     for i, (req, rep) in enumerate(zip(requests, doc["replies"], strict=True)):
                         fn, operands = req
                         meta = {**env, **fields(rep)}
+                        def emit_req(f, a, ans, cap, loc, idx=None, text=False, bare_hex=False):
+                            if name == "run2-number-text-context.json" and f == "TEXT":
+                                cap = {**cap, "invocation": {**(cap.get("invocation") or {}), **TOUCHSTONE_EN_ZA}}
+                            emit(f, a, ans, cap, loc, idx, text, bare_hex)
                         if all(isinstance(a, list) for a in rep["inputs"]):
-                            raw_rows(rep, fn, emit, omitted, env, f"replies[{i}]")
+                            raw_rows(rep, fn, emit_req, omitted, env, f"replies[{i}]")
                         else:
+                            if name == "run2-number-text-context.json" and fn == "TEXT":
+                                meta["invocation"] = {**(meta.get("invocation") or {}), **TOUCHSTONE_EN_ZA}
                             joined(fn, operands, rep["rows"], f"replies[{i}]", meta)
                     return True
         reply_orders = {
@@ -1221,11 +1242,49 @@ def archived_rows(evidence, directory, manifest):
 
 
 def restore_study_arguments(row):
+    src = row["source"]
+    loc = row["locator"]
     # final_large_leaves.py sent numeric words and recorded the input without the
     # 0x marker. The wb1 importer kept these four words as text in the archive.
-    if row["source"] == AX1_LARGE_LEAVES and row["locator"].startswith("$.leaves."):
+    if src == AX1_LARGE_LEAVES and loc.startswith("$.leaves."):
         argument, = row["args"]
         return {**row, "args": [word(argument)]}
+    # cb2/probe_boundaries.py E1 pairs ended with (11, 21) and (15, 17); wb1
+    # accidentally transcribed them as (11, 5) and (9, 7).
+    if src == "cb2/phase1_boundaries.json":
+        cb2_fixes = {
+            ("BETA.DIST", "E1 beta controls[5]"): [scalar(21 / 32), scalar(21 / 2), scalar(11 / 2), True],
+            ("BETA.DIST", "E1 beta controls[6]"): [scalar(17 / 32), scalar(17 / 2), scalar(15 / 2), True],
+            ("FDIST", "FDIST[6]"): [scalar(1.0), scalar(11.0), scalar(21.0)],
+            ("FDIST", "FDIST[7]"): [scalar(1.0), scalar(15.0), scalar(17.0)],
+        }
+        fixed_args = cb2_fixes.get((row["function"], loc))
+        if fixed_args is not None and row["args"] != fixed_args:
+            return {**row, "args": fixed_args}
+    # nx1 yearless-date-results.json wrapped NUMBERVALUE's list input as [[...]]
+    # and omitted the attested Touchstone en-ZA locale; round 2 and fx3
+    # numbervalue-sep* also ran on 2026-11-20 under Touchstone en-ZA.
+    if src == "nx1/evidence/yearless-date-results.json":
+        args = row["args"]
+        if row["function"] == "NUMBERVALUE" and len(args) == 1 and isinstance(args[0], list):
+            args = args[0]
+        inv = {**(row.get("invocation") or {}), **TOUCHSTONE_EN_ZA, "capture_date": "2026-11-20"}
+        if args != row["args"] or inv != row.get("invocation"):
+            return {**row, "args": args, "invocation": inv}
+    if src in ("nx1/evidence/yearless-date-round2-results.json",
+               "fx3/evidence/numbervalue-sep-answers.json",
+               "fx3/evidence/numbervalue-sep2-answers.json"):
+        inv = {**(row.get("invocation") or {}), **TOUCHSTONE_EN_ZA, "capture_date": "2026-11-20"}
+        if inv != row.get("invocation"):
+            return {**row, "invocation": inv}
+    # sx1/run2-number-text-context.json (TEXT) and cb9/frozen_cb9_scored.json
+    # (TEXT, FIXED) ran under Touchstone en-ZA on GOVERT-OMEN; Excel's
+    # International thousands separator is U+0020 where COM reports U+00A0.
+    if ((src == "sx1/run2-number-text-context.json" and row["function"] == "TEXT") or
+            (src == "cb9/frozen_cb9_scored.json" and row["function"] in ("TEXT", "FIXED"))):
+        inv = {**(row.get("invocation") or {}), **TOUCHSTONE_EN_ZA}
+        if inv != row.get("invocation"):
+            return {**row, "invocation": inv}
     return row
 
 
@@ -1432,12 +1491,33 @@ def harvest_discrepancies(options):
 
     manifest = evidence / DISCREPANCY_MANIFEST
     previous_entries = {}
+    repaired_lanes = set()
+    existing_corrections = {}
     if manifest.is_file():
         for line in manifest.read_text().splitlines()[1:]:
             rel = line.split("\t", 1)[0]
             previous_entries[Path(rel).stem] = line
         for row in archived_rows(evidence, DISCREPANCIES, DISCREPANCY_MANIFEST):
-            rows[discrepancy_key(row)] = row
+            corrected = restore_study_arguments(row)
+            if corrected == row:
+                rows[discrepancy_key(row)] = row
+                continue
+            lane = row["source"].split("/")[0]
+            repaired_lanes.add(lane)
+            disc = row.get("discrepancy") or {}
+            judged = disc.get("judged")
+            if judged is not None and (
+                row["source"] in ("cb2/phase1_boundaries.json",
+                                  "nx1/evidence/yearless-date-results.json",
+                                  "nx1/evidence/yearless-date-round2-results.json",
+                                  "fx3/evidence/numbervalue-sep-answers.json",
+                                  "fx3/evidence/numbervalue-sep2-answers.json")
+                or judged == "fault:NotImplemented"
+            ):
+                stripped = {k: v for k, v in corrected.items() if k != "discrepancy"}
+                existing_corrections[discrepancy_key(stripped)] = stripped
+            else:
+                rows[discrepancy_key(corrected)] = corrected
     elif next((evidence / DISCREPANCIES).glob("*.json.gz"), None):
         raise ValueError("missing discrepancy manifest")
 
@@ -1465,7 +1545,7 @@ def harvest_discrepancies(options):
                     reports.append(output)
             for row, basis in historical_rows(root, evidence):
                 retain(row, {"historical": basis})
-        corrections = {}
+        corrections = dict(existing_corrections)
         for path in reports:
             with path.open() as f:
                 for line in f:
@@ -1479,20 +1559,24 @@ def harvest_discrepancies(options):
                         raise ValueError(f"{path}: comparison report includes a match")
                     retain(row, {"judged": item["actual"]})
         if corrections:
-            source, output = work / "restored-inputs.json", work / "restored-inputs.jsonl"
-            source.write_text(dump({"format": FORMAT, "lane": "ax1", "rows": list(corrections.values())}))
-            run_judge(options, output, source)
-            with output.open() as f:
-                for line in f:
-                    item = json.loads(line)
-                    retain(item["row"], {"judged": item["actual"]})
+            by_corr_lane = defaultdict(list)
+            for crow in corrections.values():
+                by_corr_lane[crow["source"].split("/")[0]].append(crow)
+            for clane, crows in sorted(by_corr_lane.items()):
+                source, output = work / f"restored-{clane}.json", work / f"restored-{clane}.jsonl"
+                source.write_text(dump({"format": FORMAT, "lane": clane, "rows": crows}))
+                run_judge(options, output, source)
+                with output.open() as f:
+                    for line in f:
+                        item = json.loads(line)
+                        retain(item["row"], {"judged": item["actual"]})
 
     by_lane = defaultdict(list)
     for key, row in sorted(rows.items()):
         by_lane[row["source"].split("/")[0]].append(row)
     entries = ["path\traw_bytes\traw_sha256\tgz_bytes\tgz_sha256"]
     for lane, observations in sorted(by_lane.items()):
-        if not counts.get(lane) and lane in previous_entries:
+        if not counts.get(lane) and lane not in repaired_lanes and lane in previous_entries:
             entries.append(previous_entries[lane])
             continue
         raw = (dump({"format": FORMAT, "lane": lane, "rows": observations}) + "\n").encode()
@@ -1501,6 +1585,9 @@ def harvest_discrepancies(options):
         atomic_write(evidence / f"{rel}.gz", blob)
         entries.append("\t".join(map(str, (rel, len(raw), hashlib.sha256(raw).hexdigest(),
                                          len(blob), hashlib.sha256(blob).hexdigest()))))
+    for stale in sorted((evidence / DISCREPANCIES).glob("*.json.gz")):
+        if stale.name.removesuffix(".json.gz") not in by_lane:
+            stale.unlink()
     atomic_write(manifest, ("\n".join(entries) + "\n").encode())
     added = sum(sum(tally.values()) for tally in counts.values())
     if options.report:
