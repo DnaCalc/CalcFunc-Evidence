@@ -380,6 +380,10 @@ def reply_function(lane, path):
         "run2-posleaf-star-arith-neg": "EXP", "run2-posleaf-star-arith-sqrt": "SQRT",
         "run2-posleaf-star-proof-frac-exp": "EXP", "run2-posleaf-star-proof-ln": "LN",
         "run2-posleaf-star-proof-neg-exp": "EXP", "run2-posleaf-star-proof-sqrt": "SQRT",
+        "run2-fresh-b2-outer": "GAMMALN", "run2-fresh-b1-final-store": "GAMMALN",
+        "run2-fresh-b1-final-store-precise": "GAMMALN.PRECISE",
+        "run2-star-arith-actual": "GAMMA", "run2-star-proof-actual": "GAMMA",
+        "run2-star-last-public": "GAMMA",
         "run2-tiny-series": "GAMMA", "run2-tiny-edges": "GAMMA", "run2-half-edges": "GAMMA",
         "run2-reflection-underflow-seams": "GAMMA", "run2-reflection-overflow-seams": "GAMMA",
     }
