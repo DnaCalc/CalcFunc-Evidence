@@ -92,6 +92,8 @@ class Set:
 SETS = {
     'oracle': Set('oracle', ROOTS, '', 'manifest.tsv', 'excluded.tsv'),
     'w109': Set('w109', ('work/w109',), '', 'w109-manifest.tsv', 'w109-excluded.tsv'),
+    'studies': Set('studies', ('readings/excel-20527/studies',), '',
+                   'studies-manifest.tsv', 'studies-excluded.tsv'),
 }
 
 
@@ -378,7 +380,7 @@ def main() -> int:
     ap.add_argument('--source', type=Path, default=here.parent / 'OxFunc' / 'smart-fuzzer', help='directory holding cache/ and runs/')
     ap.add_argument('--dest', type=Path, default=here, help='this repository root')
     ap.add_argument('--set', choices=sorted(SETS), default='oracle',
-                    help='oracle: cache/ and runs/ (manifest.tsv, the default); w109: work/w109 (w109-manifest.tsv)')
+                    help='manifest to use for the oracle, W109 or studies archive')
     sub = ap.add_subparsers(dest='command', required=True)
     a = sub.add_parser('archive')
     a.add_argument('--level', type=int, default=6)

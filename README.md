@@ -56,6 +56,31 @@ evidence is "AMD Ryzen 7 4800H with Radeon Graphics" (Windows, 64-bit Excel). A 
 `capture_provenance` names a build was read on that build; a bank without the block has no
 recorded build, and DnaCalc's witness judge labels it unknown rather than guessing one.
 
+## Studies witness bank (DnaCalc dc-j9k.65)
+
+`readings/excel-20527/studies/<lane>.json.gz` stores exact Excel answers from completed study
+lanes. Each row records the function, typed inputs and answer, Excel build and CPU, source file
+and record location, and capture timestamp when recorded. A spill result also records its cell
+position. Identical calls on the same build and judgment CPU are deduplicated across lanes.
+The eb6 replay records the Intel Haswell judgment CPU and the AMD Excel capture CPU in separate fields.
+`studies-manifest.tsv` records the uncompressed and gzip sizes and SHA-256 digests.
+
+Give the harvester completed lane names, or omit them to scan the original study lanes and every
+`bank-rows/` directory. New lanes write WitnessSet JSON with source, build and CPU in each
+reading. The harvester preserves existing rows and reports unresolved joins and conflicting
+answers. Repeating the harvest with the same inputs produces the same gzip bytes. The original
+cb1 NumPy captures require NumPy when reharvesting that lane.
+
+```text
+python3 harvest-bank-rows.py --runs ~/codex-runs --report /tmp/studies-intake.json
+python3 archive-evidence.py --set studies verify --all
+cargo xtask witness judge --bank full
+```
+
+The default full judge includes AMD study readings. Run
+`cargo xtask witness judge --bank full --study-cpu intel --report intel.json` on native Intel
+x86-64 to judge the Intel studies. The Intel report has its own totals.
+
 ## The function-lane records (DnaCalc dc-ymjf.1, 2026-10-30)
 
 `function-lane/` holds OxFunc's per-function bit-exact records as plain files, copied from OxFunc
