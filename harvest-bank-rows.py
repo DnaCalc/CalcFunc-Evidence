@@ -19,6 +19,7 @@ import tempfile
 STUDIES = Path("readings/excel-20527/studies")
 DISCREPANCIES = Path("readings/excel-20527/discrepancies")
 DISCREPANCY_MANIFEST = "discrepancies-manifest.tsv"
+AX1_LARGE_LEAVES = "ax1/run2-final-large-leaves.json"
 LEGACY_LANES = "cb1 cb2 cb3 cb4 cb5 cb6 cb7 cb8 cb9 cb10 nx1 nx2 nx3 nx4 nx5 nx6 nx7 sx1 nc1 fx1 fx2 fx3 ax1 ax2 ax3 nt1".split()
 AMD = "AMD Ryzen 7 4800H with Radeon Graphics"
 WORD = re.compile(r"(?:0x)?([0-9a-f]{16})\Z", re.I)
@@ -1219,6 +1220,15 @@ def archived_rows(evidence, directory, manifest):
             yield from doc["rows"]
 
 
+def restore_study_arguments(row):
+    # final_large_leaves.py sent numeric words and recorded the input without the
+    # 0x marker. The wb1 importer kept these four words as text in the archive.
+    if row["source"] == AX1_LARGE_LEAVES and row["locator"].startswith("$.leaves."):
+        argument, = row["args"]
+        return {**row, "args": [word(argument)]}
+    return row
+
+
 def locate(doc, locator):
     # The study archive stores original JSON paths, using $ for the root.
     if not re.fullmatch(r"\$?(?:\.?[\w-]+|\[\d+\])+", locator):
@@ -1236,6 +1246,7 @@ def locate(doc, locator):
 def historical_rows(root, evidence):
     """Join earlier implementation outputs by the capture's recorded row identity."""
     scored = {
+        AX1_LARGE_LEAVES, "fx3/evidence/yield-pinned-answers.json",
         "cb6/frozen_holdout_scored.json",
         "cb7/frozen_cb7_scored.json", "cb8/frozen_cb8_scored.json",
         "cb9/frozen_cb9_scored.json", "nx2/frozen_pre_impl_answers.json",
@@ -1278,6 +1289,8 @@ def historical_rows(root, evidence):
 
     sin = local("ax1/run2-final-shared-leaf-backends.json")
     sin = {(word(a), word(e)): word(b) for a, e, b in sin["native"]["misses"]} if sin else {}
+    large = local(AX1_LARGE_LEAVES)
+    gamma = (word(large["input"]), word(large["previous_excel"])) if large else None
     anchors = root / "wb1/koderbot/fix3e/x87-discriminant-controls.json"
     x87 = {}
     if anchors.is_file():
@@ -1300,6 +1313,9 @@ def historical_rows(root, evidence):
             actual = sin.get((row["args"][0], expected))
             if actual:
                 values["run2-final-shared-leaf-backends.json"] = actual
+        elif (row["function"] == "GAMMA" and row["cpu"] == AMD and len(row["args"]) == 1
+              and (row["args"][0], expected) == gamma):
+            values[AX1_LARGE_LEAVES] = large["rust"]
         elif source == "fix3e/x87-discriminant-controls.json" and len(row["args"]) == 1:
             values["fix3e native x87"] = x87.get((row["function"], row["args"][0]))
         elif source == "nx3/work/frozen_ets_excel.json" and ets_old:
@@ -1330,7 +1346,7 @@ def historical_rows(root, evidence):
             raw = local(source)
             node = locate(raw, locator)
             if isinstance(node, dict):
-                for key in ("calc_func", "pred_master", "pred_old", "pred_cb7", "application", "actual"):
+                for key in ("calc_func", "pred_master", "pred_old", "pred_cb7", "application", "actual", "rust"):
                     if key in node:
                         values[key] = node[key]
                 if isinstance(node.get("preds"), dict):
@@ -1344,7 +1360,7 @@ def historical_rows(root, evidence):
             if comparison_word(actual) != comparison_word(expected):
                 previous[label] = actual
         if previous:
-            yield row, previous
+            yield restore_study_arguments(row), previous
 
 
 # These pre-revision exports include ordinary controls. Their observations are still
@@ -1449,12 +1465,26 @@ def harvest_discrepancies(options):
                     reports.append(output)
             for row, basis in historical_rows(root, evidence):
                 retain(row, {"historical": basis})
+        corrections = {}
         for path in reports:
             with path.open() as f:
                 for line in f:
                     item = json.loads(line)
-                    if comparison_word(item["row"]["expected_bits"]) == comparison_word(item["actual"]):
+                    row = item["row"]
+                    corrected = restore_study_arguments(row)
+                    if corrected != row:
+                        corrections[discrepancy_key(corrected)] = corrected
+                        continue
+                    if comparison_word(row["expected_bits"]) == comparison_word(item["actual"]):
                         raise ValueError(f"{path}: comparison report includes a match")
+                    retain(row, {"judged": item["actual"]})
+        if corrections:
+            source, output = work / "restored-inputs.json", work / "restored-inputs.jsonl"
+            source.write_text(dump({"format": FORMAT, "lane": "ax1", "rows": list(corrections.values())}))
+            run_judge(options, output, source)
+            with output.open() as f:
+                for line in f:
+                    item = json.loads(line)
                     retain(item["row"], {"judged": item["actual"]})
 
     by_lane = defaultdict(list)
