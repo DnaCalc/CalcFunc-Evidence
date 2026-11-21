@@ -400,6 +400,17 @@ def special(lane, path, doc, emit, omitted, env):
             emit_rows(emit, fn, a, result, meta, f"{prefix}[{i}]", text=text, bare_hex=True)
 
     if lane == "cb9" and name == "frozen_cb9_scored.json":
+        # nx8 exported the same captures with the full file version and calculation
+        # settings. Use the richer lineage for exact, identified duplicates.
+        attestations = {}
+        for source in sorted((path.parent.parent / "nx8/bank-rows").glob("*.json")):
+            bank = read(source)
+            readings = {r["id"]: r for r in bank["readings"]}
+            for row in bank["witnesses"]:
+                if row["id"].startswith(("cb9-frozen600-", "cb9-binade4-")):
+                    key = (bank["function"], dump(row["args"]), row["expected_bits"])
+                    attestations[key] = {**fields(readings[row["reading"]]),
+                                         "capture_record": f"nx8/bank-rows/{source.name} {row['id']}"}
         journal = read(path.with_name("excel_calls.jsonl"))
         calls = [r for r in journal if r.get("op") == "ask" and r["fn"] != "SQRT"]
         for kind, frozen, at in (("600", "frozen_cb9_predictions.jsonl", 0),
@@ -420,7 +431,11 @@ def special(lane, path, doc, emit, omitted, env):
                     omitted["cb9 design does not match scored identity"] += 1
                     continue
                 fn = row["fn"]
-                emit(fn, row["args"], row["excel"], metadata[fn], f"scored_{kind}[{i}]", text=True)
+                key = (fn, dump([scalar(arg) for arg in row["args"]]), outcome(row["excel"], True))
+                meta = {**attestations.get(key, {}), **metadata[fn]}
+                if key in attestations:
+                    meta["excel_build"] = attestations[key]["excel_build"]
+                emit(fn, row["args"], row["excel"], meta, f"scored_{kind}[{i}]", text=True)
         return True
     if lane == "cb9" and name == "excel_calls.jsonl":
         # The review records the observed successful SQRT(4) control and exact build.
